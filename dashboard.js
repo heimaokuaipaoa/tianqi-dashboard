@@ -566,7 +566,7 @@ function nextWindowRisk(item) {
   if (!pairs.length) return null;
   const changeRate = pairs.filter((pair) => pair.changed).length / pairs.length;
   const avgDelta = pairs.reduce((sum, pair) => sum + pair.delta, 0) / pairs.length;
-  if (changeRate < 0.45 && avgDelta < 0.25) return null;
+  if (changeRate < 0.7 && avgDelta < 0.25) return null;
   return {
     n: pairs.length,
     changeRate,
