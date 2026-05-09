@@ -7467,6 +7467,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -7510,6 +7511,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -7553,6 +7555,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -7617,7 +7620,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4.89,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -7683,6 +7687,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -7747,7 +7752,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -7813,6 +7819,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -7877,7 +7884,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -7943,6 +7951,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -8007,7 +8016,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 5.34,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "68-69",
@@ -8072,7 +8082,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -8137,7 +8148,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "68-69",
@@ -8195,7 +8207,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -8260,7 +8273,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -8325,7 +8339,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -8390,7 +8405,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 4.89,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -8456,6 +8472,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -8498,7 +8515,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -8570,7 +8588,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -8636,6 +8655,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -8678,7 +8698,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -8733,24 +8754,32 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 25,
       "citySampleSize": 64,
       "modelLevel": "city-time",
-      "modelSampleSize": 6,
+      "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
-      "outlierDropped": 1,
-      "outlierThreshold": 4,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.67,
-          "probability": 0.67,
+          "rawProbability": 0.57,
+          "probability": 0.57,
           "count": 4
         },
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.33,
-          "probability": 0.33,
+          "rawProbability": 0.29,
+          "probability": 0.29,
           "count": 2
+        },
+        {
+          "bucket": "70-71",
+          "bucketValue": 70,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1
         }
       ]
     },
@@ -8795,6 +8824,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -8838,6 +8868,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "26",
@@ -8896,6 +8927,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -8954,6 +8986,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -9012,6 +9045,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "33",
@@ -9070,6 +9104,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -9128,6 +9163,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -9186,6 +9222,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -9237,6 +9274,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -9295,6 +9333,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "26",
@@ -9353,6 +9392,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "11",
@@ -9404,6 +9444,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -9462,6 +9503,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -9513,6 +9555,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -9571,6 +9614,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "25",
@@ -9629,6 +9673,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -9687,6 +9732,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
@@ -9745,6 +9791,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
@@ -9802,7 +9849,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "26",
@@ -9881,7 +9929,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 2,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -9946,7 +9995,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4.23,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -10022,45 +10072,46 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 74,
       "citySampleSize": 74,
       "modelLevel": "city-time",
-      "modelSampleSize": 7,
+      "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
-      "outlierDropped": 1,
-      "outlierThreshold": 2.22,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
           "bucketValue": 31,
-          "rawProbability": 0.56,
-          "probability": 0.56,
+          "rawProbability": 0.49,
+          "probability": 0.49,
           "count": 3.92
         },
         {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.29
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 1.91
         },
         {
           "bucket": "32",
           "bucketValue": 32,
-          "rawProbability": 0.12,
-          "probability": 0.12,
+          "rawProbability": 0.11,
+          "probability": 0.11,
           "count": 0.85
         },
         {
           "bucket": "30",
           "bucketValue": 30,
-          "rawProbability": 0.11,
-          "probability": 0.11,
+          "rawProbability": 0.09,
+          "probability": 0.09,
           "count": 0.75
         },
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.18
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.55
         }
       ]
     },
@@ -10104,7 +10155,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4.49,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -10180,30 +10232,38 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 6,
+      "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.59,
-          "probability": 0.59,
+          "rawProbability": 0.5,
+          "probability": 0.5,
           "count": 3.52
         },
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.31,
-          "probability": 0.31,
+          "rawProbability": 0.27,
+          "probability": 0.27,
           "count": 1.87
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1
         },
         {
           "bucket": "26",
           "bucketValue": 26,
-          "rawProbability": 0.1,
-          "probability": 0.1,
+          "rawProbability": 0.09,
+          "probability": 0.09,
           "count": 0.61
         }
       ]
@@ -10248,7 +10308,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 3.87,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "12",
@@ -10327,7 +10388,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 3.34,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -10406,7 +10468,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 2.67,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -10475,24 +10538,39 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 81,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 6,
+      "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.71,
-          "probability": 0.71,
+          "rawProbability": 0.61,
+          "probability": 0.61,
           "count": 4.25
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.27,
-          "probability": 0.27,
+          "rawProbability": 0.23,
+          "probability": 0.23,
           "count": 1.64
+        },
+        {
+          "bucket": "11",
+          "bucketValue": 11,
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.8
+        },
+        {
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.03,
+          "probability": 0.03,
+          "count": 0.2
         },
         {
           "bucket": "13",
@@ -10543,7 +10621,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 3.96,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "19",
@@ -10622,7 +10701,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -10702,6 +10782,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "60-61",
@@ -10763,16 +10844,17 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 56,
       "citySampleSize": 59,
       "modelLevel": "city-time",
-      "modelSampleSize": 5,
+      "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
-      "outlierDropped": 1,
-      "outlierThreshold": 4,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.72,
-          "probability": 0.72,
+          "rawProbability": 0.6,
+          "probability": 0.6,
           "count": 3.62
         },
         {
@@ -10780,13 +10862,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 62,
           "rawProbability": 0.2,
           "probability": 0.2,
-          "count": 1
+          "count": 1.2
+        },
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 0.8
         },
         {
           "bucket": "68-69",
           "bucketValue": 68,
-          "rawProbability": 0.08,
-          "probability": 0.08,
+          "rawProbability": 0.06,
+          "probability": 0.06,
           "count": 0.38
         }
       ]
@@ -10831,7 +10920,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4.89,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "74-75",
@@ -10896,7 +10986,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4.45,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "92",
@@ -10976,6 +11067,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 3,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -11047,7 +11139,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 4.89,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -11126,7 +11219,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 2,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -11198,7 +11292,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 5.29,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -11271,6 +11366,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -11336,6 +11432,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 3,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "33",
@@ -11404,45 +11501,46 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 44,
       "citySampleSize": 65,
       "modelLevel": "city-time",
-      "modelSampleSize": 8,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
-      "outlierDropped": 1,
-      "outlierThreshold": 2.67,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "26",
           "bucketValue": 26,
-          "rawProbability": 0.42,
-          "probability": 0.42,
+          "rawProbability": 0.38,
+          "probability": 0.38,
           "count": 3.4
         },
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.24,
-          "probability": 0.24,
+          "rawProbability": 0.21,
+          "probability": 0.21,
           "count": 1.9
         },
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.13,
-          "probability": 0.13,
+          "rawProbability": 0.12,
+          "probability": 0.12,
           "count": 1.07
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.13,
-          "probability": 0.13,
+          "rawProbability": 0.11,
+          "probability": 0.11,
           "count": 1
         },
         {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.64
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.82
         }
       ]
     },
@@ -11486,7 +11584,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 2,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -11551,7 +11650,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4.45,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -11627,37 +11727,45 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 74,
       "citySampleSize": 74,
       "modelLevel": "city-time",
-      "modelSampleSize": 7,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
-      "outlierDropped": 2,
-      "outlierThreshold": 2,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
           "bucketValue": 31,
-          "rawProbability": 0.69,
-          "probability": 0.69,
+          "rawProbability": 0.53,
+          "probability": 0.53,
           "count": 4.81
         },
         {
           "bucket": "32",
           "bucketValue": 32,
-          "rawProbability": 0.2,
-          "probability": 0.2,
+          "rawProbability": 0.16,
+          "probability": 0.16,
           "count": 1.43
         },
         {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.47
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.47
+        },
+        {
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 1
         },
         {
           "bucket": "30",
           "bucketValue": 30,
-          "rawProbability": 0.04,
-          "probability": 0.04,
+          "rawProbability": 0.03,
+          "probability": 0.03,
           "count": 0.3
         }
       ]
@@ -11702,7 +11810,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 5.29,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "17",
@@ -11781,7 +11890,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 2.71,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -11857,38 +11967,46 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 6,
+      "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "12",
           "bucketValue": 12,
-          "rawProbability": 0.56,
-          "probability": 0.56,
+          "rawProbability": 0.48,
+          "probability": 0.48,
           "count": 3.35
         },
         {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.22,
-          "probability": 0.22,
+          "rawProbability": 0.19,
+          "probability": 0.19,
           "count": 1.35
         },
         {
           "bucket": "11",
           "bucketValue": 11,
-          "rawProbability": 0.16,
-          "probability": 0.16,
+          "rawProbability": 0.14,
+          "probability": 0.14,
           "count": 0.95
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.35
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 0.85
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.5
         }
       ]
     },
@@ -11932,7 +12050,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 2.22,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -12004,7 +12123,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 2.22,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "26",
@@ -12073,24 +12193,39 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 81,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 6,
+      "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.63,
-          "probability": 0.63,
+          "rawProbability": 0.54,
+          "probability": 0.54,
           "count": 3.78
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.37,
-          "probability": 0.37,
+          "rawProbability": 0.32,
+          "probability": 0.32,
           "count": 2.22
+        },
+        {
+          "bucket": "11",
+          "bucketValue": 11,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 0.94
+        },
+        {
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.06
         }
       ]
     },
@@ -12134,7 +12269,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 3.2,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "19",
@@ -12213,7 +12349,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4.14,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "25",
@@ -12293,6 +12430,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -12357,7 +12495,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 5.6,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -12429,7 +12568,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "74-75",
@@ -12495,6 +12635,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -12537,7 +12678,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 4.31,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "92",
@@ -12617,6 +12759,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "60-61",
@@ -12674,7 +12817,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 6.23,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -12753,7 +12897,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 2.22,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "25",
@@ -12825,7 +12970,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 5.78,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -12905,6 +13051,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -12970,6 +13117,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "33",
@@ -13031,11 +13179,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 44,
       "citySampleSize": 65,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 3,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "27",
           "bucketValue": 27,
@@ -13070,6 +13218,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.04,
           "probability": 0.04,
           "count": 0.38
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.39,
+          "probability": 0.39,
+          "count": 3.49
+        },
+        {
+          "bucket": "26",
+          "bucketValue": 26,
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 3.08
+        },
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.45
+        },
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.86
+        },
+        {
+          "bucket": "28",
+          "bucketValue": 28,
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.12
         }
       ]
     },
@@ -13113,7 +13298,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 0,
-      "outlierThreshold": 2.25,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -13185,7 +13371,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 0,
-      "outlierThreshold": 3.67,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -13264,7 +13451,44 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 1,
-      "outlierThreshold": 4.67,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "31",
+          "bucketValue": 31,
+          "rawProbability": 0.29,
+          "probability": 0.29,
+          "count": 2.86
+        },
+        {
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 2.38
+        },
+        {
+          "bucket": "32",
+          "bucketValue": 32,
+          "rawProbability": 0.23,
+          "probability": 0.23,
+          "count": 2.31
+        },
+        {
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 1.27
+        },
+        {
+          "bucket": "38",
+          "bucketValue": 38,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.72
+        }
+      ],
       "probabilities": [
         {
           "bucket": "31",
@@ -13343,7 +13567,44 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 1,
-      "outlierThreshold": 4.45,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 3.43
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.21,
+          "probability": 0.21,
+          "count": 2.14
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.52
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.45
+        },
+        {
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.68
+        }
+      ],
       "probabilities": [
         {
           "bucket": "17",
@@ -13419,11 +13680,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2.34,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "24",
           "bucketValue": 24,
@@ -13458,6 +13719,36 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.04,
           "probability": 0.04,
           "count": 0.35
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.44,
+          "probability": 0.44,
+          "count": 3.97
+        },
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 3.68
+        },
+        {
+          "bucket": "26",
+          "bucketValue": 26,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.05
+        },
+        {
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.03,
+          "probability": 0.03,
+          "count": 0.3
         }
       ]
     },
@@ -13498,11 +13789,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 4.53,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "13",
           "bucketValue": 13,
@@ -13537,6 +13828,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.07,
           "probability": 0.07,
           "count": 0.66
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.33,
+          "probability": 0.33,
+          "count": 2.95
+        },
+        {
+          "bucket": "11",
+          "bucketValue": 11,
+          "rawProbability": 0.27,
+          "probability": 0.27,
+          "count": 2.47
+        },
+        {
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 2
+        },
+        {
+          "bucket": "10",
+          "bucketValue": 10,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.66
+        },
+        {
+          "bucket": "9",
+          "bucketValue": 9,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.44
         }
       ]
     },
@@ -13580,7 +13908,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 0,
-      "outlierThreshold": 2.01,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -13652,7 +13981,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 0,
-      "outlierThreshold": 2.8,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "26",
@@ -13725,6 +14055,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 10,
       "outlierDropped": 1,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 5.92
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.18,
+          "probability": 0.18,
+          "count": 1.76
+        },
+        {
+          "bucket": "11",
+          "bucketValue": 11,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.99
+        },
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.68
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.64
+        }
+      ],
       "probabilities": [
         {
           "bucket": "14",
@@ -13793,11 +14160,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 78,
       "citySampleSize": 78,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2.98,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "20",
           "bucketValue": 20,
@@ -13832,6 +14199,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.07,
           "probability": 0.07,
           "count": 0.73
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.37,
+          "probability": 0.37,
+          "count": 3.36
+        },
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 2.55
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.34
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.24
+        },
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.5
         }
       ]
     },
@@ -13872,11 +14276,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 77,
       "citySampleSize": 77,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 3.05,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "25",
           "bucketValue": 25,
@@ -13910,6 +14314,36 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 27,
           "rawProbability": 0.1,
           "probability": 0.1,
+          "count": 0.99
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.36,
+          "probability": 0.36,
+          "count": 3.27
+        },
+        {
+          "bucket": "26",
+          "bucketValue": 26,
+          "rawProbability": 0.27,
+          "probability": 0.27,
+          "count": 2.47
+        },
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 2.27
+        },
+        {
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.11,
+          "probability": 0.11,
           "count": 0.99
         }
       ]
@@ -13955,6 +14389,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -14016,31 +14451,46 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 56,
       "citySampleSize": 59,
       "modelLevel": "city-time",
-      "modelSampleSize": 5,
+      "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
-      "outlierDropped": 1,
-      "outlierThreshold": 4,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.6,
-          "probability": 0.6,
+          "rawProbability": 0.5,
+          "probability": 0.5,
           "count": 3
         },
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.2,
-          "probability": 0.2,
+          "rawProbability": 0.17,
+          "probability": 0.17,
           "count": 1
         },
         {
           "bucket": "68-69",
           "bucketValue": 68,
-          "rawProbability": 0.2,
-          "probability": 0.2,
+          "rawProbability": 0.17,
+          "probability": 0.17,
           "count": 1
+        },
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 0.8
+        },
+        {
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.03,
+          "probability": 0.03,
+          "count": 0.2
         }
       ]
     },
@@ -14084,7 +14534,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "74-75",
@@ -14150,6 +14601,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -14189,44 +14641,45 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 44,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 8,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
-      "outlierDropped": 1,
-      "outlierThreshold": 3.56,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "92",
           "bucketValue": 92,
-          "rawProbability": 0.36,
-          "probability": 0.36,
+          "rawProbability": 0.32,
+          "probability": 0.32,
           "count": 2.87
         },
         {
           "bucket": "93",
           "bucketValue": 93,
-          "rawProbability": 0.18,
-          "probability": 0.18,
+          "rawProbability": 0.16,
+          "probability": 0.16,
           "count": 1.42
         },
         {
           "bucket": "91",
           "bucketValue": 91,
-          "rawProbability": 0.17,
-          "probability": 0.17,
+          "rawProbability": 0.15,
+          "probability": 0.15,
           "count": 1.33
         },
         {
           "bucket": "90",
           "bucketValue": 90,
-          "rawProbability": 0.15,
-          "probability": 0.15,
+          "rawProbability": 0.13,
+          "probability": 0.13,
           "count": 1.2
         },
         {
           "bucket": "89",
           "bucketValue": 89,
-          "rawProbability": 0.1,
-          "probability": 0.1,
+          "rawProbability": 0.09,
+          "probability": 0.09,
           "count": 0.8
         }
       ]
@@ -14272,6 +14725,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "60-61",
@@ -14329,7 +14783,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 3.34,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -14408,7 +14863,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 2,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "25",
@@ -14480,7 +14936,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 4.34,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "19",
@@ -14553,6 +15010,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -14611,6 +15069,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "33",
@@ -14686,11 +15145,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 21,
       "citySampleSize": 65,
       "modelLevel": "city-time",
-      "modelSampleSize": 11,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 3.11,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "27",
           "bucketValue": 27,
@@ -14725,6 +15184,36 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.98
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 4.31
+        },
+        {
+          "bucket": "28",
+          "bucketValue": 28,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 3.01
+        },
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.51
+        },
+        {
+          "bucket": "26",
+          "bucketValue": 26,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.17
         }
       ]
     },
@@ -14769,6 +15258,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -14830,11 +15320,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 51,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 11,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2.67,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "15",
           "bucketValue": 15,
@@ -14869,6 +15359,36 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 1.02
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 4.09
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.23,
+          "probability": 0.23,
+          "count": 2.26
+        },
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 1.87
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.18,
+          "probability": 0.18,
+          "count": 1.76
         }
       ]
     },
@@ -14909,11 +15429,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 74,
       "citySampleSize": 74,
       "modelLevel": "city-time",
-      "modelSampleSize": 11,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 5.34,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "31",
           "bucketValue": 31,
@@ -14948,6 +15468,36 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.06,
           "probability": 0.06,
           "count": 0.64
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "31",
+          "bucketValue": 31,
+          "rawProbability": 0.36,
+          "probability": 0.36,
+          "count": 3.6
+        },
+        {
+          "bucket": "32",
+          "bucketValue": 32,
+          "rawProbability": 0.35,
+          "probability": 0.35,
+          "count": 3.49
+        },
+        {
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.68
+        },
+        {
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.18
         }
       ]
     },
@@ -14992,6 +15542,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 1,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 5.15
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.56
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.49
+        },
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 1.04
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.75
+        }
+      ],
       "probabilities": [
         {
           "bucket": "17",
@@ -15071,6 +15658,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 1,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.51,
+          "probability": 0.51,
+          "count": 5.63
+        },
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.29,
+          "probability": 0.29,
+          "count": 3.15
+        },
+        {
+          "bucket": "26",
+          "bucketValue": 26,
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 1.22
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.5
+        },
+        {
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.5
+        }
+      ],
       "probabilities": [
         {
           "bucket": "25",
@@ -15132,11 +15756,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 11,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 4,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "12",
           "bucketValue": 12,
@@ -15171,6 +15795,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.08,
           "probability": 0.08,
           "count": 0.9
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.4,
+          "probability": 0.4,
+          "count": 4.03
+        },
+        {
+          "bucket": "10",
+          "bucketValue": 10,
+          "rawProbability": 0.23,
+          "probability": 0.23,
+          "count": 2.33
+        },
+        {
+          "bucket": "11",
+          "bucketValue": 11,
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 2.15
+        },
+        {
+          "bucket": "9",
+          "bucketValue": 9,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.97
+        },
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.52
         }
       ]
     },
@@ -15215,6 +15876,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -15286,7 +15948,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 11,
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
-      "outlierThreshold": 2.22,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -15359,6 +16022,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 1,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.51,
+          "probability": 0.51,
+          "count": 5.65
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 2.7
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.08,
+          "probability": 0.08,
+          "count": 0.9
+        },
+        {
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.75
+        },
+        {
+          "bucket": "10",
+          "bucketValue": 10,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.5
+        }
+      ],
       "probabilities": [
         {
           "bucket": "13",
@@ -15427,11 +16127,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 78,
       "citySampleSize": 78,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2.98,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "20",
           "bucketValue": 20,
@@ -15466,6 +16166,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.9
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 3.72
+        },
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 2.13
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.18,
+          "probability": 0.18,
+          "count": 1.63
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.45
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.07
         }
       ]
     },
@@ -15509,7 +16246,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 0,
-      "outlierThreshold": 3.56,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "25",
@@ -15589,6 +16327,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "60-61",
@@ -15653,7 +16392,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -15725,7 +16465,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 5.34,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "74-75",
@@ -15791,6 +16532,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -15830,44 +16572,45 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 44,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 8,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
-      "outlierDropped": 1,
-      "outlierThreshold": 3.56,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "92",
           "bucketValue": 92,
-          "rawProbability": 0.36,
-          "probability": 0.36,
+          "rawProbability": 0.32,
+          "probability": 0.32,
           "count": 2.87
         },
         {
           "bucket": "93",
           "bucketValue": 93,
-          "rawProbability": 0.18,
-          "probability": 0.18,
+          "rawProbability": 0.16,
+          "probability": 0.16,
           "count": 1.42
         },
         {
           "bucket": "91",
           "bucketValue": 91,
-          "rawProbability": 0.17,
-          "probability": 0.17,
+          "rawProbability": 0.15,
+          "probability": 0.15,
           "count": 1.33
         },
         {
           "bucket": "90",
           "bucketValue": 90,
-          "rawProbability": 0.15,
-          "probability": 0.15,
+          "rawProbability": 0.13,
+          "probability": 0.13,
           "count": 1.2
         },
         {
           "bucket": "89",
           "bucketValue": 89,
-          "rawProbability": 0.1,
-          "probability": 0.1,
+          "rawProbability": 0.09,
+          "probability": 0.09,
           "count": 0.8
         }
       ]
@@ -15913,6 +16656,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "68-69",
@@ -15977,7 +16721,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 3.56,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -16056,7 +16801,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 2.4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -16128,7 +16874,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 2.67,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "19",
@@ -16208,6 +16955,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
@@ -16266,6 +17014,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "33",
@@ -16341,11 +17090,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 44,
       "citySampleSize": 65,
       "modelLevel": "city-time",
-      "modelSampleSize": 11,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 3.11,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "26",
           "bucketValue": 26,
@@ -16380,6 +17129,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 1.01
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "26",
+          "bucketValue": 26,
+          "rawProbability": 0.55,
+          "probability": 0.55,
+          "count": 5.49
+        },
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.46
+        },
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.22
+        },
+        {
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 1.01
+        },
+        {
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.08,
+          "probability": 0.08,
+          "count": 0.82
         }
       ]
     },
@@ -16424,6 +17210,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -16492,11 +17279,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 51,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 11,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 3.56,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "15",
           "bucketValue": 15,
@@ -16531,6 +17318,36 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.99
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.36,
+          "probability": 0.36,
+          "count": 3.57
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 3.2
+        },
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.7
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.53
         }
       ]
     },
@@ -16571,11 +17388,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 74,
       "citySampleSize": 74,
       "modelLevel": "city-time",
-      "modelSampleSize": 11,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 4.45,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "32",
           "bucketValue": 32,
@@ -16609,6 +17426,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 31,
           "rawProbability": 0.08,
           "probability": 0.08,
+          "count": 0.88
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "32",
+          "bucketValue": 32,
+          "rawProbability": 0.31,
+          "probability": 0.31,
+          "count": 3.08
+        },
+        {
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.26,
+          "probability": 0.26,
+          "count": 2.62
+        },
+        {
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.57
+        },
+        {
+          "bucket": "35",
+          "bucketValue": 35,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.36
+        },
+        {
+          "bucket": "31",
+          "bucketValue": 31,
+          "rawProbability": 0.09,
+          "probability": 0.09,
           "count": 0.88
         }
       ]
@@ -16654,6 +17508,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 1,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.42,
+          "probability": 0.42,
+          "count": 4.63
+        },
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.27,
+          "probability": 0.27,
+          "count": 3
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.51
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.65
+        },
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.5
+        }
+      ],
       "probabilities": [
         {
           "bucket": "16",
@@ -16733,6 +17624,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 1,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.51,
+          "probability": 0.51,
+          "count": 5.63
+        },
+        {
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 2.76
+        },
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.94
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.66
+        },
+        {
+          "bucket": "26",
+          "bucketValue": 26,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.66
+        }
+      ],
       "probabilities": [
         {
           "bucket": "24",
@@ -16804,7 +17732,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 11,
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
-      "outlierThreshold": 3.78,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "11",
@@ -16884,6 +17813,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -16948,7 +17878,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 11,
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
-      "outlierThreshold": 2.31,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -17021,6 +17952,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "12",
@@ -17096,11 +18028,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 78,
       "citySampleSize": 78,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2.78,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "20",
           "bucketValue": 20,
@@ -17135,6 +18067,36 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.08,
           "probability": 0.08,
           "count": 0.82
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 4.27
+        },
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 1.82
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.54
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.36
         }
       ]
     },
@@ -17178,7 +18140,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 0,
-      "outlierThreshold": 3.07,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -17257,7 +18220,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "60-61",
@@ -17322,7 +18286,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 6.76,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -17401,7 +18366,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "74-75",
@@ -17467,6 +18433,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -17509,7 +18476,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 4.45,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "93",
@@ -17589,6 +18557,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "68-69",
@@ -17660,7 +18629,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 2.22,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -17739,7 +18709,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 2.27,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -17811,7 +18782,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 2,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "19",
@@ -17891,6 +18863,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
@@ -17956,6 +18929,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "33",
@@ -18024,11 +18998,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 44,
       "citySampleSize": 65,
       "modelLevel": "city-time",
-      "modelSampleSize": 11,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2.98,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "25",
           "bucketValue": 25,
@@ -18056,6 +19030,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.13,
           "probability": 0.13,
           "count": 1.38
+        },
+        {
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.5
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.49,
+          "probability": 0.49,
+          "count": 4.89
+        },
+        {
+          "bucket": "26",
+          "bucketValue": 26,
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 2.41
+        },
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.7
+        },
+        {
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.5
         },
         {
           "bucket": "27",
@@ -18107,6 +19118,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -18171,7 +19183,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 11,
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
-      "outlierThreshold": 3.25,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -18247,11 +19260,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 74,
       "citySampleSize": 74,
       "modelLevel": "city-time",
-      "modelSampleSize": 11,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 4.89,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "32",
           "bucketValue": 32,
@@ -18286,6 +19299,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.14,
           "probability": 0.14,
           "count": 1.51
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "32",
+          "bucketValue": 32,
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 4.06
+        },
+        {
+          "bucket": "31",
+          "bucketValue": 31,
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 1.91
+        },
+        {
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.56
+        },
+        {
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.51
+        },
+        {
+          "bucket": "35",
+          "bucketValue": 35,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.93
         }
       ]
     },
@@ -18330,6 +19380,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 1,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.52,
+          "probability": 0.52,
+          "count": 5.75
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.18,
+          "probability": 0.18,
+          "count": 2.02
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.69
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.98
+        },
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.54
+        }
+      ],
       "probabilities": [
         {
           "bucket": "17",
@@ -18398,37 +19485,45 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
+      "modelSampleSize": 11,
       "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
+      "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.48,
-          "probability": 0.48,
+          "rawProbability": 0.44,
+          "probability": 0.44,
           "count": 4.82
         },
         {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.38,
-          "probability": 0.38,
+          "rawProbability": 0.35,
+          "probability": 0.35,
           "count": 3.83
         },
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.09,
-          "probability": 0.09,
+          "rawProbability": 0.08,
+          "probability": 0.08,
           "count": 0.88
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.66
         },
         {
           "bucket": "26",
           "bucketValue": 26,
-          "rawProbability": 0.05,
-          "probability": 0.05,
+          "rawProbability": 0.04,
+          "probability": 0.04,
           "count": 0.47
         }
       ]
@@ -18470,11 +19565,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 11,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 4.67,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "12",
           "bucketValue": 12,
@@ -18509,6 +19604,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.11,
           "probability": 0.11,
           "count": 1.16
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 2.99
+        },
+        {
+          "bucket": "10",
+          "bucketValue": 10,
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 2.77
+        },
+        {
+          "bucket": "11",
+          "bucketValue": 11,
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 2.18
+        },
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.16
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.08,
+          "probability": 0.08,
+          "count": 0.85
         }
       ]
     },
@@ -18553,6 +19685,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -18617,7 +19750,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 11,
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
-      "outlierThreshold": 2.45,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -18697,6 +19831,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -18769,6 +19904,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 1,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.55,
+          "probability": 0.55,
+          "count": 6.05
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.68
+        },
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 1.24
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 1.03
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.82
+        }
+      ],
       "probabilities": [
         {
           "bucket": "20",
@@ -18840,7 +20012,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 0,
-      "outlierThreshold": 2.36,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -18919,7 +20092,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -18984,7 +20158,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 6.76,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -19056,7 +20231,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "72-73",
@@ -19129,6 +20305,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -19171,7 +20348,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 0,
-      "outlierThreshold": 4.89,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "90",
@@ -19251,6 +20429,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "68-69",
@@ -19322,7 +20501,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 0,
-      "outlierThreshold": 2.22,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -19402,6 +20582,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 10,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -19466,7 +20647,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 2.89,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -19539,6 +20721,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
@@ -19597,6 +20780,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -19676,6 +20860,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 3,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -19741,6 +20926,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -19812,7 +20998,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 11,
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
-      "outlierThreshold": 2.89,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -19881,38 +21068,82 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 74,
       "citySampleSize": 74,
       "modelLevel": "city-time",
-      "modelSampleSize": 8,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 2,
-      "outlierThreshold": 2.22,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "32",
           "bucketValue": 32,
-          "rawProbability": 0.58,
-          "probability": 0.58,
+          "rawProbability": 0.46,
+          "probability": 0.46,
           "count": 4.6
+        },
+        {
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.41
         },
         {
           "bucket": "31",
           "bucketValue": 31,
-          "rawProbability": 0.17,
-          "probability": 0.17,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 1.34
+        },
+        {
+          "bucket": "35",
+          "bucketValue": 35,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 1.27
+        },
+        {
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 1.06
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "32",
+          "bucketValue": 32,
+          "rawProbability": 0.51,
+          "probability": 0.51,
+          "count": 4.6
+        },
+        {
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.41
+        },
+        {
+          "bucket": "31",
+          "bucketValue": 31,
+          "rawProbability": 0.15,
+          "probability": 0.15,
           "count": 1.34
         },
         {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.13,
-          "probability": 0.13,
+          "rawProbability": 0.12,
+          "probability": 0.12,
           "count": 1.06
         },
         {
-          "bucket": "34",
-          "bucketValue": 34,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
+          "bucket": "35",
+          "bucketValue": 35,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.59
         }
       ]
     },
@@ -19957,6 +21188,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 1,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.39,
+          "probability": 0.39,
+          "count": 4.24
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 3.13
+        },
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 2.14
+        },
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.58
+        },
+        {
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.42
+        }
+      ],
       "probabilities": [
         {
           "bucket": "17",
@@ -20035,7 +21303,44 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 10,
       "modelOriginalSampleSize": 11,
       "outlierDropped": 1,
-      "outlierThreshold": 2.22,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.49,
+          "probability": 0.49,
+          "count": 5.42
+        },
+        {
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.33,
+          "probability": 0.33,
+          "count": 3.62
+        },
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.96
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.82
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.02,
+          "probability": 0.02,
+          "count": 0.18
+        }
+      ],
       "probabilities": [
         {
           "bucket": "24",
@@ -20097,11 +21402,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 11,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 5.34,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "11",
           "bucketValue": 11,
@@ -20136,6 +21441,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 1.01
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "11",
+          "bucketValue": 11,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 3.02
+        },
+        {
+          "bucket": "10",
+          "bucketValue": 10,
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 2.41
+        },
+        {
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.23,
+          "probability": 0.23,
+          "count": 2.3
+        },
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.49
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.61
         }
       ]
     },
@@ -20180,6 +21522,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -20245,6 +21588,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -20324,6 +21668,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -20403,6 +21748,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 1,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.57,
+          "probability": 0.57,
+          "count": 6.25
+        },
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 1.44
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.3
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 1
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.82
+        }
+      ],
       "probabilities": [
         {
           "bucket": "20",
@@ -20474,7 +21856,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 11,
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
-      "outlierThreshold": 2.4,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -20553,7 +21936,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -20618,7 +22002,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 6.76,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -20697,7 +22082,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 4.89,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "72-73",
@@ -20763,6 +22149,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -20802,11 +22189,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 37,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 3.11,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "90",
           "bucketValue": 90,
@@ -20841,6 +22228,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.05,
           "probability": 0.05,
           "count": 0.47
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "90",
+          "bucketValue": 90,
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 3.73
+        },
+        {
+          "bucket": "89",
+          "bucketValue": 89,
+          "rawProbability": 0.29,
+          "probability": 0.29,
+          "count": 2.6
+        },
+        {
+          "bucket": "91",
+          "bucketValue": 91,
+          "rawProbability": 0.23,
+          "probability": 0.23,
+          "count": 2.09
+        },
+        {
+          "bucket": "92",
+          "bucketValue": 92,
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.38
+        },
+        {
+          "bucket": "88",
+          "bucketValue": 88,
+          "rawProbability": 0.02,
+          "probability": 0.02,
+          "count": 0.2
         }
       ]
     },
@@ -20885,6 +22309,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "68-69",
@@ -20964,6 +22389,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -21022,6 +22448,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "25",
@@ -21079,7 +22506,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 2,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "19",
@@ -21159,6 +22587,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 2,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -21231,6 +22660,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
@@ -21289,6 +22719,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -21340,6 +22771,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -21412,6 +22844,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -21484,6 +22917,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 3,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -21556,6 +22990,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 1,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 5.11
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.6
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.68
+        },
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.59
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.74
+        }
+      ],
       "probabilities": [
         {
           "bucket": "17",
@@ -21627,7 +23098,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 11,
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
-      "outlierThreshold": 2.18,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -21689,11 +23161,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 11,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 3.96,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "12",
           "bucketValue": 12,
@@ -21728,6 +23200,36 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.07,
           "probability": 0.07,
           "count": 0.74
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.39,
+          "probability": 0.39,
+          "count": 3.92
+        },
+        {
+          "bucket": "11",
+          "bucketValue": 11,
+          "rawProbability": 0.35,
+          "probability": 0.35,
+          "count": 3.53
+        },
+        {
+          "bucket": "10",
+          "bucketValue": 10,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.47
+        },
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 1.08
         }
       ]
     },
@@ -21772,6 +23274,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -21844,6 +23347,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -21908,7 +23412,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 11,
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
-      "outlierThreshold": 2.85,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -21988,6 +23493,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 11,
       "outlierDropped": 1,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.5,
+          "probability": 0.5,
+          "count": 5.52
+        },
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.21,
+          "probability": 0.21,
+          "count": 2.3
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 1.12
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 1.04
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 1.02
+        }
+      ],
       "probabilities": [
         {
           "bucket": "20",
@@ -22011,11 +23553,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "count": 1.12
         },
         {
-          "bucket": "22",
-          "bucketValue": 22,
+          "bucket": "18",
+          "bucketValue": 18,
           "rawProbability": 0.1,
           "probability": 0.1,
-          "count": 1.02
+          "count": 1.04
         }
       ]
     },
@@ -22059,7 +23601,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 11,
       "modelOriginalSampleSize": 11,
       "outlierDropped": 0,
-      "outlierThreshold": 3.02,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -22138,7 +23681,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -22203,7 +23747,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4.45,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -22275,7 +23820,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "74-75",
@@ -22341,6 +23887,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -22380,11 +23927,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 37,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 4.45,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "90",
           "bucketValue": 90,
@@ -22419,6 +23966,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.05,
           "probability": 0.05,
           "count": 0.47
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "90",
+          "bucketValue": 90,
+          "rawProbability": 0.39,
+          "probability": 0.39,
+          "count": 3.53
+        },
+        {
+          "bucket": "89",
+          "bucketValue": 89,
+          "rawProbability": 0.29,
+          "probability": 0.29,
+          "count": 2.6
+        },
+        {
+          "bucket": "91",
+          "bucketValue": 91,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.49
+        },
+        {
+          "bucket": "92",
+          "bucketValue": 92,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 1.18
+        },
+        {
+          "bucket": "88",
+          "bucketValue": 88,
+          "rawProbability": 0.02,
+          "probability": 0.02,
+          "count": 0.2
         }
       ]
     },
@@ -22463,6 +24047,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "70-71",
@@ -22542,6 +24127,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -22585,6 +24171,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -22627,7 +24214,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 2,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "19",
@@ -22700,6 +24288,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -22743,6 +24332,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -22786,6 +24376,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -22844,6 +24435,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -22895,6 +24487,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "12",
@@ -22953,6 +24546,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "34",
@@ -23011,6 +24605,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -23069,6 +24664,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -23127,6 +24723,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -23185,6 +24782,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -23243,6 +24841,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "26",
@@ -23301,6 +24900,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -23352,6 +24952,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -23403,6 +25004,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "16",
@@ -23461,6 +25063,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -23519,6 +25122,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -23577,6 +25181,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -23635,6 +25240,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -23686,6 +25292,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 1,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -23743,7 +25350,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -23822,7 +25430,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 2,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -23887,7 +25496,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4.23,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -23963,38 +25573,39 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 74,
       "citySampleSize": 74,
       "modelLevel": "city-time",
-      "modelSampleSize": 7,
+      "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
-      "outlierDropped": 1,
-      "outlierThreshold": 2.22,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
           "bucketValue": 32,
-          "rawProbability": 0.61,
-          "probability": 0.61,
+          "rawProbability": 0.53,
+          "probability": 0.53,
           "count": 4.24
         },
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.29
-        },
-        {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.87
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 1.56
         },
         {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.53
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.27
+        },
+        {
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.87
         },
         {
           "bucket": "31",
@@ -24045,7 +25656,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4.49,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "16",
@@ -24121,31 +25733,46 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 6,
+      "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.49,
-          "probability": 0.49,
+          "rawProbability": 0.42,
+          "probability": 0.42,
           "count": 2.92
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.36,
-          "probability": 0.36,
+          "rawProbability": 0.31,
+          "probability": 0.31,
           "count": 2.17
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 0.94
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.15,
-          "probability": 0.15,
+          "rawProbability": 0.13,
+          "probability": 0.13,
           "count": 0.91
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.06
         }
       ]
     },
@@ -24189,7 +25816,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 3.87,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -24268,7 +25896,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 3.34,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -24347,7 +25976,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 2.67,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -24416,31 +26046,46 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 81,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 6,
+      "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.72,
-          "probability": 0.72,
+          "rawProbability": 0.61,
+          "probability": 0.61,
           "count": 4.3
         },
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.22,
-          "probability": 0.22,
+          "rawProbability": 0.19,
+          "probability": 0.19,
           "count": 1.33
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 0.93
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.06,
-          "probability": 0.06,
+          "rawProbability": 0.05,
+          "probability": 0.05,
           "count": 0.37
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.07
         }
       ]
     },
@@ -24484,7 +26129,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 3.96,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -24563,7 +26209,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -24643,6 +26290,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "70-71",
@@ -24697,30 +26345,38 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 56,
       "citySampleSize": 59,
       "modelLevel": "city-time",
-      "modelSampleSize": 5,
+      "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
-      "outlierDropped": 1,
-      "outlierThreshold": 4,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.6,
-          "probability": 0.6,
+          "rawProbability": 0.5,
+          "probability": 0.5,
           "count": 3
+        },
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1
         },
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.2,
-          "probability": 0.2,
+          "rawProbability": 0.17,
+          "probability": 0.17,
           "count": 1
         },
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.2,
-          "probability": 0.2,
+          "rawProbability": 0.17,
+          "probability": 0.17,
           "count": 1
         }
       ]
@@ -24765,7 +26421,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4.89,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -24831,6 +26488,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -24873,7 +26531,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4.45,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "92",
@@ -24953,6 +26612,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 3,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -25010,7 +26670,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 4.89,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -25089,7 +26750,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 2,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -25161,7 +26823,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 5.29,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "17",
@@ -25234,6 +26897,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -25299,6 +26963,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 3,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "33",
@@ -25367,45 +27032,46 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 44,
       "citySampleSize": 65,
       "modelLevel": "city-time",
-      "modelSampleSize": 8,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
-      "outlierDropped": 1,
-      "outlierThreshold": 2.67,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.42,
-          "probability": 0.42,
+          "rawProbability": 0.37,
+          "probability": 0.37,
           "count": 3.35
         },
         {
           "bucket": "26",
           "bucketValue": 26,
-          "rawProbability": 0.24,
-          "probability": 0.24,
+          "rawProbability": 0.21,
+          "probability": 0.21,
           "count": 1.92
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.14,
-          "probability": 0.14,
+          "rawProbability": 0.13,
+          "probability": 0.13,
           "count": 1.15
         },
         {
           "bucket": "29",
           "bucketValue": 29,
-          "rawProbability": 0.13,
-          "probability": 0.13,
+          "rawProbability": 0.11,
+          "probability": 0.11,
           "count": 1
         },
         {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.58
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.8
         }
       ]
     },
@@ -25449,7 +27115,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 2,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -25514,7 +27181,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4.45,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -25590,31 +27258,39 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 74,
       "citySampleSize": 74,
       "modelLevel": "city-time",
-      "modelSampleSize": 7,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
-      "outlierDropped": 2,
-      "outlierThreshold": 2,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
           "bucketValue": 32,
-          "rawProbability": 0.68,
-          "probability": 0.68,
+          "rawProbability": 0.53,
+          "probability": 0.53,
           "count": 4.75
+        },
+        {
+          "bucket": "35",
+          "bucketValue": 35,
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 1.67
         },
         {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.2,
-          "probability": 0.2,
+          "rawProbability": 0.16,
+          "probability": 0.16,
           "count": 1.42
         },
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.82
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 1.15
         }
       ]
     },
@@ -25658,7 +27334,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 5.29,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "16",
@@ -25737,7 +27414,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 2.71,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "16",
@@ -25813,38 +27491,46 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 6,
+      "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.56,
-          "probability": 0.56,
+          "rawProbability": 0.48,
+          "probability": 0.48,
           "count": 3.35
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.22,
-          "probability": 0.22,
+          "rawProbability": 0.19,
+          "probability": 0.19,
           "count": 1.35
         },
         {
           "bucket": "12",
           "bucketValue": 12,
-          "rawProbability": 0.16,
-          "probability": 0.16,
+          "rawProbability": 0.14,
+          "probability": 0.14,
           "count": 0.95
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.35
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 0.85
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.5
         }
       ]
     },
@@ -25888,7 +27574,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 2.22,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -25960,7 +27647,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 2.22,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -26029,24 +27717,39 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 81,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 6,
+      "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.56,
-          "probability": 0.56,
+          "rawProbability": 0.48,
+          "probability": 0.48,
           "count": 3.34
         },
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.44,
-          "probability": 0.44,
+          "rawProbability": 0.38,
+          "probability": 0.38,
           "count": 2.66
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 0.82
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.03,
+          "probability": 0.03,
+          "count": 0.18
         }
       ]
     },
@@ -26090,7 +27793,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 3.2,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -26169,7 +27873,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4.14,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -26249,6 +27954,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "70-71",
@@ -26320,7 +28026,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 5.6,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -26392,7 +28099,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -26458,6 +28166,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -26500,7 +28209,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 4.31,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "90",
@@ -26580,6 +28290,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "54-55",
@@ -26637,7 +28348,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 6.23,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -26716,7 +28428,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 2.22,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -26788,7 +28501,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 5.78,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -26868,6 +28582,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -26933,6 +28648,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "34",
@@ -27008,11 +28724,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 21,
       "citySampleSize": 65,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 3,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "28",
           "bucketValue": 28,
@@ -27047,6 +28763,36 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.93
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "28",
+          "bucketValue": 28,
+          "rawProbability": 0.45,
+          "probability": 0.45,
+          "count": 4.06
+        },
+        {
+          "bucket": "29",
+          "bucketValue": 29,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 1.77
+        },
+        {
+          "bucket": "26",
+          "bucketValue": 26,
+          "rawProbability": 0.18,
+          "probability": 0.18,
+          "count": 1.66
+        },
+        {
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.5
         }
       ]
     },
@@ -27090,7 +28836,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 0,
-      "outlierThreshold": 2.25,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -27162,7 +28909,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 0,
-      "outlierThreshold": 3.67,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -27241,7 +28989,44 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 1,
-      "outlierThreshold": 4.67,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.29,
+          "probability": 0.29,
+          "count": 2.94
+        },
+        {
+          "bucket": "35",
+          "bucketValue": 35,
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 2.42
+        },
+        {
+          "bucket": "32",
+          "bucketValue": 32,
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 2.16
+        },
+        {
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.25
+        },
+        {
+          "bucket": "39",
+          "bucketValue": 39,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.92
+        }
+      ],
       "probabilities": [
         {
           "bucket": "33",
@@ -27320,7 +29105,44 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 1,
-      "outlierThreshold": 4.45,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 2.75
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 2.25
+        },
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 1.9
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.45
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.94
+        }
+      ],
       "probabilities": [
         {
           "bucket": "16",
@@ -27396,11 +29218,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 4.53,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "13",
           "bucketValue": 13,
@@ -27434,6 +29256,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 10,
           "rawProbability": 0.1,
           "probability": 0.1,
+          "count": 1
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.36,
+          "probability": 0.36,
+          "count": 3.24
+        },
+        {
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 1.74
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 1.72
+        },
+        {
+          "bucket": "11",
+          "bucketValue": 11,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.3
+        },
+        {
+          "bucket": "10",
+          "bucketValue": 10,
+          "rawProbability": 0.11,
+          "probability": 0.11,
           "count": 1
         }
       ]
@@ -27478,7 +29337,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 0,
-      "outlierThreshold": 2.01,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -27550,7 +29410,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
       "outlierDropped": 0,
-      "outlierThreshold": 2.8,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -27623,6 +29484,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 10,
       "outlierDropped": 1,
       "outlierThreshold": 2,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.57,
+          "probability": 0.57,
+          "count": 5.74
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 1.98
+        },
+        {
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.16
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.86
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.14
+        }
+      ],
       "probabilities": [
         {
           "bucket": "19",
@@ -27691,11 +29589,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 78,
       "citySampleSize": 78,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2.98,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "14",
           "bucketValue": 14,
@@ -27730,6 +29628,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.07,
           "probability": 0.07,
           "count": 0.72
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.38,
+          "probability": 0.38,
+          "count": 3.41
+        },
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 2.5
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.35
+        },
+        {
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.25
+        },
+        {
+          "bucket": "11",
+          "bucketValue": 11,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.47
         }
       ]
     },
@@ -27770,11 +29705,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 77,
       "citySampleSize": 77,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 3.05,
-      "probabilities": [
+      "outlierDropped": 1,
+      "outlierThreshold": 2,
+      "unfilteredProbabilities": [
         {
           "bucket": "19",
           "bucketValue": 19,
@@ -27809,6 +29744,43 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.94
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.44,
+          "probability": 0.44,
+          "count": 3.94
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 2.86
+        },
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.12
+        },
+        {
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.98
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.1
         }
       ]
     },
@@ -27853,6 +29825,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "68-69",
@@ -27921,37 +29894,45 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 56,
       "citySampleSize": 59,
       "modelLevel": "city-time",
-      "modelSampleSize": 5,
+      "modelSampleSize": 6,
       "modelOriginalSampleSize": 6,
-      "outlierDropped": 1,
-      "outlierThreshold": 4,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.6,
-          "probability": 0.6,
+          "rawProbability": 0.5,
+          "probability": 0.5,
           "count": 3
+        },
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1
         },
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.2,
-          "probability": 0.2,
+          "rawProbability": 0.17,
+          "probability": 0.17,
           "count": 1
         },
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.12,
-          "probability": 0.12,
+          "rawProbability": 0.1,
+          "probability": 0.1,
           "count": 0.62
         },
         {
           "bucket": "68-69",
           "bucketValue": 68,
-          "rawProbability": 0.08,
-          "probability": 0.08,
+          "rawProbability": 0.06,
+          "probability": 0.06,
           "count": 0.38
         }
       ]
@@ -27996,7 +29977,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 7,
       "modelOriginalSampleSize": 7,
       "outlierDropped": 0,
-      "outlierThreshold": 4,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -28062,6 +30044,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 0,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -28101,44 +30084,45 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 37,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 8,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
-      "outlierDropped": 1,
-      "outlierThreshold": 3.56,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "90",
           "bucketValue": 90,
-          "rawProbability": 0.36,
-          "probability": 0.36,
+          "rawProbability": 0.32,
+          "probability": 0.32,
           "count": 2.87
         },
         {
           "bucket": "91",
           "bucketValue": 91,
-          "rawProbability": 0.18,
-          "probability": 0.18,
+          "rawProbability": 0.16,
+          "probability": 0.16,
           "count": 1.42
         },
         {
           "bucket": "89",
           "bucketValue": 89,
-          "rawProbability": 0.17,
-          "probability": 0.17,
+          "rawProbability": 0.15,
+          "probability": 0.15,
           "count": 1.33
         },
         {
           "bucket": "88",
           "bucketValue": 88,
-          "rawProbability": 0.15,
-          "probability": 0.15,
+          "rawProbability": 0.13,
+          "probability": 0.13,
           "count": 1.2
         },
         {
           "bucket": "87",
           "bucketValue": 87,
-          "rawProbability": 0.1,
-          "probability": 0.1,
+          "rawProbability": 0.09,
+          "probability": 0.09,
           "count": 0.8
         }
       ]
@@ -28184,6 +30168,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "54-55",
@@ -28241,7 +30226,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 3.34,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -28320,7 +30306,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 0,
-      "outlierThreshold": 2,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -28392,7 +30379,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
       "outlierDropped": 0,
-      "outlierThreshold": 4.34,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -28465,6 +30453,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -28523,6 +30512,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "34",
