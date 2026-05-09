@@ -501,8 +501,9 @@ function topChangeRows(items) {
       const currentTop = topProbabilities(item, 2);
       const previousTop = topProbabilities(previous, 2);
       if (!currentTop.length || !previousTop.length) return null;
-      const previousTopSet = new Set(previousTop.map((probability) => String(probability.bucket)));
-      const changed = currentTop.some((probability) => !previousTopSet.has(String(probability.bucket)));
+      const currentTopSignature = currentTop.map((probability) => String(probability.bucket)).join("|");
+      const previousTopSignature = previousTop.map((probability) => String(probability.bucket)).join("|");
+      const changed = currentTopSignature !== previousTopSignature;
       const rows = currentTop.map((probability) => {
         const previousProbability = probabilityByBucket(previous, probability.bucket);
         return {
@@ -536,10 +537,7 @@ function renderTopChanges(items) {
   const label = $("#changeWindowLabel");
   const date = $("#dateFilter")?.value || "";
   const time = $("#timeFilter")?.value || "";
-  const currentWindowItems = (state.data.probabilityCandidates || [])
-    .filter((item) => item.date === date && item.timeNode === time)
-    .sort(compareBySampleThenRaw);
-  const rows = topChangeRows(currentWindowItems);
+  const rows = topChangeRows(items);
   const changedRows = rows.filter((row) => row.changed);
   if (label) {
     const hour = timeStartHour(time);
@@ -547,10 +545,10 @@ function renderTopChanges(items) {
     const prefix = String(time || "").startsWith("昨") ? "昨" : "";
     label.textContent = previousHour == null
       ? "当前窗口没有上一窗口可比"
-      : `只看 ${date} ${time}，对比 ${prefix}${previousHour}点窗口`;
+      : `${date} ${time} 及配对日期，对比 ${prefix}${previousHour}点窗口`;
   }
   if (!changedRows.length) {
-    container.innerHTML = `<div class="change-empty">当前窗口没有 Top2 发生变化的城市。</div>`;
+    container.innerHTML = `<div class="change-empty">当前窗口和配对日期没有 Top2 排名变化的城市。</div>`;
     return;
   }
   container.innerHTML = changedRows
@@ -560,7 +558,7 @@ function renderTopChanges(items) {
         .join(" / ");
       return `
         <article class="change-card">
-          <strong>${displayCity(change.item.expectedField)} ${change.changed ? "Top2已变化" : "Top2未变化"}</strong>
+          <strong>${displayCity(change.item.expectedField)} Top2排名已变化</strong>
           <small>${change.previous.timeNode} → ${change.item.timeNode} · 上一Top2：${previousTopText}</small>
           <div class="change-temps">
             ${change.rows.map((row) => `
