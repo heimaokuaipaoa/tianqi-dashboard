@@ -385,6 +385,11 @@ h2 {
   box-shadow: 0 0 0 1px rgba(70, 181, 122, 0.22);
 }
 
+.city-card.split-top2 {
+  border-color: #d99a2b;
+  box-shadow: 0 0 0 1px rgba(217, 154, 43, 0.2);
+}
+
 .card-top {
   display: flex;
   justify-content: space-between;
@@ -433,6 +438,18 @@ h3 {
 .signal-row strong {
   font-size: 15px;
   overflow-wrap: anywhere;
+}
+
+.split-warning {
+  margin: -2px 0 12px;
+  border: 1px solid #e7b85a;
+  border-left: 4px solid #946200;
+  border-radius: 7px;
+  background: #fff8e8;
+  color: #7a4c00;
+  padding: 8px 10px;
+  font-size: 13px;
+  font-weight: 800;
 }
 
 .buckets {
