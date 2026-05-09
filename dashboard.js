@@ -401,6 +401,9 @@ function renderSummary(items) {
 }
 
 function renderBucket(item, probability) {
+  const topRank = topProbabilities(item, 2).findIndex((top) => String(top.bucket) === String(probability.bucket));
+  const topClass = topRank === 0 ? "bucket-top bucket-top-1" : topRank === 1 ? "bucket-top bucket-top-2" : "";
+  const topLabel = topRank === 0 ? `<span class="top-badge">TOP1</span>` : topRank === 1 ? `<span class="top-badge">TOP2</span>` : "";
   const key = priceKey(item, probability.bucket);
   const modelPercent = Math.round(probability.probability * 100);
   const rawPercent = Math.round((probability.rawProbability || 0) * 100);
@@ -416,8 +419,8 @@ function renderBucket(item, probability) {
     : `${market.source === "poly" ? "Poly" : "手动"} ${priceNumber}% · 优势 ${edge > 0 ? "+" : ""}${edge}% · raw ${rawPercent}%`;
 
   return `
-    <div class="bucket ${cls}">
-      <span class="bucket-name">${probability.bucket}</span>
+    <div class="bucket ${cls} ${topClass}">
+      <span class="bucket-name">${probability.bucket}${topLabel}</span>
       <div class="bar" title="raw ${rawPercent}%">
         <div class="bar-fill" style="width: ${Math.max(modelPercent, 2)}%"></div>
       </div>
