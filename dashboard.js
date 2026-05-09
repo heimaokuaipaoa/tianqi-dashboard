@@ -6,18 +6,9 @@ function loadSavedPrices() {
   }
 }
 
-function loadSavedHoldings() {
-  try {
-    return JSON.parse(window.localStorage?.getItem("temperature-dashboard-holdings") || "{}");
-  } catch {
-    return {};
-  }
-}
-
 const state = {
   data: null,
   prices: loadSavedPrices(),
-  holdings: loadSavedHoldings(),
   polyPrices: window.__POLY_PRICES__ || { markets: [] },
 };
 
@@ -77,30 +68,8 @@ function savePrices() {
   }
 }
 
-function saveHoldings() {
-  try {
-    window.localStorage?.setItem("temperature-dashboard-holdings", JSON.stringify(state.holdings));
-  } catch {
-    // Hold markers are optional; the dashboard still works if localStorage is unavailable.
-  }
-}
-
 function priceKey(item, bucket) {
   return `${item.date}|${item.timeNode}|${item.expectedField}|${bucket}`;
-}
-
-function holdingKey(item, bucket) {
-  return `${item.date}|${item.timeNode}|${item.expectedField}|${bucket}`;
-}
-
-function parseHoldingKey(key) {
-  const [date, timeNode, expectedField, ...bucketParts] = String(key || "").split("|");
-  return {
-    date,
-    timeNode,
-    expectedField,
-    bucket: bucketParts.join("|"),
-  };
 }
 
 function polyPriceKey(item, bucket) {
@@ -436,8 +405,6 @@ function renderBucket(item, probability) {
   const topClass = topRank === 0 ? "bucket-top bucket-top-1" : topRank === 1 ? "bucket-top bucket-top-2" : "";
   const topLabel = topRank === 0 ? `<span class="top-badge">TOP1</span>` : topRank === 1 ? `<span class="top-badge">TOP2</span>` : "";
   const key = priceKey(item, probability.bucket);
-  const holdKey = holdingKey(item, probability.bucket);
-  const isHeld = Boolean(state.holdings[holdKey]);
   const modelPercent = Math.round(probability.probability * 100);
   const rawPercent = Math.round((probability.rawProbability || 0) * 100);
   const savedPrice = state.prices[key] ?? "";
@@ -459,7 +426,6 @@ function renderBucket(item, probability) {
       </div>
       <span class="prob">${modelPercent}%</span>
       <input class="price" data-price-key="${key}" type="number" min="0" max="100" step="1" value="${displayPrice}" placeholder="价格" title="${priceTitle}" />
-      <button class="hold-toggle ${isHeld ? "is-held" : ""}" data-hold-key="${holdKey}" type="button">${isHeld ? "已持仓" : "持仓"}</button>
       <div class="edge">${edgeText}</div>
     </div>
   `;
@@ -582,110 +548,6 @@ function findNextItem(item) {
     candidate.timeNode === next.timeNode &&
     candidate.expectedField === item.expectedField
   ) || null;
-}
-
-function findDashboardItem(date, timeNode, expectedField) {
-  return (state.data.probabilityCandidates || []).find((candidate) =>
-    candidate.date === date &&
-    candidate.timeNode === timeNode &&
-    candidate.expectedField === expectedField
-  ) || null;
-}
-
-function rankOfBucket(item, bucket) {
-  const sorted = topProbabilities(item, item.probabilities?.length || 0);
-  const index = sorted.findIndex((probability) => String(probability.bucket) === String(bucket));
-  return index === -1 ? null : index + 1;
-}
-
-function itemTimeIndex(item) {
-  const index = timeOrder.indexOf(item.timeNode);
-  if (index !== -1) return index;
-  const hour = timeStartHour(item.timeNode);
-  return hour == null ? 999 : hour;
-}
-
-function previousHoldingsForItem(item) {
-  const currentIndex = itemTimeIndex(item);
-  return Object.entries(state.holdings || {})
-    .filter(([, active]) => active)
-    .map(([key]) => parseHoldingKey(key))
-    .filter((holding) =>
-      holding.date === item.date &&
-      holding.expectedField === item.expectedField &&
-      holding.bucket &&
-      itemTimeIndex({ timeNode: holding.timeNode }) < currentIndex
-    )
-    .map((holding) => ({
-      ...holding,
-      purchaseItem: findDashboardItem(holding.date, holding.timeNode, holding.expectedField),
-    }))
-    .filter((holding) => holding.purchaseItem)
-    .sort((a, b) => itemTimeIndex(b.purchaseItem) - itemTimeIndex(a.purchaseItem));
-}
-
-function holdingAdvice(item, holding) {
-  const purchaseProbability = probabilityByBucket(holding.purchaseItem, holding.bucket);
-  const currentProbability = probabilityByBucket(item, holding.bucket);
-  const nextItem = findNextItem(item);
-  const nextProbability = nextItem ? probabilityByBucket(nextItem, holding.bucket) : null;
-  const rank = rankOfBucket(item, holding.bucket);
-  const nextRank = nextItem ? rankOfBucket(nextItem, holding.bucket) : null;
-  const risk = nextWindowRisk(item);
-  const volatileNext = Boolean(risk);
-  const reboundVisible = nextItem && nextProbability != null && (
-    nextProbability - currentProbability >= 0.2 ||
-    (nextRank != null && nextRank <= 2)
-  );
-  let status = "observe";
-  let action = "观察";
-  let reason = "概率有变化，先结合下个窗口风险判断";
-
-  if ((item.modelSampleSize || 0) < 6) {
-    status = "danger";
-    action = "不建议按这个窗口卖";
-    reason = "样本太少，单个窗口容易误导";
-  } else if (rank != null && rank <= 2) {
-    status = "hold";
-    action = "继续持有";
-    reason = "仍在当前 Top2";
-  } else if (reboundVisible) {
-    status = "hold";
-    action = "先别急卖";
-    reason = `下个窗口已显示反弹到 ${Math.round(nextProbability * 100)}%`;
-  } else if (volatileNext) {
-    status = "observe";
-    action = "先观察";
-    reason = `历史上到下个窗口变化大，Top2变化 ${Math.round(risk.changeRate * 100)}%`;
-  } else if (currentProbability < 0.1 && (rank == null || rank > 4)) {
-    status = "danger";
-    action = "考虑减仓";
-    reason = "当前概率很低，且不在主要候选";
-  }
-
-  return {
-    item,
-    holding,
-    purchaseProbability,
-    currentProbability,
-    nextProbability,
-    rank,
-    nextRank,
-    status,
-    action,
-    reason,
-  };
-}
-
-function holdingAdvicesForItem(item) {
-  const seen = new Set();
-  return previousHoldingsForItem(item)
-    .filter((holding) => {
-      if (seen.has(holding.bucket)) return false;
-      seen.add(holding.bucket);
-      return true;
-    })
-    .map((holding) => holdingAdvice(item, holding));
 }
 
 function nextWindowRisk(item) {
@@ -830,67 +692,6 @@ function renderTopChanges(items) {
     .join("");
 }
 
-function ensureHoldingBoard() {
-  let board = $("#holdingBoard");
-  if (board) return board;
-  const summary = $("#summaryGrid");
-  if (!summary) return null;
-  board = document.createElement("section");
-  board.id = "holdingBoard";
-  board.className = "hold-board";
-  board.innerHTML = `
-    <div class="hold-board-head">
-      <h2>持仓追踪</h2>
-      <span>点温度行里的“持仓”，下个窗口自动判断是否卖飞风险</span>
-    </div>
-    <div id="holdingPicks" class="holding-picks"></div>
-  `;
-  summary.after(board);
-  return board;
-}
-
-function renderHoldingBoard(items) {
-  const board = ensureHoldingBoard();
-  const container = $("#holdingPicks");
-  if (!board || !container) return;
-  const advices = items.flatMap((item) => holdingAdvicesForItem(item));
-  const activeCount = Object.values(state.holdings || {}).filter(Boolean).length;
-  if (!advices.length) {
-    container.innerHTML = activeCount
-      ? `<div class="hold-empty">当前窗口还没有可对比的持仓。切到持仓之后的下一个窗口，就会显示卖出/观察提示。</div>`
-      : `<div class="hold-empty">还没有标记持仓。先在买入温度那一行点“持仓”。</div>`;
-    return;
-  }
-  container.innerHTML = advices
-    .sort((a, b) =>
-      (b.currentProbability - a.currentProbability) ||
-      displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
-    )
-    .map((advice) => {
-      const nextText = advice.nextProbability == null
-        ? "下个窗口未出"
-        : `下个窗口 ${Math.round(advice.nextProbability * 100)}%${advice.nextRank ? ` · 排名${advice.nextRank}` : ""}`;
-      const rankText = advice.rank ? `当前排名${advice.rank}` : "当前未入候选";
-      return `
-        <article class="hold-card hold-${advice.status}">
-          <div>
-            <strong>${displayCity(advice.item.expectedField)} ${advice.holding.bucket}</strong>
-            <span>${advice.holding.timeNode} → ${advice.item.timeNode}</span>
-          </div>
-          <div class="hold-probs">
-            <b>${Math.round(advice.purchaseProbability * 100)}% → ${Math.round(advice.currentProbability * 100)}%</b>
-            <span>${rankText} · ${nextText}</span>
-          </div>
-          <div class="hold-action">
-            <b>${advice.action}</b>
-            <span>${advice.reason}</span>
-          </div>
-        </article>
-      `;
-    })
-    .join("");
-}
-
 function opportunityPicks(items) {
   const picks = [];
   for (const item of items) {
@@ -949,7 +750,6 @@ function renderCardHtml(item) {
   const article = template.querySelector(".city-card");
   const modelN = item.modelSampleSize ?? 0;
   const sampleText = modelN >= 10 ? "强参考" : modelN >= 5 ? "一般参考" : "弱参考";
-  const droppedText = item.outlierDropped ? `（剔除${item.outlierDropped}异常）` : "";
 
   article.classList.add(item.viewSide === "right" ? "right-window" : "left-window");
   if (hasSplitTopTwo(item)) article.classList.add("split-top2");
@@ -960,7 +760,7 @@ function renderCardHtml(item) {
   template.querySelector(".predicted").textContent = String(item.predicted);
   template.querySelector(".baseline").textContent = item.baselinePredicted == null ? "-" : String(item.baselinePredicted);
   template.querySelector(".trend").textContent = trendText(item);
-  template.querySelector(".samples").textContent = `${modelN} ${sampleText}${droppedText}`;
+  template.querySelector(".samples").textContent = `${modelN} ${sampleText}`;
   template.querySelector(".buckets").innerHTML = displayProbabilities(item)
     .map((probability) => renderBucket(item, probability))
     .join("");
@@ -968,12 +768,6 @@ function renderCardHtml(item) {
     const warning = document.createElement("div");
     warning.className = "sample-warning";
     warning.textContent = "样本太少，不建议交易";
-    template.querySelector(".signal-row").after(warning);
-  }
-  if (item.outlierDropped) {
-    const warning = document.createElement("div");
-    warning.className = "outlier-warning";
-    warning.textContent = `已自动剔除 ${item.outlierDropped} 个异常历史样本，避免极端差额拉歪概率`;
     template.querySelector(".signal-row").after(warning);
   }
   if (hasSplitTopTwo(item)) {
@@ -989,19 +783,6 @@ function renderCardHtml(item) {
     warning.className = "next-window-warning";
     warning.textContent = `谨慎交易：历史上到下个窗口差别较大（${item.timeNode}→${nextRisk.nextTimeNode}，Top2变化${Math.round(nextRisk.changeRate * 100)}%，n=${nextRisk.n}）`;
     template.querySelector(".signal-row").after(warning);
-  }
-
-  const holdAdvices = holdingAdvicesForItem(item);
-  if (holdAdvices.length) {
-    const box = document.createElement("div");
-    box.className = "hold-advice-box";
-    box.innerHTML = holdAdvices.map((advice) => `
-      <div class="hold-advice-line hold-${advice.status}">
-        <b>持仓 ${advice.holding.bucket}</b>
-        <span>${Math.round(advice.purchaseProbability * 100)}% → ${Math.round(advice.currentProbability * 100)}% · ${advice.action}：${advice.reason}</span>
-      </div>
-    `).join("");
-    template.querySelector(".signal-row").after(box);
   }
 
   article.dataset.score = String(cardScore(item));
@@ -1049,22 +830,11 @@ function renderCards(items) {
       render();
     });
   });
-
-  cards.querySelectorAll("[data-hold-key]").forEach((button) => {
-    button.addEventListener("click", (event) => {
-      const key = event.currentTarget.dataset.holdKey;
-      if (state.holdings[key]) delete state.holdings[key];
-      else state.holdings[key] = true;
-      saveHoldings();
-      render();
-    });
-  });
 }
 
 function render() {
   const items = filteredItems();
   renderSummary(items);
-  renderHoldingBoard(items);
   renderTopChanges(items);
   renderEdgePicks(items);
   renderCards(items);
