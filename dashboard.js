@@ -973,7 +973,7 @@ function renderCardHtml(item) {
   if (item.outlierDropped) {
     const warning = document.createElement("div");
     warning.className = "outlier-warning";
-    warning.textContent = `已自动剔除 ${item.outlierDropped} 个异常历史样本，避免极端差额拉歪概率`;
+    warning.textContent = `已自动剔除 ${item.outlierDropped} 个异常历史样本：每 8 个样本最多剔 1 个，偏离均值 > ${formatNumber(item.outlierThreshold)} 优先剔最远`;
     template.querySelector(".signal-row").after(warning);
   }
   if (hasSplitTopTwo(item)) {
