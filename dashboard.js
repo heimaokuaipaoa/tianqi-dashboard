@@ -497,9 +497,82 @@ function previousWindowFor(item) {
   };
 }
 
+function nextWindowFor(item) {
+  const hour = timeStartHour(item.timeNode);
+  const prefix = String(item.timeNode || "").startsWith("\u6628") ? "\u6628" : "";
+  const nextHour = { 6: 10, 10: 14, 14: 17, 17: 22 }[hour];
+  if (nextHour == null) return null;
+  const endHour = nextHour === 22 ? 23 : nextHour + 1;
+  return {
+    date: item.date,
+    timeNode: `${prefix}${nextHour}\u70b9\u5230${endHour}\u70b9`,
+  };
+}
+
+function topSetSignature(item) {
+  return topProbabilities(item, 2)
+    .map((probability) => String(probability.bucket))
+    .sort()
+    .join("|");
+}
+
+function topSetChanged(a, b) {
+  const aSignature = topSetSignature(a);
+  const bSignature = topSetSignature(b);
+  return Boolean(aSignature && bSignature && aSignature !== bSignature);
+}
+
 function probabilityByBucket(item, bucket) {
   const match = (item.probabilities || []).find((probability) => String(probability.bucket) === String(bucket));
   return match?.probability || 0;
+}
+
+function topSetDelta(a, b) {
+  const buckets = new Set([
+    ...topProbabilities(a, 2).map((probability) => String(probability.bucket)),
+    ...topProbabilities(b, 2).map((probability) => String(probability.bucket)),
+  ]);
+  if (!buckets.size) return 0;
+  let total = 0;
+  for (const bucket of buckets) {
+    total += Math.abs(probabilityByBucket(a, bucket) - probabilityByBucket(b, bucket));
+  }
+  return total / buckets.size;
+}
+
+function findNextItem(item) {
+  const next = nextWindowFor(item);
+  if (!next) return null;
+  return (state.data.probabilityCandidates || []).find((candidate) =>
+    candidate.date === next.date &&
+    candidate.timeNode === next.timeNode &&
+    candidate.expectedField === item.expectedField
+  ) || null;
+}
+
+function nextWindowRisk(item) {
+  if ((item.modelSampleSize || 0) < 6 || !nextWindowFor(item)) return null;
+  const pairs = [];
+  for (const candidate of state.data.probabilityCandidates || []) {
+    if (candidate.expectedField !== item.expectedField || candidate.timeNode !== item.timeNode) continue;
+    const next = findNextItem(candidate);
+    if (!next) continue;
+    pairs.push({
+      changed: topSetChanged(candidate, next),
+      delta: topSetDelta(candidate, next),
+    });
+  }
+  if (pairs.length < 6) return null;
+  const changeRate = pairs.filter((pair) => pair.changed).length / pairs.length;
+  const avgDelta = pairs.reduce((sum, pair) => sum + pair.delta, 0) / pairs.length;
+  if (changeRate < 0.45 && avgDelta < 0.25) return null;
+  const next = nextWindowFor(item);
+  return {
+    n: pairs.length,
+    changeRate,
+    avgDelta,
+    nextTimeNode: next.timeNode,
+  };
 }
 
 function changeClass(delta) {
@@ -701,6 +774,14 @@ function renderCardHtml(item) {
     const warning = document.createElement("div");
     warning.className = "split-warning";
     warning.textContent = "Top2不相邻，分布分裂，不建议交易";
+    template.querySelector(".signal-row").after(warning);
+  }
+
+  const nextRisk = nextWindowRisk(item);
+  if (nextRisk) {
+    const warning = document.createElement("div");
+    warning.className = "next-window-warning";
+    warning.textContent = `谨慎交易：历史上到下个窗口差别较大（${item.timeNode}→${nextRisk.nextTimeNode}，Top2变化${Math.round(nextRisk.changeRate * 100)}%，n=${nextRisk.n}）`;
     template.querySelector(".signal-row").after(warning);
   }
 
