@@ -495,6 +495,7 @@ function findPreviousItem(item) {
 
 function topChangeRows(items) {
   return items
+    .filter((item) => (item.modelSampleSize || 0) >= 6)
     .map((item) => {
       const previous = findPreviousItem(item);
       if (!previous) return null;
@@ -548,7 +549,7 @@ function renderTopChanges(items) {
       : `${date} ${time} 及配对日期，对比 ${prefix}${previousHour}点窗口`;
   }
   if (!changedRows.length) {
-    container.innerHTML = `<div class="change-empty">当前窗口和配对日期没有 Top2 排名变化的城市。</div>`;
+    container.innerHTML = `<div class="change-empty">当前窗口和配对日期没有样本 >= 6 且 Top2 排名变化的城市。</div>`;
     return;
   }
   container.innerHTML = changedRows
