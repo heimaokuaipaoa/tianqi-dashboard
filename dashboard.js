@@ -949,6 +949,7 @@ function renderCardHtml(item) {
   const article = template.querySelector(".city-card");
   const modelN = item.modelSampleSize ?? 0;
   const sampleText = modelN >= 10 ? "强参考" : modelN >= 5 ? "一般参考" : "弱参考";
+  const droppedText = item.outlierDropped ? `（剔除${item.outlierDropped}异常）` : "";
 
   article.classList.add(item.viewSide === "right" ? "right-window" : "left-window");
   if (hasSplitTopTwo(item)) article.classList.add("split-top2");
@@ -959,7 +960,7 @@ function renderCardHtml(item) {
   template.querySelector(".predicted").textContent = String(item.predicted);
   template.querySelector(".baseline").textContent = item.baselinePredicted == null ? "-" : String(item.baselinePredicted);
   template.querySelector(".trend").textContent = trendText(item);
-  template.querySelector(".samples").textContent = `${modelN} ${sampleText}`;
+  template.querySelector(".samples").textContent = `${modelN} ${sampleText}${droppedText}`;
   template.querySelector(".buckets").innerHTML = displayProbabilities(item)
     .map((probability) => renderBucket(item, probability))
     .join("");
@@ -967,6 +968,12 @@ function renderCardHtml(item) {
     const warning = document.createElement("div");
     warning.className = "sample-warning";
     warning.textContent = "样本太少，不建议交易";
+    template.querySelector(".signal-row").after(warning);
+  }
+  if (item.outlierDropped) {
+    const warning = document.createElement("div");
+    warning.className = "outlier-warning";
+    warning.textContent = `已自动剔除 ${item.outlierDropped} 个异常历史样本，避免极端差额拉歪概率`;
     template.querySelector(".signal-row").after(warning);
   }
   if (hasSplitTopTwo(item)) {
