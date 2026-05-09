@@ -437,6 +437,20 @@ function bucketSortValue(probability) {
   return match ? Number(match[0]) : Number.MAX_SAFE_INTEGER;
 }
 
+function bucketSpan(probability) {
+  const numbers = String(probability.bucket || "").match(/-?\d+(?:\.\d+)?/g) || [];
+  if (!numbers.length) {
+    const value = bucketSortValue(probability);
+    return Number.isFinite(value) ? { min: value, max: value } : null;
+  }
+  const values = numbers.map(Number).filter(Number.isFinite);
+  if (!values.length) return null;
+  return {
+    min: Math.min(...values),
+    max: Math.max(...values),
+  };
+}
+
 function displayProbabilities(item) {
   return [...(item.probabilities || [])].sort((a, b) => bucketSortValue(a) - bucketSortValue(b));
 }
@@ -453,10 +467,12 @@ function topProbabilities(item, limit = 2) {
 function topTwoGap(item) {
   const top = topProbabilities(item, 2);
   if (top.length < 2) return 0;
-  const first = bucketSortValue(top[0]);
-  const second = bucketSortValue(top[1]);
-  if (!Number.isFinite(first) || !Number.isFinite(second)) return 0;
-  return Math.abs(first - second);
+  const first = bucketSpan(top[0]);
+  const second = bucketSpan(top[1]);
+  if (!first || !second) return 0;
+  if (first.max < second.min) return second.min - first.max;
+  if (second.max < first.min) return first.min - second.max;
+  return 0;
 }
 
 function hasSplitTopTwo(item) {
