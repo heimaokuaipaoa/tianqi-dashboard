@@ -438,6 +438,134 @@ function displayProbabilities(item) {
   return [...(item.probabilities || [])].sort((a, b) => bucketSortValue(a) - bucketSortValue(b));
 }
 
+function topProbabilities(item, limit = 2) {
+  return [...(item.probabilities || [])]
+    .sort((a, b) =>
+      (b.probability || 0) - (a.probability || 0) ||
+      bucketSortValue(a) - bucketSortValue(b)
+    )
+    .slice(0, limit);
+}
+
+function timeStartHour(timeNode) {
+  const match = String(timeNode || "").match(/(\d+)/);
+  return match ? Number(match[1]) : null;
+}
+
+function previousWindowFor(item) {
+  const hour = timeStartHour(item.timeNode);
+  const prefix = String(item.timeNode || "").startsWith("昨") ? "昨" : "";
+  const previousHour = { 10: 6, 14: 10, 17: 14, 22: 17 }[hour];
+  if (previousHour == null) return null;
+  const endHour = previousHour === 22 ? 23 : previousHour + 1;
+  return {
+    date: item.date,
+    timeNode: `${prefix}${previousHour}点到${endHour}点`,
+  };
+}
+
+function probabilityByBucket(item, bucket) {
+  const match = (item.probabilities || []).find((probability) => String(probability.bucket) === String(bucket));
+  return match?.probability || 0;
+}
+
+function changeClass(delta) {
+  if (delta > 0.005) return "up";
+  if (delta < -0.005) return "down";
+  return "flat";
+}
+
+function signedPercent(delta) {
+  const points = Math.round(delta * 100);
+  return `${points > 0 ? "+" : ""}${points}%`;
+}
+
+function findPreviousItem(item) {
+  const previous = previousWindowFor(item);
+  if (!previous) return null;
+  return (state.data.probabilityCandidates || []).find((candidate) =>
+    candidate.date === previous.date &&
+    candidate.timeNode === previous.timeNode &&
+    candidate.expectedField === item.expectedField
+  ) || null;
+}
+
+function topChangeRows(items) {
+  return items
+    .map((item) => {
+      const previous = findPreviousItem(item);
+      if (!previous) return null;
+      const currentTop = topProbabilities(item, 2);
+      const previousTop = topProbabilities(previous, 2);
+      if (!currentTop.length || !previousTop.length) return null;
+      const previousTopSet = new Set(previousTop.map((probability) => String(probability.bucket)));
+      const changed = currentTop.some((probability) => !previousTopSet.has(String(probability.bucket)));
+      const rows = currentTop.map((probability) => {
+        const previousProbability = probabilityByBucket(previous, probability.bucket);
+        return {
+          bucket: probability.bucket,
+          current: probability.probability || 0,
+          previous: previousProbability,
+          delta: (probability.probability || 0) - previousProbability,
+        };
+      });
+      return {
+        item,
+        previous,
+        currentTop,
+        previousTop,
+        changed,
+        rows,
+        maxDelta: Math.max(...rows.map((row) => Math.abs(row.delta))),
+      };
+    })
+    .filter(Boolean)
+    .sort((a, b) =>
+      Number(b.changed) - Number(a.changed) ||
+      b.maxDelta - a.maxDelta ||
+      displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
+    );
+}
+
+function renderTopChanges(items) {
+  const container = $("#topChangePicks");
+  if (!container) return;
+  const label = $("#changeWindowLabel");
+  const rows = topChangeRows(items);
+  if (label) {
+    const currentTime = $("#timeFilter")?.value || "";
+    const hour = timeStartHour(currentTime);
+    const previousHour = { 10: 6, 14: 10, 17: 14, 22: 17 }[hour];
+    label.textContent = previousHour == null ? "当前窗口没有上一窗口可比" : `对比上一窗口 ${previousHour}点`;
+  }
+  if (!rows.length) {
+    container.innerHTML = `<div class="change-empty">当前窗口暂时没有可对比的上一窗口数据。</div>`;
+    return;
+  }
+  container.innerHTML = rows
+    .map((change) => {
+      const previousTopText = change.previousTop
+        .map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`)
+        .join(" / ");
+      return `
+        <article class="change-card">
+          <strong>${displayCity(change.item.expectedField)} ${change.changed ? "Top2已变化" : "Top2未变化"}</strong>
+          <small>${change.previous.timeNode} → ${change.item.timeNode} · 上一Top2：${previousTopText}</small>
+          <div class="change-temps">
+            ${change.rows.map((row) => `
+              <div class="change-temp">
+                <b>${row.bucket}</b>
+                <span>${Math.round(row.previous * 100)}% → ${Math.round(row.current * 100)}%</span>
+                <em class="change-delta ${changeClass(row.delta)}">${signedPercent(row.delta)}</em>
+              </div>
+            `).join("")}
+          </div>
+        </article>
+      `;
+    })
+    .join("");
+}
+
 function opportunityPicks(items) {
   const picks = [];
   for (const item of items) {
@@ -560,6 +688,7 @@ function renderCards(items) {
 function render() {
   const items = filteredItems();
   renderSummary(items);
+  renderTopChanges(items);
   renderEdgePicks(items);
   renderCards(items);
 }
