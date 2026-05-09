@@ -540,6 +540,7 @@ function renderTopChanges(items) {
     .filter((item) => item.date === date && item.timeNode === time)
     .sort(compareBySampleThenRaw);
   const rows = topChangeRows(currentWindowItems);
+  const changedRows = rows.filter((row) => row.changed);
   if (label) {
     const hour = timeStartHour(time);
     const previousHour = { 10: 6, 14: 10, 17: 14, 22: 17 }[hour];
@@ -548,11 +549,11 @@ function renderTopChanges(items) {
       ? "当前窗口没有上一窗口可比"
       : `只看 ${date} ${time}，对比 ${prefix}${previousHour}点窗口`;
   }
-  if (!rows.length) {
-    container.innerHTML = `<div class="change-empty">当前窗口暂时没有可对比的上一窗口数据。</div>`;
+  if (!changedRows.length) {
+    container.innerHTML = `<div class="change-empty">当前窗口没有 Top2 发生变化的城市。</div>`;
     return;
   }
-  container.innerHTML = rows
+  container.innerHTML = changedRows
     .map((change) => {
       const previousTopText = change.previousTop
         .map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`)
