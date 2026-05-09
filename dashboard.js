@@ -516,8 +516,8 @@ function topChangeRows(items) {
       const currentTop = topProbabilities(item, 2);
       const previousTop = topProbabilities(previous, 2);
       if (!currentTop.length || !previousTop.length) return null;
-      const currentTopSignature = currentTop.map((probability) => String(probability.bucket)).join("|");
-      const previousTopSignature = previousTop.map((probability) => String(probability.bucket)).join("|");
+      const currentTopSignature = currentTop.map((probability) => String(probability.bucket)).sort().join("|");
+      const previousTopSignature = previousTop.map((probability) => String(probability.bucket)).sort().join("|");
       const changed = currentTopSignature !== previousTopSignature;
       const rows = currentTop.map((probability) => {
         const previousProbability = probabilityByBucket(previous, probability.bucket);
@@ -563,7 +563,7 @@ function renderTopChanges(items) {
       : `${date} ${time} 及配对日期，对比 ${prefix}${previousHour}点窗口`;
   }
   if (!changedRows.length) {
-    container.innerHTML = `<div class="change-empty">当前窗口和配对日期没有样本 >= 6 且 Top2 排名变化的城市。</div>`;
+    container.innerHTML = `<div class="change-empty">当前窗口和配对日期没有样本 >= 6 且 Top2 组合变化的城市。</div>`;
     return;
   }
   container.innerHTML = changedRows
@@ -573,7 +573,7 @@ function renderTopChanges(items) {
         .join(" / ");
       return `
         <article class="change-card">
-          <strong>${displayCity(change.item.expectedField)} Top2排名已变化</strong>
+          <strong>${displayCity(change.item.expectedField)} Top2组合已变化</strong>
           <small>${change.previous.timeNode} → ${change.item.timeNode} · 上一Top2：${previousTopText}</small>
           <div class="change-temps">
             ${change.rows.map((row) => `
