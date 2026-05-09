@@ -571,10 +571,23 @@ function renderTopChanges(items) {
       const previousTopText = change.previousTop
         .map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`)
         .join(" / ");
+      const currentTopText = change.currentTop
+        .map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`)
+        .join(" / ");
       return `
         <article class="change-card">
           <strong>${displayCity(change.item.expectedField)} Top2组合已变化</strong>
-          <small>${change.previous.timeNode} → ${change.item.timeNode} · 上一Top2：${previousTopText}</small>
+          <small>${change.previous.timeNode} → ${change.item.timeNode}</small>
+          <div class="top2-compare">
+            <div>
+              <span>原来Top2</span>
+              <b>${previousTopText}</b>
+            </div>
+            <div>
+              <span>现在Top2</span>
+              <b>${currentTopText}</b>
+            </div>
+          </div>
           <div class="change-temps">
             ${change.rows.map((row) => `
               <div class="change-temp">
