@@ -1007,11 +1007,11 @@
     {
       "expectedField": "miami本土预计",
       "actualField": "miami本土实温",
-      "unit": "C",
+      "unit": "F",
       "n": 81,
       "settlementMedianBias": 0.2,
-      "nearestBucketHitRate": 0.2,
-      "twoBucketHitRate": 0.42
+      "nearestBucketHitRate": 0.46,
+      "twoBucketHitRate": 0.81
     },
     {
       "expectedField": "seattle预计",
@@ -1720,7 +1720,7 @@
         "totalDelta": 1,
         "totalTrend": "up",
         "residual": -0.6,
-        "settlement": 91
+        "settlement": 90
       },
       {
         "expectedField": "seattle预计",
@@ -1929,7 +1929,7 @@
         "totalDelta": 2,
         "totalTrend": "up",
         "residual": 0.2,
-        "settlement": 93
+        "settlement": 92
       },
       {
         "expectedField": "shanghai预计",
@@ -5572,90 +5572,90 @@
         "n": 18,
         "rank": 6,
         "medianResidual": -0.44,
-        "meanResidual": -0.19,
+        "meanResidual": -0.24,
         "nearestBucketHitRate": 0.17,
-        "twoBucketHitRate": 0.5
+        "twoBucketHitRate": 0.56
       },
       {
         "key": "昨10点到11点",
         "n": 143,
         "rank": 10,
         "medianResidual": 0.4,
-        "meanResidual": 0.43,
-        "nearestBucketHitRate": 0.33,
-        "twoBucketHitRate": 0.55
+        "meanResidual": 0.4,
+        "nearestBucketHitRate": 0.34,
+        "twoBucketHitRate": 0.57
       },
       {
         "key": "昨14点到15点",
         "n": 150,
         "rank": 14,
-        "medianResidual": 0.45,
-        "meanResidual": 0.35,
-        "nearestBucketHitRate": 0.3,
-        "twoBucketHitRate": 0.53
+        "medianResidual": 0.4,
+        "meanResidual": 0.31,
+        "nearestBucketHitRate": 0.31,
+        "twoBucketHitRate": 0.55
       },
       {
         "key": "昨17点到18点",
         "n": 185,
         "rank": 17,
         "medianResidual": 0.3,
-        "meanResidual": 0.32,
-        "nearestBucketHitRate": 0.32,
-        "twoBucketHitRate": 0.55
+        "meanResidual": 0.28,
+        "nearestBucketHitRate": 0.34,
+        "twoBucketHitRate": 0.56
       },
       {
         "key": "昨22点到23点",
         "n": 195,
         "rank": 22,
         "medianResidual": 0.3,
-        "meanResidual": 0.3,
-        "nearestBucketHitRate": 0.36,
-        "twoBucketHitRate": 0.57
+        "meanResidual": 0.26,
+        "nearestBucketHitRate": 0.37,
+        "twoBucketHitRate": 0.59
       },
       {
         "key": "6点到7点",
         "n": 199,
         "rank": 30,
-        "medianResidual": 0.18,
-        "meanResidual": 0.23,
-        "nearestBucketHitRate": 0.39,
-        "twoBucketHitRate": 0.62
+        "medianResidual": 0.16,
+        "meanResidual": 0.2,
+        "nearestBucketHitRate": 0.4,
+        "twoBucketHitRate": 0.63
       },
       {
         "key": "10点到11点",
         "n": 204,
         "rank": 34,
         "medianResidual": 0.2,
-        "meanResidual": 0.24,
-        "nearestBucketHitRate": 0.41,
-        "twoBucketHitRate": 0.67
+        "meanResidual": 0.2,
+        "nearestBucketHitRate": 0.43,
+        "twoBucketHitRate": 0.68
       },
       {
         "key": "14点到15点",
         "n": 173,
         "rank": 38,
-        "medianResidual": 0.12,
-        "meanResidual": 0.17,
-        "nearestBucketHitRate": 0.4,
-        "twoBucketHitRate": 0.62
+        "medianResidual": 0.11,
+        "meanResidual": 0.13,
+        "nearestBucketHitRate": 0.42,
+        "twoBucketHitRate": 0.65
       },
       {
         "key": "17点到18点",
         "n": 159,
         "rank": 41,
-        "medianResidual": 0.18,
-        "meanResidual": 0.18,
-        "nearestBucketHitRate": 0.43,
-        "twoBucketHitRate": 0.72
+        "medianResidual": 0.11,
+        "meanResidual": 0.13,
+        "nearestBucketHitRate": 0.45,
+        "twoBucketHitRate": 0.75
       },
       {
         "key": "22点到23点",
         "n": 34,
         "rank": 46,
-        "medianResidual": 0.14,
-        "meanResidual": 0.04,
-        "nearestBucketHitRate": 0.29,
-        "twoBucketHitRate": 0.62
+        "medianResidual": 0,
+        "meanResidual": -0.14,
+        "nearestBucketHitRate": 0.35,
+        "twoBucketHitRate": 0.74
       }
     ],
     "byCityAndTimeNode": [
@@ -5735,10 +5735,10 @@
         "key": "miami本土预计|昨6点到7点",
         "n": 1,
         "rank": 6,
-        "medianResidual": 2,
-        "meanResidual": 2,
+        "medianResidual": 1,
+        "meanResidual": 1,
         "nearestBucketHitRate": 0,
-        "twoBucketHitRate": 0
+        "twoBucketHitRate": 1
       },
       {
         "key": "milan预计|昨6点到7点",
@@ -5906,10 +5906,10 @@
         "key": "miami本土预计|昨10点到11点",
         "n": 7,
         "rank": 10,
-        "medianResidual": 1,
-        "meanResidual": 0.86,
-        "nearestBucketHitRate": 0.14,
-        "twoBucketHitRate": 0.43
+        "medianResidual": 0,
+        "meanResidual": 0.14,
+        "nearestBucketHitRate": 0.43,
+        "twoBucketHitRate": 0.86
       },
       {
         "key": "milan预计|昨10点到11点",
@@ -6104,10 +6104,10 @@
         "key": "miami本土预计|昨14点到15点",
         "n": 8,
         "rank": 14,
-        "medianResidual": 0.5,
-        "meanResidual": 0.5,
-        "nearestBucketHitRate": 0.25,
-        "twoBucketHitRate": 0.5
+        "medianResidual": 0,
+        "meanResidual": -0.25,
+        "nearestBucketHitRate": 0.5,
+        "twoBucketHitRate": 0.88
       },
       {
         "key": "milan预计|昨14点到15点",
@@ -6302,10 +6302,10 @@
         "key": "miami本土预计|昨17点到18点",
         "n": 9,
         "rank": 17,
-        "medianResidual": 0,
-        "meanResidual": -0.22,
-        "nearestBucketHitRate": 0.22,
-        "twoBucketHitRate": 0.44
+        "medianResidual": -1,
+        "meanResidual": -1,
+        "nearestBucketHitRate": 0.44,
+        "twoBucketHitRate": 0.78
       },
       {
         "key": "milan预计|昨17点到18点",
@@ -6500,10 +6500,10 @@
         "key": "miami本土预计|昨22点到23点",
         "n": 9,
         "rank": 22,
-        "medianResidual": 0,
-        "meanResidual": -0.22,
-        "nearestBucketHitRate": 0.22,
-        "twoBucketHitRate": 0.44
+        "medianResidual": -1,
+        "meanResidual": -1,
+        "nearestBucketHitRate": 0.44,
+        "twoBucketHitRate": 0.78
       },
       {
         "key": "milan预计|昨22点到23点",
@@ -6698,10 +6698,10 @@
         "key": "miami本土预计|6点到7点",
         "n": 9,
         "rank": 30,
-        "medianResidual": 0,
-        "meanResidual": -0.44,
-        "nearestBucketHitRate": 0.22,
-        "twoBucketHitRate": 0.56
+        "medianResidual": -1,
+        "meanResidual": -1.22,
+        "nearestBucketHitRate": 0.56,
+        "twoBucketHitRate": 0.67
       },
       {
         "key": "milan预计|6点到7点",
@@ -6896,10 +6896,10 @@
         "key": "miami本土预计|10点到11点",
         "n": 10,
         "rank": 34,
-        "medianResidual": -0.5,
-        "meanResidual": -0.6,
-        "nearestBucketHitRate": 0.2,
-        "twoBucketHitRate": 0.5
+        "medianResidual": -1,
+        "meanResidual": -1.3,
+        "nearestBucketHitRate": 0.5,
+        "twoBucketHitRate": 0.7
       },
       {
         "key": "milan预计|10点到11点",
@@ -7094,10 +7094,10 @@
         "key": "miami本土预计|14点到15点",
         "n": 10,
         "rank": 38,
-        "medianResidual": -1,
-        "meanResidual": -0.9,
-        "nearestBucketHitRate": 0.2,
-        "twoBucketHitRate": 0.3
+        "medianResidual": -2,
+        "meanResidual": -1.6,
+        "nearestBucketHitRate": 0.4,
+        "twoBucketHitRate": 0.9
       },
       {
         "key": "milan预计|14点到15点",
@@ -7283,10 +7283,10 @@
         "key": "miami本土预计|17点到18点",
         "n": 10,
         "rank": 41,
-        "medianResidual": -1,
-        "meanResidual": -0.8,
-        "nearestBucketHitRate": 0.1,
-        "twoBucketHitRate": 0.3
+        "medianResidual": -2,
+        "meanResidual": -1.5,
+        "nearestBucketHitRate": 0.4,
+        "twoBucketHitRate": 0.9
       },
       {
         "key": "milan预计|17点到18点",
@@ -7382,10 +7382,10 @@
         "key": "miami本土预计|22点到23点",
         "n": 8,
         "rank": 46,
-        "medianResidual": -1,
-        "meanResidual": -0.75,
-        "nearestBucketHitRate": 0.25,
-        "twoBucketHitRate": 0.38
+        "medianResidual": -1.5,
+        "meanResidual": -1.5,
+        "nearestBucketHitRate": 0.5,
+        "twoBucketHitRate": 0.88
       },
       {
         "key": "NYC预计|22点到23点",
@@ -11023,7 +11023,7 @@
       "timeNode": "昨10点到11点",
       "expectedField": "miami本土预计",
       "predicted": 91,
-      "unit": "C",
+      "unit": "F",
       "totalTrend": "flat",
       "totalDelta": 0,
       "momentumSignal": "insufficient",
@@ -11037,7 +11037,7 @@
       "baselineBand": "",
       "baselineBandEnabled": false,
       "baselineBandSpread": 0.08,
-      "baselineBandMinSpread": 0.8,
+      "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 0,
       "baselineCitySampleSize": 0,
@@ -11062,39 +11062,32 @@
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "92",
-          "bucketValue": 92,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 1.82
-        },
-        {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.53
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 3
         },
         {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.47
+          "bucket": "92-93",
+          "bucketValue": 92,
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 3
         },
         {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.18
-        },
-        {
-          "bucket": "95",
-          "bucketValue": 95,
+          "bucket": "94-95",
+          "bucketValue": 94,
           "rawProbability": 0.08,
           "probability": 0.08,
           "count": 0.53
+        },
+        {
+          "bucket": "96-97",
+          "bucketValue": 96,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.47
         }
       ]
     },
@@ -12823,7 +12816,7 @@
       "timeNode": "昨14点到15点",
       "expectedField": "miami本土预计",
       "predicted": 92,
-      "unit": "C",
+      "unit": "F",
       "totalTrend": "up",
       "totalDelta": 1,
       "momentumSignal": "insufficient",
@@ -12837,7 +12830,7 @@
       "baselineBand": ">= +0.3",
       "baselineBandEnabled": false,
       "baselineBandSpread": 0.08,
-      "baselineBandMinSpread": 0.8,
+      "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 4,
       "baselineCitySampleSize": 38,
@@ -12855,82 +12848,39 @@
       "trendSampleSize": 44,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 7,
+      "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
-      "outlierDropped": 1,
-      "outlierThreshold": 1.7,
-      "unfilteredProbabilities": [
-        {
-          "bucket": "92",
-          "bucketValue": 92,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2.67
-        },
-        {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.42
-        },
-        {
-          "bucket": "94",
-          "bucketValue": 94,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.18
-        },
-        {
-          "bucket": "90",
-          "bucketValue": 90,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
-        },
-        {
-          "bucket": "95",
-          "bucketValue": 95,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.73
-        }
-      ],
+      "outlierDropped": 0,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "92",
+          "bucket": "92-93",
           "bucketValue": 92,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 2.67
+          "rawProbability": 0.51,
+          "probability": 0.51,
+          "count": 4.09
         },
         {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.42
-        },
-        {
-          "bucket": "94",
+          "bucket": "94-95",
           "bucketValue": 94,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.18
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 1.91
         },
         {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 1.53
         },
         {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.53
+          "bucket": "96-97",
+          "bucketValue": 96,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.47
         }
       ]
     },
@@ -14854,7 +14804,7 @@
       "timeNode": "昨17点到18点",
       "expectedField": "miami本土预计",
       "predicted": 92,
-      "unit": "C",
+      "unit": "F",
       "totalTrend": "up",
       "totalDelta": 1,
       "momentumSignal": "flat",
@@ -14868,7 +14818,7 @@
       "baselineBand": ">= +0.3",
       "baselineBandEnabled": false,
       "baselineBandSpread": 0.08,
-      "baselineBandMinSpread": 0.8,
+      "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 4,
       "baselineCitySampleSize": 38,
@@ -14889,79 +14839,72 @@
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 1,
-      "outlierThreshold": 1.7,
+      "outlierThreshold": 3.5,
       "unfilteredProbabilities": [
         {
-          "bucket": "92",
+          "bucket": "92-93",
           "bucketValue": 92,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 2.87
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 4.29
         },
         {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.42
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.33
-        },
-        {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.2
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 2.53
         },
         {
-          "bucket": "89",
-          "bucketValue": 89,
+          "bucket": "94-95",
+          "bucketValue": 94,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.91
+        },
+        {
+          "bucket": "88-89",
+          "bucketValue": 88,
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.8
+        },
+        {
+          "bucket": "96-97",
+          "bucketValue": 96,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.47
         }
       ],
       "probabilities": [
         {
-          "bucket": "92",
+          "bucket": "92-93",
           "bucketValue": 92,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 2.87
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 4.29
         },
         {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.42
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.33
-        },
-        {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.2
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 2.53
         },
         {
-          "bucket": "89",
-          "bucketValue": 89,
+          "bucket": "88-89",
+          "bucketValue": 88,
           "rawProbability": 0.1,
           "probability": 0.1,
           "count": 0.8
+        },
+        {
+          "bucket": "94-95",
+          "bucketValue": 94,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.38
         }
       ]
     },
@@ -16893,7 +16836,7 @@
       "timeNode": "昨22点到23点",
       "expectedField": "miami本土预计",
       "predicted": 92,
-      "unit": "C",
+      "unit": "F",
       "totalTrend": "up",
       "totalDelta": 1,
       "momentumSignal": "flat",
@@ -16907,7 +16850,7 @@
       "baselineBand": ">= +0.3",
       "baselineBandEnabled": false,
       "baselineBandSpread": 0.08,
-      "baselineBandMinSpread": 0.8,
+      "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 4,
       "baselineCitySampleSize": 38,
@@ -16928,79 +16871,72 @@
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 1,
-      "outlierThreshold": 1.7,
+      "outlierThreshold": 3.5,
       "unfilteredProbabilities": [
         {
-          "bucket": "92",
+          "bucket": "92-93",
           "bucketValue": 92,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 2.87
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 4.29
         },
         {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.42
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.33
-        },
-        {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.2
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 2.53
         },
         {
-          "bucket": "89",
-          "bucketValue": 89,
+          "bucket": "94-95",
+          "bucketValue": 94,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.91
+        },
+        {
+          "bucket": "88-89",
+          "bucketValue": 88,
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.8
+        },
+        {
+          "bucket": "96-97",
+          "bucketValue": 96,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.47
         }
       ],
       "probabilities": [
         {
-          "bucket": "92",
+          "bucket": "92-93",
           "bucketValue": 92,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 2.87
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 4.29
         },
         {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.42
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.33
-        },
-        {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.2
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 2.53
         },
         {
-          "bucket": "89",
-          "bucketValue": 89,
+          "bucket": "88-89",
+          "bucketValue": 88,
           "rawProbability": 0.1,
           "probability": 0.1,
           "count": 0.8
+        },
+        {
+          "bucket": "94-95",
+          "bucketValue": 94,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.38
         }
       ]
     },
@@ -18931,7 +18867,7 @@
       "timeNode": "6点到7点",
       "expectedField": "miami本土预计",
       "predicted": 92,
-      "unit": "C",
+      "unit": "F",
       "totalTrend": "up",
       "totalDelta": 1,
       "momentumSignal": "flat",
@@ -18945,7 +18881,7 @@
       "baselineBand": ">= +0.3",
       "baselineBandEnabled": false,
       "baselineBandSpread": 0.08,
-      "baselineBandMinSpread": 0.8,
+      "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 4,
       "baselineCitySampleSize": 38,
@@ -18963,75 +18899,32 @@
       "trendSampleSize": 44,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 8,
+      "modelSampleSize": 9,
       "modelOriginalSampleSize": 9,
-      "outlierDropped": 1,
-      "outlierThreshold": 1.7,
-      "unfilteredProbabilities": [
+      "outlierDropped": 0,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [],
+      "probabilities": [
         {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 2.71
-        },
-        {
-          "bucket": "90",
-          "bucketValue": 90,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.13
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.87
-        },
-        {
-          "bucket": "92",
+          "bucket": "92-93",
           "bucketValue": 92,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.82
+          "rawProbability": 0.5,
+          "probability": 0.5,
+          "count": 4.53
         },
         {
-          "bucket": "94",
+          "bucket": "90-91",
+          "bucketValue": 90,
+          "rawProbability": 0.44,
+          "probability": 0.44,
+          "count": 4
+        },
+        {
+          "bucket": "94-95",
           "bucketValue": 94,
           "rawProbability": 0.05,
           "probability": 0.05,
           "count": 0.47
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "90",
-          "bucketValue": 90,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.13
-        },
-        {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.18
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.87
-        },
-        {
-          "bucket": "92",
-          "bucketValue": 92,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.82
         }
       ]
     },
@@ -20926,7 +20819,7 @@
       "timeNode": "10点到11点",
       "expectedField": "miami本土预计",
       "predicted": 92,
-      "unit": "C",
+      "unit": "F",
       "totalTrend": "up",
       "totalDelta": 1,
       "momentumSignal": "recent_flat",
@@ -20940,7 +20833,7 @@
       "baselineBand": ">= +0.3",
       "baselineBandEnabled": false,
       "baselineBandSpread": 0.08,
-      "baselineBandMinSpread": 0.8,
+      "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 4,
       "baselineCitySampleSize": 38,
@@ -20958,79 +20851,36 @@
       "trendSampleSize": 44,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 1.7,
-      "unfilteredProbabilities": [
+      "outlierDropped": 0,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [],
+      "probabilities": [
         {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2.93
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 4.8
         },
         {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.71
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.87
-        },
-        {
-          "bucket": "92",
+          "bucket": "92-93",
           "bucketValue": 92,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.82
+          "rawProbability": 0.45,
+          "probability": 0.45,
+          "count": 4.53
         },
         {
-          "bucket": "94",
+          "bucket": "94-95",
           "bucketValue": 94,
           "rawProbability": 0.05,
           "probability": 0.05,
           "count": 0.47
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "90",
-          "bucketValue": 90,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2.93
         },
         {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.18
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.87
-        },
-        {
-          "bucket": "92",
-          "bucketValue": 92,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.82
-        },
-        {
-          "bucket": "89",
-          "bucketValue": 89,
+          "bucket": "88-89",
+          "bucketValue": 88,
           "rawProbability": 0.02,
           "probability": 0.02,
           "count": 0.2
@@ -22893,114 +22743,64 @@
       "timeNode": "14点到15点",
       "expectedField": "miami本土预计",
       "predicted": 91,
-      "unit": "C",
+      "unit": "F",
       "totalTrend": "flat",
       "totalDelta": 0,
-      "momentumSignal": "flat",
+      "momentumSignal": "first_flat",
       "momentumFirstDelta": 0,
       "momentumRecentDelta": -1,
-      "momentumThreshold": 1,
-      "momentumThresholdScore": 0.25,
-      "momentumThresholdUsable": 8,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
       "baselinePredicted": 91,
       "baselineDelta": 0,
       "baselineBand": "-0.1 到 +0.1",
       "baselineBandEnabled": false,
       "baselineBandSpread": 0.08,
-      "baselineBandMinSpread": 0.8,
+      "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 1,
       "baselineCitySampleSize": 19,
-      "correctionRegime": "low",
-      "correctionRegimeN": 5,
-      "correctionRegimeHighRate": 0.2,
-      "correctionLowMean": -0.7,
-      "correctionHighMean": 1.03,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
       "trendThreshold": 0.1,
       "trendSignalN": 0,
       "trendSignalRate": null,
       "exactSampleSize": 3,
-      "momentumSampleSize": 5,
+      "momentumSampleSize": 1,
       "timeSampleSize": 10,
       "trendSampleSize": 37,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 1.7,
-      "unfilteredProbabilities": [
-        {
-          "bucket": "90",
-          "bucketValue": 90,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 3.73
-        },
-        {
-          "bucket": "89",
-          "bucketValue": 89,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 2.6
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.09
-        },
-        {
-          "bucket": "92",
-          "bucketValue": 92,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.91
-        },
-        {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.47
-        }
-      ],
+      "outlierDropped": 0,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 3.73
+          "rawProbability": 0.58,
+          "probability": 0.58,
+          "count": 5.82
         },
         {
-          "bucket": "89",
-          "bucketValue": 89,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2.6
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.09
-        },
-        {
-          "bucket": "92",
-          "bucketValue": 92,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.38
-        },
-        {
-          "bucket": "88",
+          "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.2
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 2.8
+        },
+        {
+          "bucket": "92-93",
+          "bucketValue": 92,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.38
         }
       ]
     },
@@ -24653,7 +24453,7 @@
       "timeNode": "17点到18点",
       "expectedField": "miami本土预计",
       "predicted": 91,
-      "unit": "C",
+      "unit": "F",
       "totalTrend": "flat",
       "totalDelta": 0,
       "momentumSignal": "first_flat",
@@ -24667,7 +24467,7 @@
       "baselineBand": "-0.1 到 +0.1",
       "baselineBandEnabled": false,
       "baselineBandSpread": 0.08,
-      "baselineBandMinSpread": 0.8,
+      "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 1,
       "baselineCitySampleSize": 19,
@@ -24685,82 +24485,32 @@
       "trendSampleSize": 37,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
+      "modelSampleSize": 10,
       "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 1.7,
-      "unfilteredProbabilities": [
-        {
-          "bucket": "90",
-          "bucketValue": 90,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 3.53
-        },
-        {
-          "bucket": "89",
-          "bucketValue": 89,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 2.6
-        },
-        {
-          "bucket": "92",
-          "bucketValue": 92,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.71
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.49
-        },
-        {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.47
-        }
-      ],
+      "outlierDropped": 0,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 3.53
+          "rawProbability": 0.5,
+          "probability": 0.5,
+          "count": 5.02
         },
         {
-          "bucket": "89",
-          "bucketValue": 89,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2.6
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.49
-        },
-        {
-          "bucket": "92",
-          "bucketValue": 92,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.18
-        },
-        {
-          "bucket": "88",
+          "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.2
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 2.8
+        },
+        {
+          "bucket": "92-93",
+          "bucketValue": 92,
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 2.18
         }
       ]
     },
@@ -25340,107 +25090,64 @@
       "timeNode": "22点到23点",
       "expectedField": "miami本土预计",
       "predicted": 91,
-      "unit": "C",
+      "unit": "F",
       "totalTrend": "flat",
       "totalDelta": 0,
       "momentumSignal": "flat",
       "momentumFirstDelta": 0,
       "momentumRecentDelta": 0,
-      "momentumThreshold": 1,
-      "momentumThresholdScore": 0.25,
-      "momentumThresholdUsable": 8,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
       "baselinePredicted": 91,
       "baselineDelta": 0,
       "baselineBand": "-0.1 到 +0.1",
       "baselineBandEnabled": false,
       "baselineBandSpread": 0.08,
-      "baselineBandMinSpread": 0.8,
+      "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 1,
       "baselineCitySampleSize": 19,
-      "correctionRegime": "low",
-      "correctionRegimeN": 5,
-      "correctionRegimeHighRate": 0.2,
-      "correctionLowMean": -0.8,
-      "correctionHighMean": 1.03,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
       "trendThreshold": 0.1,
       "trendSignalN": 0,
       "trendSignalRate": null,
       "exactSampleSize": 2,
-      "momentumSampleSize": 5,
+      "momentumSampleSize": 1,
       "timeSampleSize": 8,
       "trendSampleSize": 37,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 7,
+      "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
-      "outlierDropped": 1,
-      "outlierThreshold": 1.7,
-      "unfilteredProbabilities": [
+      "outlierDropped": 0,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [],
+      "probabilities": [
         {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 2.93
+          "rawProbability": 0.6,
+          "probability": 0.6,
+          "count": 4.82
         },
         {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 1.89
-        },
-        {
-          "bucket": "89",
-          "bucketValue": 89,
+          "bucket": "88-89",
+          "bucketValue": 88,
           "rawProbability": 0.23,
           "probability": 0.23,
           "count": 1.8
         },
         {
-          "bucket": "92",
+          "bucket": "92-93",
           "bucketValue": 92,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.91
-        },
-        {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.47
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "90",
-          "bucketValue": 90,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 2.93
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 1.89
-        },
-        {
-          "bucket": "89",
-          "bucketValue": 89,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 1.8
-        },
-        {
-          "bucket": "92",
-          "bucketValue": 92,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.38
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.38
         }
       ]
     },
@@ -27750,7 +27457,7 @@
       "timeNode": "昨10点到11点",
       "expectedField": "miami本土预计",
       "predicted": 91,
-      "unit": "C",
+      "unit": "F",
       "totalTrend": "flat",
       "totalDelta": 0,
       "momentumSignal": "insufficient",
@@ -27764,7 +27471,7 @@
       "baselineBand": "",
       "baselineBandEnabled": false,
       "baselineBandSpread": 0.08,
-      "baselineBandMinSpread": 0.8,
+      "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 0,
       "baselineCitySampleSize": 0,
@@ -27789,39 +27496,32 @@
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "92",
-          "bucketValue": 92,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 1.82
-        },
-        {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.53
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 3
         },
         {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.47
+          "bucket": "92-93",
+          "bucketValue": 92,
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 3
         },
         {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.18
-        },
-        {
-          "bucket": "95",
-          "bucketValue": 95,
+          "bucket": "94-95",
+          "bucketValue": 94,
           "rawProbability": 0.08,
           "probability": 0.08,
           "count": 0.53
+        },
+        {
+          "bucket": "96-97",
+          "bucketValue": 96,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.47
         }
       ]
     },
@@ -29529,7 +29229,7 @@
       "timeNode": "昨14点到15点",
       "expectedField": "miami本土预计",
       "predicted": 90,
-      "unit": "C",
+      "unit": "F",
       "totalTrend": "flat",
       "totalDelta": -1,
       "momentumSignal": "insufficient",
@@ -29543,7 +29243,7 @@
       "baselineBand": "<= -0.3",
       "baselineBandEnabled": false,
       "baselineBandSpread": 0.08,
-      "baselineBandMinSpread": 0.8,
+      "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 0,
       "baselineCitySampleSize": 0,
@@ -29561,82 +29261,39 @@
       "trendSampleSize": 37,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 7,
+      "modelSampleSize": 8,
       "modelOriginalSampleSize": 8,
-      "outlierDropped": 1,
-      "outlierThreshold": 1.7,
-      "unfilteredProbabilities": [
-        {
-          "bucket": "90",
-          "bucketValue": 90,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2.67
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.42
-        },
-        {
-          "bucket": "92",
-          "bucketValue": 92,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.18
-        },
-        {
-          "bucket": "88",
-          "bucketValue": 88,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
-        },
-        {
-          "bucket": "93",
-          "bucketValue": 93,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.73
-        }
-      ],
+      "outlierDropped": 0,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 2.67
+          "rawProbability": 0.51,
+          "probability": 0.51,
+          "count": 4.09
         },
         {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.42
-        },
-        {
-          "bucket": "92",
+          "bucket": "92-93",
           "bucketValue": 92,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.18
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 1.91
         },
         {
-          "bucket": "88",
+          "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 1.53
         },
         {
-          "bucket": "89",
-          "bucketValue": 89,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.53
+          "bucket": "94-95",
+          "bucketValue": 94,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.47
         }
       ]
     },
@@ -31479,7 +31136,7 @@
       "timeNode": "昨17点到18点",
       "expectedField": "miami本土预计",
       "predicted": 90,
-      "unit": "C",
+      "unit": "F",
       "totalTrend": "flat",
       "totalDelta": -1,
       "momentumSignal": "flat",
@@ -31493,7 +31150,7 @@
       "baselineBand": "<= -0.3",
       "baselineBandEnabled": false,
       "baselineBandSpread": 0.08,
-      "baselineBandMinSpread": 0.8,
+      "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 0,
       "baselineCitySampleSize": 0,
@@ -31514,79 +31171,72 @@
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 1,
-      "outlierThreshold": 1.7,
+      "outlierThreshold": 3.5,
       "unfilteredProbabilities": [
         {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 2.87
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 4.29
         },
         {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.42
-        },
-        {
-          "bucket": "89",
-          "bucketValue": 89,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.33
-        },
-        {
-          "bucket": "88",
+          "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.2
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 2.53
         },
         {
-          "bucket": "87",
-          "bucketValue": 87,
+          "bucket": "92-93",
+          "bucketValue": 92,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.91
+        },
+        {
+          "bucket": "86-87",
+          "bucketValue": 86,
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.8
+        },
+        {
+          "bucket": "94-95",
+          "bucketValue": 94,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.47
         }
       ],
       "probabilities": [
         {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 2.87
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 4.29
         },
         {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.42
-        },
-        {
-          "bucket": "89",
-          "bucketValue": 89,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.33
-        },
-        {
-          "bucket": "88",
+          "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.2
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 2.53
         },
         {
-          "bucket": "87",
-          "bucketValue": 87,
+          "bucket": "86-87",
+          "bucketValue": 86,
           "rawProbability": 0.1,
           "probability": 0.1,
           "count": 0.8
+        },
+        {
+          "bucket": "92-93",
+          "bucketValue": 92,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.38
         }
       ]
     },
@@ -33532,7 +33182,7 @@
       "timeNode": "昨22点到23点",
       "expectedField": "miami本土预计",
       "predicted": 90,
-      "unit": "C",
+      "unit": "F",
       "totalTrend": "flat",
       "totalDelta": -1,
       "momentumSignal": "flat",
@@ -33546,7 +33196,7 @@
       "baselineBand": "<= -0.3",
       "baselineBandEnabled": false,
       "baselineBandSpread": 0.08,
-      "baselineBandMinSpread": 0.8,
+      "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 0,
       "baselineCitySampleSize": 0,
@@ -33567,79 +33217,72 @@
       "modelSampleSize": 8,
       "modelOriginalSampleSize": 9,
       "outlierDropped": 1,
-      "outlierThreshold": 1.7,
+      "outlierThreshold": 3.5,
       "unfilteredProbabilities": [
         {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 2.87
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 4.29
         },
         {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.42
-        },
-        {
-          "bucket": "89",
-          "bucketValue": 89,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.33
-        },
-        {
-          "bucket": "88",
+          "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.2
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 2.53
         },
         {
-          "bucket": "87",
-          "bucketValue": 87,
+          "bucket": "92-93",
+          "bucketValue": 92,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.91
+        },
+        {
+          "bucket": "86-87",
+          "bucketValue": 86,
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.8
+        },
+        {
+          "bucket": "94-95",
+          "bucketValue": 94,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.47
         }
       ],
       "probabilities": [
         {
-          "bucket": "90",
+          "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 2.87
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 4.29
         },
         {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.42
-        },
-        {
-          "bucket": "89",
-          "bucketValue": 89,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.33
-        },
-        {
-          "bucket": "88",
+          "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.2
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 2.53
         },
         {
-          "bucket": "87",
-          "bucketValue": 87,
+          "bucket": "86-87",
+          "bucketValue": 86,
           "rawProbability": 0.1,
           "probability": 0.1,
           "count": 0.8
+        },
+        {
+          "bucket": "92-93",
+          "bucketValue": 92,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.38
         }
       ]
     },
@@ -34229,14 +33872,14 @@
       "timeNode": "昨14点到15点",
       "expectedField": "miami本土预计",
       "predicted": 90,
-      "unit": "C",
+      "unit": "F",
       "adjustedForSettlement": 90.2,
       "buyBuckets": [
-        "90",
-        "91"
+        "90-91",
+        "88-89"
       ],
-      "estimatedTop1HitRate": 0.2,
-      "estimatedTop2HitRate": 0.42
+      "estimatedTop1HitRate": 0.46,
+      "estimatedTop2HitRate": 0.81
     },
     {
       "date": "2026-05-10",
@@ -34537,14 +34180,14 @@
       "timeNode": "昨17点到18点",
       "expectedField": "miami本土预计",
       "predicted": 90,
-      "unit": "C",
+      "unit": "F",
       "adjustedForSettlement": 90.2,
       "buyBuckets": [
-        "90",
-        "91"
+        "90-91",
+        "88-89"
       ],
-      "estimatedTop1HitRate": 0.2,
-      "estimatedTop2HitRate": 0.42
+      "estimatedTop1HitRate": 0.46,
+      "estimatedTop2HitRate": 0.81
     },
     {
       "date": "2026-05-10",
@@ -34859,14 +34502,14 @@
       "timeNode": "昨22点到23点",
       "expectedField": "miami本土预计",
       "predicted": 90,
-      "unit": "C",
+      "unit": "F",
       "adjustedForSettlement": 90.2,
       "buyBuckets": [
-        "90",
-        "91"
+        "90-91",
+        "88-89"
       ],
-      "estimatedTop1HitRate": 0.2,
-      "estimatedTop2HitRate": 0.42
+      "estimatedTop1HitRate": 0.46,
+      "estimatedTop2HitRate": 0.81
     },
     {
       "date": "2026-05-10",
