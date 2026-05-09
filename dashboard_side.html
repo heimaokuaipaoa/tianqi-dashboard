@@ -452,10 +452,49 @@ h3 {
   grid-template-columns: 74px 1fr 72px 66px;
   align-items: center;
   gap: 8px;
+  border-radius: 7px;
+  padding: 4px 6px;
+  margin: 0 -6px;
 }
 
 .bucket-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   font-weight: 700;
+}
+
+.bucket-top {
+  border-left: 4px solid var(--accent);
+  background: #f3f7ff;
+}
+
+.bucket-top-1 {
+  border-color: #087443;
+  background: #f0fbf5;
+}
+
+.bucket-top-2 {
+  border-color: #245bdb;
+}
+
+.bucket-top .bucket-name {
+  font-size: 18px;
+}
+
+.top-badge {
+  border-radius: 999px;
+  padding: 2px 5px;
+  background: #dfe8ff;
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.bucket-top-1 .top-badge {
+  background: #dff5e8;
+  color: var(--strong);
 }
 
 .bar {
@@ -475,6 +514,11 @@ h3 {
 .prob {
   color: var(--text);
   font-variant-numeric: tabular-nums;
+}
+
+.bucket-top .prob {
+  font-size: 18px;
+  font-weight: 800;
 }
 
 .price {
@@ -25731,6 +25775,9 @@ function renderSummary(items) {
 }
 
 function renderBucket(item, probability) {
+  const topRank = topProbabilities(item, 2).findIndex((top) => String(top.bucket) === String(probability.bucket));
+  const topClass = topRank === 0 ? "bucket-top bucket-top-1" : topRank === 1 ? "bucket-top bucket-top-2" : "";
+  const topLabel = topRank === 0 ? `<span class="top-badge">TOP1</span>` : topRank === 1 ? `<span class="top-badge">TOP2</span>` : "";
   const key = priceKey(item, probability.bucket);
   const modelPercent = Math.round(probability.probability * 100);
   const rawPercent = Math.round((probability.rawProbability || 0) * 100);
@@ -25746,8 +25793,8 @@ function renderBucket(item, probability) {
     : `${market.source === "poly" ? "Poly" : "手动"} ${priceNumber}% · 优势 ${edge > 0 ? "+" : ""}${edge}% · raw ${rawPercent}%`;
 
   return `
-    <div class="bucket ${cls}">
-      <span class="bucket-name">${probability.bucket}</span>
+    <div class="bucket ${cls} ${topClass}">
+      <span class="bucket-name">${probability.bucket}${topLabel}</span>
       <div class="bar" title="raw ${rawPercent}%">
         <div class="bar-fill" style="width: ${Math.max(modelPercent, 2)}%"></div>
       </div>
