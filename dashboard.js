@@ -450,6 +450,19 @@ function topProbabilities(item, limit = 2) {
     .slice(0, limit);
 }
 
+function topTwoGap(item) {
+  const top = topProbabilities(item, 2);
+  if (top.length < 2) return 0;
+  const first = bucketSortValue(top[0]);
+  const second = bucketSortValue(top[1]);
+  if (!Number.isFinite(first) || !Number.isFinite(second)) return 0;
+  return Math.abs(first - second);
+}
+
+function hasSplitTopTwo(item) {
+  return topTwoGap(item) > 1;
+}
+
 function timeStartHour(timeNode) {
   const match = String(timeNode || "").match(/(\d+)/);
   return match ? Number(match[1]) : null;
@@ -636,6 +649,7 @@ function renderCardHtml(item) {
   const sampleText = modelN >= 10 ? "强参考" : modelN >= 5 ? "一般参考" : "弱参考";
 
   article.classList.add(item.viewSide === "right" ? "right-window" : "left-window");
+  if (hasSplitTopTwo(item)) article.classList.add("split-top2");
   template.querySelector("h3").textContent = `${item.viewSide === "right" ? "右" : "左"} ${item.date}`;
   template.querySelector(".meta").textContent =
     `${item.date} · ${item.timeNode} · ${item.unit || "C"} · ${modelLevelText(item)}`;
@@ -647,6 +661,12 @@ function renderCardHtml(item) {
   template.querySelector(".buckets").innerHTML = displayProbabilities(item)
     .map((probability) => renderBucket(item, probability))
     .join("");
+  if (hasSplitTopTwo(item)) {
+    const warning = document.createElement("div");
+    warning.className = "split-warning";
+    warning.textContent = "Top2不相邻，分布分裂，不建议交易";
+    template.querySelector(".signal-row").after(warning);
+  }
 
   article.dataset.score = String(cardScore(item));
   return template;
