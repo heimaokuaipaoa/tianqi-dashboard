@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>温度交易看板</title>
+    <link rel="stylesheet" href="./dashboard.css?v=20260507-1310" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <h1>温度交易看板</h1>
+          <p id="dataStatus">读取分析数据中...</p>
+        </div>
+        <div class="toolbar">
+          <label>
+            日期
+            <select id="dateFilter"></select>
+          </label>
+          <label>
+            时间窗口
+            <select id="timeFilter"></select>
+          </label>
+          <label>
+            最低优势
+            <input id="edgeFilter" type="number" value="15" min="-50" max="100" step="1" />
+          </label>
+          <button id="exportFullPage" class="toolbar-button" type="button">整页截图</button>
+        </div>
+      </header>
+
+      <section class="summary-grid" id="summaryGrid"></section>
+
+      <section class="edge-board">
+        <div class="edge-board-head">
+          <h2>低估机会</h2>
+          <span>样本 >= 8 且优势 > 15</span>
+        </div>
+        <div id="edgePicks" class="edge-picks"></div>
+      </section>
+
+      <section class="board">
+        <div class="board-head">
+          <h2>按城市合并</h2>
+          <div class="legend">
+            <span class="dot strong"></span>强优势
+            <span class="dot watch"></span>观察
+            <span class="dot weak"></span>不优先
+          </div>
+        </div>
+        <div id="cards" class="cards"></div>
+      </section>
+    </main>
+
+    <template id="cardTemplate">
+      <article class="city-card">
+        <div class="card-top">
+          <div>
+            <h3></h3>
+            <p class="meta"></p>
+          </div>
+          <span class="badge"></span>
+        </div>
+        <div class="signal-row">
+          <div>
+            <span class="label">当前预计</span>
+            <strong class="predicted"></strong>
+          </div>
+          <div>
+            <span class="label">昨10预计</span>
+            <strong class="baseline"></strong>
+          </div>
+          <div>
+            <span class="label">分档</span>
+            <strong class="trend"></strong>
+          </div>
+          <div>
+            <span class="label">样本</span>
+            <strong class="samples"></strong>
+          </div>
+        </div>
+        <div class="buckets"></div>
+      </article>
+    </template>
+
+    <script src="./poly_prices.js"></script>
+    <script src="./dashboard_data.next.js"></script>
+    <script src="./dashboard.js"></script>
+  </body>
+</html>
