@@ -534,12 +534,19 @@ function renderTopChanges(items) {
   const container = $("#topChangePicks");
   if (!container) return;
   const label = $("#changeWindowLabel");
-  const rows = topChangeRows(items);
+  const date = $("#dateFilter")?.value || "";
+  const time = $("#timeFilter")?.value || "";
+  const currentWindowItems = (state.data.probabilityCandidates || [])
+    .filter((item) => item.date === date && item.timeNode === time)
+    .sort(compareBySampleThenRaw);
+  const rows = topChangeRows(currentWindowItems);
   if (label) {
-    const currentTime = $("#timeFilter")?.value || "";
-    const hour = timeStartHour(currentTime);
+    const hour = timeStartHour(time);
     const previousHour = { 10: 6, 14: 10, 17: 14, 22: 17 }[hour];
-    label.textContent = previousHour == null ? "当前窗口没有上一窗口可比" : `对比上一窗口 ${previousHour}点`;
+    const prefix = String(time || "").startsWith("昨") ? "昨" : "";
+    label.textContent = previousHour == null
+      ? "当前窗口没有上一窗口可比"
+      : `只看 ${date} ${time}，对比 ${prefix}${previousHour}点窗口`;
   }
   if (!rows.length) {
     container.innerHTML = `<div class="change-empty">当前窗口暂时没有可对比的上一窗口数据。</div>`;
