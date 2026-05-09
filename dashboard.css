@@ -134,6 +134,7 @@ input {
   font-size: 22px;
 }
 
+.change-board,
 .edge-board {
   background: #ffffff;
   border: 1px solid var(--line);
@@ -141,6 +142,7 @@ input {
   margin-bottom: 18px;
 }
 
+.change-board-head,
 .edge-board-head {
   display: flex;
   align-items: baseline;
@@ -150,9 +152,82 @@ input {
   border-bottom: 1px solid var(--line);
 }
 
+.change-board-head span,
 .edge-board-head span {
   color: var(--muted);
   font-size: 13px;
+}
+
+.change-picks {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  padding: 12px;
+}
+
+.change-card {
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  padding: 12px;
+  background: #fbfcff;
+}
+
+.change-card strong {
+  display: block;
+  font-size: 16px;
+}
+
+.change-card small {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.change-temps {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.change-temp {
+  display: grid;
+  grid-template-columns: 52px 1fr 58px;
+  align-items: center;
+  gap: 8px;
+}
+
+.change-temp b {
+  font-size: 18px;
+}
+
+.change-temp span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.change-delta {
+  text-align: right;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.change-delta.up {
+  color: var(--strong);
+}
+
+.change-delta.down {
+  color: var(--weak);
+}
+
+.change-delta.flat {
+  color: var(--muted);
+}
+
+.change-empty {
+  color: var(--muted);
+  padding: 18px;
 }
 
 .edge-picks {
@@ -442,6 +517,10 @@ h3 {
   .edge-picks {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .change-picks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 760px) {
@@ -466,6 +545,7 @@ h3 {
   .cards,
   .summary-grid,
   .group-cards,
+  .change-picks,
   .edge-picks {
     grid-template-columns: 1fr;
   }
