@@ -528,6 +528,7 @@ h3 {
 .split-warning,
 .sample-warning,
 .next-window-warning,
+.outlier-warning,
 .hold-advice-box {
   margin: -2px 0 12px;
   border: 1px solid #e7b85a;
@@ -552,6 +553,13 @@ h3 {
   border-left-color: #6d28d9;
   background: #f5f3ff;
   color: #4c1d95;
+}
+
+.outlier-warning {
+  border-color: #bfdbfe;
+  border-left-color: #2563eb;
+  background: #eff6ff;
+  color: #1e3a8a;
 }
 
 .hold-advice-box {
