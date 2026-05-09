@@ -471,6 +471,7 @@ function timeStartHour(timeNode) {
 function previousWindowFor(item) {
   const hour = timeStartHour(item.timeNode);
   const prefix = String(item.timeNode || "").startsWith("昨") ? "昨" : "";
+  if (prefix === "昨" && hour === 10) return null;
   const previousHour = { 10: 6, 14: 10, 17: 14, 22: 17 }[hour];
   if (previousHour == null) return null;
   const endHour = previousHour === 22 ? 23 : previousHour + 1;
