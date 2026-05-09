@@ -445,10 +445,49 @@ h3 {
   grid-template-columns: 74px 1fr 72px 66px;
   align-items: center;
   gap: 8px;
+  border-radius: 7px;
+  padding: 4px 6px;
+  margin: 0 -6px;
 }
 
 .bucket-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   font-weight: 700;
+}
+
+.bucket-top {
+  border-left: 4px solid var(--accent);
+  background: #f3f7ff;
+}
+
+.bucket-top-1 {
+  border-color: #087443;
+  background: #f0fbf5;
+}
+
+.bucket-top-2 {
+  border-color: #245bdb;
+}
+
+.bucket-top .bucket-name {
+  font-size: 18px;
+}
+
+.top-badge {
+  border-radius: 999px;
+  padding: 2px 5px;
+  background: #dfe8ff;
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.bucket-top-1 .top-badge {
+  background: #dff5e8;
+  color: var(--strong);
 }
 
 .bar {
@@ -468,6 +507,11 @@ h3 {
 .prob {
   color: var(--text);
   font-variant-numeric: tabular-nums;
+}
+
+.bucket-top .prob {
+  font-size: 18px;
+  font-weight: 800;
 }
 
 .price {
