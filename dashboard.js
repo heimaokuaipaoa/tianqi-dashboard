@@ -675,6 +675,12 @@ function renderCardHtml(item) {
   template.querySelector(".buckets").innerHTML = displayProbabilities(item)
     .map((probability) => renderBucket(item, probability))
     .join("");
+  if (modelN < 6) {
+    const warning = document.createElement("div");
+    warning.className = "sample-warning";
+    warning.textContent = "样本太少，不建议交易";
+    template.querySelector(".signal-row").after(warning);
+  }
   if (hasSplitTopTwo(item)) {
     const warning = document.createElement("div");
     warning.className = "split-warning";
