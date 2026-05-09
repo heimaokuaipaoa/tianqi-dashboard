@@ -553,12 +553,25 @@ function findNextItem(item) {
 function nextWindowRisk(item) {
   const next = nextWindowFor(item);
   if (!next) return null;
-  const nextItem = findNextItem(item);
-  if (!nextItem || !topSetChanged(item, nextItem)) return null;
+  const pairs = [];
+  for (const candidate of state.data.probabilityCandidates || []) {
+    if (candidate.expectedField !== item.expectedField || candidate.timeNode !== item.timeNode) continue;
+    const nextCandidate = findNextItem(candidate);
+    if (!nextCandidate) continue;
+    pairs.push({
+      changed: topSetChanged(candidate, nextCandidate),
+      delta: topSetDelta(candidate, nextCandidate),
+    });
+  }
+  if (!pairs.length) return null;
+  const changeRate = pairs.filter((pair) => pair.changed).length / pairs.length;
+  const avgDelta = pairs.reduce((sum, pair) => sum + pair.delta, 0) / pairs.length;
+  if (changeRate < 0.45 && avgDelta < 0.25) return null;
   return {
+    n: pairs.length,
+    changeRate,
+    avgDelta,
     nextTimeNode: next.timeNode,
-    currentTop: topProbabilities(item, 2),
-    nextTop: topProbabilities(nextItem, 2),
   };
 }
 
@@ -768,9 +781,7 @@ function renderCardHtml(item) {
   if (nextRisk) {
     const warning = document.createElement("div");
     warning.className = "next-window-warning";
-    const currentTop = nextRisk.currentTop.map((probability) => probability.bucket).join(" / ");
-    const nextTop = nextRisk.nextTop.map((probability) => probability.bucket).join(" / ");
-    warning.textContent = `谨慎交易：下个窗口Top2已变化（${item.timeNode} ${currentTop} → ${nextRisk.nextTimeNode} ${nextTop}）`;
+    warning.textContent = `谨慎交易：历史上到下个窗口差别较大（${item.timeNode}→${nextRisk.nextTimeNode}，Top2变化${Math.round(nextRisk.changeRate * 100)}%，n=${nextRisk.n}）`;
     template.querySelector(".signal-row").after(warning);
   }
 
