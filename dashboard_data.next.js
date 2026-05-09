@@ -7464,10 +7464,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -7508,10 +7504,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -7552,10 +7544,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -7618,10 +7606,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -7684,10 +7668,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -7750,10 +7730,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -7816,10 +7792,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -7882,10 +7854,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -7948,10 +7916,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -8014,10 +7978,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "68-69",
@@ -8080,10 +8040,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -8146,10 +8102,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "68-69",
@@ -8205,10 +8157,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -8271,10 +8219,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -8337,10 +8281,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -8403,10 +8343,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -8469,10 +8405,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 0,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -8513,10 +8445,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -8586,10 +8514,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -8652,10 +8576,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 0,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -8696,10 +8616,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -8755,10 +8671,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -8821,10 +8733,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 0,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -8865,10 +8773,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 65,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "26",
@@ -8924,10 +8828,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -8983,10 +8883,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -9042,10 +8938,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 74,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "33",
@@ -9101,10 +8993,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -9160,10 +9048,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -9219,10 +9103,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -9271,10 +9151,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -9330,10 +9206,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "26",
@@ -9389,10 +9261,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "11",
@@ -9441,10 +9309,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 78,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -9500,10 +9364,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 77,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -9552,10 +9412,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -9611,10 +9467,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "25",
@@ -9670,10 +9522,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 67,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -9729,10 +9577,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 29,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
@@ -9788,10 +9632,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 25,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
@@ -9847,10 +9687,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 65,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "26",
@@ -9927,10 +9763,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -9993,10 +9825,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -10073,10 +9901,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 74,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
@@ -10153,10 +9977,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -10233,10 +10053,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -10306,10 +10122,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "12",
@@ -10386,10 +10198,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -10466,10 +10274,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -10539,10 +10343,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -10619,10 +10419,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 78,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "19",
@@ -10699,10 +10495,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 77,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -10779,10 +10571,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "60-61",
@@ -10845,10 +10633,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 59,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -10918,10 +10702,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "74-75",
@@ -10984,10 +10764,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "92",
@@ -11064,10 +10840,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 38,
       "modelLevel": "city-time",
       "modelSampleSize": 3,
-      "modelOriginalSampleSize": 3,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -11137,10 +10909,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -11217,10 +10985,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -11290,10 +11054,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 67,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -11363,10 +11123,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 29,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -11429,10 +11185,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 25,
       "modelLevel": "city-time",
       "modelSampleSize": 3,
-      "modelOriginalSampleSize": 3,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "33",
@@ -11502,10 +11254,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 65,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "26",
@@ -11582,10 +11330,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -11648,10 +11392,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -11728,10 +11468,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 74,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
@@ -11808,10 +11544,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "17",
@@ -11888,10 +11620,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -11968,10 +11696,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "12",
@@ -12048,10 +11772,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -12121,10 +11841,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "26",
@@ -12194,10 +11910,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -12267,10 +11979,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 78,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "19",
@@ -12347,10 +12055,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 77,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "25",
@@ -12427,10 +12131,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -12493,10 +12193,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 59,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -12566,10 +12262,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "74-75",
@@ -12632,10 +12324,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 0,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -12676,10 +12364,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "92",
@@ -12756,10 +12440,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 38,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "60-61",
@@ -12815,10 +12495,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time-baseline-band",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -12895,10 +12571,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "25",
@@ -12968,10 +12640,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 67,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -13048,10 +12716,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 29,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -13114,10 +12778,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 25,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "33",
@@ -13179,11 +12839,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 44,
       "citySampleSize": 65,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "27",
           "bucketValue": 27,
@@ -13218,43 +12875,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.04,
           "probability": 0.04,
           "count": 0.38
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 3.49
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 3.08
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.45
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.86
-        },
-        {
-          "bucket": "28",
-          "bucketValue": 28,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.12
         }
       ]
     },
@@ -13296,10 +12916,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 10,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -13369,10 +12985,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 10,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -13448,11 +13060,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 74,
       "citySampleSize": 74,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "31",
           "bucketValue": 31,
@@ -13487,43 +13096,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.07,
           "probability": 0.07,
           "count": 0.72
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 2.86
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 2.31
-        },
-        {
-          "bucket": "34",
-          "bucketValue": 34,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 2.38
-        },
-        {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.27
-        },
-        {
-          "bucket": "30",
-          "bucketValue": 30,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.14
         }
       ]
     },
@@ -13564,11 +13136,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 24,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "17",
           "bucketValue": 17,
@@ -13603,43 +13172,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.07,
           "probability": 0.07,
           "count": 0.68
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 3.43
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.14
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.52
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.45
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.41
         }
       ]
     },
@@ -13680,11 +13212,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "24",
           "bucketValue": 24,
@@ -13719,36 +13248,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.04,
           "probability": 0.04,
           "count": 0.35
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 3.97
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 3.68
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.05
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.3
         }
       ]
     },
@@ -13789,11 +13288,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "13",
           "bucketValue": 13,
@@ -13828,43 +13324,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.07,
           "probability": 0.07,
           "count": 0.66
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2.95
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.47
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2
-        },
-        {
-          "bucket": "10",
-          "bucketValue": 10,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.66
-        },
-        {
-          "bucket": "9",
-          "bucketValue": 9,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.44
         }
       ]
     },
@@ -13906,10 +13365,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 10,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -13979,10 +13434,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 10,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "26",
@@ -14051,11 +13502,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 81,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "14",
           "bucketValue": 14,
@@ -14089,36 +13537,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 16,
           "rawProbability": 0.06,
           "probability": 0.06,
-          "count": 0.64
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.66,
-          "probability": 0.66,
-          "count": 5.92
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.76
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.68
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.07,
-          "probability": 0.07,
           "count": 0.64
         }
       ]
@@ -14160,11 +13578,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 78,
       "citySampleSize": 78,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "20",
           "bucketValue": 20,
@@ -14199,43 +13614,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.07,
           "probability": 0.07,
           "count": 0.73
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 3.36
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 2.55
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.34
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.24
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.5
         }
       ]
     },
@@ -14276,11 +13654,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 77,
       "citySampleSize": 77,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "25",
           "bucketValue": 25,
@@ -14314,36 +13689,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 27,
           "rawProbability": 0.1,
           "probability": 0.1,
-          "count": 0.99
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 3.27
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.47
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 2.27
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.11,
-          "probability": 0.11,
           "count": 0.99
         }
       ]
@@ -14386,10 +13731,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -14452,10 +13793,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 59,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -14532,10 +13869,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "74-75",
@@ -14598,10 +13931,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 0,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -14642,10 +13971,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "92",
@@ -14722,10 +14047,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 38,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "60-61",
@@ -14781,10 +14102,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -14861,10 +14178,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "25",
@@ -14934,10 +14247,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 67,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "19",
@@ -15007,10 +14316,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 29,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -15066,10 +14371,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 25,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "33",
@@ -15145,11 +14446,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 21,
       "citySampleSize": 65,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "27",
           "bucketValue": 27,
@@ -15184,36 +14482,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.98
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 4.31
-        },
-        {
-          "bucket": "28",
-          "bucketValue": 28,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3.01
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.51
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.17
         }
       ]
     },
@@ -15255,10 +14523,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -15320,11 +14584,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 51,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "15",
           "bucketValue": 15,
@@ -15359,36 +14620,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 1.02
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 4.09
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.26
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.87
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.76
         }
       ]
     },
@@ -15429,11 +14660,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 74,
       "citySampleSize": 74,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "31",
           "bucketValue": 31,
@@ -15468,36 +14696,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.06,
           "probability": 0.06,
           "count": 0.64
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 3.6
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 3.49
-        },
-        {
-          "bucket": "34",
-          "bucketValue": 34,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.68
-        },
-        {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.18
         }
       ]
     },
@@ -15538,11 +14736,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 56,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "17",
           "bucketValue": 17,
@@ -15576,43 +14771,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 15,
           "rawProbability": 0.07,
           "probability": 0.07,
-          "count": 0.75
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 5.15
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.56
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.49
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.04
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.08,
-          "probability": 0.08,
           "count": 0.75
         }
       ]
@@ -15654,11 +14812,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "25",
           "bucketValue": 25,
@@ -15693,29 +14848,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.05,
           "probability": 0.05,
           "count": 0.5
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 5.63
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 3.15
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.22
         }
       ]
     },
@@ -15756,11 +14888,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "12",
           "bucketValue": 12,
@@ -15795,43 +14924,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.08,
           "probability": 0.08,
           "count": 0.9
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 4.03
-        },
-        {
-          "bucket": "10",
-          "bucketValue": 10,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.33
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.15
-        },
-        {
-          "bucket": "9",
-          "bucketValue": 9,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.97
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.52
         }
       ]
     },
@@ -15873,10 +14965,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -15946,10 +15034,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -16018,11 +15102,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 81,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "13",
           "bucketValue": 13,
@@ -16057,36 +15138,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.05,
           "probability": 0.05,
           "count": 0.5
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 5.65
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.7
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.9
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.75
         }
       ]
     },
@@ -16127,11 +15178,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 78,
       "citySampleSize": 78,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "20",
           "bucketValue": 20,
@@ -16166,43 +15214,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.9
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 3.72
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.13
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.63
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.45
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.07
         }
       ]
     },
@@ -16244,10 +15255,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 77,
       "modelLevel": "city-time",
       "modelSampleSize": 10,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "25",
@@ -16324,10 +15331,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "60-61",
@@ -16390,10 +15393,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 59,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -16463,10 +15462,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "74-75",
@@ -16529,10 +15524,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 0,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -16573,10 +15564,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "92",
@@ -16653,10 +15640,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 38,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "68-69",
@@ -16719,10 +15702,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -16799,10 +15778,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -16872,10 +15847,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 67,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "19",
@@ -16952,10 +15923,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 29,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
@@ -17011,10 +15978,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 25,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "33",
@@ -17090,11 +16053,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 44,
       "citySampleSize": 65,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "26",
           "bucketValue": 26,
@@ -17129,43 +16089,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 1.01
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 5.49
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.46
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.22
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.01
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.82
         }
       ]
     },
@@ -17207,10 +16130,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -17279,11 +16198,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 51,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "15",
           "bucketValue": 15,
@@ -17318,36 +16234,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.99
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 3.57
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 3.2
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.7
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.53
         }
       ]
     },
@@ -17388,11 +16274,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 74,
       "citySampleSize": 74,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "32",
           "bucketValue": 32,
@@ -17426,43 +16309,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 31,
           "rawProbability": 0.08,
           "probability": 0.08,
-          "count": 0.88
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 3.08
-        },
-        {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 2.62
-        },
-        {
-          "bucket": "34",
-          "bucketValue": 34,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.57
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.36
-        },
-        {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.09,
-          "probability": 0.09,
           "count": 0.88
         }
       ]
@@ -17504,11 +16350,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 24,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "16",
           "bucketValue": 16,
@@ -17543,43 +16386,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.05,
           "probability": 0.05,
           "count": 0.5
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 4.63
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.51
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.5
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.36
         }
       ]
     },
@@ -17620,11 +16426,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "24",
           "bucketValue": 24,
@@ -17658,36 +16461,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 26,
           "rawProbability": 0.06,
           "probability": 0.06,
-          "count": 0.66
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 5.63
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 2.76
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.94
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.07,
-          "probability": 0.07,
           "count": 0.66
         }
       ]
@@ -17730,10 +16503,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "11",
@@ -17810,10 +16579,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -17876,10 +16641,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -17949,10 +16710,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "12",
@@ -18028,11 +16785,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 78,
       "citySampleSize": 78,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "20",
           "bucketValue": 20,
@@ -18067,36 +16821,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.08,
           "probability": 0.08,
           "count": 0.82
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.47,
-          "probability": 0.47,
-          "count": 4.27
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.82
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.54
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.36
         }
       ]
     },
@@ -18138,10 +16862,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 77,
       "modelLevel": "city-time",
       "modelSampleSize": 10,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -18218,10 +16938,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "60-61",
@@ -18284,10 +17000,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 59,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -18364,10 +17076,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "74-75",
@@ -18430,10 +17138,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 0,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -18474,10 +17178,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "93",
@@ -18554,10 +17254,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 38,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "68-69",
@@ -18627,10 +17323,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -18707,10 +17399,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -18780,10 +17468,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 67,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "19",
@@ -18860,10 +17544,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 29,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
@@ -18926,10 +17606,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 25,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "33",
@@ -18998,11 +17674,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 44,
       "citySampleSize": 65,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "25",
           "bucketValue": 25,
@@ -19030,43 +17703,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.13,
           "probability": 0.13,
           "count": 1.38
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.5
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 4.89
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.41
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.7
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.5
         },
         {
           "bucket": "27",
@@ -19115,10 +17751,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -19181,10 +17813,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -19260,11 +17888,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 74,
       "citySampleSize": 74,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "32",
           "bucketValue": 32,
@@ -19299,43 +17924,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.14,
           "probability": 0.14,
           "count": 1.51
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 4.06
-        },
-        {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.91
-        },
-        {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.56
-        },
-        {
-          "bucket": "34",
-          "bucketValue": 34,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.51
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.93
         }
       ]
     },
@@ -19376,11 +17964,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 24,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "17",
           "bucketValue": 17,
@@ -19408,36 +17993,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.98
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.54
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.58,
-          "probability": 0.58,
-          "count": 5.75
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 2.02
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.69
         },
         {
           "bucket": "19",
@@ -19486,10 +18041,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -19565,11 +18116,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "12",
           "bucketValue": 12,
@@ -19604,43 +18152,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.11,
           "probability": 0.11,
           "count": 1.16
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 2.99
-        },
-        {
-          "bucket": "10",
-          "bucketValue": 10,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 2.77
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.18
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.16
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.85
         }
       ]
     },
@@ -19682,10 +18193,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -19748,10 +18255,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -19828,10 +18331,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -19900,11 +18399,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 78,
       "citySampleSize": 78,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "20",
           "bucketValue": 20,
@@ -19939,36 +18435,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.07,
           "probability": 0.07,
           "count": 0.82
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 6.05
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.68
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.24
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.03
         }
       ]
     },
@@ -20010,10 +18476,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 77,
       "modelLevel": "city-time",
       "modelSampleSize": 10,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -20090,10 +18552,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -20156,10 +18614,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 59,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -20229,10 +18683,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "72-73",
@@ -20302,10 +18752,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 0,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -20346,10 +18792,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 10,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "90",
@@ -20426,10 +18868,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 38,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "68-69",
@@ -20499,10 +18937,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 10,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -20579,10 +19013,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 10,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -20645,10 +19075,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 67,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -20718,10 +19144,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 29,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
@@ -20777,10 +19199,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 25,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -20857,10 +19275,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 65,
       "modelLevel": "city-time",
       "modelSampleSize": 3,
-      "modelOriginalSampleSize": 3,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -20923,10 +19337,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "20",
@@ -20996,10 +19406,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -21068,11 +19474,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 74,
       "citySampleSize": 74,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "32",
           "bucketValue": 32,
@@ -21107,43 +19510,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.11,
           "probability": 0.11,
           "count": 1.06
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.51,
-          "probability": 0.51,
-          "count": 4.6
-        },
-        {
-          "bucket": "34",
-          "bucketValue": 34,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.41
-        },
-        {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.34
-        },
-        {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.06
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.59
         }
       ]
     },
@@ -21184,11 +19550,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 56,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "17",
           "bucketValue": 17,
@@ -21223,43 +19586,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.04,
           "probability": 0.04,
           "count": 0.42
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 4.24
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 3.13
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.14
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.29
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.2
         }
       ]
     },
@@ -21300,11 +19626,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "24",
           "bucketValue": 24,
@@ -21339,29 +19662,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.02,
           "probability": 0.02,
           "count": 0.18
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.54,
-          "probability": 0.54,
-          "count": 5.42
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 3.62
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.96
         }
       ]
     },
@@ -21402,11 +19702,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "11",
           "bucketValue": 11,
@@ -21441,43 +19738,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 1.01
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3.02
-        },
-        {
-          "bucket": "10",
-          "bucketValue": 10,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.41
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.3
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.49
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.61
         }
       ]
     },
@@ -21519,10 +19779,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -21585,10 +19841,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -21665,10 +19917,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -21744,11 +19992,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 78,
       "citySampleSize": 78,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "20",
           "bucketValue": 20,
@@ -21783,36 +20028,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.07,
           "probability": 0.07,
           "count": 0.82
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.63,
-          "probability": 0.63,
-          "count": 6.25
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.44
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.3
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1
         }
       ]
     },
@@ -21854,10 +20069,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 77,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -21934,10 +20145,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -22000,10 +20207,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 59,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "66-67",
@@ -22080,10 +20283,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "72-73",
@@ -22146,10 +20345,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 0,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -22189,11 +20384,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 37,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "90",
           "bucketValue": 90,
@@ -22228,43 +20420,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.05,
           "probability": 0.05,
           "count": 0.47
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "90",
-          "bucketValue": 90,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 3.73
-        },
-        {
-          "bucket": "89",
-          "bucketValue": 89,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2.6
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.09
-        },
-        {
-          "bucket": "92",
-          "bucketValue": 92,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.38
-        },
-        {
-          "bucket": "88",
-          "bucketValue": 88,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.2
         }
       ]
     },
@@ -22306,10 +20461,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 38,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "68-69",
@@ -22386,10 +20537,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -22445,10 +20592,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "25",
@@ -22504,10 +20647,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 67,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "19",
@@ -22584,10 +20723,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 29,
       "modelLevel": "city-time",
       "modelSampleSize": 2,
-      "modelOriginalSampleSize": 2,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -22657,10 +20792,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 25,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "31",
@@ -22716,10 +20847,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 65,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -22768,10 +20895,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -22841,10 +20964,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -22914,10 +21033,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 74,
       "modelLevel": "city-time",
       "modelSampleSize": 3,
-      "modelOriginalSampleSize": 3,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -22986,11 +21101,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 56,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "17",
           "bucketValue": 17,
@@ -23025,36 +21137,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.07,
           "probability": 0.07,
           "count": 0.74
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.51,
-          "probability": 0.51,
-          "count": 5.11
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.68
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.6
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.59
         }
       ]
     },
@@ -23096,10 +21178,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -23161,11 +21239,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "12",
           "bucketValue": 12,
@@ -23200,36 +21275,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.07,
           "probability": 0.07,
           "count": 0.74
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 3.92
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 3.53
-        },
-        {
-          "bucket": "10",
-          "bucketValue": 10,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.47
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.08
         }
       ]
     },
@@ -23271,10 +21316,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -23344,10 +21385,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -23410,10 +21447,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -23489,11 +21522,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 78,
       "citySampleSize": 78,
       "modelLevel": "city-time",
-      "modelSampleSize": 10,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 11,
+      "probabilities": [
         {
           "bucket": "20",
           "bucketValue": 20,
@@ -23528,36 +21558,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 1.02
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 5.52
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.3
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.12
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.04
         }
       ]
     },
@@ -23599,10 +21599,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 77,
       "modelLevel": "city-time",
       "modelSampleSize": 11,
-      "modelOriginalSampleSize": 11,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -23679,10 +21675,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -23745,10 +21737,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 59,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -23818,10 +21806,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "74-75",
@@ -23884,10 +21868,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 0,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -23927,11 +21907,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 37,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "90",
           "bucketValue": 90,
@@ -23966,43 +21943,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.05,
           "probability": 0.05,
           "count": 0.47
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "90",
-          "bucketValue": 90,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 3.53
-        },
-        {
-          "bucket": "89",
-          "bucketValue": 89,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2.6
-        },
-        {
-          "bucket": "91",
-          "bucketValue": 91,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.49
-        },
-        {
-          "bucket": "92",
-          "bucketValue": 92,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.18
-        },
-        {
-          "bucket": "88",
-          "bucketValue": 88,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.2
         }
       ]
     },
@@ -24044,10 +21984,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 38,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "70-71",
@@ -24124,10 +22060,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -24168,10 +22100,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -24212,10 +22140,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 67,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "19",
@@ -24285,10 +22209,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 29,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -24329,11 +22249,378 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 25,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
+    },
+    {
+      "date": "2026-05-09",
+      "timeNode": "22点到23点",
+      "expectedField": "NYC预计",
+      "predicted": 63,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 3,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 3,
+      "momentumRecentDelta": 1,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 60,
+      "baselineDelta": 3,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 1.57,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 3,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 11,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 6,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 6,
+      "trendSampleSize": 50,
+      "citySampleSize": 50,
+      "modelLevel": "city-time",
+      "modelSampleSize": 6,
+      "probabilities": [
+        {
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.92,
+          "probability": 0.92,
+          "count": 5.5
+        },
+        {
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.08,
+          "probability": 0.08,
+          "count": 0.5
+        }
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "timeNode": "22点到23点",
+      "expectedField": "San预计",
+      "predicted": 63,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": -1,
+      "momentumSignal": "recent_flat",
+      "momentumFirstDelta": -1,
+      "momentumRecentDelta": -0.5,
+      "momentumThreshold": 0.5,
+      "momentumThresholdScore": 0.25,
+      "momentumThresholdUsable": 4,
+      "baselinePredicted": 64,
+      "baselineDelta": -1,
+      "baselineBand": "<= -0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 1.1,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 2,
+      "baselineCitySampleSize": 14,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 1,
+      "correctionRegimeHighRate": 1,
+      "correctionLowMean": -0.2,
+      "correctionHighMean": 2.34,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 6,
+      "momentumSampleSize": 1,
+      "timeSampleSize": 7,
+      "trendSampleSize": 56,
+      "citySampleSize": 59,
+      "modelLevel": "city-time",
+      "modelSampleSize": 7,
+      "probabilities": [
+        {
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.69,
+          "probability": 0.69,
+          "count": 4.82
+        },
+        {
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1
+        },
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.8
+        },
+        {
+          "bucket": "66-67",
+          "bucketValue": 66,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.38
+        }
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "timeNode": "22点到23点",
+      "expectedField": "chicago预计",
+      "predicted": 71,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "first_flat",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": -0.5,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 71,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.67,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 20,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 2,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 7,
+      "trendSampleSize": 39,
+      "citySampleSize": 64,
+      "modelLevel": "city-time",
+      "modelSampleSize": 7,
+      "probabilities": [
+        {
+          "bucket": "72-73",
+          "bucketValue": 72,
+          "rawProbability": 0.57,
+          "probability": 0.57,
+          "count": 4
+        },
+        {
+          "bucket": "70-71",
+          "bucketValue": 70,
+          "rawProbability": 0.29,
+          "probability": 0.29,
+          "count": 2
+        },
+        {
+          "bucket": "76-77",
+          "bucketValue": 76,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "timeNode": "22点到23点",
+      "expectedField": "dallas预计",
+      "predicted": 86,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "first_flat",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": 0.5,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": null,
+      "baselineDelta": null,
+      "baselineBand": "",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": null,
+      "baselineBandMinSpread": null,
+      "baselineUsableBandCount": 0,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 0,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 0,
+      "trendSampleSize": 0,
+      "citySampleSize": 0,
+      "modelLevel": "none",
+      "modelSampleSize": 0,
+      "probabilities": []
+    },
+    {
+      "date": "2026-05-09",
+      "timeNode": "22点到23点",
+      "expectedField": "miami本土预计",
+      "predicted": 91,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 1,
+      "momentumThresholdScore": 0.25,
+      "momentumThresholdUsable": 8,
+      "baselinePredicted": 91,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.08,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 19,
+      "correctionRegime": "low",
+      "correctionRegimeN": 5,
+      "correctionRegimeHighRate": 0.2,
+      "correctionLowMean": -0.8,
+      "correctionHighMean": 1.03,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 2,
+      "momentumSampleSize": 5,
+      "timeSampleSize": 8,
+      "trendSampleSize": 37,
+      "citySampleSize": 81,
+      "modelLevel": "city-time",
+      "modelSampleSize": 8,
+      "probabilities": [
+        {
+          "bucket": "90",
+          "bucketValue": 90,
+          "rawProbability": 0.37,
+          "probability": 0.37,
+          "count": 2.93
+        },
+        {
+          "bucket": "91",
+          "bucketValue": 91,
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 1.89
+        },
+        {
+          "bucket": "89",
+          "bucketValue": 89,
+          "rawProbability": 0.23,
+          "probability": 0.23,
+          "count": 1.8
+        },
+        {
+          "bucket": "92",
+          "bucketValue": 92,
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.91
+        },
+        {
+          "bucket": "93",
+          "bucketValue": 93,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.47
+        }
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "timeNode": "22点到23点",
+      "expectedField": "seattle预计",
+      "predicted": 69,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 69,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 1,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 2,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 2,
+      "momentumSampleSize": 1,
+      "timeSampleSize": 5,
+      "trendSampleSize": 14,
+      "citySampleSize": 38,
+      "modelLevel": "city-time",
+      "modelSampleSize": 5,
+      "probabilities": [
+        {
+          "bucket": "68-69",
+          "bucketValue": 68,
+          "rawProbability": 0.4,
+          "probability": 0.4,
+          "count": 2
+        },
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 1
+        },
+        {
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 1
+        },
+        {
+          "bucket": "70-71",
+          "bucketValue": 70,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 1
+        }
+      ]
     },
     {
       "date": "2026-05-10",
@@ -24373,10 +22660,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 65,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -24432,10 +22715,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -24484,10 +22763,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "12",
@@ -24543,10 +22818,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 74,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "34",
@@ -24602,10 +22873,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -24661,10 +22928,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -24720,10 +22983,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -24779,10 +23038,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -24838,10 +23093,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "26",
@@ -24897,10 +23148,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -24949,10 +23196,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 78,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -25001,10 +23244,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 77,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "16",
@@ -25060,10 +23299,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -25119,10 +23354,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -25178,10 +23409,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 67,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -25237,10 +23464,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 29,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -25289,10 +23512,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 25,
       "modelLevel": "city-time",
       "modelSampleSize": 1,
-      "modelOriginalSampleSize": 1,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -25348,10 +23567,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 65,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -25428,10 +23643,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -25494,10 +23705,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -25574,10 +23781,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 74,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -25654,10 +23857,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "16",
@@ -25734,10 +23933,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "17",
@@ -25814,10 +24009,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -25894,10 +24085,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -25974,10 +24161,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -26047,10 +24230,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -26127,10 +24306,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 78,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "14",
@@ -26207,10 +24382,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 77,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -26287,10 +24458,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "70-71",
@@ -26346,10 +24513,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 59,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -26419,10 +24582,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -26485,10 +24644,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 0,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -26529,10 +24684,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "92",
@@ -26609,10 +24760,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 38,
       "modelLevel": "city-time",
       "modelSampleSize": 3,
-      "modelOriginalSampleSize": 3,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "62-63",
@@ -26668,10 +24815,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -26748,10 +24891,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -26821,10 +24960,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 67,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "17",
@@ -26894,10 +25029,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 29,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -26960,10 +25091,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 25,
       "modelLevel": "city-time",
       "modelSampleSize": 3,
-      "modelOriginalSampleSize": 3,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "33",
@@ -27033,10 +25160,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 65,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -27113,10 +25236,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "22",
@@ -27179,10 +25298,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -27259,10 +25374,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 74,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -27332,10 +25443,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "16",
@@ -27412,10 +25519,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "16",
@@ -27492,10 +25595,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -27572,10 +25671,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -27645,10 +25740,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -27718,10 +25809,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -27791,10 +25878,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 78,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "13",
@@ -27871,10 +25954,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 77,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "18",
@@ -27951,10 +26030,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "70-71",
@@ -28024,10 +26099,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 59,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -28097,10 +26168,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -28163,10 +26230,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 0,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -28207,10 +26270,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "90",
@@ -28287,10 +26346,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 38,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "54-55",
@@ -28346,10 +26401,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time-baseline-band",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -28426,10 +26477,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -28499,10 +26546,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 67,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -28579,10 +26622,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 29,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -28645,10 +26684,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 25,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "34",
@@ -28724,11 +26759,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 21,
       "citySampleSize": 65,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "28",
           "bucketValue": 28,
@@ -28763,36 +26795,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.93
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "28",
-          "bucketValue": 28,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 4.06
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.77
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.66
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.5
         }
       ]
     },
@@ -28834,10 +26836,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 10,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "21",
@@ -28907,10 +26905,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 10,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -28986,11 +26980,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 74,
       "citySampleSize": 74,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "33",
           "bucketValue": 33,
@@ -29025,43 +27016,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.92
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2.94
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.42
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.16
-        },
-        {
-          "bucket": "34",
-          "bucketValue": 34,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.25
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.23
         }
       ]
     },
@@ -29102,11 +27056,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 56,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "16",
           "bucketValue": 16,
@@ -29141,43 +27092,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.94
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 2.75
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 2.25
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.9
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.45
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.66
         }
       ]
     },
@@ -29218,11 +27132,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 80,
       "citySampleSize": 80,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "13",
           "bucketValue": 13,
@@ -29256,43 +27167,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 10,
           "rawProbability": 0.1,
           "probability": 0.1,
-          "count": 1
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 3.24
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.74
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.72
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.3
-        },
-        {
-          "bucket": "10",
-          "bucketValue": 10,
-          "rawProbability": 0.11,
-          "probability": 0.11,
           "count": 1
         }
       ]
@@ -29335,10 +27209,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 10,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "23",
@@ -29408,10 +27278,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 80,
       "modelLevel": "city-time",
       "modelSampleSize": 10,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 0,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "27",
@@ -29480,11 +27346,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 81,
       "citySampleSize": 81,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "19",
           "bucketValue": 19,
@@ -29519,36 +27382,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.01,
           "probability": 0.01,
           "count": 0.14
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.64,
-          "probability": 0.64,
-          "count": 5.74
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.98
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.16
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.12
         }
       ]
     },
@@ -29589,11 +27422,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 78,
       "citySampleSize": 78,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "14",
           "bucketValue": 14,
@@ -29628,43 +27458,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.07,
           "probability": 0.07,
           "count": 0.72
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 3.41
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 2.5
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.35
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.25
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.47
         }
       ]
     },
@@ -29705,11 +27498,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendSampleSize": 77,
       "citySampleSize": 77,
       "modelLevel": "city-time",
-      "modelSampleSize": 9,
-      "modelOriginalSampleSize": 10,
-      "outlierDropped": 1,
-      "outlierThreshold": 2,
-      "unfilteredProbabilities": [
+      "modelSampleSize": 10,
+      "probabilities": [
         {
           "bucket": "19",
           "bucketValue": 19,
@@ -29744,43 +27534,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.09,
           "probability": 0.09,
           "count": 0.94
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 3.94
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 2.86
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.12
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.98
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.1
         }
       ]
     },
@@ -29822,10 +27575,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 50,
       "modelLevel": "city-time",
       "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "68-69",
@@ -29895,10 +27644,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 59,
       "modelLevel": "city-time",
       "modelSampleSize": 6,
-      "modelOriginalSampleSize": 6,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -29975,10 +27720,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 64,
       "modelLevel": "city-time",
       "modelSampleSize": 7,
-      "modelOriginalSampleSize": 7,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "64-65",
@@ -30041,10 +27782,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 0,
       "modelLevel": "none",
       "modelSampleSize": 0,
-      "modelOriginalSampleSize": 0,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": []
     },
     {
@@ -30085,10 +27822,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 81,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "90",
@@ -30165,10 +27898,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 38,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "54-55",
@@ -30224,10 +27953,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -30304,10 +28029,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 56,
       "modelLevel": "city-time",
       "modelSampleSize": 9,
-      "modelOriginalSampleSize": 9,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "24",
@@ -30377,10 +28098,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 67,
       "modelLevel": "city-time",
       "modelSampleSize": 8,
-      "modelOriginalSampleSize": 8,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "15",
@@ -30450,10 +28167,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 29,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "32",
@@ -30509,10 +28222,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "citySampleSize": 25,
       "modelLevel": "city-time",
       "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
       "probabilities": [
         {
           "bucket": "34",
@@ -30550,331 +28259,1609 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "count": 0.34
         }
       ]
-    }
-  ],
-  "openMarketCandidates": [
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "telaviv预计",
-      "predicted": 27.45,
-      "unit": "C",
-      "adjustedForSettlement": 27.9,
-      "buyBuckets": [
-        "28",
-        "27"
-      ],
-      "estimatedTop1HitRate": 0.49,
-      "estimatedTop2HitRate": 0.94
     },
     {
       "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "warsaw预计",
-      "predicted": 17.96,
-      "unit": "C",
-      "adjustedForSettlement": 18.16,
-      "buyBuckets": [
-        "18",
-        "19"
-      ],
-      "estimatedTop1HitRate": 0.6,
-      "estimatedTop2HitRate": 0.75
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "london预计",
-      "predicted": 14.45,
-      "unit": "C",
-      "adjustedForSettlement": 14.55,
-      "buyBuckets": [
-        "15",
-        "14"
-      ],
-      "estimatedTop1HitRate": 0.4,
-      "estimatedTop2HitRate": 0.62
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "paris预计",
-      "predicted": 18.38,
-      "unit": "C",
-      "adjustedForSettlement": 19.48,
-      "buyBuckets": [
-        "19",
-        "20"
-      ],
-      "estimatedTop1HitRate": 0.35,
-      "estimatedTop2HitRate": 0.65
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "NYC预计",
-      "predicted": 69,
-      "unit": "F",
-      "adjustedForSettlement": 70.6,
-      "buyBuckets": [
-        "70-71",
-        "72-73"
-      ],
-      "estimatedTop1HitRate": 0.44,
-      "estimatedTop2HitRate": 0.78
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "San预计",
-      "predicted": 63,
-      "unit": "F",
-      "adjustedForSettlement": 65.4,
-      "buyBuckets": [
-        "64-65",
-        "66-67"
-      ],
-      "estimatedTop1HitRate": 0.22,
-      "estimatedTop2HitRate": 0.32
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "chicago预计",
-      "predicted": 62,
-      "unit": "F",
-      "adjustedForSettlement": 64.6,
-      "buyBuckets": [
-        "64-65",
-        "66-67"
-      ],
-      "estimatedTop1HitRate": 0.19,
-      "estimatedTop2HitRate": 0.42
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "dallas预计",
-      "predicted": 77,
-      "unit": "F",
-      "adjustedForSettlement": 77,
-      "buyBuckets": [
-        "76-77",
-        "78-79"
-      ],
-      "estimatedTop1HitRate": null,
-      "estimatedTop2HitRate": null
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "miami本土预计",
-      "predicted": 91,
-      "unit": "C",
-      "adjustedForSettlement": 91.2,
-      "buyBuckets": [
-        "91",
-        "92"
-      ],
-      "estimatedTop1HitRate": 0.2,
-      "estimatedTop2HitRate": 0.42
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "seattle预计",
-      "predicted": 64,
-      "unit": "F",
-      "adjustedForSettlement": 63.6,
-      "buyBuckets": [
-        "62-63",
-        "64-65"
-      ],
-      "estimatedTop1HitRate": 0.42,
-      "estimatedTop2HitRate": 0.55
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "shanghai预计",
-      "predicted": 22.88,
-      "unit": "C",
-      "adjustedForSettlement": 24.18,
-      "buyBuckets": [
-        "24",
-        "25"
-      ],
-      "estimatedTop1HitRate": 0.21,
-      "estimatedTop2HitRate": 0.57
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "toyko预计",
-      "predicted": 22.6,
-      "unit": "C",
-      "adjustedForSettlement": 24.26,
-      "buyBuckets": [
-        "24",
-        "25"
-      ],
-      "estimatedTop1HitRate": 0.23,
-      "estimatedTop2HitRate": 0.45
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "amsterdam预计",
-      "predicted": 15.23,
-      "unit": "C",
-      "adjustedForSettlement": 15.63,
-      "buyBuckets": [
-        "16",
-        "15"
-      ],
-      "estimatedTop1HitRate": 0.55,
-      "estimatedTop2HitRate": 0.7
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "singa预计",
-      "predicted": 31.84,
-      "unit": "C",
-      "adjustedForSettlement": 32.74,
-      "buyBuckets": [
-        "33",
-        "32"
-      ],
-      "estimatedTop1HitRate": 0.41,
-      "estimatedTop2HitRate": 0.83
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨10点到11点",
-      "expectedField": "jakarta预计",
-      "predicted": 33.6,
-      "unit": "C",
-      "adjustedForSettlement": 33.9,
-      "buyBuckets": [
-        "34",
-        "33"
-      ],
-      "estimatedTop1HitRate": 0.44,
-      "estimatedTop2HitRate": 0.64
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨14点到15点",
+      "timeNode": "昨22点到23点",
       "expectedField": "HK预计",
-      "predicted": 26.4,
+      "predicted": 26.29,
       "unit": "C",
-      "adjustedForSettlement": 27.6,
-      "buyBuckets": [
-        "28",
-        "27"
-      ],
-      "estimatedTop1HitRate": 0.32,
-      "estimatedTop2HitRate": 0.52
+      "totalTrend": "flat",
+      "totalDelta": -0.05,
+      "momentumSignal": "double_down",
+      "momentumFirstDelta": -0.05,
+      "momentumRecentDelta": -0.33,
+      "momentumThreshold": 0,
+      "momentumThresholdScore": 0.25,
+      "momentumThresholdUsable": 4,
+      "baselinePredicted": 26.34,
+      "baselineDelta": -0.05,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 0.81,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 3,
+      "baselineCityTimeSampleSize": 4,
+      "baselineCitySampleSize": 19,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 2,
+      "correctionRegimeHighRate": 0.5,
+      "correctionLowMean": -0.52,
+      "correctionHighMean": 1.68,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 9,
+      "momentumSampleSize": 2,
+      "timeSampleSize": 11,
+      "trendSampleSize": 44,
+      "citySampleSize": 65,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "probabilities": [
+        {
+          "bucket": "28",
+          "bucketValue": 28,
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 4.72
+        },
+        {
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 2.68
+        },
+        {
+          "bucket": "26",
+          "bucketValue": 26,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.59
+        },
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 1.05
+        },
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.52
+        }
+      ]
     },
     {
       "date": "2026-05-10",
-      "timeNode": "昨14点到15点",
+      "timeNode": "昨22点到23点",
       "expectedField": "ankara预计",
-      "predicted": 20.73,
+      "predicted": 21.21,
       "unit": "C",
-      "adjustedForSettlement": 21.93,
-      "buyBuckets": [
-        "22",
-        "21"
-      ],
-      "estimatedTop1HitRate": 0.24,
-      "estimatedTop2HitRate": 0.56
+      "totalTrend": "up",
+      "totalDelta": 0.45,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 0.45,
+      "momentumRecentDelta": 0.48,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 20.73,
+      "baselineDelta": 0.48,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.67,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 3,
+      "baselineCitySampleSize": 13,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 20,
+      "trendSignalRate": 1,
+      "exactSampleSize": 2,
+      "momentumSampleSize": 2,
+      "timeSampleSize": 11,
+      "trendSampleSize": 13,
+      "citySampleSize": 80,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "probabilities": [
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.57,
+          "probability": 0.57,
+          "count": 6.31
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 2.65
+        },
+        {
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 2.04
+        }
+      ]
     },
     {
       "date": "2026-05-10",
-      "timeNode": "昨14点到15点",
+      "timeNode": "昨22点到23点",
       "expectedField": "helsink预计",
-      "predicted": 13.38,
+      "predicted": 13.45,
       "unit": "C",
-      "adjustedForSettlement": 14.43,
-      "buyBuckets": [
-        "14",
-        "15"
-      ],
-      "estimatedTop1HitRate": 0.4,
-      "estimatedTop2HitRate": 0.6
+      "totalTrend": "up",
+      "totalDelta": 0.44,
+      "momentumSignal": "recent_flat",
+      "momentumFirstDelta": 0.44,
+      "momentumRecentDelta": 0.06,
+      "momentumThreshold": 0.15,
+      "momentumThresholdScore": 0.36,
+      "momentumThresholdUsable": 7,
+      "baselinePredicted": 13.01,
+      "baselineDelta": 0.44,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.06,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 13,
+      "correctionRegime": "high",
+      "correctionRegimeN": 4,
+      "correctionRegimeHighRate": 0.75,
+      "correctionLowMean": 0.48,
+      "correctionHighMean": 2.6,
+      "trendThreshold": 0.1,
+      "trendSignalN": 77,
+      "trendSignalRate": 0.69,
+      "exactSampleSize": 4,
+      "momentumSampleSize": 4,
+      "timeSampleSize": 11,
+      "trendSampleSize": 29,
+      "citySampleSize": 80,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "probabilities": [
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.38,
+          "probability": 0.38,
+          "count": 4.16
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 2.68
+        },
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.7
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 1.14
+        },
+        {
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 1.04
+        }
+      ]
     },
     {
       "date": "2026-05-10",
-      "timeNode": "昨14点到15点",
+      "timeNode": "昨22点到23点",
       "expectedField": "lucknow预计",
-      "predicted": 34.12,
+      "predicted": 34.44,
       "unit": "C",
-      "adjustedForSettlement": 33.62,
-      "buyBuckets": [
-        "34",
-        "33"
-      ],
-      "estimatedTop1HitRate": 0.11,
-      "estimatedTop2HitRate": 0.3
+      "totalTrend": "flat",
+      "totalDelta": 0.32,
+      "momentumSignal": "recent_flat",
+      "momentumFirstDelta": 0.32,
+      "momentumRecentDelta": 0.08,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": 0.25,
+      "momentumThresholdUsable": 4,
+      "baselinePredicted": 34.12,
+      "baselineDelta": 0.32,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.51,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 3,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 2,
+      "correctionRegimeHighRate": 0.5,
+      "correctionLowMean": -1.1,
+      "correctionHighMean": 0.94,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 11,
+      "momentumSampleSize": 2,
+      "timeSampleSize": 11,
+      "trendSampleSize": 74,
+      "citySampleSize": 74,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "probabilities": [
+        {
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.27,
+          "probability": 0.27,
+          "count": 2.97
+        },
+        {
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 2.64
+        },
+        {
+          "bucket": "32",
+          "bucketValue": 32,
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 2.39
+        },
+        {
+          "bucket": "35",
+          "bucketValue": 35,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 1.43
+        },
+        {
+          "bucket": "38",
+          "bucketValue": 38,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.95
+        }
+      ]
     },
     {
       "date": "2026-05-10",
-      "timeNode": "昨14点到15点",
+      "timeNode": "昨22点到23点",
       "expectedField": "madrid预计",
       "predicted": 15.6,
       "unit": "C",
-      "adjustedForSettlement": 16.1,
-      "buyBuckets": [
-        "16",
-        "17"
-      ],
-      "estimatedTop1HitRate": 0.41,
-      "estimatedTop2HitRate": 0.64
+      "totalTrend": "flat",
+      "totalDelta": 0.2,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0.2,
+      "momentumRecentDelta": 0.11,
+      "momentumThreshold": 0.2,
+      "momentumThresholdScore": 0.25,
+      "momentumThresholdUsable": 4,
+      "baselinePredicted": 15.49,
+      "baselineDelta": 0.11,
+      "baselineBand": "+0.1 到 +0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.48,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 5,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 9,
+      "correctionRegime": "high",
+      "correctionRegimeN": 4,
+      "correctionRegimeHighRate": 0.75,
+      "correctionLowMean": -0.56,
+      "correctionHighMean": 1.32,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 9,
+      "momentumSampleSize": 4,
+      "timeSampleSize": 11,
+      "trendSampleSize": 56,
+      "citySampleSize": 80,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "probabilities": [
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 3.57
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.27,
+          "probability": 0.27,
+          "count": 2.93
+        },
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.18,
+          "probability": 0.18,
+          "count": 1.96
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.49
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 1
+        }
+      ]
     },
     {
       "date": "2026-05-10",
-      "timeNode": "昨14点到15点",
+      "timeNode": "昨22点到23点",
       "expectedField": "milan预计",
-      "predicted": 16.49,
+      "predicted": 16.6,
       "unit": "C",
-      "adjustedForSettlement": 17.06,
-      "buyBuckets": [
-        "17",
-        "18"
-      ],
-      "estimatedTop1HitRate": 0.54,
-      "estimatedTop2HitRate": 0.74
+      "totalTrend": "flat",
+      "totalDelta": 0.11,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 0.11,
+      "momentumRecentDelta": 0.11,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 16.49,
+      "baselineDelta": 0.11,
+      "baselineBand": "+0.1 到 +0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.6,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 5,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 6,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 11,
+      "momentumSampleSize": 2,
+      "timeSampleSize": 11,
+      "trendSampleSize": 80,
+      "citySampleSize": 80,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "probabilities": [
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.51,
+          "probability": 0.51,
+          "count": 5.63
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.29,
+          "probability": 0.29,
+          "count": 3.15
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 1.22
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.5
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.5
+        }
+      ]
     },
     {
       "date": "2026-05-10",
-      "timeNode": "昨14点到15点",
+      "timeNode": "昨22点到23点",
       "expectedField": "moscow预计",
-      "predicted": 12.6,
+      "predicted": 12.32,
       "unit": "C",
-      "adjustedForSettlement": 13.5,
-      "buyBuckets": [
-        "13",
-        "14"
-      ],
-      "estimatedTop1HitRate": 0.26,
-      "estimatedTop2HitRate": 0.5
+      "totalTrend": "flat",
+      "totalDelta": -0.69,
+      "momentumSignal": "recent_flat",
+      "momentumFirstDelta": -0.69,
+      "momentumRecentDelta": -0.2,
+      "momentumThreshold": 0.4,
+      "momentumThresholdScore": 0.25,
+      "momentumThresholdUsable": 4,
+      "baselinePredicted": 13.01,
+      "baselineDelta": -0.69,
+      "baselineBand": "<= -0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 2.24,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 5,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 5,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 1,
+      "correctionRegimeHighRate": 1,
+      "correctionLowMean": 0.53,
+      "correctionHighMean": 1.76,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 11,
+      "momentumSampleSize": 1,
+      "timeSampleSize": 11,
+      "trendSampleSize": 80,
+      "citySampleSize": 80,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "probabilities": [
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.37,
+          "probability": 0.37,
+          "count": 4.06
+        },
+        {
+          "bucket": "11",
+          "bucketValue": 11,
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 2.42
+        },
+        {
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 2.1
+        },
+        {
+          "bucket": "10",
+          "bucketValue": 10,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.98
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.08,
+          "probability": 0.08,
+          "count": 0.85
+        }
+      ]
     },
     {
       "date": "2026-05-10",
-      "timeNode": "昨14点到15点",
+      "timeNode": "昨22点到23点",
       "expectedField": "munich预计",
-      "predicted": 22.6,
+      "predicted": 22.96,
       "unit": "C",
-      "adjustedForSettlement": 23.3,
-      "buyBuckets": [
-        "23",
-        "24"
-      ],
-      "estimatedTop1HitRate": 0.6,
-      "estimatedTop2HitRate": 0.83
+      "totalTrend": "flat",
+      "totalDelta": 0.36,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0.36,
+      "momentumRecentDelta": 0.36,
+      "momentumThreshold": 1,
+      "momentumThresholdScore": 0.33,
+      "momentumThresholdUsable": 6,
+      "baselinePredicted": 22.6,
+      "baselineDelta": 0.36,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.45,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 3,
+      "baselineCityTimeSampleSize": 3,
+      "baselineCitySampleSize": 23,
+      "correctionRegime": "low",
+      "correctionRegimeN": 6,
+      "correctionRegimeHighRate": 0.17,
+      "correctionLowMean": 0.6,
+      "correctionHighMean": 2.15,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 11,
+      "momentumSampleSize": 6,
+      "timeSampleSize": 11,
+      "trendSampleSize": 80,
+      "citySampleSize": 80,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "probabilities": [
+        {
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 6.52
+        },
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.21,
+          "probability": 0.21,
+          "count": 2.29
+        },
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.33
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.08,
+          "probability": 0.08,
+          "count": 0.86
+        }
+      ]
     },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "telaviv预计",
+      "predicted": 27.45,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": -0.15,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": -0.15,
+      "momentumRecentDelta": -0.07,
+      "momentumThreshold": 0.25,
+      "momentumThresholdScore": 0.17,
+      "momentumThresholdUsable": 6,
+      "baselinePredicted": 27.45,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.02,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 4,
+      "baselineCitySampleSize": 23,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 6,
+      "correctionRegimeHighRate": 0.33,
+      "correctionLowMean": -0.07,
+      "correctionHighMean": 1.11,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 10,
+      "momentumSampleSize": 6,
+      "timeSampleSize": 11,
+      "trendSampleSize": 61,
+      "citySampleSize": 80,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "probabilities": [
+        {
+          "bucket": "28",
+          "bucketValue": 28,
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 5.1
+        },
+        {
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 4.56
+        },
+        {
+          "bucket": "26",
+          "bucketValue": 26,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.72
+        },
+        {
+          "bucket": "29",
+          "bucketValue": 29,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.62
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "warsaw预计",
+      "predicted": 19.43,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 1.27,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 1.27,
+      "momentumRecentDelta": 0.71,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": 0.5,
+      "momentumThresholdUsable": 3,
+      "baselinePredicted": 17.96,
+      "baselineDelta": 1.47,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.73,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 5,
+      "baselineCityTimeSampleSize": 2,
+      "baselineCitySampleSize": 12,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 1,
+      "correctionRegimeHighRate": 0,
+      "correctionLowMean": -1.68,
+      "correctionHighMean": 0.57,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 11,
+      "momentumSampleSize": 1,
+      "timeSampleSize": 11,
+      "trendSampleSize": 81,
+      "citySampleSize": 81,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "probabilities": [
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.6,
+          "probability": 0.6,
+          "count": 6.55
+        },
+        {
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.78
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 1
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.74
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.67
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "london预计",
+      "predicted": 14.82,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 0.38,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0.38,
+      "momentumRecentDelta": 0.46,
+      "momentumThreshold": 1,
+      "momentumThresholdScore": 0.21,
+      "momentumThresholdUsable": 7,
+      "baselinePredicted": 14.45,
+      "baselineDelta": 0.37,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.95,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 3,
+      "baselineCitySampleSize": 20,
+      "correctionRegime": "low",
+      "correctionRegimeN": 7,
+      "correctionRegimeHighRate": 0.29,
+      "correctionLowMean": -0.58,
+      "correctionHighMean": 2.06,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 10,
+      "momentumSampleSize": 7,
+      "timeSampleSize": 10,
+      "trendSampleSize": 78,
+      "citySampleSize": 78,
+      "modelLevel": "city-time",
+      "modelSampleSize": 10,
+      "probabilities": [
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.33,
+          "probability": 0.33,
+          "count": 3.34
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.26,
+          "probability": 0.26,
+          "count": 2.6
+        },
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 1.93
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.96
+        },
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "paris预计",
+      "predicted": 17.88,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 0.48,
+      "momentumSignal": "offset",
+      "momentumFirstDelta": 0.48,
+      "momentumRecentDelta": -0.12,
+      "momentumThreshold": 0,
+      "momentumThresholdScore": 0.17,
+      "momentumThresholdUsable": 6,
+      "baselinePredicted": 18.38,
+      "baselineDelta": -0.5,
+      "baselineBand": "<= -0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.78,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 5,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 8,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 1,
+      "correctionRegimeHighRate": 1,
+      "correctionLowMean": 0.09,
+      "correctionHighMean": 1.98,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 10,
+      "momentumSampleSize": 1,
+      "timeSampleSize": 10,
+      "trendSampleSize": 77,
+      "citySampleSize": 77,
+      "modelLevel": "city-time",
+      "modelSampleSize": 10,
+      "probabilities": [
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.31,
+          "probability": 0.31,
+          "count": 3.05
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 2.97
+        },
+        {
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.21,
+          "probability": 0.21,
+          "count": 2.07
+        },
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.24
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.39
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "NYC预计",
+      "predicted": 70,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 1,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 1,
+      "momentumRecentDelta": 1,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 69,
+      "baselineDelta": 1,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 1.57,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 3,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 11,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 5,
+      "momentumSampleSize": 1,
+      "timeSampleSize": 5,
+      "trendSampleSize": 50,
+      "citySampleSize": 50,
+      "modelLevel": "city-time",
+      "modelSampleSize": 5,
+      "probabilities": [
+        {
+          "bucket": "70-71",
+          "bucketValue": 70,
+          "rawProbability": 0.5,
+          "probability": 0.5,
+          "count": 2.5
+        },
+        {
+          "bucket": "72-73",
+          "bucketValue": 72,
+          "rawProbability": 0.4,
+          "probability": 0.4,
+          "count": 2
+        },
+        {
+          "bucket": "68-69",
+          "bucketValue": 68,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.5
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "San预计",
+      "predicted": 62,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": -1,
+      "momentumSignal": "double_down",
+      "momentumFirstDelta": -1,
+      "momentumRecentDelta": -1,
+      "momentumThreshold": 0.5,
+      "momentumThresholdScore": 0.5,
+      "momentumThresholdUsable": 4,
+      "baselinePredicted": 63,
+      "baselineDelta": -1,
+      "baselineBand": "<= -0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 1.1,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 2,
+      "baselineCitySampleSize": 14,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 6,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 6,
+      "trendSampleSize": 56,
+      "citySampleSize": 59,
+      "modelLevel": "city-time",
+      "modelSampleSize": 6,
+      "probabilities": [
+        {
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.6,
+          "probability": 0.6,
+          "count": 3.62
+        },
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1
+        },
+        {
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1
+        },
+        {
+          "bucket": "66-67",
+          "bucketValue": 66,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.38
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "chicago预计",
+      "predicted": 62,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 0,
+      "momentumThresholdScore": 0.5,
+      "momentumThresholdUsable": 3,
+      "baselinePredicted": 62,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.67,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 4,
+      "baselineCitySampleSize": 20,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 1,
+      "correctionRegimeHighRate": 0,
+      "correctionLowMean": 1.33,
+      "correctionHighMean": 4.13,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 5,
+      "momentumSampleSize": 1,
+      "timeSampleSize": 7,
+      "trendSampleSize": 39,
+      "citySampleSize": 64,
+      "modelLevel": "city-time",
+      "modelSampleSize": 7,
+      "probabilities": [
+        {
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.39,
+          "probability": 0.39,
+          "count": 2.7
+        },
+        {
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.36,
+          "probability": 0.36,
+          "count": 2.5
+        },
+        {
+          "bucket": "66-67",
+          "bucketValue": 66,
+          "rawProbability": 0.26,
+          "probability": 0.26,
+          "count": 1.8
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "dallas预计",
+      "predicted": 79,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 2,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 2,
+      "momentumRecentDelta": 1,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 77,
+      "baselineDelta": 2,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": null,
+      "baselineBandMinSpread": null,
+      "baselineUsableBandCount": 0,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 0,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 0,
+      "trendSampleSize": 0,
+      "citySampleSize": 0,
+      "modelLevel": "none",
+      "modelSampleSize": 0,
+      "probabilities": []
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "miami本土预计",
+      "predicted": 90,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": -1,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": -1,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 1,
+      "momentumThresholdScore": 0.07,
+      "momentumThresholdUsable": 7,
+      "baselinePredicted": 91,
+      "baselineDelta": -1,
+      "baselineBand": "<= -0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.08,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 7,
+      "correctionRegimeHighRate": 0.43,
+      "correctionLowMean": -0.2,
+      "correctionHighMean": 2.37,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 4,
+      "momentumSampleSize": 7,
+      "timeSampleSize": 9,
+      "trendSampleSize": 37,
+      "citySampleSize": 81,
+      "modelLevel": "city-time",
+      "modelSampleSize": 9,
+      "probabilities": [
+        {
+          "bucket": "90",
+          "bucketValue": 90,
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 2.87
+        },
+        {
+          "bucket": "91",
+          "bucketValue": 91,
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.42
+        },
+        {
+          "bucket": "89",
+          "bucketValue": 89,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.33
+        },
+        {
+          "bucket": "88",
+          "bucketValue": 88,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 1.2
+        },
+        {
+          "bucket": "87",
+          "bucketValue": 87,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.8
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "seattle预计",
+      "predicted": 63,
+      "unit": "F",
+      "totalTrend": "down",
+      "totalDelta": -1,
+      "momentumSignal": "recent_flat",
+      "momentumFirstDelta": -1,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 64,
+      "baselineDelta": -1,
+      "baselineBand": "<= -0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 1,
+      "baselineCityTimeSampleSize": 3,
+      "baselineCitySampleSize": 22,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 35,
+      "trendSignalRate": 0.89,
+      "exactSampleSize": 3,
+      "momentumSampleSize": 2,
+      "timeSampleSize": 4,
+      "trendSampleSize": 24,
+      "citySampleSize": 38,
+      "modelLevel": "city-time",
+      "modelSampleSize": 4,
+      "probabilities": [
+        {
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.5,
+          "probability": 0.5,
+          "count": 2
+        },
+        {
+          "bucket": "52-53",
+          "bucketValue": 52,
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 1
+        },
+        {
+          "bucket": "54-55",
+          "bucketValue": 54,
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "shanghai预计",
+      "predicted": 22.96,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 0.08,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0.08,
+      "momentumRecentDelta": 0.08,
+      "momentumThreshold": 0.4,
+      "momentumThresholdScore": 0.38,
+      "momentumThresholdUsable": 8,
+      "baselinePredicted": 22.88,
+      "baselineDelta": 0.08,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.72,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 3,
+      "baselineCitySampleSize": 16,
+      "correctionRegime": "high",
+      "correctionRegimeN": 8,
+      "correctionRegimeHighRate": 0.88,
+      "correctionLowMean": -0.52,
+      "correctionHighMean": 1.93,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 9,
+      "momentumSampleSize": 8,
+      "timeSampleSize": 9,
+      "trendSampleSize": 56,
+      "citySampleSize": 56,
+      "modelLevel": "city-time",
+      "modelSampleSize": 9,
+      "probabilities": [
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.38,
+          "probability": 0.38,
+          "count": 3.43
+        },
+        {
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 1.71
+        },
+        {
+          "bucket": "26",
+          "bucketValue": 26,
+          "rawProbability": 0.18,
+          "probability": 0.18,
+          "count": 1.6
+        },
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.99
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.88
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "toyko预计",
+      "predicted": 22.4,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": -0.05,
+      "momentumSignal": "double_down",
+      "momentumFirstDelta": -0.05,
+      "momentumRecentDelta": -0.1,
+      "momentumThreshold": 0,
+      "momentumThresholdScore": 0.25,
+      "momentumThresholdUsable": 4,
+      "baselinePredicted": 22.6,
+      "baselineDelta": -0.2,
+      "baselineBand": "-0.3 到 -0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.8,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 4,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 2,
+      "correctionRegimeHighRate": 1,
+      "correctionLowMean": 0.98,
+      "correctionHighMean": 2.31,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 6,
+      "momentumSampleSize": 2,
+      "timeSampleSize": 9,
+      "trendSampleSize": 36,
+      "citySampleSize": 56,
+      "modelLevel": "city-time",
+      "modelSampleSize": 9,
+      "probabilities": [
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 3.83
+        },
+        {
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 3.09
+        },
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 1.16
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.92
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "amsterdam预计",
+      "predicted": 15.6,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 0.22,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0.22,
+      "momentumRecentDelta": 0.05,
+      "momentumThreshold": 0.3,
+      "momentumThresholdScore": 0.17,
+      "momentumThresholdUsable": 3,
+      "baselinePredicted": 15.23,
+      "baselineDelta": 0.37,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 0.99,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 3,
+      "baselineCityTimeSampleSize": 3,
+      "baselineCitySampleSize": 19,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 3,
+      "correctionRegimeHighRate": 0.67,
+      "correctionLowMean": -0.58,
+      "correctionHighMean": 1.23,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 8,
+      "momentumSampleSize": 3,
+      "timeSampleSize": 8,
+      "trendSampleSize": 67,
+      "citySampleSize": 67,
+      "modelLevel": "city-time",
+      "modelSampleSize": 8,
+      "probabilities": [
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.37,
+          "probability": 0.37,
+          "count": 2.96
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 1.98
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.23,
+          "probability": 0.23,
+          "count": 1.86
+        },
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.18
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "singa预计",
+      "predicted": 31.84,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": -0.05,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": -0.05,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 31.84,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.61,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 3,
+      "baselineCityTimeSampleSize": 2,
+      "baselineCitySampleSize": 6,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 3,
+      "momentumSampleSize": 2,
+      "timeSampleSize": 4,
+      "trendSampleSize": 22,
+      "citySampleSize": 29,
+      "modelLevel": "city-time",
+      "modelSampleSize": 4,
+      "probabilities": [
+        {
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.56,
+          "probability": 0.56,
+          "count": 2.24
+        },
+        {
+          "bucket": "32",
+          "bucketValue": 32,
+          "rawProbability": 0.44,
+          "probability": 0.44,
+          "count": 1.76
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "jakarta预计",
+      "predicted": 33.6,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": -0.11,
+      "momentumSignal": "recent_flat",
+      "momentumFirstDelta": -0.11,
+      "momentumRecentDelta": -0.05,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 33.6,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 1,
+      "baselineCityTimeSampleSize": 2,
+      "baselineCitySampleSize": 9,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 4,
+      "momentumSampleSize": 1,
+      "timeSampleSize": 4,
+      "trendSampleSize": 25,
+      "citySampleSize": 25,
+      "modelLevel": "city-time",
+      "modelSampleSize": 4,
+      "probabilities": [
+        {
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 1.37
+        },
+        {
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 0.87
+        },
+        {
+          "bucket": "35",
+          "bucketValue": 35,
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 0.75
+        },
+        {
+          "bucket": "31",
+          "bucketValue": 31,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 0.66
+        },
+        {
+          "bucket": "32",
+          "bucketValue": 32,
+          "rawProbability": 0.08,
+          "probability": 0.08,
+          "count": 0.34
+        }
+      ]
+    }
+  ],
+  "openMarketCandidates": [
     {
       "date": "2026-05-10",
       "timeNode": "昨14点到15点",
@@ -31392,6 +30379,328 @@ window.__TEMP_DASHBOARD_DATA__ = {
       ],
       "estimatedTop1HitRate": 0.44,
       "estimatedTop2HitRate": 0.64
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "HK预计",
+      "predicted": 26.29,
+      "unit": "C",
+      "adjustedForSettlement": 27.49,
+      "buyBuckets": [
+        "27",
+        "28"
+      ],
+      "estimatedTop1HitRate": 0.32,
+      "estimatedTop2HitRate": 0.52
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "ankara预计",
+      "predicted": 21.21,
+      "unit": "C",
+      "adjustedForSettlement": 22.41,
+      "buyBuckets": [
+        "22",
+        "23"
+      ],
+      "estimatedTop1HitRate": 0.24,
+      "estimatedTop2HitRate": 0.56
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "helsink预计",
+      "predicted": 13.45,
+      "unit": "C",
+      "adjustedForSettlement": 14.5,
+      "buyBuckets": [
+        "14",
+        "15"
+      ],
+      "estimatedTop1HitRate": 0.4,
+      "estimatedTop2HitRate": 0.6
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "lucknow预计",
+      "predicted": 34.44,
+      "unit": "C",
+      "adjustedForSettlement": 33.94,
+      "buyBuckets": [
+        "34",
+        "33"
+      ],
+      "estimatedTop1HitRate": 0.11,
+      "estimatedTop2HitRate": 0.3
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "madrid预计",
+      "predicted": 15.6,
+      "unit": "C",
+      "adjustedForSettlement": 16.1,
+      "buyBuckets": [
+        "16",
+        "17"
+      ],
+      "estimatedTop1HitRate": 0.41,
+      "estimatedTop2HitRate": 0.64
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "milan预计",
+      "predicted": 16.6,
+      "unit": "C",
+      "adjustedForSettlement": 17.17,
+      "buyBuckets": [
+        "17",
+        "18"
+      ],
+      "estimatedTop1HitRate": 0.54,
+      "estimatedTop2HitRate": 0.74
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "moscow预计",
+      "predicted": 12.32,
+      "unit": "C",
+      "adjustedForSettlement": 13.22,
+      "buyBuckets": [
+        "13",
+        "14"
+      ],
+      "estimatedTop1HitRate": 0.26,
+      "estimatedTop2HitRate": 0.5
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "munich预计",
+      "predicted": 22.96,
+      "unit": "C",
+      "adjustedForSettlement": 23.66,
+      "buyBuckets": [
+        "24",
+        "23"
+      ],
+      "estimatedTop1HitRate": 0.6,
+      "estimatedTop2HitRate": 0.83
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "telaviv预计",
+      "predicted": 27.45,
+      "unit": "C",
+      "adjustedForSettlement": 27.9,
+      "buyBuckets": [
+        "28",
+        "27"
+      ],
+      "estimatedTop1HitRate": 0.49,
+      "estimatedTop2HitRate": 0.94
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "warsaw预计",
+      "predicted": 19.43,
+      "unit": "C",
+      "adjustedForSettlement": 19.63,
+      "buyBuckets": [
+        "20",
+        "19"
+      ],
+      "estimatedTop1HitRate": 0.6,
+      "estimatedTop2HitRate": 0.75
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "london预计",
+      "predicted": 14.82,
+      "unit": "C",
+      "adjustedForSettlement": 14.92,
+      "buyBuckets": [
+        "15",
+        "14"
+      ],
+      "estimatedTop1HitRate": 0.4,
+      "estimatedTop2HitRate": 0.62
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "paris预计",
+      "predicted": 17.88,
+      "unit": "C",
+      "adjustedForSettlement": 18.98,
+      "buyBuckets": [
+        "19",
+        "18"
+      ],
+      "estimatedTop1HitRate": 0.35,
+      "estimatedTop2HitRate": 0.65
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "NYC预计",
+      "predicted": 70,
+      "unit": "F",
+      "adjustedForSettlement": 71.6,
+      "buyBuckets": [
+        "70-71",
+        "72-73"
+      ],
+      "estimatedTop1HitRate": 0.44,
+      "estimatedTop2HitRate": 0.78
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "San预计",
+      "predicted": 62,
+      "unit": "F",
+      "adjustedForSettlement": 64.4,
+      "buyBuckets": [
+        "64-65",
+        "62-63"
+      ],
+      "estimatedTop1HitRate": 0.22,
+      "estimatedTop2HitRate": 0.32
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "chicago预计",
+      "predicted": 62,
+      "unit": "F",
+      "adjustedForSettlement": 64.6,
+      "buyBuckets": [
+        "64-65",
+        "66-67"
+      ],
+      "estimatedTop1HitRate": 0.19,
+      "estimatedTop2HitRate": 0.42
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "dallas预计",
+      "predicted": 79,
+      "unit": "F",
+      "adjustedForSettlement": 79,
+      "buyBuckets": [
+        "78-79",
+        "80-81"
+      ],
+      "estimatedTop1HitRate": null,
+      "estimatedTop2HitRate": null
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "miami本土预计",
+      "predicted": 90,
+      "unit": "C",
+      "adjustedForSettlement": 90.2,
+      "buyBuckets": [
+        "90",
+        "91"
+      ],
+      "estimatedTop1HitRate": 0.2,
+      "estimatedTop2HitRate": 0.42
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "seattle预计",
+      "predicted": 63,
+      "unit": "F",
+      "adjustedForSettlement": 62.6,
+      "buyBuckets": [
+        "62-63",
+        "64-65"
+      ],
+      "estimatedTop1HitRate": 0.42,
+      "estimatedTop2HitRate": 0.55
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "shanghai预计",
+      "predicted": 22.96,
+      "unit": "C",
+      "adjustedForSettlement": 24.26,
+      "buyBuckets": [
+        "24",
+        "25"
+      ],
+      "estimatedTop1HitRate": 0.21,
+      "estimatedTop2HitRate": 0.57
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "toyko预计",
+      "predicted": 22.4,
+      "unit": "C",
+      "adjustedForSettlement": 24.06,
+      "buyBuckets": [
+        "24",
+        "25"
+      ],
+      "estimatedTop1HitRate": 0.23,
+      "estimatedTop2HitRate": 0.45
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "amsterdam预计",
+      "predicted": 15.6,
+      "unit": "C",
+      "adjustedForSettlement": 16,
+      "buyBuckets": [
+        "16",
+        "17"
+      ],
+      "estimatedTop1HitRate": 0.55,
+      "estimatedTop2HitRate": 0.7
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "singa预计",
+      "predicted": 31.84,
+      "unit": "C",
+      "adjustedForSettlement": 32.74,
+      "buyBuckets": [
+        "33",
+        "32"
+      ],
+      "estimatedTop1HitRate": 0.41,
+      "estimatedTop2HitRate": 0.83
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "昨22点到23点",
+      "expectedField": "jakarta预计",
+      "predicted": 33.6,
+      "unit": "C",
+      "adjustedForSettlement": 33.9,
+      "buyBuckets": [
+        "34",
+        "33"
+      ],
+      "estimatedTop1HitRate": 0.44,
+      "estimatedTop2HitRate": 0.64
     }
   ],
   "forecastStability": [
@@ -31424,20 +30733,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "maxForecastRange": 2.12
     },
     {
-      "city": "LA",
-      "dateCount": 2,
-      "medianForecastRange": 0.5,
-      "meanForecastRange": 0.5,
-      "maxForecastRange": 1
-    },
-    {
-      "city": "austin",
-      "dateCount": 2,
-      "medianForecastRange": 0.5,
-      "meanForecastRange": 0.5,
-      "maxForecastRange": 1
-    },
-    {
       "city": "shanghai",
       "dateCount": 11,
       "medianForecastRange": 0.5,
@@ -31448,7 +30743,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "city": "ankarar",
       "dateCount": 13,
       "medianForecastRange": 0.51,
-      "meanForecastRange": 0.59,
+      "meanForecastRange": 0.63,
       "maxForecastRange": 1.58
     },
     {
@@ -31462,14 +30757,14 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "city": "london",
       "dateCount": 13,
       "medianForecastRange": 0.53,
-      "meanForecastRange": 0.58,
+      "meanForecastRange": 0.61,
       "maxForecastRange": 1.54
     },
     {
       "city": "milan",
       "dateCount": 13,
       "medianForecastRange": 0.6,
-      "meanForecastRange": 0.71,
+      "meanForecastRange": 0.73,
       "maxForecastRange": 1.72
     },
     {
@@ -31525,7 +30820,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "city": "warsaw",
       "dateCount": 13,
       "medianForecastRange": 0.65,
-      "meanForecastRange": 0.9,
+      "meanForecastRange": 0.94,
       "maxForecastRange": 2.14
     },
     {
@@ -31543,11 +30838,18 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "maxForecastRange": 2.89
     },
     {
-      "city": "San",
-      "dateCount": 9,
+      "city": "LA",
+      "dateCount": 2,
       "medianForecastRange": 1,
       "meanForecastRange": 1,
-      "maxForecastRange": 2
+      "maxForecastRange": 1
+    },
+    {
+      "city": "austin",
+      "dateCount": 2,
+      "medianForecastRange": 1,
+      "meanForecastRange": 1,
+      "maxForecastRange": 1
     },
     {
       "city": "houston",
@@ -31557,11 +30859,18 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "maxForecastRange": 2
     },
     {
+      "city": "San",
+      "dateCount": 9,
+      "medianForecastRange": 1,
+      "meanForecastRange": 1.11,
+      "maxForecastRange": 2
+    },
+    {
       "city": "NYC",
       "dateCount": 9,
       "medianForecastRange": 1,
-      "meanForecastRange": 1.22,
-      "maxForecastRange": 2
+      "meanForecastRange": 1.44,
+      "maxForecastRange": 3
     },
     {
       "city": "HK",
@@ -31578,13 +30887,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "maxForecastRange": 13.07
     },
     {
-      "city": "San数量",
-      "dateCount": 2,
-      "medianForecastRange": 1.5,
-      "meanForecastRange": 1.5,
-      "maxForecastRange": 2
-    },
-    {
       "city": "lucknow",
       "dateCount": 13,
       "medianForecastRange": 1.58,
@@ -31595,14 +30897,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "city": "miami",
       "dateCount": 7,
       "medianForecastRange": 2,
-      "meanForecastRange": 1.57,
-      "maxForecastRange": 3
-    },
-    {
-      "city": "atlanta",
-      "dateCount": 3,
-      "medianForecastRange": 2,
-      "meanForecastRange": 2,
+      "meanForecastRange": 1.71,
       "maxForecastRange": 3
     },
     {
@@ -31611,6 +30906,13 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "medianForecastRange": 2,
       "meanForecastRange": 2,
       "maxForecastRange": 2
+    },
+    {
+      "city": "San数量",
+      "dateCount": 2,
+      "medianForecastRange": 2,
+      "meanForecastRange": 2,
+      "maxForecastRange": 3
     },
     {
       "city": "chicago",
@@ -31625,6 +30927,13 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "medianForecastRange": 2,
       "meanForecastRange": 2.14,
       "maxForecastRange": 6
+    },
+    {
+      "city": "atlanta",
+      "dateCount": 3,
+      "medianForecastRange": 2,
+      "meanForecastRange": 2.33,
+      "maxForecastRange": 4
     },
     {
       "city": "beijing",
