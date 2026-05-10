@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>温度交易看板</title>
-    <link rel="stylesheet" href="./dashboard.css?v=20260509-233700" />
+    <link rel="stylesheet" href="./dashboard.css?v=20260510-1918" />
   </head>
   <body>
     <main class="app-shell">
@@ -26,7 +26,10 @@
             最低优势
             <input id="edgeFilter" type="number" value="15" min="-50" max="100" step="1" />
           </label>
-          <a class="analysis-link" href="./trading-report.html" target="_blank" rel="noopener">交易分析报告</a>
+          <nav class="view-switch" aria-label="视图切换">
+            <span class="view-switch-current">温度交易看板</span>
+            <a href="./trading-report.html">交易分析报告</a>
+          </nav>
           <button id="exportFullPage" class="toolbar-button" type="button">整页截图</button>
         </div>
       </header>
@@ -93,8 +96,8 @@
       </article>
     </template>
 
-    <script src="./poly_prices.js?v=20260509-233700"></script>
-    <script src="./dashboard_data.next.js?v=20260509-233700"></script>
-    <script src="./dashboard.js?v=20260509-233700"></script>
+    <script src="./poly_prices.js?v=20260510-1918"></script>
+    <script src="./dashboard_data.next.js?v=20260510-1918"></script>
+    <script src="./dashboard.js?v=20260510-1918"></script>
   </body>
 </html>
