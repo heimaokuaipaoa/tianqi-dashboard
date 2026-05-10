@@ -1,4 +1,4 @@
-﻿window.__TEMP_DASHBOARD_DATA__ = {
+window.__TEMP_DASHBOARD_DATA__ = {
   "table": {
     "tableId": "tblwyGwntDgXZzWm",
     "viewId": "vewcZVQXBK",
@@ -34367,4 +34367,3 @@
     }
   ]
 };
-
