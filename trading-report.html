@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>交易分析报告</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f7f9;
+        --panel: #ffffff;
+        --text: #1d252f;
+        --muted: #667085;
+        --line: #d9dee7;
+        --strong: #087443;
+        --accent: #245bdb;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      }
+      main {
+        width: min(1280px, calc(100vw - 32px));
+        margin: 0 auto;
+        padding: 24px 0 48px;
+      }
+      .top-actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 14px;
+      }
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        min-height: 36px;
+        border: 1px solid var(--accent);
+        border-radius: 7px;
+        background: var(--accent);
+        color: #fff;
+        padding: 0 14px;
+        font-weight: 800;
+        text-decoration: none;
+      }
+      .stamp {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .report {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        padding: 18px;
+      }
+      h1 {
+        margin: 0 0 12px;
+        font-size: 24px;
+        line-height: 1.25;
+      }
+      h2 {
+        margin: 22px 0 10px;
+        font-size: 18px;
+        line-height: 1.3;
+      }
+      p {
+        margin: 8px 0;
+        line-height: 1.55;
+      }
+      ul {
+        margin: 8px 0 0;
+        padding-left: 20px;
+      }
+      li {
+        margin: 6px 0;
+      }
+      .table-wrap {
+        overflow-x: auto;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        margin: 10px 0 16px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 900px;
+      }
+      th,
+      td {
+        border-bottom: 1px solid var(--line);
+        padding: 9px 10px;
+        text-align: left;
+        vertical-align: top;
+        font-size: 13px;
+      }
+      th {
+        background: #f1f4f8;
+        color: #354052;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+      tr:last-child td {
+        border-bottom: 0;
+      }
+      @media (max-width: 760px) {
+        main { width: min(100vw - 20px, 720px); padding-top: 14px; }
+        .top-actions { display: grid; }
+        .report { padding: 14px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="top-actions">
+        <a class="back-link" href="./index.html">返回温度交易看板</a>
+        <span class="stamp">由交易报告脚本自动生成</span>
+      </div>
+      <article class="report">
+        <h1>【温度交易报告】2026-05-10 18:25</h1>
+        <p>一句话结论：有新动作：ADD/HOLD NYC 70-71°F；BUY Tel Aviv 27°C</p>
+        <p>看板窗口：2026-05-10 17点到18点；明天参考：2026-05-11 昨17点到18点</p>
+        <h2>【立即操作清单】</h2>
+        <div class="table-wrap"><table><thead><tr><th>动作</th><th>城市</th><th>日期</th><th>档位</th><th>网页价</th><th>立即限价</th><th>模型概率</th><th>Edge</th><th>仓位</th><th>原因</th></tr></thead><tbody><tr><td>ADD/HOLD</td><td>NYC</td><td>2026-05-10</td><td>70-71°F</td><td>21c</td><td>23c</td><td>83%</td><td>+60</td><td>$5.00</td><td>同城已有仓位，只有显著便宜才加</td></tr><tr><td>BUY</td><td>Tel Aviv</td><td>2026-05-10</td><td>27°C</td><td>45c</td><td>50c</td><td>74%</td><td>+24</td><td>$3.00</td><td>网页价低于模型概率</td></tr><tr><td>ADD/HOLD</td><td>Chicago</td><td>2026-05-10</td><td>64°F or higher</td><td>73c</td><td>76c</td><td>100%</td><td>+24</td><td>$3.00</td><td>同城已有仓位，只有显著便宜才加</td></tr></tbody></table></div>
+        <h2>【持仓盈亏】</h2>
+        <div class="table-wrap"><table><thead><tr><th>动作</th><th>建议时间</th><th>城市</th><th>档位</th><th>成本</th><th>建议价</th><th>份数</th><th>当前价</th><th>估值</th><th>浮盈亏</th><th>原因</th></tr></thead><tbody><tr><td>HOLD</td><td>2026-05-10 08:53 / 6点报告</td><td>Munich</td><td>23C</td><td>$7.00</td><td>55.0c</td><td>12.73</td><td>55c</td><td>$7.00</td><td>$0.00</td><td>首次建议 BUY</td></tr><tr><td>HOLD</td><td>2026-05-10 08:53 / 6点报告</td><td>Milan</td><td>17C</td><td>$5.00</td><td>46c</td><td>10.87</td><td>44c</td><td>$4.78</td><td>$-0.22</td><td>首次建议 BUY</td></tr><tr><td>HOLD</td><td>2026-05-10 08:53 / 6点报告</td><td>Chicago</td><td>64F or higher</td><td>$12.00</td><td>64c</td><td>18.76</td><td>73c</td><td>$13.69</td><td>$1.69</td><td>首次建议 BUY $8@65c；2026-05-10 11:01 / 10点报告建议 ADD $4@62c</td></tr><tr><td>HOLD</td><td>2026-05-10 11:01 / 10点报告</td><td>NYC</td><td>72-73F</td><td>$5.00</td><td>34c</td><td>14.71</td><td>36c</td><td>$5.30</td><td>$0.30</td><td>首次建议 BUY</td></tr><tr><td>HOLD</td><td>2026-05-10 14:31 / 14点报告</td><td>Ankara</td><td>22C</td><td>$3.00</td><td>52c</td><td>5.77</td><td>53c</td><td>$3.06</td><td>$0.06</td><td>首次建议 BUY</td></tr><tr><td>HOLD</td><td>2026-05-10 14:31 / 14点报告</td><td>London</td><td>14C</td><td>$5.00</td><td>24c</td><td>20.83</td><td>45c</td><td>$9.37</td><td>$4.37</td><td>首次建议 BUY</td></tr><tr><td>STOP观察</td><td>2026-05-10 14:31 / 14点报告</td><td>Seattle</td><td>64-65F</td><td>$3.00</td><td>40c</td><td>7.50</td><td>31c</td><td>$2.33</td><td>$-0.67</td><td>首次建议 BUY</td></tr></tbody></table></div>
+        <p>建议账合计：成本 $40.00，网页估值 $45.53，浮盈亏 $5.53</p>
+        <h2>【新开仓候选】</h2>
+        <div class="table-wrap"><table><thead><tr><th>决策</th><th>城市</th><th>日期</th><th>档位</th><th>网页价</th><th>立即限价</th><th>概率</th><th>Edge</th><th>仓位</th><th>原因</th></tr></thead><tbody><tr><td>ADD/HOLD</td><td>NYC</td><td>2026-05-10</td><td>70-71°F</td><td>21c</td><td>23c</td><td>83%</td><td>+60</td><td>$5.00</td><td>同城已有仓位，只有显著便宜才加</td></tr><tr><td>BUY</td><td>Tel Aviv</td><td>2026-05-10</td><td>27°C</td><td>45c</td><td>50c</td><td>74%</td><td>+24</td><td>$3.00</td><td>网页价低于模型概率</td></tr><tr><td>SKIP</td><td>Ankara</td><td>2026-05-10</td><td>22°C</td><td>53c</td><td>56c</td><td>68%</td><td>+12</td><td>$0</td><td>edge不足或盘口已消化</td></tr><tr><td>HOLD/STOP观察</td><td>Seattle</td><td>2026-05-10</td><td>64-65°F</td><td>31c</td><td>33c</td><td>67%</td><td>+34</td><td>$5.00</td><td>已有仓位触发止损观察，不允许加仓</td></tr><tr><td>SKIP</td><td>Helsinki</td><td>2026-05-10</td><td>15°C</td><td>50c</td><td>59c</td><td>62%</td><td>+3</td><td>$0</td><td>edge不足或盘口已消化</td></tr><tr><td>SKIP</td><td>Munich</td><td>2026-05-10</td><td>23°C</td><td>55c</td><td>61c</td><td>62%</td><td>+1</td><td>$0</td><td>edge不足或盘口已消化</td></tr><tr><td>SKIP</td><td>London</td><td>2026-05-10</td><td>14°C</td><td>45c</td><td>48c</td><td>60%</td><td>+12</td><td>$0</td><td>edge不足或盘口已消化</td></tr><tr><td>SKIP</td><td>Milan</td><td>2026-05-10</td><td>16°C</td><td>56c</td><td>61c</td><td>58%</td><td>+-3</td><td>$0</td><td>edge不足或盘口已消化</td></tr></tbody></table></div>
+        <h2>【不交易原因】</h2>
+        <ul><li>盘口太贵/edge不足：Ankara、Seattle、Helsinki、Munich、London、Milan</li><li>样本不足：Dallas</li><li>网页价未确认：Miami、Madrid、Dallas(明天)、Singapore(明天)、Seattle(明天)、Milan(明天)</li><li>明天太早：Munich、Miami</li></ul>
+        <h2>【风险与止损】</h2>
+        <ul><li>若持仓模型概率跌破 50% 或网页价较建议价回撤超过 20%，下一轮优先减仓/止损。</li><li>同城已有仓位时，只在 edge 明显且价格低于上一轮建议价时加仓。</li></ul>
+        <h2>【三条优化】</h2>
+        <ul><li>交易：成本永远按当时建议的立即成交限价，不事后用更优价回算。</li><li>天气模型：宽档市场要汇总相邻档概率，例如 64F+。</li><li>网页看板：建议增加“Poly网页价/建议价/浮盈亏/是否已抓价”列。</li></ul>
+        <p>数据文件：site/dashboard_data.next.js</p>
+        <p>Poly 价格口径：只使用网页页面可见价格；未使用 Gamma/CLOB/API。</p>
+      </article>
+    </main>
+  </body>
+</html>
