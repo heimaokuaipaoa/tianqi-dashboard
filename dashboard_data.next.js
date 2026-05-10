@@ -563,18 +563,18 @@ window.__TEMP_DASHBOARD_DATA__ = {
     {
       "forecastField": "seattle温度",
       "actualField": "seattle实温",
-      "n": 38,
-      "forecastMedian": 64,
+      "n": 47,
+      "forecastMedian": 65,
       "actualMedian": 62.6,
       "marketUnit": "F",
       "likelyActualUnit": "F",
-      "meanBias": -3.01,
-      "medianBias": -0.4,
-      "rmseRaw": 5.12,
-      "suggestedAdjustment": -0.4,
-      "adjustedRmse": 4.89,
-      "rawUnitMedianBias": -0.4,
-      "actualFtoCMedianBias": -46.5
+      "meanBias": -2.63,
+      "medianBias": -1,
+      "rmseRaw": 4.62,
+      "suggestedAdjustment": -1,
+      "adjustedRmse": 4.13,
+      "rawUnitMedianBias": -1,
+      "actualFtoCMedianBias": -49
     },
     {
       "forecastField": "shanghai温度",
@@ -803,9 +803,9 @@ window.__TEMP_DASHBOARD_DATA__ = {
     {
       "expectedField": "seattle预计",
       "actualField": "seattle实温",
-      "n": 38,
-      "medianBias": -0.4,
-      "rmse": 5.12
+      "n": 47,
+      "medianBias": -1,
+      "rmse": 4.62
     },
     {
       "expectedField": "shanghai预计",
@@ -1017,10 +1017,10 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "expectedField": "seattle预计",
       "actualField": "seattle实温",
       "unit": "F",
-      "n": 38,
-      "settlementMedianBias": -0.4,
-      "nearestBucketHitRate": 0.42,
-      "twoBucketHitRate": 0.55
+      "n": 47,
+      "settlementMedianBias": -1,
+      "nearestBucketHitRate": 0.53,
+      "twoBucketHitRate": 0.64
     },
     {
       "expectedField": "shanghai预计",
@@ -1095,18 +1095,18 @@ window.__TEMP_DASHBOARD_DATA__ = {
       },
       {
         "key": "flat",
-        "n": 66,
-        "medianResidual": 0.67,
-        "meanResidual": 0.68,
+        "n": 67,
+        "medianResidual": 0.65,
+        "meanResidual": 0.66,
         "medianTotalDelta": 0
       }
     ],
     "byLastTrend": [
       {
         "key": "flat",
-        "n": 133,
+        "n": 134,
         "medianResidual": 0.7,
-        "meanResidual": 0.73,
+        "meanResidual": 0.72,
         "medianTotalDelta": 0
       },
       {
@@ -1406,6 +1406,13 @@ window.__TEMP_DASHBOARD_DATA__ = {
         "medianTotalDelta": -3
       },
       {
+        "key": "seattle预计|flat",
+        "n": 3,
+        "medianResidual": -1,
+        "meanResidual": -3.13,
+        "medianTotalDelta": 0
+      },
+      {
         "key": "shanghai预计|down",
         "n": 3,
         "medianResidual": 0.5,
@@ -1497,13 +1504,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
         "medianTotalDelta": -1.5
       },
       {
-        "key": "seattle预计|flat",
-        "n": 2,
-        "medianResidual": -4.2,
-        "meanResidual": -4.2,
-        "medianTotalDelta": 0
-      },
-      {
         "key": "singa预计|down",
         "n": 2,
         "medianResidual": 2.1,
@@ -1582,17 +1582,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       }
     ],
     "recentTrendObservations": [
-      {
-        "expectedField": "HK预计",
-        "date": "2026-05-08",
-        "nPoints": 8,
-        "firstPredicted": 28.71,
-        "lastPredicted": 29.6,
-        "totalDelta": 0.89,
-        "totalTrend": "up",
-        "residual": 0.7,
-        "settlement": 30
-      },
       {
         "expectedField": "ankara预计",
         "date": "2026-05-08",
@@ -2012,6 +2001,17 @@ window.__TEMP_DASHBOARD_DATA__ = {
         "settlement": 90
       },
       {
+        "expectedField": "seattle预计",
+        "date": "2026-05-09",
+        "nPoints": 9,
+        "firstPredicted": 69,
+        "lastPredicted": 69,
+        "totalDelta": 0,
+        "totalTrend": "flat",
+        "residual": -1,
+        "settlement": 68
+      },
+      {
         "expectedField": "dallas预计",
         "date": "2026-05-09",
         "nPoints": 8,
@@ -2025,7 +2025,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
     ]
   },
   "trendThresholdAnalysis": {
-    "signalCount": 1588,
+    "signalCount": 1597,
     "byThreshold": [
       {
         "threshold": 0.1,
@@ -2037,11 +2037,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "medianSettlementResidual": 0.29
         },
         "down": {
-          "n": 605,
-          "trendContinuesRate": 0.33,
-          "settlementSameSideRate": 0.23,
-          "medianRemainingDelta": 2.58,
-          "medianSettlementResidual": 3.4
+          "n": 614,
+          "trendContinuesRate": 0.3,
+          "settlementSameSideRate": 0.21,
+          "medianRemainingDelta": 2.91,
+          "medianSettlementResidual": 3.57
         }
       },
       {
@@ -2054,11 +2054,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "medianSettlementResidual": 0.23
         },
         "down": {
-          "n": 604,
-          "trendContinuesRate": 0.33,
-          "settlementSameSideRate": 0.23,
-          "medianRemainingDelta": 2.62,
-          "medianSettlementResidual": 3.42
+          "n": 613,
+          "trendContinuesRate": 0.3,
+          "settlementSameSideRate": 0.22,
+          "medianRemainingDelta": 2.93,
+          "medianSettlementResidual": 3.57
         }
       },
       {
@@ -2071,11 +2071,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "medianSettlementResidual": 0.21
         },
         "down": {
-          "n": 595,
-          "trendContinuesRate": 0.33,
-          "settlementSameSideRate": 0.24,
-          "medianRemainingDelta": 2.69,
-          "medianSettlementResidual": 3.5
+          "n": 604,
+          "trendContinuesRate": 0.3,
+          "settlementSameSideRate": 0.22,
+          "medianRemainingDelta": 2.99,
+          "medianSettlementResidual": 3.57
         }
       },
       {
@@ -2088,11 +2088,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "medianSettlementResidual": 0.21
         },
         "down": {
-          "n": 595,
-          "trendContinuesRate": 0.33,
-          "settlementSameSideRate": 0.24,
-          "medianRemainingDelta": 2.69,
-          "medianSettlementResidual": 3.5
+          "n": 604,
+          "trendContinuesRate": 0.3,
+          "settlementSameSideRate": 0.22,
+          "medianRemainingDelta": 2.99,
+          "medianSettlementResidual": 3.57
         }
       },
       {
@@ -2105,11 +2105,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "medianSettlementResidual": 0.2
         },
         "down": {
-          "n": 591,
-          "trendContinuesRate": 0.33,
-          "settlementSameSideRate": 0.24,
-          "medianRemainingDelta": 2.69,
-          "medianSettlementResidual": 3.5
+          "n": 600,
+          "trendContinuesRate": 0.31,
+          "settlementSameSideRate": 0.22,
+          "medianRemainingDelta": 3,
+          "medianSettlementResidual": 3.59
         }
       },
       {
@@ -2122,11 +2122,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "medianSettlementResidual": 0.2
         },
         "down": {
-          "n": 581,
-          "trendContinuesRate": 0.33,
-          "settlementSameSideRate": 0.23,
-          "medianRemainingDelta": 2.81,
-          "medianSettlementResidual": 3.51
+          "n": 590,
+          "trendContinuesRate": 0.3,
+          "settlementSameSideRate": 0.21,
+          "medianRemainingDelta": 3.14,
+          "medianSettlementResidual": 3.68
         }
       },
       {
@@ -2139,11 +2139,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "medianSettlementResidual": 0.2
         },
         "down": {
-          "n": 565,
-          "trendContinuesRate": 0.33,
-          "settlementSameSideRate": 0.23,
-          "medianRemainingDelta": 2.81,
-          "medianSettlementResidual": 3.51
+          "n": 574,
+          "trendContinuesRate": 0.3,
+          "settlementSameSideRate": 0.21,
+          "medianRemainingDelta": 3.32,
+          "medianSettlementResidual": 3.68
         }
       },
       {
@@ -2156,11 +2156,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "medianSettlementResidual": 0.16
         },
         "down": {
-          "n": 536,
-          "trendContinuesRate": 0.34,
-          "settlementSameSideRate": 0.24,
-          "medianRemainingDelta": 2.97,
-          "medianSettlementResidual": 3.54
+          "n": 545,
+          "trendContinuesRate": 0.31,
+          "settlementSameSideRate": 0.22,
+          "medianRemainingDelta": 3.54,
+          "medianSettlementResidual": 3.9
         }
       },
       {
@@ -2173,11 +2173,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "medianSettlementResidual": 0.12
         },
         "down": {
-          "n": 515,
-          "trendContinuesRate": 0.34,
-          "settlementSameSideRate": 0.24,
-          "medianRemainingDelta": 3.32,
-          "medianSettlementResidual": 3.54
+          "n": 524,
+          "trendContinuesRate": 0.31,
+          "settlementSameSideRate": 0.22,
+          "medianRemainingDelta": 3.81,
+          "medianSettlementResidual": 4
         }
       }
     ],
@@ -2298,126 +2298,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
               "settlementSameSideRate": 0.91,
               "medianRemainingDelta": -2.36,
               "medianSettlementResidual": -1.9
-            }
-          }
-        ]
-      },
-      {
-        "expectedField": "seattle预计",
-        "signalCount": 36,
-        "suggested": {
-          "threshold": 0.1,
-          "direction": "down",
-          "n": 35,
-          "trendContinuesRate": 0.89
-        },
-        "directionThresholds": {
-          "up": null,
-          "down": {
-            "threshold": 0.1,
-            "direction": "down",
-            "n": 35,
-            "trendContinuesRate": 0.89
-          }
-        },
-        "byThreshold": [
-          {
-            "threshold": 0.1,
-            "up": null,
-            "down": {
-              "n": 35,
-              "trendContinuesRate": 0.89,
-              "settlementSameSideRate": 0.74,
-              "medianRemainingDelta": -2,
-              "medianSettlementResidual": -1.4
-            }
-          },
-          {
-            "threshold": 0.15,
-            "up": null,
-            "down": {
-              "n": 35,
-              "trendContinuesRate": 0.89,
-              "settlementSameSideRate": 0.74,
-              "medianRemainingDelta": -2,
-              "medianSettlementResidual": -1.4
-            }
-          },
-          {
-            "threshold": 0.2,
-            "up": null,
-            "down": {
-              "n": 35,
-              "trendContinuesRate": 0.89,
-              "settlementSameSideRate": 0.74,
-              "medianRemainingDelta": -2,
-              "medianSettlementResidual": -1.4
-            }
-          },
-          {
-            "threshold": 0.25,
-            "up": null,
-            "down": {
-              "n": 35,
-              "trendContinuesRate": 0.89,
-              "settlementSameSideRate": 0.74,
-              "medianRemainingDelta": -2,
-              "medianSettlementResidual": -1.4
-            }
-          },
-          {
-            "threshold": 0.3,
-            "up": null,
-            "down": {
-              "n": 35,
-              "trendContinuesRate": 0.89,
-              "settlementSameSideRate": 0.74,
-              "medianRemainingDelta": -2,
-              "medianSettlementResidual": -1.4
-            }
-          },
-          {
-            "threshold": 0.4,
-            "up": null,
-            "down": {
-              "n": 35,
-              "trendContinuesRate": 0.89,
-              "settlementSameSideRate": 0.74,
-              "medianRemainingDelta": -2,
-              "medianSettlementResidual": -1.4
-            }
-          },
-          {
-            "threshold": 0.5,
-            "up": null,
-            "down": {
-              "n": 35,
-              "trendContinuesRate": 0.89,
-              "settlementSameSideRate": 0.74,
-              "medianRemainingDelta": -2,
-              "medianSettlementResidual": -1.4
-            }
-          },
-          {
-            "threshold": 0.75,
-            "up": null,
-            "down": {
-              "n": 35,
-              "trendContinuesRate": 0.89,
-              "settlementSameSideRate": 0.74,
-              "medianRemainingDelta": -2,
-              "medianSettlementResidual": -1.4
-            }
-          },
-          {
-            "threshold": 1,
-            "up": null,
-            "down": {
-              "n": 35,
-              "trendContinuesRate": 0.89,
-              "settlementSameSideRate": 0.74,
-              "medianRemainingDelta": -2,
-              "medianSettlementResidual": -1.4
             }
           }
         ]
@@ -4284,6 +4164,121 @@ window.__TEMP_DASHBOARD_DATA__ = {
         ]
       },
       {
+        "expectedField": "seattle预计",
+        "signalCount": 45,
+        "suggested": {
+          "threshold": 0.1,
+          "direction": "down",
+          "n": 44,
+          "trendContinuesRate": 0.39
+        },
+        "directionThresholds": {
+          "up": null,
+          "down": null
+        },
+        "byThreshold": [
+          {
+            "threshold": 0.1,
+            "up": null,
+            "down": {
+              "n": 44,
+              "trendContinuesRate": 0.39,
+              "settlementSameSideRate": 0.39,
+              "medianRemainingDelta": 4.5,
+              "medianSettlementResidual": 3.5
+            }
+          },
+          {
+            "threshold": 0.15,
+            "up": null,
+            "down": {
+              "n": 44,
+              "trendContinuesRate": 0.39,
+              "settlementSameSideRate": 0.39,
+              "medianRemainingDelta": 4.5,
+              "medianSettlementResidual": 3.5
+            }
+          },
+          {
+            "threshold": 0.2,
+            "up": null,
+            "down": {
+              "n": 44,
+              "trendContinuesRate": 0.39,
+              "settlementSameSideRate": 0.39,
+              "medianRemainingDelta": 4.5,
+              "medianSettlementResidual": 3.5
+            }
+          },
+          {
+            "threshold": 0.25,
+            "up": null,
+            "down": {
+              "n": 44,
+              "trendContinuesRate": 0.39,
+              "settlementSameSideRate": 0.39,
+              "medianRemainingDelta": 4.5,
+              "medianSettlementResidual": 3.5
+            }
+          },
+          {
+            "threshold": 0.3,
+            "up": null,
+            "down": {
+              "n": 44,
+              "trendContinuesRate": 0.39,
+              "settlementSameSideRate": 0.39,
+              "medianRemainingDelta": 4.5,
+              "medianSettlementResidual": 3.5
+            }
+          },
+          {
+            "threshold": 0.4,
+            "up": null,
+            "down": {
+              "n": 44,
+              "trendContinuesRate": 0.39,
+              "settlementSameSideRate": 0.39,
+              "medianRemainingDelta": 4.5,
+              "medianSettlementResidual": 3.5
+            }
+          },
+          {
+            "threshold": 0.5,
+            "up": null,
+            "down": {
+              "n": 44,
+              "trendContinuesRate": 0.39,
+              "settlementSameSideRate": 0.39,
+              "medianRemainingDelta": 4.5,
+              "medianSettlementResidual": 3.5
+            }
+          },
+          {
+            "threshold": 0.75,
+            "up": null,
+            "down": {
+              "n": 44,
+              "trendContinuesRate": 0.39,
+              "settlementSameSideRate": 0.39,
+              "medianRemainingDelta": 4.5,
+              "medianSettlementResidual": 3.5
+            }
+          },
+          {
+            "threshold": 1,
+            "up": null,
+            "down": {
+              "n": 44,
+              "trendContinuesRate": 0.39,
+              "settlementSameSideRate": 0.39,
+              "medianRemainingDelta": 4.5,
+              "medianSettlementResidual": 3.5
+            }
+          }
+        ]
+      },
+      {
         "expectedField": "moscow预计",
         "signalCount": 87,
         "suggested": {
@@ -5719,8 +5714,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
     "suggestedThreshold": {
       "threshold": 0.1,
       "nUp": 912,
-      "nDown": 605,
-      "score": -0.12
+      "nDown": 614,
+      "score": -0.13
     }
   },
   "timeWindowSummaries": {
@@ -5736,84 +5731,84 @@ window.__TEMP_DASHBOARD_DATA__ = {
       },
       {
         "key": "昨10点到11点",
-        "n": 162,
+        "n": 163,
         "rank": 10,
         "medianResidual": 0.4,
         "meanResidual": 0.38,
-        "nearestBucketHitRate": 0.38,
+        "nearestBucketHitRate": 0.39,
         "twoBucketHitRate": 0.59
       },
       {
         "key": "昨14点到15点",
-        "n": 170,
+        "n": 171,
         "rank": 14,
-        "medianResidual": 0.35,
-        "meanResidual": 0.32,
-        "nearestBucketHitRate": 0.34,
+        "medianResidual": 0.3,
+        "meanResidual": 0.31,
+        "nearestBucketHitRate": 0.35,
         "twoBucketHitRate": 0.58
       },
       {
         "key": "昨17点到18点",
-        "n": 205,
+        "n": 206,
         "rank": 17,
-        "medianResidual": 0.23,
-        "meanResidual": 0.28,
+        "medianResidual": 0.22,
+        "meanResidual": 0.27,
         "nearestBucketHitRate": 0.36,
         "twoBucketHitRate": 0.59
       },
       {
         "key": "昨22点到23点",
-        "n": 215,
+        "n": 216,
         "rank": 22,
-        "medianResidual": 0.22,
-        "meanResidual": 0.27,
+        "medianResidual": 0.21,
+        "meanResidual": 0.26,
         "nearestBucketHitRate": 0.39,
-        "twoBucketHitRate": 0.6
+        "twoBucketHitRate": 0.61
       },
       {
         "key": "6点到7点",
-        "n": 219,
+        "n": 220,
         "rank": 30,
         "medianResidual": 0.18,
-        "meanResidual": 0.22,
+        "meanResidual": 0.21,
         "nearestBucketHitRate": 0.41,
         "twoBucketHitRate": 0.64
       },
       {
         "key": "10点到11点",
-        "n": 224,
+        "n": 225,
         "rank": 34,
         "medianResidual": 0.2,
-        "meanResidual": 0.24,
+        "meanResidual": 0.23,
         "nearestBucketHitRate": 0.43,
         "twoBucketHitRate": 0.69
       },
       {
         "key": "14点到15点",
-        "n": 193,
+        "n": 194,
         "rank": 38,
-        "medianResidual": 0.16,
-        "meanResidual": 0.19,
-        "nearestBucketHitRate": 0.42,
+        "medianResidual": 0.14,
+        "meanResidual": 0.18,
+        "nearestBucketHitRate": 0.43,
         "twoBucketHitRate": 0.66
       },
       {
         "key": "17点到18点",
-        "n": 174,
+        "n": 175,
         "rank": 41,
-        "medianResidual": 0.19,
+        "medianResidual": 0.18,
         "meanResidual": 0.17,
-        "nearestBucketHitRate": 0.45,
+        "nearestBucketHitRate": 0.46,
         "twoBucketHitRate": 0.76
       },
       {
         "key": "22点到23点",
-        "n": 37,
+        "n": 38,
         "rank": 46,
         "medianResidual": 0,
-        "meanResidual": 0.03,
-        "nearestBucketHitRate": 0.35,
-        "twoBucketHitRate": 0.7
+        "meanResidual": 0.01,
+        "nearestBucketHitRate": 0.37,
+        "twoBucketHitRate": 0.71
       }
     ],
     "byCityAndTimeNode": [
@@ -6125,12 +6120,12 @@ window.__TEMP_DASHBOARD_DATA__ = {
       },
       {
         "key": "seattle预计|昨10点到11点",
-        "n": 3,
+        "n": 4,
         "rank": 10,
-        "medianResidual": -2,
-        "meanResidual": -4.33,
-        "nearestBucketHitRate": 0.33,
-        "twoBucketHitRate": 0.67
+        "medianResidual": -1.5,
+        "meanResidual": -3.5,
+        "nearestBucketHitRate": 0.5,
+        "twoBucketHitRate": 0.75
       },
       {
         "key": "shanghai预计|昨10点到11点",
@@ -6332,12 +6327,12 @@ window.__TEMP_DASHBOARD_DATA__ = {
       },
       {
         "key": "seattle预计|昨14点到15点",
-        "n": 4,
+        "n": 5,
         "rank": 14,
-        "medianResidual": -5,
-        "meanResidual": -4.75,
-        "nearestBucketHitRate": 0.5,
-        "twoBucketHitRate": 0.5
+        "medianResidual": -1,
+        "meanResidual": -4,
+        "nearestBucketHitRate": 0.6,
+        "twoBucketHitRate": 0.6
       },
       {
         "key": "shanghai预计|昨14点到15点",
@@ -6539,12 +6534,12 @@ window.__TEMP_DASHBOARD_DATA__ = {
       },
       {
         "key": "seattle预计|昨17点到18点",
-        "n": 4,
+        "n": 5,
         "rank": 17,
-        "medianResidual": -5,
-        "meanResidual": -4.75,
-        "nearestBucketHitRate": 0.5,
-        "twoBucketHitRate": 0.5
+        "medianResidual": -1,
+        "meanResidual": -4,
+        "nearestBucketHitRate": 0.6,
+        "twoBucketHitRate": 0.6
       },
       {
         "key": "shanghai预计|昨17点到18点",
@@ -6746,12 +6741,12 @@ window.__TEMP_DASHBOARD_DATA__ = {
       },
       {
         "key": "seattle预计|昨22点到23点",
-        "n": 4,
+        "n": 5,
         "rank": 22,
-        "medianResidual": -4.5,
-        "meanResidual": -4.75,
-        "nearestBucketHitRate": 0.5,
-        "twoBucketHitRate": 0.5
+        "medianResidual": -1,
+        "meanResidual": -4,
+        "nearestBucketHitRate": 0.6,
+        "twoBucketHitRate": 0.6
       },
       {
         "key": "shanghai预计|昨22点到23点",
@@ -6953,12 +6948,12 @@ window.__TEMP_DASHBOARD_DATA__ = {
       },
       {
         "key": "seattle预计|6点到7点",
-        "n": 4,
+        "n": 5,
         "rank": 30,
-        "medianResidual": -4,
-        "meanResidual": -4.5,
-        "nearestBucketHitRate": 0.5,
-        "twoBucketHitRate": 0.5
+        "medianResidual": -1,
+        "meanResidual": -3.8,
+        "nearestBucketHitRate": 0.6,
+        "twoBucketHitRate": 0.6
       },
       {
         "key": "shanghai预计|6点到7点",
@@ -7160,12 +7155,12 @@ window.__TEMP_DASHBOARD_DATA__ = {
       },
       {
         "key": "seattle预计|10点到11点",
-        "n": 4,
+        "n": 5,
         "rank": 34,
-        "medianResidual": -3,
-        "meanResidual": -4,
-        "nearestBucketHitRate": 0.5,
-        "twoBucketHitRate": 0.5
+        "medianResidual": -1,
+        "meanResidual": -3.4,
+        "nearestBucketHitRate": 0.6,
+        "twoBucketHitRate": 0.6
       },
       {
         "key": "shanghai预计|10点到11点",
@@ -7367,12 +7362,12 @@ window.__TEMP_DASHBOARD_DATA__ = {
       },
       {
         "key": "seattle预计|14点到15点",
-        "n": 5,
+        "n": 6,
         "rank": 38,
         "medianResidual": -1,
-        "meanResidual": -2.8,
-        "nearestBucketHitRate": 0.4,
-        "twoBucketHitRate": 0.6
+        "meanResidual": -2.5,
+        "nearestBucketHitRate": 0.5,
+        "twoBucketHitRate": 0.67
       },
       {
         "key": "shanghai预计|14点到15点",
@@ -7565,12 +7560,12 @@ window.__TEMP_DASHBOARD_DATA__ = {
       },
       {
         "key": "seattle预计|17点到18点",
-        "n": 5,
+        "n": 6,
         "rank": 41,
-        "medianResidual": 0,
-        "meanResidual": -2,
-        "nearestBucketHitRate": 0.2,
-        "twoBucketHitRate": 0.6
+        "medianResidual": -0.5,
+        "meanResidual": -1.83,
+        "nearestBucketHitRate": 0.33,
+        "twoBucketHitRate": 0.67
       },
       {
         "key": "telaviv预计|17点到18点",
@@ -7637,12 +7632,12 @@ window.__TEMP_DASHBOARD_DATA__ = {
       },
       {
         "key": "seattle预计|22点到23点",
-        "n": 5,
+        "n": 6,
         "rank": 46,
         "medianResidual": -1,
-        "meanResidual": -2.8,
-        "nearestBucketHitRate": 0.4,
-        "twoBucketHitRate": 0.6
+        "meanResidual": -2.5,
+        "nearestBucketHitRate": 0.5,
+        "twoBucketHitRate": 0.67
       },
       {
         "key": "warsaw预计|22点到23点",
@@ -9229,79 +9224,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
     },
     {
       "date": "2026-05-09",
-      "timeNode": "昨10点到11点",
-      "expectedField": "seattle预计",
-      "predicted": 69,
-      "unit": "F",
-      "totalTrend": "flat",
-      "totalDelta": 0,
-      "momentumSignal": "insufficient",
-      "momentumFirstDelta": 0,
-      "momentumRecentDelta": null,
-      "momentumThreshold": 0.1,
-      "momentumThresholdScore": null,
-      "momentumThresholdUsable": 0,
-      "baselinePredicted": 69,
-      "baselineDelta": 0,
-      "baselineBand": "",
-      "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
-      "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
-      "baselineCityTimeSampleSize": 0,
-      "baselineCitySampleSize": 0,
-      "correctionRegime": "none",
-      "correctionRegimeN": 0,
-      "correctionRegimeHighRate": null,
-      "correctionLowMean": null,
-      "correctionHighMean": null,
-      "trendThreshold": 0.1,
-      "trendSignalN": 0,
-      "trendSignalRate": null,
-      "exactSampleSize": 3,
-      "momentumSampleSize": 0,
-      "timeSampleSize": 3,
-      "trendSampleSize": 14,
-      "citySampleSize": 38,
-      "modelLevel": "city-time",
-      "modelSampleSize": 3,
-      "modelOriginalSampleSize": 3,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
-      "probabilities": [
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 1
-        },
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 1
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 0.8
-        },
-        {
-          "bucket": "58-59",
-          "bucketValue": 58,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.2
-        }
-      ]
-    },
-    {
-      "date": "2026-05-09",
       "timeNode": "昨14点到15点",
       "expectedField": "NYC预计",
       "predicted": 60,
@@ -9436,65 +9358,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.06,
           "probability": 0.06,
           "count": 0.38
-        }
-      ]
-    },
-    {
-      "date": "2026-05-09",
-      "timeNode": "昨14点到15点",
-      "expectedField": "seattle预计",
-      "predicted": 69,
-      "unit": "F",
-      "totalTrend": "flat",
-      "totalDelta": 0,
-      "momentumSignal": "insufficient",
-      "momentumFirstDelta": 0,
-      "momentumRecentDelta": null,
-      "momentumThreshold": 0.1,
-      "momentumThresholdScore": null,
-      "momentumThresholdUsable": 0,
-      "baselinePredicted": 69,
-      "baselineDelta": 0,
-      "baselineBand": "-0.1 到 +0.1",
-      "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
-      "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
-      "baselineCityTimeSampleSize": 1,
-      "baselineCitySampleSize": 2,
-      "correctionRegime": "none",
-      "correctionRegimeN": 0,
-      "correctionRegimeHighRate": null,
-      "correctionLowMean": null,
-      "correctionHighMean": null,
-      "trendThreshold": 0.1,
-      "trendSignalN": 0,
-      "trendSignalRate": null,
-      "exactSampleSize": 2,
-      "momentumSampleSize": 0,
-      "timeSampleSize": 4,
-      "trendSampleSize": 14,
-      "citySampleSize": 38,
-      "modelLevel": "city-time",
-      "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
-      "probabilities": [
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 2
-        },
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 2
         }
       ]
     },
@@ -9646,65 +9509,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
     },
     {
       "date": "2026-05-09",
-      "timeNode": "昨17点到18点",
-      "expectedField": "seattle预计",
-      "predicted": 69,
-      "unit": "F",
-      "totalTrend": "flat",
-      "totalDelta": 0,
-      "momentumSignal": "flat",
-      "momentumFirstDelta": 0,
-      "momentumRecentDelta": 0,
-      "momentumThreshold": 0.1,
-      "momentumThresholdScore": null,
-      "momentumThresholdUsable": 0,
-      "baselinePredicted": 69,
-      "baselineDelta": 0,
-      "baselineBand": "-0.1 到 +0.1",
-      "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
-      "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
-      "baselineCityTimeSampleSize": 1,
-      "baselineCitySampleSize": 2,
-      "correctionRegime": "none",
-      "correctionRegimeN": 0,
-      "correctionRegimeHighRate": null,
-      "correctionLowMean": null,
-      "correctionHighMean": null,
-      "trendThreshold": 0.1,
-      "trendSignalN": 0,
-      "trendSignalRate": null,
-      "exactSampleSize": 2,
-      "momentumSampleSize": 1,
-      "timeSampleSize": 4,
-      "trendSampleSize": 14,
-      "citySampleSize": 38,
-      "modelLevel": "city-time",
-      "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
-      "probabilities": [
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 2
-        },
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 2
-        }
-      ]
-    },
-    {
-      "date": "2026-05-09",
       "timeNode": "昨22点到23点",
       "expectedField": "NYC预计",
       "predicted": 60,
@@ -9839,72 +9643,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.13,
           "probability": 0.13,
           "count": 0.8
-        }
-      ]
-    },
-    {
-      "date": "2026-05-09",
-      "timeNode": "昨22点到23点",
-      "expectedField": "seattle预计",
-      "predicted": 69,
-      "unit": "F",
-      "totalTrend": "flat",
-      "totalDelta": 0,
-      "momentumSignal": "flat",
-      "momentumFirstDelta": 0,
-      "momentumRecentDelta": 0,
-      "momentumThreshold": 0.1,
-      "momentumThresholdScore": null,
-      "momentumThresholdUsable": 0,
-      "baselinePredicted": 69,
-      "baselineDelta": 0,
-      "baselineBand": "-0.1 到 +0.1",
-      "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
-      "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
-      "baselineCityTimeSampleSize": 0,
-      "baselineCitySampleSize": 2,
-      "correctionRegime": "none",
-      "correctionRegimeN": 0,
-      "correctionRegimeHighRate": null,
-      "correctionLowMean": null,
-      "correctionHighMean": null,
-      "trendThreshold": 0.1,
-      "trendSignalN": 0,
-      "trendSignalRate": null,
-      "exactSampleSize": 1,
-      "momentumSampleSize": 0,
-      "timeSampleSize": 4,
-      "trendSampleSize": 14,
-      "citySampleSize": 38,
-      "modelLevel": "city-time",
-      "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
-      "probabilities": [
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 2
-        },
-        {
-          "bucket": "58-59",
-          "bucketValue": 58,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 1
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 1
         }
       ]
     },
@@ -10056,79 +9794,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
     },
     {
       "date": "2026-05-09",
-      "timeNode": "6点到7点",
-      "expectedField": "seattle预计",
-      "predicted": 69,
-      "unit": "F",
-      "totalTrend": "flat",
-      "totalDelta": 0,
-      "momentumSignal": "flat",
-      "momentumFirstDelta": 0,
-      "momentumRecentDelta": 0,
-      "momentumThreshold": 0.1,
-      "momentumThresholdScore": null,
-      "momentumThresholdUsable": 0,
-      "baselinePredicted": 69,
-      "baselineDelta": 0,
-      "baselineBand": "-0.1 到 +0.1",
-      "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
-      "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
-      "baselineCityTimeSampleSize": 0,
-      "baselineCitySampleSize": 2,
-      "correctionRegime": "none",
-      "correctionRegimeN": 0,
-      "correctionRegimeHighRate": null,
-      "correctionLowMean": null,
-      "correctionHighMean": null,
-      "trendThreshold": 0.1,
-      "trendSignalN": 0,
-      "trendSignalRate": null,
-      "exactSampleSize": 1,
-      "momentumSampleSize": 0,
-      "timeSampleSize": 4,
-      "trendSampleSize": 14,
-      "citySampleSize": 38,
-      "modelLevel": "city-time",
-      "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
-      "probabilities": [
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 2
-        },
-        {
-          "bucket": "58-59",
-          "bucketValue": 58,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 1
-        },
-        {
-          "bucket": "62-63",
-          "bucketValue": 62,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 0.8
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.2
-        }
-      ]
-    },
-    {
-      "date": "2026-05-09",
       "timeNode": "10点到11点",
       "expectedField": "NYC预计",
       "predicted": 62,
@@ -10263,79 +9928,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.11,
           "probability": 0.11,
           "count": 0.8
-        }
-      ]
-    },
-    {
-      "date": "2026-05-09",
-      "timeNode": "10点到11点",
-      "expectedField": "seattle预计",
-      "predicted": 69,
-      "unit": "F",
-      "totalTrend": "flat",
-      "totalDelta": 0,
-      "momentumSignal": "flat",
-      "momentumFirstDelta": 0,
-      "momentumRecentDelta": 0,
-      "momentumThreshold": 0.1,
-      "momentumThresholdScore": null,
-      "momentumThresholdUsable": 0,
-      "baselinePredicted": 69,
-      "baselineDelta": 0,
-      "baselineBand": "-0.1 到 +0.1",
-      "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
-      "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
-      "baselineCityTimeSampleSize": 0,
-      "baselineCitySampleSize": 2,
-      "correctionRegime": "none",
-      "correctionRegimeN": 0,
-      "correctionRegimeHighRate": null,
-      "correctionLowMean": null,
-      "correctionHighMean": null,
-      "trendThreshold": 0.1,
-      "trendSignalN": 0,
-      "trendSignalRate": null,
-      "exactSampleSize": 1,
-      "momentumSampleSize": 0,
-      "timeSampleSize": 4,
-      "trendSampleSize": 14,
-      "citySampleSize": 38,
-      "modelLevel": "city-time",
-      "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
-      "probabilities": [
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 2
-        },
-        {
-          "bucket": "58-59",
-          "bucketValue": 58,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 1
-        },
-        {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 0.8
-        },
-        {
-          "bucket": "62-63",
-          "bucketValue": 62,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.2
         }
       ]
     },
@@ -10487,86 +10079,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
     },
     {
       "date": "2026-05-09",
-      "timeNode": "14点到15点",
-      "expectedField": "seattle预计",
-      "predicted": 69,
-      "unit": "F",
-      "totalTrend": "flat",
-      "totalDelta": 0,
-      "momentumSignal": "flat",
-      "momentumFirstDelta": 0,
-      "momentumRecentDelta": 0,
-      "momentumThreshold": 0.1,
-      "momentumThresholdScore": null,
-      "momentumThresholdUsable": 0,
-      "baselinePredicted": 69,
-      "baselineDelta": 0,
-      "baselineBand": "-0.1 到 +0.1",
-      "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
-      "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
-      "baselineCityTimeSampleSize": 0,
-      "baselineCitySampleSize": 2,
-      "correctionRegime": "none",
-      "correctionRegimeN": 0,
-      "correctionRegimeHighRate": null,
-      "correctionLowMean": null,
-      "correctionHighMean": null,
-      "trendThreshold": 0.1,
-      "trendSignalN": 0,
-      "trendSignalRate": null,
-      "exactSampleSize": 2,
-      "momentumSampleSize": 0,
-      "timeSampleSize": 5,
-      "trendSampleSize": 14,
-      "citySampleSize": 38,
-      "modelLevel": "city-time",
-      "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
-      "probabilities": [
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 2
-        },
-        {
-          "bucket": "58-59",
-          "bucketValue": 58,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
-        },
-        {
-          "bucket": "70-71",
-          "bucketValue": 70,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 0.8
-        },
-        {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.2
-        }
-      ]
-    },
-    {
-      "date": "2026-05-09",
       "timeNode": "17点到18点",
       "expectedField": "NYC预计",
       "predicted": 62,
@@ -10706,86 +10218,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
     },
     {
       "date": "2026-05-09",
-      "timeNode": "17点到18点",
-      "expectedField": "seattle预计",
-      "predicted": 69,
-      "unit": "F",
-      "totalTrend": "flat",
-      "totalDelta": 0,
-      "momentumSignal": "flat",
-      "momentumFirstDelta": 0,
-      "momentumRecentDelta": 0,
-      "momentumThreshold": 0.1,
-      "momentumThresholdScore": null,
-      "momentumThresholdUsable": 0,
-      "baselinePredicted": 69,
-      "baselineDelta": 0,
-      "baselineBand": "-0.1 到 +0.1",
-      "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
-      "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
-      "baselineCityTimeSampleSize": 0,
-      "baselineCitySampleSize": 2,
-      "correctionRegime": "none",
-      "correctionRegimeN": 0,
-      "correctionRegimeHighRate": null,
-      "correctionLowMean": null,
-      "correctionHighMean": null,
-      "trendThreshold": 0.1,
-      "trendSignalN": 0,
-      "trendSignalRate": null,
-      "exactSampleSize": 0,
-      "momentumSampleSize": 0,
-      "timeSampleSize": 5,
-      "trendSampleSize": 14,
-      "citySampleSize": 38,
-      "modelLevel": "city-time",
-      "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
-      "probabilities": [
-        {
-          "bucket": "70-71",
-          "bucketValue": 70,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 2.5
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 0.8
-        },
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.5
-        },
-        {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.2
-        }
-      ]
-    },
-    {
-      "date": "2026-05-09",
       "timeNode": "22点到23点",
       "expectedField": "NYC预计",
       "predicted": 63,
@@ -10913,79 +10345,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.05,
           "probability": 0.05,
           "count": 0.38
-        }
-      ]
-    },
-    {
-      "date": "2026-05-09",
-      "timeNode": "22点到23点",
-      "expectedField": "seattle预计",
-      "predicted": 69,
-      "unit": "F",
-      "totalTrend": "flat",
-      "totalDelta": 0,
-      "momentumSignal": "flat",
-      "momentumFirstDelta": 0,
-      "momentumRecentDelta": 0,
-      "momentumThreshold": 0.1,
-      "momentumThresholdScore": null,
-      "momentumThresholdUsable": 0,
-      "baselinePredicted": 69,
-      "baselineDelta": 0,
-      "baselineBand": "-0.1 到 +0.1",
-      "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
-      "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
-      "baselineCityTimeSampleSize": 0,
-      "baselineCitySampleSize": 2,
-      "correctionRegime": "none",
-      "correctionRegimeN": 0,
-      "correctionRegimeHighRate": null,
-      "correctionLowMean": null,
-      "correctionHighMean": null,
-      "trendThreshold": 0.1,
-      "trendSignalN": 0,
-      "trendSignalRate": null,
-      "exactSampleSize": 2,
-      "momentumSampleSize": 1,
-      "timeSampleSize": 5,
-      "trendSampleSize": 14,
-      "citySampleSize": 38,
-      "modelLevel": "city-time",
-      "modelSampleSize": 5,
-      "modelOriginalSampleSize": 5,
-      "outlierDropped": 0,
-      "outlierThreshold": null,
-      "unfilteredProbabilities": [],
-      "probabilities": [
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 2
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
-        },
-        {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
-        },
-        {
-          "bucket": "70-71",
-          "bucketValue": 70,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
         }
       ]
     },
@@ -13681,9 +13040,9 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "baselineDelta": 0,
       "baselineBand": "",
       "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
+      "baselineBandSpread": 0.65,
       "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
+      "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 0,
       "baselineCitySampleSize": 0,
       "correctionRegime": "none",
@@ -13694,14 +13053,14 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendThreshold": 0.1,
       "trendSignalN": 0,
       "trendSignalRate": null,
-      "exactSampleSize": 3,
+      "exactSampleSize": 4,
       "momentumSampleSize": 0,
-      "timeSampleSize": 3,
-      "trendSampleSize": 14,
-      "citySampleSize": 38,
+      "timeSampleSize": 4,
+      "trendSampleSize": 47,
+      "citySampleSize": 47,
       "modelLevel": "city-time",
-      "modelSampleSize": 3,
-      "modelOriginalSampleSize": 3,
+      "modelSampleSize": 4,
+      "modelOriginalSampleSize": 4,
       "outlierDropped": 0,
       "outlierThreshold": null,
       "unfilteredProbabilities": [],
@@ -13709,15 +13068,15 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.67,
-          "probability": 0.67,
-          "count": 2
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 3
         },
         {
           "bucket": "54-55",
           "bucketValue": 54,
-          "rawProbability": 0.33,
-          "probability": 0.33,
+          "rawProbability": 0.25,
+          "probability": 0.25,
           "count": 1
         }
       ]
@@ -15667,7 +15026,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "expectedField": "seattle预计",
       "predicted": 63,
       "unit": "F",
-      "totalTrend": "down",
+      "totalTrend": "flat",
       "totalDelta": -1,
       "momentumSignal": "insufficient",
       "momentumFirstDelta": -1,
@@ -15679,9 +15038,9 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "baselineDelta": -1,
       "baselineBand": "<= -0.3",
       "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
+      "baselineBandSpread": 0.65,
       "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
+      "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 2,
       "baselineCitySampleSize": 22,
       "correctionRegime": "none",
@@ -15690,33 +15049,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "correctionLowMean": null,
       "correctionHighMean": null,
       "trendThreshold": 0.1,
-      "trendSignalN": 35,
-      "trendSignalRate": 0.89,
-      "exactSampleSize": 2,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 5,
       "momentumSampleSize": 0,
-      "timeSampleSize": 4,
-      "trendSampleSize": 24,
-      "citySampleSize": 38,
+      "timeSampleSize": 5,
+      "trendSampleSize": 47,
+      "citySampleSize": 47,
       "modelLevel": "city-time",
-      "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
+      "modelSampleSize": 5,
+      "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "54-55",
-          "bucketValue": 54,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 2
-        },
-        {
           "bucket": "62-63",
           "bucketValue": 62,
           "rawProbability": 0.5,
           "probability": 0.5,
+          "count": 2.5
+        },
+        {
+          "bucket": "54-55",
+          "bucketValue": 54,
+          "rawProbability": 0.4,
+          "probability": 0.4,
           "count": 2
+        },
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.5
         }
       ]
     },
@@ -17763,7 +17129,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "expectedField": "seattle预计",
       "predicted": 63,
       "unit": "F",
-      "totalTrend": "down",
+      "totalTrend": "flat",
       "totalDelta": -1,
       "momentumSignal": "double_down",
       "momentumFirstDelta": -1,
@@ -17775,9 +17141,9 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "baselineDelta": -1,
       "baselineBand": "<= -0.3",
       "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
+      "baselineBandSpread": 0.65,
       "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
+      "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 2,
       "baselineCitySampleSize": 22,
       "correctionRegime": "none",
@@ -17786,33 +17152,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "correctionLowMean": null,
       "correctionHighMean": null,
       "trendThreshold": 0.1,
-      "trendSignalN": 35,
-      "trendSignalRate": 0.89,
-      "exactSampleSize": 2,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 5,
       "momentumSampleSize": 2,
-      "timeSampleSize": 4,
-      "trendSampleSize": 24,
-      "citySampleSize": 38,
+      "timeSampleSize": 5,
+      "trendSampleSize": 47,
+      "citySampleSize": 47,
       "modelLevel": "city-time",
-      "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
+      "modelSampleSize": 5,
+      "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "54-55",
-          "bucketValue": 54,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 2
-        },
-        {
           "bucket": "62-63",
           "bucketValue": 62,
           "rawProbability": 0.5,
           "probability": 0.5,
+          "count": 2.5
+        },
+        {
+          "bucket": "54-55",
+          "bucketValue": 54,
+          "rawProbability": 0.4,
+          "probability": 0.4,
           "count": 2
+        },
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.5
         }
       ]
     },
@@ -19774,7 +19147,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "expectedField": "seattle预计",
       "predicted": 63,
       "unit": "F",
-      "totalTrend": "down",
+      "totalTrend": "flat",
       "totalDelta": -1,
       "momentumSignal": "recent_flat",
       "momentumFirstDelta": -1,
@@ -19786,9 +19159,9 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "baselineDelta": -1,
       "baselineBand": "<= -0.3",
       "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
+      "baselineBandSpread": 0.65,
       "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
+      "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 3,
       "baselineCitySampleSize": 22,
       "correctionRegime": "none",
@@ -19797,16 +19170,16 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "correctionLowMean": null,
       "correctionHighMean": null,
       "trendThreshold": 0.1,
-      "trendSignalN": 35,
-      "trendSignalRate": 0.89,
-      "exactSampleSize": 3,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 5,
       "momentumSampleSize": 2,
-      "timeSampleSize": 4,
-      "trendSampleSize": 24,
-      "citySampleSize": 38,
+      "timeSampleSize": 5,
+      "trendSampleSize": 47,
+      "citySampleSize": 47,
       "modelLevel": "city-time",
-      "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
+      "modelSampleSize": 5,
+      "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
       "unfilteredProbabilities": [],
@@ -19816,21 +19189,28 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 62,
           "rawProbability": 0.5,
           "probability": 0.5,
-          "count": 2
+          "count": 2.5
         },
         {
           "bucket": "52-53",
           "bucketValue": 52,
-          "rawProbability": 0.25,
-          "probability": 0.25,
+          "rawProbability": 0.2,
+          "probability": 0.2,
           "count": 1
         },
         {
           "bucket": "54-55",
           "bucketValue": 54,
-          "rawProbability": 0.25,
-          "probability": 0.25,
+          "rawProbability": 0.2,
+          "probability": 0.2,
           "count": 1
+        },
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.5
         }
       ]
     },
@@ -21754,11 +21134,11 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "baselineDelta": 0,
       "baselineBand": "-0.1 到 +0.1",
       "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
+      "baselineBandSpread": 0.65,
       "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
-      "baselineCityTimeSampleSize": 0,
-      "baselineCitySampleSize": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 10,
       "correctionRegime": "none",
       "correctionRegimeN": 0,
       "correctionRegimeHighRate": null,
@@ -21767,14 +21147,14 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "trendThreshold": 0.1,
       "trendSignalN": 0,
       "trendSignalRate": null,
-      "exactSampleSize": 1,
+      "exactSampleSize": 5,
       "momentumSampleSize": 0,
-      "timeSampleSize": 4,
-      "trendSampleSize": 14,
-      "citySampleSize": 38,
+      "timeSampleSize": 5,
+      "trendSampleSize": 47,
+      "citySampleSize": 47,
       "modelLevel": "city-time",
-      "modelSampleSize": 4,
-      "modelOriginalSampleSize": 4,
+      "modelSampleSize": 5,
+      "modelOriginalSampleSize": 5,
       "outlierDropped": 0,
       "outlierThreshold": null,
       "unfilteredProbabilities": [],
@@ -21782,22 +21162,29 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.5,
-          "probability": 0.5,
+          "rawProbability": 0.4,
+          "probability": 0.4,
           "count": 2
         },
         {
           "bucket": "54-55",
           "bucketValue": 54,
-          "rawProbability": 0.25,
-          "probability": 0.25,
+          "rawProbability": 0.2,
+          "probability": 0.2,
           "count": 1
         },
         {
           "bucket": "56-57",
           "bucketValue": 56,
-          "rawProbability": 0.25,
-          "probability": 0.25,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 1
+        },
+        {
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.2,
+          "probability": 0.2,
           "count": 1
         }
       ]
@@ -22200,6 +21587,416 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "rawProbability": 0.01,
           "probability": 0.01,
           "count": 0.07
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "10点到11点",
+      "expectedField": "NYC预计",
+      "predicted": 72,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 3,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 3,
+      "momentumRecentDelta": 2.5,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 69,
+      "baselineDelta": 3,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 1.57,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 3,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 11,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 6,
+      "momentumSampleSize": 1,
+      "timeSampleSize": 6,
+      "trendSampleSize": 50,
+      "citySampleSize": 50,
+      "modelLevel": "city-time",
+      "modelSampleSize": 6,
+      "modelOriginalSampleSize": 6,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "72-73",
+          "bucketValue": 72,
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 4.18
+        },
+        {
+          "bucket": "74-75",
+          "bucketValue": 74,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 1.2
+        },
+        {
+          "bucket": "70-71",
+          "bucketValue": 70,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.62
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "10点到11点",
+      "expectedField": "San预计",
+      "predicted": 63,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "first_flat",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": 0.5,
+      "momentumThreshold": 0,
+      "momentumThresholdScore": 0.5,
+      "momentumThresholdUsable": 4,
+      "baselinePredicted": 63,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 1.1,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 4,
+      "baselineCitySampleSize": 31,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 7,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 7,
+      "trendSampleSize": 56,
+      "citySampleSize": 59,
+      "modelLevel": "city-time",
+      "modelSampleSize": 7,
+      "modelOriginalSampleSize": 7,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 3.2
+        },
+        {
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.29,
+          "probability": 0.29,
+          "count": 2
+        },
+        {
+          "bucket": "66-67",
+          "bucketValue": 66,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1
+        },
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.8
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "10点到11点",
+      "expectedField": "chicago预计",
+      "predicted": 65,
+      "unit": "F",
+      "totalTrend": "up",
+      "totalDelta": 3,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 3,
+      "momentumRecentDelta": 2,
+      "momentumThreshold": 0,
+      "momentumThresholdScore": 0.5,
+      "momentumThresholdUsable": 4,
+      "baselinePredicted": 62,
+      "baselineDelta": 3,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.7,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 5,
+      "baselineCitySampleSize": 29,
+      "correctionRegime": "low",
+      "correctionRegimeN": 4,
+      "correctionRegimeHighRate": 0,
+      "correctionLowMean": 1.25,
+      "correctionHighMean": 3.4,
+      "trendThreshold": 0.1,
+      "trendSignalN": 57,
+      "trendSignalRate": 0.75,
+      "exactSampleSize": 5,
+      "momentumSampleSize": 4,
+      "timeSampleSize": 9,
+      "trendSampleSize": 30,
+      "citySampleSize": 73,
+      "modelLevel": "city-time",
+      "modelSampleSize": 9,
+      "modelOriginalSampleSize": 9,
+      "outlierDropped": 0,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "66-67",
+          "bucketValue": 66,
+          "rawProbability": 0.56,
+          "probability": 0.56,
+          "count": 5
+        },
+        {
+          "bucket": "68-69",
+          "bucketValue": 68,
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 2.5
+        },
+        {
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.5
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "10点到11点",
+      "expectedField": "dallas预计",
+      "predicted": 80,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 3,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 3,
+      "momentumRecentDelta": 0.5,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 77,
+      "baselineDelta": 3,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": null,
+      "baselineBandMinSpread": null,
+      "baselineUsableBandCount": 0,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 1,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 1,
+      "trendSampleSize": 8,
+      "citySampleSize": 8,
+      "modelLevel": "city-time",
+      "modelSampleSize": 1,
+      "modelOriginalSampleSize": 1,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "84-85",
+          "bucketValue": 84,
+          "rawProbability": 1,
+          "probability": 1,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "10点到11点",
+      "expectedField": "miami本土预计",
+      "predicted": 90,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": -1,
+      "momentumSignal": "recent_flat",
+      "momentumFirstDelta": -1,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 0.5,
+      "momentumThresholdScore": 0.17,
+      "momentumThresholdUsable": 9,
+      "baselinePredicted": 91,
+      "baselineDelta": -1,
+      "baselineBand": "<= -0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.18,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 6,
+      "correctionRegimeHighRate": 0.33,
+      "correctionLowMean": -0.92,
+      "correctionHighMean": 1.18,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 11,
+      "momentumSampleSize": 6,
+      "timeSampleSize": 11,
+      "trendSampleSize": 90,
+      "citySampleSize": 90,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "modelOriginalSampleSize": 11,
+      "outlierDropped": 0,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "88-89",
+          "bucketValue": 88,
+          "rawProbability": 0.53,
+          "probability": 0.53,
+          "count": 5.8
+        },
+        {
+          "bucket": "90-91",
+          "bucketValue": 90,
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 4.53
+        },
+        {
+          "bucket": "92-93",
+          "bucketValue": 92,
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.47
+        },
+        {
+          "bucket": "86-87",
+          "bucketValue": 86,
+          "rawProbability": 0.02,
+          "probability": 0.02,
+          "count": 0.2
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "10点到11点",
+      "expectedField": "seattle预计",
+      "predicted": 65,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 1,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 1,
+      "momentumRecentDelta": 1.5,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 64,
+      "baselineDelta": 1,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.65,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 5,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 5,
+      "trendSampleSize": 47,
+      "citySampleSize": 47,
+      "modelLevel": "city-time",
+      "modelSampleSize": 5,
+      "modelOriginalSampleSize": 5,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.5,
+          "probability": 0.5,
+          "count": 2.5
+        },
+        {
+          "bucket": "54-55",
+          "bucketValue": 54,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 1
+        },
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 0.8
+        },
+        {
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.5
+        },
+        {
+          "bucket": "58-59",
+          "bucketValue": 58,
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.2
         }
       ]
     },
@@ -22974,15 +22771,15 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "momentumThreshold": 0.1,
       "momentumThresholdScore": null,
       "momentumThresholdUsable": 0,
-      "baselinePredicted": null,
-      "baselineDelta": null,
-      "baselineBand": "",
+      "baselinePredicted": 59,
+      "baselineDelta": 2,
+      "baselineBand": ">= +0.3",
       "baselineBandEnabled": false,
       "baselineBandSpread": 1.57,
       "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 3,
       "baselineCityTimeSampleSize": 0,
-      "baselineCitySampleSize": 0,
+      "baselineCitySampleSize": 11,
       "correctionRegime": "none",
       "correctionRegimeN": 0,
       "correctionRegimeHighRate": null,
@@ -23018,15 +22815,15 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "momentumThreshold": 0.1,
       "momentumThresholdScore": null,
       "momentumThresholdUsable": 0,
-      "baselinePredicted": null,
-      "baselineDelta": null,
-      "baselineBand": "",
+      "baselinePredicted": 70,
+      "baselineDelta": -1,
+      "baselineBand": "<= -0.3",
       "baselineBandEnabled": false,
       "baselineBandSpread": 1.1,
       "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 0,
-      "baselineCitySampleSize": 0,
+      "baselineCitySampleSize": 14,
       "correctionRegime": "none",
       "correctionRegimeN": 0,
       "correctionRegimeHighRate": null,
@@ -23062,15 +22859,15 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "momentumThreshold": 0.1,
       "momentumThresholdScore": null,
       "momentumThresholdUsable": 0,
-      "baselinePredicted": null,
-      "baselineDelta": null,
-      "baselineBand": "",
+      "baselinePredicted": 57,
+      "baselineDelta": -1,
+      "baselineBand": "<= -0.3",
       "baselineBandEnabled": false,
       "baselineBandSpread": 0.7,
       "baselineBandMinSpread": 2,
       "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 0,
-      "baselineCitySampleSize": 0,
+      "baselineCitySampleSize": 4,
       "correctionRegime": "none",
       "correctionRegimeN": 0,
       "correctionRegimeHighRate": null,
@@ -23106,9 +22903,9 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "momentumThreshold": 0.1,
       "momentumThresholdScore": null,
       "momentumThresholdUsable": 0,
-      "baselinePredicted": null,
-      "baselineDelta": null,
-      "baselineBand": "",
+      "baselinePredicted": 82,
+      "baselineDelta": -3,
+      "baselineBand": "<= -0.3",
       "baselineBandEnabled": false,
       "baselineBandSpread": null,
       "baselineBandMinSpread": null,
@@ -23139,6 +22936,65 @@ window.__TEMP_DASHBOARD_DATA__ = {
     {
       "date": "2026-05-11",
       "timeNode": "昨6点到7点",
+      "expectedField": "miami本土预计",
+      "predicted": 90,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "insufficient",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": null,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 90,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.18,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 22,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 1,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 1,
+      "trendSampleSize": 90,
+      "citySampleSize": 90,
+      "modelLevel": "city-time",
+      "modelSampleSize": 1,
+      "modelOriginalSampleSize": 1,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "92-93",
+          "bucketValue": 92,
+          "rawProbability": 0.8,
+          "probability": 0.8,
+          "count": 0.8
+        },
+        {
+          "bucket": "90-91",
+          "bucketValue": 90,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 0.2
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨6点到7点",
       "expectedField": "seattle预计",
       "predicted": 68,
       "unit": "F",
@@ -23150,15 +23006,15 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "momentumThreshold": 0.1,
       "momentumThresholdScore": null,
       "momentumThresholdUsable": 0,
-      "baselinePredicted": null,
-      "baselineDelta": null,
-      "baselineBand": "",
+      "baselinePredicted": 70,
+      "baselineDelta": -2,
+      "baselineBand": "<= -0.3",
       "baselineBandEnabled": false,
-      "baselineBandSpread": 0,
+      "baselineBandSpread": 0.65,
       "baselineBandMinSpread": 2,
-      "baselineUsableBandCount": 1,
+      "baselineUsableBandCount": 2,
       "baselineCityTimeSampleSize": 0,
-      "baselineCitySampleSize": 0,
+      "baselineCitySampleSize": 22,
       "correctionRegime": "none",
       "correctionRegimeN": 0,
       "correctionRegimeHighRate": null,
@@ -23170,8 +23026,8 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "exactSampleSize": 0,
       "momentumSampleSize": 0,
       "timeSampleSize": 0,
-      "trendSampleSize": 14,
-      "citySampleSize": 38,
+      "trendSampleSize": 47,
+      "citySampleSize": 47,
       "modelLevel": "none",
       "modelSampleSize": 0,
       "modelOriginalSampleSize": 0,
@@ -23502,191 +23358,405 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "count": 0.1
         }
       ]
-    }
-  ],
-  "openMarketCandidates": [
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨22点到23点",
-      "expectedField": "telaviv预计",
-      "predicted": 27.45,
-      "unit": "C",
-      "adjustedForSettlement": 28.05,
-      "buyBuckets": [
-        "28",
-        "29"
-      ],
-      "estimatedTop1HitRate": 0.52,
-      "estimatedTop2HitRate": 0.94
     },
     {
-      "date": "2026-05-10",
-      "timeNode": "昨22点到23点",
-      "expectedField": "warsaw预计",
-      "predicted": 19.43,
-      "unit": "C",
-      "adjustedForSettlement": 19.72,
-      "buyBuckets": [
-        "20",
-        "19"
-      ],
-      "estimatedTop1HitRate": 0.54,
-      "estimatedTop2HitRate": 0.72
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨22点到23点",
-      "expectedField": "london预计",
-      "predicted": 14.82,
-      "unit": "C",
-      "adjustedForSettlement": 15.12,
-      "buyBuckets": [
-        "15",
-        "16"
-      ],
-      "estimatedTop1HitRate": 0.46,
-      "estimatedTop2HitRate": 0.66
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨22点到23点",
-      "expectedField": "paris预计",
-      "predicted": 17.88,
-      "unit": "C",
-      "adjustedForSettlement": 18.72,
-      "buyBuckets": [
-        "19",
-        "18"
-      ],
-      "estimatedTop1HitRate": 0.41,
-      "estimatedTop2HitRate": 0.69
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨22点到23点",
+      "date": "2026-05-11",
+      "timeNode": "昨10点到11点",
       "expectedField": "NYC预计",
+      "predicted": 59,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": -2,
+      "momentumSignal": "insufficient",
+      "momentumFirstDelta": -2,
+      "momentumRecentDelta": null,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 59,
+      "baselineDelta": 0,
+      "baselineBand": "",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 1.57,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 3,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 5,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 5,
+      "trendSampleSize": 50,
+      "citySampleSize": 50,
+      "modelLevel": "city-time",
+      "modelSampleSize": 5,
+      "modelOriginalSampleSize": 5,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.6,
+          "probability": 0.6,
+          "count": 3
+        },
+        {
+          "bucket": "58-59",
+          "bucketValue": 58,
+          "rawProbability": 0.4,
+          "probability": 0.4,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨10点到11点",
+      "expectedField": "San预计",
       "predicted": 70,
       "unit": "F",
-      "adjustedForSettlement": 71.6,
-      "buyBuckets": [
-        "70-71",
-        "72-73"
-      ],
-      "estimatedTop1HitRate": 0.44,
-      "estimatedTop2HitRate": 0.78
+      "totalTrend": "up",
+      "totalDelta": 1,
+      "momentumSignal": "insufficient",
+      "momentumFirstDelta": 1,
+      "momentumRecentDelta": null,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 70,
+      "baselineDelta": 0,
+      "baselineBand": "",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 1.1,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 53,
+      "trendSignalRate": 0.7,
+      "exactSampleSize": 0,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 6,
+      "trendSampleSize": 3,
+      "citySampleSize": 59,
+      "modelLevel": "city-time",
+      "modelSampleSize": 6,
+      "modelOriginalSampleSize": 6,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "72-73",
+          "bucketValue": 72,
+          "rawProbability": 0.6,
+          "probability": 0.6,
+          "count": 3.62
+        },
+        {
+          "bucket": "68-69",
+          "bucketValue": 68,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 1.2
+        },
+        {
+          "bucket": "66-67",
+          "bucketValue": 66,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 0.8
+        },
+        {
+          "bucket": "74-75",
+          "bucketValue": 74,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.38
+        }
+      ]
     },
     {
-      "date": "2026-05-10",
-      "timeNode": "昨22点到23点",
-      "expectedField": "San预计",
-      "predicted": 62,
-      "unit": "F",
-      "adjustedForSettlement": 64.4,
-      "buyBuckets": [
-        "64-65",
-        "62-63"
-      ],
-      "estimatedTop1HitRate": 0.22,
-      "estimatedTop2HitRate": 0.32
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨22点到23点",
+      "date": "2026-05-11",
+      "timeNode": "昨10点到11点",
       "expectedField": "chicago预计",
-      "predicted": 62,
+      "predicted": 57,
       "unit": "F",
-      "adjustedForSettlement": 64.8,
-      "buyBuckets": [
-        "64-65",
-        "66-67"
-      ],
-      "estimatedTop1HitRate": 0.16,
-      "estimatedTop2HitRate": 0.38
+      "totalTrend": "up",
+      "totalDelta": 1,
+      "momentumSignal": "insufficient",
+      "momentumFirstDelta": 1,
+      "momentumRecentDelta": null,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 57,
+      "baselineDelta": 0,
+      "baselineBand": "",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.7,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 57,
+      "trendSignalRate": 0.75,
+      "exactSampleSize": 0,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 7,
+      "trendSampleSize": 30,
+      "citySampleSize": 73,
+      "modelLevel": "city-time",
+      "modelSampleSize": 7,
+      "modelOriginalSampleSize": 7,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.64,
+          "probability": 0.64,
+          "count": 4.5
+        },
+        {
+          "bucket": "58-59",
+          "bucketValue": 58,
+          "rawProbability": 0.33,
+          "probability": 0.33,
+          "count": 2.3
+        },
+        {
+          "bucket": "56-57",
+          "bucketValue": 56,
+          "rawProbability": 0.03,
+          "probability": 0.03,
+          "count": 0.2
+        }
+      ]
     },
     {
-      "date": "2026-05-10",
-      "timeNode": "昨22点到23点",
+      "date": "2026-05-11",
+      "timeNode": "昨10点到11点",
       "expectedField": "dallas预计",
-      "predicted": 79,
+      "predicted": 82,
       "unit": "F",
-      "adjustedForSettlement": 84.4,
-      "buyBuckets": [
-        "84-85",
-        "82-83"
-      ],
-      "estimatedTop1HitRate": 0,
-      "estimatedTop2HitRate": 0
+      "totalTrend": "flat",
+      "totalDelta": 3,
+      "momentumSignal": "insufficient",
+      "momentumFirstDelta": 3,
+      "momentumRecentDelta": null,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 82,
+      "baselineDelta": 0,
+      "baselineBand": "",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": null,
+      "baselineBandMinSpread": null,
+      "baselineUsableBandCount": 0,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 0,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 0,
+      "trendSampleSize": 8,
+      "citySampleSize": 8,
+      "modelLevel": "none",
+      "modelSampleSize": 0,
+      "modelOriginalSampleSize": 0,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": []
     },
     {
-      "date": "2026-05-10",
-      "timeNode": "昨22点到23点",
+      "date": "2026-05-11",
+      "timeNode": "昨10点到11点",
       "expectedField": "miami本土预计",
       "predicted": 90,
       "unit": "F",
-      "adjustedForSettlement": 90.09,
-      "buyBuckets": [
-        "90-91",
-        "88-89"
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "insufficient",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": null,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 90,
+      "baselineDelta": 0,
+      "baselineBand": "",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.18,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 8,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 8,
+      "trendSampleSize": 90,
+      "citySampleSize": 90,
+      "modelLevel": "city-time",
+      "modelSampleSize": 7,
+      "modelOriginalSampleSize": 8,
+      "outlierDropped": 1,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "90-91",
+          "bucketValue": 90,
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 4.29
+        },
+        {
+          "bucket": "88-89",
+          "bucketValue": 88,
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 1.53
+        },
+        {
+          "bucket": "92-93",
+          "bucketValue": 92,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.18
+        },
+        {
+          "bucket": "94-95",
+          "bucketValue": 94,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 1
+        }
       ],
-      "estimatedTop1HitRate": 0.46,
-      "estimatedTop2HitRate": 0.83
+      "probabilities": [
+        {
+          "bucket": "90-91",
+          "bucketValue": 90,
+          "rawProbability": 0.61,
+          "probability": 0.61,
+          "count": 4.29
+        },
+        {
+          "bucket": "88-89",
+          "bucketValue": 88,
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 1.53
+        },
+        {
+          "bucket": "92-93",
+          "bucketValue": 92,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.18
+        }
+      ]
     },
     {
-      "date": "2026-05-10",
-      "timeNode": "昨22点到23点",
+      "date": "2026-05-11",
+      "timeNode": "昨10点到11点",
       "expectedField": "seattle预计",
-      "predicted": 63,
+      "predicted": 70,
       "unit": "F",
-      "adjustedForSettlement": 62.6,
-      "buyBuckets": [
-        "62-63",
-        "64-65"
-      ],
-      "estimatedTop1HitRate": 0.42,
-      "estimatedTop2HitRate": 0.55
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨22点到23点",
-      "expectedField": "shanghai预计",
-      "predicted": 22.96,
-      "unit": "C",
-      "adjustedForSettlement": 24.34,
-      "buyBuckets": [
-        "24",
-        "25"
-      ],
-      "estimatedTop1HitRate": 0.2,
-      "estimatedTop2HitRate": 0.56
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨22点到23点",
-      "expectedField": "toyko预计",
-      "predicted": 22.4,
-      "unit": "C",
-      "adjustedForSettlement": 23.85,
-      "buyBuckets": [
-        "24",
-        "23"
-      ],
-      "estimatedTop1HitRate": 0.31,
-      "estimatedTop2HitRate": 0.52
-    },
-    {
-      "date": "2026-05-10",
-      "timeNode": "昨22点到23点",
-      "expectedField": "amsterdam预计",
-      "predicted": 15.6,
-      "unit": "C",
-      "adjustedForSettlement": 16,
-      "buyBuckets": [
-        "16",
-        "17"
-      ],
-      "estimatedTop1HitRate": 0.49,
-      "estimatedTop2HitRate": 0.67
-    },
+      "totalTrend": "flat",
+      "totalDelta": 2,
+      "momentumSignal": "insufficient",
+      "momentumFirstDelta": 2,
+      "momentumRecentDelta": null,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 70,
+      "baselineDelta": 0,
+      "baselineBand": "",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.65,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 4,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 4,
+      "trendSampleSize": 47,
+      "citySampleSize": 47,
+      "modelLevel": "city-time",
+      "modelSampleSize": 4,
+      "modelOriginalSampleSize": 4,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "68-69",
+          "bucketValue": 68,
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 3
+        },
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "openMarketCandidates": [
     {
       "date": "2026-05-10",
       "timeNode": "昨22点到23点",
@@ -23959,13 +24029,13 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "expectedField": "seattle预计",
       "predicted": 64,
       "unit": "F",
-      "adjustedForSettlement": 63.6,
+      "adjustedForSettlement": 63,
       "buyBuckets": [
         "62-63",
         "64-65"
       ],
-      "estimatedTop1HitRate": 0.42,
-      "estimatedTop2HitRate": 0.55
+      "estimatedTop1HitRate": 0.53,
+      "estimatedTop2HitRate": 0.64
     },
     {
       "date": "2026-05-10",
@@ -24036,6 +24106,90 @@ window.__TEMP_DASHBOARD_DATA__ = {
       ],
       "estimatedTop1HitRate": 0.58,
       "estimatedTop2HitRate": 0.73
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "10点到11点",
+      "expectedField": "NYC预计",
+      "predicted": 72,
+      "unit": "F",
+      "adjustedForSettlement": 73.6,
+      "buyBuckets": [
+        "72-73",
+        "74-75"
+      ],
+      "estimatedTop1HitRate": 0.44,
+      "estimatedTop2HitRate": 0.78
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "10点到11点",
+      "expectedField": "San预计",
+      "predicted": 63,
+      "unit": "F",
+      "adjustedForSettlement": 65.4,
+      "buyBuckets": [
+        "64-65",
+        "66-67"
+      ],
+      "estimatedTop1HitRate": 0.22,
+      "estimatedTop2HitRate": 0.32
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "10点到11点",
+      "expectedField": "chicago预计",
+      "predicted": 65,
+      "unit": "F",
+      "adjustedForSettlement": 67.8,
+      "buyBuckets": [
+        "66-67",
+        "68-69"
+      ],
+      "estimatedTop1HitRate": 0.16,
+      "estimatedTop2HitRate": 0.38
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "10点到11点",
+      "expectedField": "dallas预计",
+      "predicted": 80,
+      "unit": "F",
+      "adjustedForSettlement": 85.4,
+      "buyBuckets": [
+        "84-85",
+        "86-87"
+      ],
+      "estimatedTop1HitRate": 0,
+      "estimatedTop2HitRate": 0
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "10点到11点",
+      "expectedField": "miami本土预计",
+      "predicted": 90,
+      "unit": "F",
+      "adjustedForSettlement": 90.09,
+      "buyBuckets": [
+        "90-91",
+        "88-89"
+      ],
+      "estimatedTop1HitRate": 0.46,
+      "estimatedTop2HitRate": 0.83
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "10点到11点",
+      "expectedField": "seattle预计",
+      "predicted": 65,
+      "unit": "F",
+      "adjustedForSettlement": 64,
+      "buyBuckets": [
+        "64-65",
+        "62-63"
+      ],
+      "estimatedTop1HitRate": 0.53,
+      "estimatedTop2HitRate": 0.64
     },
     {
       "date": "2026-05-11",
@@ -24264,16 +24418,30 @@ window.__TEMP_DASHBOARD_DATA__ = {
     {
       "date": "2026-05-11",
       "timeNode": "昨6点到7点",
+      "expectedField": "miami本土预计",
+      "predicted": 90,
+      "unit": "F",
+      "adjustedForSettlement": 90.09,
+      "buyBuckets": [
+        "90-91",
+        "88-89"
+      ],
+      "estimatedTop1HitRate": 0.46,
+      "estimatedTop2HitRate": 0.83
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨6点到7点",
       "expectedField": "seattle预计",
       "predicted": 68,
       "unit": "F",
-      "adjustedForSettlement": 67.6,
+      "adjustedForSettlement": 67,
       "buyBuckets": [
         "66-67",
         "68-69"
       ],
-      "estimatedTop1HitRate": 0.42,
-      "estimatedTop2HitRate": 0.55
+      "estimatedTop1HitRate": 0.53,
+      "estimatedTop2HitRate": 0.64
     },
     {
       "date": "2026-05-11",
@@ -24344,16 +24512,93 @@ window.__TEMP_DASHBOARD_DATA__ = {
       ],
       "estimatedTop1HitRate": 0.58,
       "estimatedTop2HitRate": 0.73
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨10点到11点",
+      "expectedField": "NYC预计",
+      "predicted": 59,
+      "unit": "F",
+      "adjustedForSettlement": 60.6,
+      "buyBuckets": [
+        "60-61",
+        "62-63"
+      ],
+      "estimatedTop1HitRate": 0.44,
+      "estimatedTop2HitRate": 0.78
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨10点到11点",
+      "expectedField": "San预计",
+      "predicted": 70,
+      "unit": "F",
+      "adjustedForSettlement": 72.4,
+      "buyBuckets": [
+        "72-73",
+        "70-71"
+      ],
+      "estimatedTop1HitRate": 0.22,
+      "estimatedTop2HitRate": 0.32
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨10点到11点",
+      "expectedField": "chicago预计",
+      "predicted": 57,
+      "unit": "F",
+      "adjustedForSettlement": 59.8,
+      "buyBuckets": [
+        "58-59",
+        "60-61"
+      ],
+      "estimatedTop1HitRate": 0.16,
+      "estimatedTop2HitRate": 0.38
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨10点到11点",
+      "expectedField": "dallas预计",
+      "predicted": 82,
+      "unit": "F",
+      "adjustedForSettlement": 87.4,
+      "buyBuckets": [
+        "86-87",
+        "88-89"
+      ],
+      "estimatedTop1HitRate": 0,
+      "estimatedTop2HitRate": 0
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨10点到11点",
+      "expectedField": "miami本土预计",
+      "predicted": 90,
+      "unit": "F",
+      "adjustedForSettlement": 90.09,
+      "buyBuckets": [
+        "90-91",
+        "88-89"
+      ],
+      "estimatedTop1HitRate": 0.46,
+      "estimatedTop2HitRate": 0.83
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨10点到11点",
+      "expectedField": "seattle预计",
+      "predicted": 70,
+      "unit": "F",
+      "adjustedForSettlement": 69,
+      "buyBuckets": [
+        "68-69",
+        "70-71"
+      ],
+      "estimatedTop1HitRate": 0.53,
+      "estimatedTop2HitRate": 0.64
     }
   ],
   "forecastStability": [
-    {
-      "city": "denver",
-      "dateCount": 2,
-      "medianForecastRange": 0,
-      "meanForecastRange": 0,
-      "maxForecastRange": 0
-    },
     {
       "city": "buenos",
       "dateCount": 3,
@@ -24482,30 +24727,23 @@ window.__TEMP_DASHBOARD_DATA__ = {
     },
     {
       "city": "LA",
-      "dateCount": 2,
+      "dateCount": 3,
       "medianForecastRange": 1,
       "meanForecastRange": 1,
       "maxForecastRange": 1
     },
     {
-      "city": "houston",
-      "dateCount": 2,
-      "medianForecastRange": 1,
-      "meanForecastRange": 1,
-      "maxForecastRange": 2
-    },
-    {
       "city": "San",
-      "dateCount": 9,
+      "dateCount": 10,
       "medianForecastRange": 1,
-      "meanForecastRange": 1.11,
+      "meanForecastRange": 1.1,
       "maxForecastRange": 2
     },
     {
-      "city": "NYC",
-      "dateCount": 9,
+      "city": "San数量",
+      "dateCount": 3,
       "medianForecastRange": 1,
-      "meanForecastRange": 1.44,
+      "meanForecastRange": 1.33,
       "maxForecastRange": 3
     },
     {
@@ -24530,13 +24768,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "maxForecastRange": 2.39
     },
     {
-      "city": "austin",
-      "dateCount": 2,
-      "medianForecastRange": 1.5,
-      "meanForecastRange": 1.5,
-      "maxForecastRange": 2
-    },
-    {
       "city": "lucknow",
       "dateCount": 13,
       "medianForecastRange": 1.58,
@@ -24544,104 +24775,132 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "maxForecastRange": 2.2
     },
     {
-      "city": "miami",
-      "dateCount": 7,
+      "city": "denver",
+      "dateCount": 3,
       "medianForecastRange": 2,
-      "meanForecastRange": 1.71,
+      "meanForecastRange": 1.33,
+      "maxForecastRange": 2
+    },
+    {
+      "city": "NYC",
+      "dateCount": 10,
+      "medianForecastRange": 2,
+      "meanForecastRange": 1.7,
       "maxForecastRange": 3
     },
     {
-      "city": "San数量",
-      "dateCount": 2,
+      "city": "miami",
+      "dateCount": 8,
+      "medianForecastRange": 2,
+      "meanForecastRange": 1.75,
+      "maxForecastRange": 3
+    },
+    {
+      "city": "austin",
+      "dateCount": 3,
       "medianForecastRange": 2,
       "meanForecastRange": 2,
       "maxForecastRange": 3
     },
     {
-      "city": "seattle",
-      "dateCount": 7,
+      "city": "houston",
+      "dateCount": 3,
       "medianForecastRange": 2,
-      "meanForecastRange": 2.14,
-      "maxForecastRange": 6
+      "meanForecastRange": 2,
+      "maxForecastRange": 2
     },
     {
       "city": "chicago",
-      "dateCount": 11,
+      "dateCount": 12,
       "medianForecastRange": 2,
-      "meanForecastRange": 2.27,
+      "meanForecastRange": 2.25,
       "maxForecastRange": 4
     },
     {
-      "city": "atlanta",
-      "dateCount": 3,
+      "city": "seattle",
+      "dateCount": 8,
       "medianForecastRange": 2,
-      "meanForecastRange": 2.33,
-      "maxForecastRange": 4
+      "meanForecastRange": 2.25,
+      "maxForecastRange": 6
     },
     {
       "city": "dallas",
-      "dateCount": 3,
-      "medianForecastRange": 2,
-      "meanForecastRange": 2.33,
+      "dateCount": 4,
+      "medianForecastRange": 2.5,
+      "meanForecastRange": 2.5,
       "maxForecastRange": 3
+    },
+    {
+      "city": "atlanta",
+      "dateCount": 4,
+      "medianForecastRange": 3,
+      "meanForecastRange": 2.75,
+      "maxForecastRange": 4
     }
   ],
   "biasByTimeNode": [
     {
       "key": "10点到11点",
-      "n": 219,
-      "meanBias": 1,
+      "n": 220,
+      "meanBias": 0.99,
       "medianBias": 0.85,
-      "rmse": 1.93
+      "rmse": 1.92
     },
     {
       "key": "6点到7点",
-      "n": 214,
-      "meanBias": 0.92,
-      "medianBias": 0.79,
-      "rmse": 1.76
+      "n": 215,
+      "meanBias": 0.91,
+      "medianBias": 0.78,
+      "rmse": 1.75
     },
     {
       "key": "昨22点到23点",
-      "n": 211,
-      "meanBias": 0.96,
+      "n": 212,
+      "meanBias": 0.95,
       "medianBias": 0.85,
-      "rmse": 1.85
+      "rmse": 1.84
     },
     {
       "key": "昨17点到18点",
-      "n": 200,
-      "meanBias": 0.99,
+      "n": 201,
+      "meanBias": 0.98,
       "medianBias": 0.95,
       "rmse": 1.93
     },
     {
       "key": "14点到15点",
-      "n": 189,
-      "meanBias": 1.03,
+      "n": 190,
+      "meanBias": 1.02,
       "medianBias": 0.78,
       "rmse": 2.36
     },
     {
       "key": "17点到18点",
-      "n": 170,
-      "meanBias": 1.04,
+      "n": 171,
+      "meanBias": 1.02,
       "medianBias": 0.8,
-      "rmse": 2.27
+      "rmse": 2.26
     },
     {
       "key": "昨14点到15点",
-      "n": 166,
-      "meanBias": 1.03,
+      "n": 167,
+      "meanBias": 1.02,
       "medianBias": 1.1,
       "rmse": 2
     },
     {
       "key": "昨10点到11点",
-      "n": 159,
-      "meanBias": 1.05,
+      "n": 160,
+      "meanBias": 1.04,
       "medianBias": 0.95,
       "rmse": 1.9
+    },
+    {
+      "key": "22点到23点",
+      "n": 36,
+      "meanBias": 1.83,
+      "medianBias": 1.6,
+      "rmse": 4.32
     },
     {
       "key": "昨6点到7点",
@@ -24649,13 +24908,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "meanBias": 0.56,
       "medianBias": 0.45,
       "rmse": 1.29
-    },
-    {
-      "key": "22点到23点",
-      "n": 35,
-      "meanBias": 1.91,
-      "medianBias": 1.6,
-      "rmse": 4.37
     }
   ],
   "recentPairedRows": [
