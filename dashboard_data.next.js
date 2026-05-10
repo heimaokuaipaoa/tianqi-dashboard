@@ -7785,30 +7785,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 2.68
+          "rawProbability": 0.66,
+          "probability": 0.66,
+          "count": 3.94,
+          "meanResidual": 1.69,
+          "center": 63.69
         },
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.2
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.12
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 2.06,
+          "meanResidual": 1.69,
+          "center": 63.69
         }
       ]
     },
@@ -7858,23 +7848,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 2.6
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 6.2,
+          "meanResidual": 3.23,
+          "center": 65.23
         },
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 2.6
-        },
-        {
-          "bucket": "62-63",
-          "bucketValue": 62,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 1.8
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.8,
+          "meanResidual": 3.23,
+          "center": 65.23
         }
       ]
     },
@@ -7922,32 +7909,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 1.62
-        },
-        {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.38
+          "rawProbability": 0.66,
+          "probability": 0.66,
+          "count": 3.94,
+          "meanResidual": 1.69,
+          "center": 63.69
         },
         {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 2.06,
+          "meanResidual": 1.69,
+          "center": 63.69
         }
       ]
     },
@@ -7997,23 +7974,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.63,
-          "probability": 0.63,
-          "count": 4.4
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 6.2,
+          "meanResidual": 3.23,
+          "center": 67.23
         },
         {
           "bucket": "68-69",
           "bucketValue": 68,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.6
-        },
-        {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.8,
+          "meanResidual": 3.23,
+          "center": 67.23
         }
       ]
     },
@@ -8061,32 +8035,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 1.62
-        },
-        {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.38
+          "rawProbability": 0.74,
+          "probability": 0.74,
+          "count": 4.44,
+          "meanResidual": 1.52,
+          "center": 63.52
         },
         {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.26,
+          "probability": 0.26,
+          "count": 1.56,
+          "meanResidual": 1.52,
+          "center": 63.52
         }
       ]
     },
@@ -8136,23 +8100,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.65,
-          "probability": 0.65,
-          "count": 5.2
+          "rawProbability": 0.91,
+          "probability": 0.91,
+          "count": 7.3,
+          "meanResidual": 2.83,
+          "center": 66.83
         },
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.8
-        },
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.7,
+          "meanResidual": 2.83,
+          "center": 66.83
         }
       ]
     },
@@ -8202,30 +8163,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 2.5
+          "rawProbability": 0.57,
+          "probability": 0.57,
+          "count": 3.44,
+          "meanResidual": 1.85,
+          "center": 63.85
         },
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.5
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 2.56,
+          "meanResidual": 1.85,
+          "center": 63.85
         }
       ]
     },
@@ -8273,25 +8224,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.54,
-          "probability": 0.54,
-          "count": 4.3
-        },
-        {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 2.7
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 4.7,
+          "meanResidual": 2.83,
+          "center": 67.83
         },
         {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
+          "bucket": "68-69",
+          "bucketValue": 68,
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 3.3,
+          "meanResidual": 2.83,
+          "center": 67.83
         }
       ]
     },
@@ -8341,23 +8289,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.53,
-          "probability": 0.53,
-          "count": 3.68
+          "rawProbability": 0.79,
+          "probability": 0.79,
+          "count": 5.54,
+          "meanResidual": 1.42,
+          "center": 63.42
         },
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 2.2
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.12
+          "rawProbability": 0.21,
+          "probability": 0.21,
+          "count": 1.46,
+          "meanResidual": 1.42,
+          "center": 63.42
         }
       ]
     },
@@ -8409,14 +8354,18 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 68,
           "rawProbability": 0.66,
           "probability": 0.66,
-          "count": 5.3
+          "count": 5.3,
+          "meanResidual": 2.33,
+          "center": 68.33
         },
         {
           "bucket": "66-67",
           "bucketValue": 66,
           "rawProbability": 0.34,
           "probability": 0.34,
-          "count": 2.7
+          "count": 2.7,
+          "meanResidual": 2.33,
+          "center": 68.33
         }
       ]
     },
@@ -8466,23 +8415,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.76,
-          "probability": 0.76,
-          "count": 5.3
+          "rawProbability": 0.78,
+          "probability": 0.78,
+          "count": 5.46,
+          "meanResidual": 1.56,
+          "center": 64.56
         },
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.5
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.2
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 1.54,
+          "meanResidual": 1.56,
+          "center": 64.56
         }
       ]
     },
@@ -8532,23 +8478,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 5
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 8,
+          "meanResidual": 2.22,
+          "center": 67.22
         },
         {
           "bucket": "68-69",
           "bucketValue": 68,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 2.5
-        },
-        {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.5
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 1,
+          "meanResidual": 2.22,
+          "center": 67.22
         }
       ]
     },
@@ -8598,23 +8541,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.74,
-          "probability": 0.74,
-          "count": 5.18
+          "rawProbability": 0.78,
+          "probability": 0.78,
+          "count": 5.46,
+          "meanResidual": 1.56,
+          "center": 64.56
         },
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.62
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.2
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 1.54,
+          "meanResidual": 1.56,
+          "center": 64.56
         }
       ]
     },
@@ -8664,23 +8604,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 4.7
+          "rawProbability": 0.83,
+          "probability": 0.83,
+          "count": 7.5,
+          "meanResidual": 2.67,
+          "center": 66.67
         },
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 3
-        },
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.3
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.5,
+          "meanResidual": 2.67,
+          "center": 66.67
         }
       ]
     },
@@ -8730,9 +8667,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "82-83",
           "bucketValue": 82,
-          "rawProbability": 1,
-          "probability": 1,
-          "count": 1
+          "rawProbability": 0.8,
+          "probability": 0.8,
+          "count": 0.8,
+          "meanResidual": 6.4,
+          "center": 83.4
+        },
+        {
+          "bucket": "84-85",
+          "bucketValue": 84,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 0.2,
+          "meanResidual": 6.4,
+          "center": 83.4
         }
       ]
     },
@@ -8782,30 +8730,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.83,
-          "probability": 0.83,
-          "count": 5.8
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.5
+          "rawProbability": 0.78,
+          "probability": 0.78,
+          "count": 5.46,
+          "meanResidual": 1.56,
+          "center": 64.56
         },
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.5
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.2
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 1.54,
+          "meanResidual": 1.56,
+          "center": 64.56
         }
       ]
     },
@@ -8855,23 +8793,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 5
+          "rawProbability": 0.78,
+          "probability": 0.78,
+          "count": 7,
+          "meanResidual": 2.56,
+          "center": 66.56
         },
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 3
-        },
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 2,
+          "meanResidual": 2.56,
+          "center": 66.56
         }
       ]
     },
@@ -8921,9 +8856,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "84-85",
           "bucketValue": 84,
-          "rawProbability": 1,
-          "probability": 1,
-          "count": 1
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 0.7,
+          "meanResidual": 5.4,
+          "center": 84.4
+        },
+        {
+          "bucket": "82-83",
+          "bucketValue": 82,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 0.3,
+          "meanResidual": 5.4,
+          "center": 84.4
         }
       ]
     },
@@ -8973,16 +8919,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.89,
-          "probability": 0.89,
-          "count": 6.22
+          "rawProbability": 0.72,
+          "probability": 0.72,
+          "count": 5.04,
+          "meanResidual": 1.56,
+          "center": 65.56
         },
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.78
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 1.96,
+          "meanResidual": 1.56,
+          "center": 65.56
         }
       ]
     },
@@ -9032,30 +8982,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 4
-        },
-        {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 2
+          "rawProbability": 0.84,
+          "probability": 0.84,
+          "count": 6.7,
+          "meanResidual": 2.33,
+          "center": 67.33
         },
         {
           "bucket": "68-69",
           "bucketValue": 68,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
-        },
-        {
-          "bucket": "70-71",
-          "bucketValue": 70,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.3,
+          "meanResidual": 2.33,
+          "center": 67.33
         }
       ]
     },
@@ -9105,9 +9045,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "84-85",
           "bucketValue": 84,
-          "rawProbability": 1,
-          "probability": 1,
-          "count": 1
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 0.7,
+          "meanResidual": 5.4,
+          "center": 84.4
+        },
+        {
+          "bucket": "82-83",
+          "bucketValue": 82,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 0.3,
+          "meanResidual": 5.4,
+          "center": 84.4
         }
       ]
     },
@@ -9157,23 +9108,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 1.2
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 0.41
+          "rawProbability": 0.5,
+          "probability": 0.5,
+          "count": 1.01,
+          "meanResidual": 1.16,
+          "center": 27.5
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 0.39
+          "rawProbability": 0.5,
+          "probability": 0.5,
+          "count": 0.99,
+          "meanResidual": 1.16,
+          "center": 27.5
         }
       ]
     },
@@ -9221,25 +9169,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 1.09
-        },
-        {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 0.49
+          "rawProbability": 0.52,
+          "probability": 0.52,
+          "count": 1.05,
+          "meanResidual": 1.76,
+          "center": 22.53
         },
         {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 0.41
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 0.95,
+          "meanResidual": 1.76,
+          "center": 22.53
         }
       ]
     },
@@ -9289,16 +9234,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.94,
-          "probability": 0.94,
-          "count": 1.89
+          "rawProbability": 0.66,
+          "probability": 0.66,
+          "count": 1.33,
+          "meanResidual": 0.33,
+          "center": 13.34
         },
         {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.11
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 0.67,
+          "meanResidual": 0.33,
+          "center": 13.34
         }
       ]
     },
@@ -9346,18 +9295,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "34",
-          "bucketValue": 34,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
-        },
-        {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
+          "rawProbability": 0.96,
+          "probability": 0.96,
+          "count": 1.92,
+          "meanResidual": 0.84,
+          "center": 34.96
+        },
+        {
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.08,
+          "meanResidual": 0.84,
+          "center": 34.96
         }
       ]
     },
@@ -9405,25 +9358,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 0.9
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 0.81
+          "rawProbability": 0.71,
+          "probability": 0.71,
+          "count": 1.42,
+          "meanResidual": -0.11,
+          "center": 15.29
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 0.29
+          "rawProbability": 0.29,
+          "probability": 0.29,
+          "count": 0.58,
+          "meanResidual": -0.11,
+          "center": 15.29
         }
       ]
     },
@@ -9471,32 +9421,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 0.72
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 0.62
+          "rawProbability": 0.97,
+          "probability": 0.97,
+          "count": 1.93,
+          "meanResidual": -0.46,
+          "center": 16.03
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 0.38
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 0.28
+          "rawProbability": 0.03,
+          "probability": 0.03,
+          "count": 0.07,
+          "meanResidual": -0.46,
+          "center": 16.03
         }
       ]
     },
@@ -9546,23 +9486,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
+          "rawProbability": 0.88,
+          "probability": 0.88,
+          "count": 1.75,
+          "meanResidual": 1.87,
+          "center": 14.88
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 0.75
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.25
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 0.25,
+          "meanResidual": 1.87,
+          "center": 14.88
         }
       ]
     },
@@ -9610,18 +9547,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.89,
-          "probability": 0.89,
-          "count": 1.77
-        },
-        {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.23
+          "rawProbability": 0.72,
+          "probability": 0.72,
+          "count": 1.45,
+          "meanResidual": 0.12,
+          "center": 22.72
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 0.55,
+          "meanResidual": 0.12,
+          "center": 22.72
         }
       ]
     },
@@ -9669,25 +9610,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.54,
-          "probability": 0.54,
-          "count": 1.08
-        },
-        {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 0.9
+          "rawProbability": 0.83,
+          "probability": 0.83,
+          "count": 1.65,
+          "meanResidual": 0.22,
+          "center": 27.83
         },
         {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.02
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 0.35,
+          "meanResidual": 0.22,
+          "center": 27.83
         }
       ]
     },
@@ -9735,25 +9673,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.82,
+          "probability": 0.82,
+          "count": 1.65,
+          "meanResidual": -0.33,
+          "center": 17.83
         },
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 0.59
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 0.41
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.18,
+          "probability": 0.18,
+          "count": 0.35,
+          "meanResidual": -0.33,
+          "center": 17.83
         }
       ]
     },
@@ -9801,25 +9736,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 0.74
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 0.67
+          "rawProbability": 0.53,
+          "probability": 0.53,
+          "count": 1.06,
+          "meanResidual": 0.1,
+          "center": 14.53
         },
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 0.59
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 0.94,
+          "meanResidual": 0.1,
+          "center": 14.53
         }
       ]
     },
@@ -9869,23 +9801,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.83,
-          "probability": 0.83,
-          "count": 1.65
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 0.32
+          "rawProbability": 0.63,
+          "probability": 0.63,
+          "count": 1.25,
+          "meanResidual": -0.03,
+          "center": 17.38
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.02
+          "rawProbability": 0.38,
+          "probability": 0.38,
+          "count": 0.75,
+          "meanResidual": -0.03,
+          "center": 17.38
         }
       ]
     },
@@ -9933,25 +9862,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.95,
+          "probability": 0.95,
+          "count": 1.9,
+          "meanResidual": 0.17,
+          "center": 23.05
+        },
+        {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 0.99
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.01
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.1,
+          "meanResidual": 0.17,
+          "center": 23.05
         }
       ]
     },
@@ -10001,30 +9927,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.47,
-          "probability": 0.47,
-          "count": 0.94
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 0.59
+          "rawProbability": 0.81,
+          "probability": 0.81,
+          "count": 1.62,
+          "meanResidual": 1.36,
+          "center": 23.81
         },
         {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 0.41
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.06
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 0.38,
+          "meanResidual": 1.36,
+          "center": 23.81
         }
       ]
     },
@@ -10072,18 +9988,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
+          "rawProbability": 0.94,
+          "probability": 0.94,
+          "count": 1.88,
+          "meanResidual": -0.44,
+          "center": 14.94
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.12,
+          "meanResidual": -0.44,
+          "center": 14.94
         }
       ]
     },
@@ -10131,25 +10051,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.67,
-          "probability": 0.67,
-          "count": 1.34
-        },
-        {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 0.43
+          "rawProbability": 0.57,
+          "probability": 0.57,
+          "count": 1.14,
+          "meanResidual": 0.68,
+          "center": 32.57
         },
         {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.23
+          "bucket": "32",
+          "bucketValue": 32,
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 0.86,
+          "meanResidual": 0.68,
+          "center": 32.57
         }
       ]
     },
@@ -10197,25 +10114,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
-        },
-        {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 0.75
+          "rawProbability": 0.81,
+          "probability": 0.81,
+          "count": 1.62,
+          "meanResidual": -0.52,
+          "center": 33.19
         },
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.25
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 0.38,
+          "meanResidual": -0.52,
+          "center": 33.19
         }
       ]
     },
@@ -10264,74 +10178,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 3.4
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.49
+          "rawProbability": 0.69,
+          "probability": 0.69,
+          "count": 6.21,
+          "meanResidual": 0.97,
+          "center": 27.31
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.51
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.39
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.97
+          "rawProbability": 0.31,
+          "probability": 0.31,
+          "count": 2.79,
+          "meanResidual": 0.97,
+          "center": 27.31
         }
       ],
       "probabilities": [
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 3.4
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.49
+          "rawProbability": 0.98,
+          "probability": 0.98,
+          "count": 7.85,
+          "meanResidual": 0.68,
+          "center": 27.02
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.51
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.39
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.22
+          "rawProbability": 0.02,
+          "probability": 0.02,
+          "count": 0.15,
+          "meanResidual": 0.68,
+          "center": 27.02
         }
       ]
     },
@@ -10381,23 +10261,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "22",
           "bucketValue": 22,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 4.79
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.14
+          "rawProbability": 0.65,
+          "probability": 0.65,
+          "count": 5.2,
+          "meanResidual": 1.62,
+          "center": 22.35
         },
         {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.07
+          "rawProbability": 0.35,
+          "probability": 0.35,
+          "count": 2.8,
+          "meanResidual": 1.62,
+          "center": 22.35
         }
       ]
     },
@@ -10444,76 +10321,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 3.62
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.17
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.08
-        },
-        {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.14
+          "rawProbability": 0.82,
+          "probability": 0.82,
+          "count": 6.57,
+          "meanResidual": 1.17,
+          "center": 14.18
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.99
+          "rawProbability": 0.18,
+          "probability": 0.18,
+          "count": 1.43,
+          "meanResidual": 1.17,
+          "center": 14.18
         }
       ],
       "probabilities": [
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 3.62
-        },
-        {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.14
+          "rawProbability": 0.88,
+          "probability": 0.88,
+          "count": 6.17,
+          "meanResidual": 0.87,
+          "center": 13.88
         },
         {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.08
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
+          "bucket": "13",
+          "bucketValue": 13,
           "rawProbability": 0.12,
           "probability": 0.12,
-          "count": 0.86
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.29
+          "count": 0.83,
+          "meanResidual": 0.87,
+          "center": 13.88
         }
       ]
     },
@@ -10560,76 +10403,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.47,
-          "probability": 0.47,
-          "count": 4.24
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.16
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.61
+          "rawProbability": 0.62,
+          "probability": 0.62,
+          "count": 5.62,
+          "meanResidual": -0.5,
+          "center": 33.62
         },
         {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.87
-        },
-        {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.06
+          "rawProbability": 0.38,
+          "probability": 0.38,
+          "count": 3.38,
+          "meanResidual": -0.5,
+          "center": 33.62
         }
       ],
       "probabilities": [
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.53,
-          "probability": 0.53,
-          "count": 4.24
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.63,
+          "probability": 0.63,
+          "count": 5.04,
+          "meanResidual": -0.75,
+          "center": 33.37
         },
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.16
-        },
-        {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.87
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.66
-        },
-        {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.06
+          "rawProbability": 0.37,
+          "probability": 0.37,
+          "count": 2.96,
+          "meanResidual": -0.75,
+          "center": 33.37
         }
       ]
     },
@@ -10676,69 +10485,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 2.44
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 2.42
+          "rawProbability": 0.95,
+          "probability": 0.95,
+          "count": 7.56,
+          "meanResidual": 0.56,
+          "center": 16.06
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 1.9
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.14
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.1
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.44,
+          "meanResidual": 0.56,
+          "center": 16.06
         }
       ],
       "probabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 2.44
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 2.42
+          "rawProbability": 0.69,
+          "probability": 0.69,
+          "count": 4.84,
+          "meanResidual": 0.82,
+          "center": 16.31
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 1.9
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.25
+          "rawProbability": 0.31,
+          "probability": 0.31,
+          "count": 2.16,
+          "meanResidual": 0.82,
+          "center": 16.31
         }
       ]
     },
@@ -10785,62 +10567,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 3.07
-        },
-        {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 3.03
+          "rawProbability": 0.93,
+          "probability": 0.93,
+          "count": 7.46,
+          "meanResidual": 0.44,
+          "center": 16.93
         },
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.91
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.75
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.25
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.54,
+          "meanResidual": 0.44,
+          "center": 16.93
         }
       ],
       "probabilities": [
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 3.07
-        },
-        {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 3.03
+          "rawProbability": 0.82,
+          "probability": 0.82,
+          "count": 5.71,
+          "meanResidual": 0.69,
+          "center": 17.18
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 0.91
+          "rawProbability": 0.18,
+          "probability": 0.18,
+          "count": 1.29,
+          "meanResidual": 0.69,
+          "center": 17.18
         }
       ]
     },
@@ -10887,69 +10649,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2.64
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.62,
+          "probability": 0.62,
+          "count": 4.98,
+          "meanResidual": 1.61,
+          "center": 14.62
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 2.28
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 1.93
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.91
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.15
+          "rawProbability": 0.38,
+          "probability": 0.38,
+          "count": 3.02,
+          "meanResidual": 1.61,
+          "center": 14.62
         }
       ],
       "probabilities": [
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 2.64
-        },
-        {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2.28
+          "rawProbability": 0.68,
+          "probability": 0.68,
+          "count": 4.73,
+          "meanResidual": 1.31,
+          "center": 14.32
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 1.93
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.15
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 2.27,
+          "meanResidual": 1.31,
+          "center": 14.32
         }
       ]
     },
@@ -10996,39 +10731,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 4.01
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.64
-        },
-        {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.35
+          "rawProbability": 0.74,
+          "probability": 0.74,
+          "count": 5.93,
+          "meanResidual": 1.14,
+          "center": 23.74
         },
         {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.66
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.34
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.26,
+          "probability": 0.26,
+          "count": 2.07,
+          "meanResidual": 1.14,
+          "center": 23.74
         }
       ],
       "probabilities": [
@@ -11037,21 +10755,18 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 23,
           "rawProbability": 0.57,
           "probability": 0.57,
-          "count": 4.01
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.64
+          "count": 3.96,
+          "meanResidual": 0.83,
+          "center": 23.43
         },
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.35
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 3.04,
+          "meanResidual": 0.83,
+          "center": 23.43
         }
       ]
     },
@@ -11099,32 +10814,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.53,
-          "probability": 0.53,
-          "count": 4.27
-        },
-        {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 3.31
+          "rawProbability": 0.96,
+          "probability": 0.96,
+          "count": 7.67,
+          "meanResidual": 0.51,
+          "center": 27.96
         },
         {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.24
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.18
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.33,
+          "meanResidual": 0.51,
+          "center": 27.96
         }
       ]
     },
@@ -11173,60 +10878,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.54,
-          "probability": 0.54,
-          "count": 4.31
+          "rawProbability": 0.61,
+          "probability": 0.61,
+          "count": 4.91,
+          "meanResidual": 0.43,
+          "center": 18.39
         },
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2.32
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.78
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.37
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.22
+          "rawProbability": 0.39,
+          "probability": 0.39,
+          "count": 3.09,
+          "meanResidual": 0.43,
+          "center": 18.39
         }
       ],
       "probabilities": [
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.62,
-          "probability": 0.62,
-          "count": 4.31
-        },
-        {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2.32
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 4.9,
+          "meanResidual": 0.74,
+          "center": 18.7
         },
         {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.37
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 2.1,
+          "meanResidual": 0.74,
+          "center": 18.7
         }
       ]
     },
@@ -11273,76 +10958,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 7.09,
+          "meanResidual": 0.44,
+          "center": 14.89
+        },
+        {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 3.67
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.33
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.15
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
           "rawProbability": 0.11,
           "probability": 0.11,
-          "count": 0.85
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.58
+          "count": 0.91,
+          "meanResidual": 0.44,
+          "center": 14.89
         }
       ],
       "probabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 3.67
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.33
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.65
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.58
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.42
+          "rawProbability": 0.56,
+          "probability": 0.56,
+          "count": 3.89,
+          "meanResidual": 0.11,
+          "center": 14.56
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.44,
+          "probability": 0.44,
+          "count": 3.11,
+          "meanResidual": 0.11,
+          "center": 14.56
         }
       ]
     },
@@ -11389,69 +11040,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 3.49
-        },
-        {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.68
+          "rawProbability": 0.52,
+          "probability": 0.52,
+          "count": 4.14,
+          "meanResidual": 1.1,
+          "center": 19.48
         },
         {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.55
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.94
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.28
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 3.86,
+          "meanResidual": 1.1,
+          "center": 19.48
         }
       ],
       "probabilities": [
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 3.49
-        },
-        {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 1.68
+          "rawProbability": 0.83,
+          "probability": 0.83,
+          "count": 5.82,
+          "meanResidual": 0.79,
+          "center": 19.17
         },
         {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.55
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.28
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.18,
+          "meanResidual": 0.79,
+          "center": 19.17
         }
       ]
     },
@@ -11501,23 +11125,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "70-71",
           "bucketValue": 70,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 3
+          "rawProbability": 0.84,
+          "probability": 0.84,
+          "count": 5.06,
+          "meanResidual": 1.69,
+          "center": 70.69
         },
         {
           "bucket": "68-69",
           "bucketValue": 68,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2
-        },
-        {
-          "bucket": "72-73",
-          "bucketValue": 72,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 0.94,
+          "meanResidual": 1.69,
+          "center": 70.69
         }
       ]
     },
@@ -11567,30 +11188,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 3
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.56
+          "rawProbability": 0.53,
+          "probability": 0.53,
+          "count": 3.74,
+          "meanResidual": 1.07,
+          "center": 64.07
         },
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.44
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 3.26,
+          "meanResidual": 1.07,
+          "center": 64.07
         }
       ]
     },
@@ -11640,23 +11251,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 2.6
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 6.2,
+          "meanResidual": 3.23,
+          "center": 65.23
         },
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 2.6
-        },
-        {
-          "bucket": "62-63",
-          "bucketValue": 62,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 1.8
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.8,
+          "meanResidual": 3.23,
+          "center": 65.23
         }
       ]
     },
@@ -11747,48 +11355,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 3.5,
       "unfilteredProbabilities": [
         {
-          "bucket": "90-91",
-          "bucketValue": 90,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 4
-        },
-        {
           "bucket": "92-93",
           "bucketValue": 92,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 3
+          "rawProbability": 0.67,
+          "probability": 0.67,
+          "count": 5.34,
+          "meanResidual": 1.34,
+          "center": 92.34
         },
         {
-          "bucket": "94-95",
-          "bucketValue": 94,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.53
-        },
-        {
-          "bucket": "96-97",
-          "bucketValue": 96,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.47
+          "bucket": "90-91",
+          "bucketValue": 90,
+          "rawProbability": 0.33,
+          "probability": 0.33,
+          "count": 2.66,
+          "meanResidual": 1.34,
+          "center": 92.34
         }
       ],
       "probabilities": [
         {
           "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.57,
-          "probability": 0.57,
-          "count": 4
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 4.15,
+          "meanResidual": 0.81,
+          "center": 91.81
         },
         {
           "bucket": "92-93",
           "bucketValue": 92,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 3
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 2.85,
+          "meanResidual": 0.81,
+          "center": 91.81
         }
       ]
     },
@@ -11836,25 +11438,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 3,
+          "meanResidual": -2.5,
+          "center": 61.5
+        },
+        {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 2
-        },
-        {
-          "bucket": "54-55",
-          "bucketValue": 54,
           "rawProbability": 0.25,
           "probability": 0.25,
-          "count": 1
-        },
-        {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 1
+          "count": 1,
+          "meanResidual": -2.5,
+          "center": 61.5
         }
       ]
     },
@@ -11903,74 +11502,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 4.11
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.86
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.92
+          "rawProbability": 0.52,
+          "probability": 0.52,
+          "count": 4.64,
+          "meanResidual": 1.6,
+          "center": 24.48
         },
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.91
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.61
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 4.36,
+          "meanResidual": 1.6,
+          "center": 24.48
         }
       ],
       "probabilities": [
         {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.51,
-          "probability": 0.51,
-          "count": 4.11
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.86
-        },
-        {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.91
+          "rawProbability": 0.8,
+          "probability": 0.8,
+          "count": 6.43,
+          "meanResidual": 1.92,
+          "center": 24.8
         },
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.53
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.59
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 1.57,
+          "meanResidual": 1.92,
+          "center": 24.8
         }
       ]
     },
@@ -12019,67 +11584,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 4.3
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 2.8
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.8
+          "rawProbability": 0.61,
+          "probability": 0.61,
+          "count": 5.51,
+          "meanResidual": 1.79,
+          "center": 24.39
         },
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.73
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.36
+          "rawProbability": 0.39,
+          "probability": 0.39,
+          "count": 3.49,
+          "meanResidual": 1.79,
+          "center": 24.39
         }
       ],
       "probabilities": [
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.54,
-          "probability": 0.54,
-          "count": 4.3
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 2.8
+          "rawProbability": 0.84,
+          "probability": 0.84,
+          "count": 6.71,
+          "meanResidual": 1.56,
+          "center": 24.16
         },
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.53
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.36
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.29,
+          "meanResidual": 1.56,
+          "center": 24.16
         }
       ]
     },
@@ -12127,32 +11665,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2.63
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.18
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.99,
+          "probability": 0.99,
+          "count": 7.91,
+          "meanResidual": 0.76,
+          "center": 15.99
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.13
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.06
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.09,
+          "meanResidual": 0.76,
+          "center": 15.99
         }
       ]
     },
@@ -12200,25 +11728,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.57,
-          "probability": 0.57,
-          "count": 2.87
-        },
-        {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 1.63
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 3.77,
+          "meanResidual": 0.91,
+          "center": 32.75
         },
         {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.5
+          "bucket": "32",
+          "bucketValue": 32,
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 1.23,
+          "meanResidual": 0.91,
+          "center": 32.75
         }
       ]
     },
@@ -12266,25 +11791,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 1.93
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 1.07
+          "rawProbability": 0.53,
+          "probability": 0.53,
+          "count": 2.13,
+          "meanResidual": -0.07,
+          "center": 33.53
         },
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 1
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 1.87,
+          "meanResidual": -0.07,
+          "center": 33.53
         }
       ]
     },
@@ -12333,74 +11855,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 4.03
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.24
+          "rawProbability": 0.79,
+          "probability": 0.79,
+          "count": 7.89,
+          "meanResidual": 0.81,
+          "center": 27.21
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.15
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.8
+          "rawProbability": 0.21,
+          "probability": 0.21,
+          "count": 2.11,
+          "meanResidual": 0.81,
+          "center": 27.21
         }
       ],
       "probabilities": [
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 4.03
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 2.24
+          "rawProbability": 0.52,
+          "probability": 0.52,
+          "count": 4.69,
+          "meanResidual": 1.08,
+          "center": 27.48
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.15
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.58
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 4.31,
+          "meanResidual": 1.08,
+          "center": 27.48
         }
       ]
     },
@@ -12450,23 +11938,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "22",
           "bucketValue": 22,
-          "rawProbability": 0.65,
-          "probability": 0.65,
-          "count": 5.22
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.54
+          "rawProbability": 0.56,
+          "probability": 0.56,
+          "count": 4.5,
+          "meanResidual": 1.71,
+          "center": 22.44
         },
         {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.25
+          "rawProbability": 0.44,
+          "probability": 0.44,
+          "count": 3.5,
+          "meanResidual": 1.71,
+          "center": 22.44
         }
       ]
     },
@@ -12513,62 +11998,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 3.95
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.57
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.3
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 4.29,
+          "meanResidual": 1.16,
+          "center": 14.54
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.15
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 3.71,
+          "meanResidual": 1.16,
+          "center": 14.54
         }
       ],
       "probabilities": [
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 3.95
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.76,
+          "probability": 0.76,
+          "count": 5.34,
+          "meanResidual": 0.86,
+          "center": 14.24
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.57
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.15
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.32
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 1.66,
+          "meanResidual": 0.86,
+          "center": 14.24
         }
       ]
     },
@@ -12615,62 +12080,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 4.75
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 2.02
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.76
+          "rawProbability": 0.65,
+          "probability": 0.65,
+          "count": 6.49,
+          "meanResidual": -0.47,
+          "center": 33.65
         },
         {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.42
+          "rawProbability": 0.35,
+          "probability": 0.35,
+          "count": 3.51,
+          "meanResidual": -0.47,
+          "center": 33.65
         }
       ],
       "probabilities": [
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.53,
-          "probability": 0.53,
-          "count": 4.75
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.57,
+          "probability": 0.57,
+          "count": 5.17,
+          "meanResidual": -0.69,
+          "center": 33.43
         },
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.76
-        },
-        {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.42
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.06
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 3.83,
+          "meanResidual": -0.69,
+          "center": 33.43
         }
       ]
     },
@@ -12717,76 +12162,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 2.56
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 2.42
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 7.13,
+          "meanResidual": 0.51,
+          "center": 16.11
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.84
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.78
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.33
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.87,
+          "meanResidual": 0.51,
+          "center": 16.11
         }
       ],
       "probabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 2.56
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 2.42
+          "rawProbability": 0.61,
+          "probability": 0.61,
+          "count": 4.25,
+          "meanResidual": 0.79,
+          "center": 16.39
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 1.84
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.1
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.08
+          "rawProbability": 0.39,
+          "probability": 0.39,
+          "count": 2.75,
+          "meanResidual": 0.79,
+          "center": 16.39
         }
       ]
     },
@@ -12833,69 +12244,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 3.38
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 1.91
-        },
-        {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.62
+          "rawProbability": 0.99,
+          "probability": 0.99,
+          "count": 7.89,
+          "meanResidual": 0.5,
+          "center": 16.99
         },
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.82
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.28
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.11,
+          "meanResidual": 0.5,
+          "center": 16.99
         }
       ],
       "probabilities": [
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 3.38
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 5.26,
+          "meanResidual": 0.76,
+          "center": 17.25
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 1.91
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.62
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.1
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 1.74,
+          "meanResidual": 0.76,
+          "center": 17.25
         }
       ]
     },
@@ -12942,69 +12326,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 3.85
-        },
-        {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.85
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.95
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.85
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.5
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 3.85
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 1.85
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 0.95
+          "rawProbability": 0.95,
+          "probability": 0.95,
+          "count": 7.64,
+          "meanResidual": 1.45,
+          "center": 14.05
         },
         {
           "bucket": "15",
           "bucketValue": 15,
           "rawProbability": 0.05,
           "probability": 0.05,
-          "count": 0.35
+          "count": 0.36,
+          "meanResidual": 1.45,
+          "center": 14.05
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.77,
+          "probability": 0.77,
+          "count": 5.37,
+          "meanResidual": 1.17,
+          "center": 13.77
+        },
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.23,
+          "probability": 0.23,
+          "count": 1.63,
+          "meanResidual": 1.17,
+          "center": 13.77
         }
       ]
     },
@@ -13052,32 +12409,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 4.36
-        },
-        {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.37
+          "rawProbability": 0.72,
+          "probability": 0.72,
+          "count": 5.77,
+          "meanResidual": 1.12,
+          "center": 23.72
         },
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.29
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.98
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 2.23,
+          "meanResidual": 1.12,
+          "center": 23.72
         }
       ]
     },
@@ -13125,25 +12472,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 3.95
-        },
-        {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 3.59
+          "rawProbability": 0.95,
+          "probability": 0.95,
+          "count": 7.6,
+          "meanResidual": 0.45,
+          "center": 28.05
         },
         {
           "bucket": "29",
           "bucketValue": 29,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.45
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.4,
+          "meanResidual": 0.45,
+          "center": 28.05
         }
       ]
     },
@@ -13192,46 +12536,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 3.65
+          "rawProbability": 0.72,
+          "probability": 0.72,
+          "count": 5.75,
+          "meanResidual": 0.34,
+          "center": 18.72
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 3.34
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.9
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.1
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 2.25,
+          "meanResidual": 0.34,
+          "center": 18.72
         }
       ],
       "probabilities": [
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 3.65
+          "rawProbability": 0.93,
+          "probability": 0.93,
+          "count": 6.53,
+          "meanResidual": 0.69,
+          "center": 19.07
         },
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 3.34
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.47,
+          "meanResidual": 0.69,
+          "center": 19.07
         }
       ]
     },
@@ -13278,76 +12616,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 2.57
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.77,
+          "probability": 0.77,
+          "count": 6.17,
+          "meanResidual": 0.17,
+          "center": 14.77
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 2.4
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.03
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.96
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.69
+          "rawProbability": 0.23,
+          "probability": 0.23,
+          "count": 1.83,
+          "meanResidual": 0.17,
+          "center": 14.77
         }
       ],
       "probabilities": [
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 2.57
-        },
-        {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 2.4
+          "rawProbability": 0.6,
+          "probability": 0.6,
+          "count": 4.18,
+          "meanResidual": -0.2,
+          "center": 14.4
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.03
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.65
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.35
+          "rawProbability": 0.4,
+          "probability": 0.4,
+          "count": 2.82,
+          "meanResidual": -0.2,
+          "center": 14.4
         }
       ]
     },
@@ -13394,69 +12698,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 3.47
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.55,
+          "probability": 0.55,
+          "count": 4.37,
+          "meanResidual": 1.05,
+          "center": 19.45
         },
+        {
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.45,
+          "probability": 0.45,
+          "count": 3.63,
+          "meanResidual": 1.05,
+          "center": 19.45
+        }
+      ],
+      "probabilities": [
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.15
+          "rawProbability": 0.87,
+          "probability": 0.87,
+          "count": 6.07,
+          "meanResidual": 0.73,
+          "center": 19.13
         },
         {
           "bucket": "20",
           "bucketValue": 20,
           "rawProbability": 0.13,
           "probability": 0.13,
-          "count": 1.08
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.92
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.3
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 3.47
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 2.15
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.08
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.3
+          "count": 0.93,
+          "meanResidual": 0.73,
+          "center": 19.13
         }
       ]
     },
@@ -13506,30 +12783,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "70-71",
           "bucketValue": 70,
-          "rawProbability": 0.47,
-          "probability": 0.47,
-          "count": 2.8
+          "rawProbability": 0.84,
+          "probability": 0.84,
+          "count": 5.06,
+          "meanResidual": 1.69,
+          "center": 70.69
         },
         {
           "bucket": "68-69",
           "bucketValue": 68,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 1.5
-        },
-        {
-          "bucket": "72-73",
-          "bucketValue": 72,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.2
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.5
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 0.94,
+          "meanResidual": 1.69,
+          "center": 70.69
         }
       ]
     },
@@ -13579,30 +12846,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 5.24,
+          "meanResidual": 1.5,
+          "center": 64.5
         },
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.64
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.36
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 1.76,
+          "meanResidual": 1.5,
+          "center": 64.5
         }
       ]
     },
@@ -13652,23 +12909,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.63,
-          "probability": 0.63,
-          "count": 4.4
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 6.2,
+          "meanResidual": 3.23,
+          "center": 65.23
         },
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.6
-        },
-        {
-          "bucket": "62-63",
-          "bucketValue": 62,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.8,
+          "meanResidual": 3.23,
+          "center": 65.23
         }
       ]
     },
@@ -13718,9 +12972,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "82-83",
           "bucketValue": 82,
-          "rawProbability": 1,
-          "probability": 1,
-          "count": 1
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 0.7,
+          "meanResidual": 5.4,
+          "center": 82.4
+        },
+        {
+          "bucket": "80-81",
+          "bucketValue": 80,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 0.3,
+          "meanResidual": 5.4,
+          "center": 82.4
         }
       ]
     },
@@ -13770,30 +13035,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 4.09
+          "rawProbability": 0.97,
+          "probability": 0.97,
+          "count": 8.74,
+          "meanResidual": 0.94,
+          "center": 90.94
         },
         {
           "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 2.53
-        },
-        {
-          "bucket": "92-93",
-          "bucketValue": 92,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.91
-        },
-        {
-          "bucket": "94-95",
-          "bucketValue": 94,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.47
+          "rawProbability": 0.03,
+          "probability": 0.03,
+          "count": 0.26,
+          "meanResidual": 0.94,
+          "center": 90.94
         }
       ]
     },
@@ -13841,25 +13096,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "62-63",
-          "bucketValue": 62,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 2.8
+          "bucket": "58-59",
+          "bucketValue": 58,
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 2.7,
+          "meanResidual": -3.08,
+          "center": 59.92
         },
         {
-          "bucket": "54-55",
-          "bucketValue": 54,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 2
-        },
-        {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.2
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 2.3,
+          "meanResidual": -3.08,
+          "center": 59.92
         }
       ]
     },
@@ -13908,74 +13160,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 3.11
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.86
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.03
+          "rawProbability": 0.51,
+          "probability": 0.51,
+          "count": 4.05,
+          "meanResidual": 1.61,
+          "center": 24.49
         },
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.91
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.59
+          "rawProbability": 0.49,
+          "probability": 0.49,
+          "count": 3.95,
+          "meanResidual": 1.61,
+          "center": 24.49
         }
       ],
       "probabilities": [
         {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 3.11
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 1.86
-        },
-        {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 0.91
+          "rawProbability": 0.85,
+          "probability": 0.85,
+          "count": 5.95,
+          "meanResidual": 1.97,
+          "center": 24.85
         },
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.53
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.59
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.05,
+          "meanResidual": 1.97,
+          "center": 24.85
         }
       ]
     },
@@ -14025,37 +13243,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 4.19
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 3.5
+          "rawProbability": 0.66,
+          "probability": 0.66,
+          "count": 6.64,
+          "meanResidual": 1.74,
+          "center": 24.34
         },
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.45
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.5
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.36
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 3.36,
+          "meanResidual": 1.74,
+          "center": 24.34
         }
       ]
     },
@@ -14102,76 +13303,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2.36
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.79,
+          "probability": 0.79,
+          "count": 6.29,
+          "meanResidual": 0.61,
+          "center": 16.21
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 1.89
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.6
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.54
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.61
+          "rawProbability": 0.21,
+          "probability": 0.21,
+          "count": 1.71,
+          "meanResidual": 0.61,
+          "center": 16.21
         }
       ],
       "probabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 2.36
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.6
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.54
+          "rawProbability": 0.96,
+          "probability": 0.96,
+          "count": 6.73,
+          "meanResidual": 0.36,
+          "center": 15.96
         },
         {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.36
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.14
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.27,
+          "meanResidual": 0.36,
+          "center": 15.96
         }
       ]
     },
@@ -14219,32 +13386,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 2.48
-        },
-        {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 1.89
+          "rawProbability": 0.87,
+          "probability": 0.87,
+          "count": 4.37,
+          "meanResidual": 1.03,
+          "center": 32.87
         },
         {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.5
-        },
-        {
-          "bucket": "34",
-          "bucketValue": 34,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.13
+          "bucket": "32",
+          "bucketValue": 32,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 0.63,
+          "meanResidual": 1.03,
+          "center": 32.87
         }
       ]
     },
@@ -14294,30 +13451,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.53,
-          "probability": 0.53,
-          "count": 2.63
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 0.96
-        },
-        {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 0.91
+          "rawProbability": 0.99,
+          "probability": 0.99,
+          "count": 4.93,
+          "meanResidual": 0.3,
+          "center": 34.01
         },
         {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.5
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.07,
+          "meanResidual": 0.3,
+          "center": 34.01
         }
       ]
     },
@@ -14366,67 +13513,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 4.16
+          "rawProbability": 0.9,
+          "probability": 0.9,
+          "count": 9.94,
+          "meanResidual": 1.06,
+          "center": 27.9
         },
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.41
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.74
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.77
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.93
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 1.06,
+          "meanResidual": 1.06,
+          "center": 27.9
         }
       ],
       "probabilities": [
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 4.16
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.41
+          "rawProbability": 0.88,
+          "probability": 0.88,
+          "count": 8.75,
+          "meanResidual": 1.28,
+          "center": 28.13
         },
         {
           "bucket": "29",
           "bucketValue": 29,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.77
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.66
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 1.25,
+          "meanResidual": 1.28,
+          "center": 28.13
         }
       ]
     },
@@ -14476,30 +13596,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "22",
           "bucketValue": 22,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 4.88
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 3.95
+          "rawProbability": 0.84,
+          "probability": 0.84,
+          "count": 9.27,
+          "meanResidual": 1.43,
+          "center": 22.16
         },
         {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.55
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.62
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.73,
+          "meanResidual": 1.43,
+          "center": 22.16
         }
       ]
     },
@@ -14546,69 +13656,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 3.91
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 3.41
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 7.65,
+          "meanResidual": 1.3,
+          "center": 14.7
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.33
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.27
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.08
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 3.35,
+          "meanResidual": 1.3,
+          "center": 14.7
         }
       ],
       "probabilities": [
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 3.91
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.5,
+          "probability": 0.5,
+          "count": 5.05,
+          "meanResidual": 1.1,
+          "center": 14.5
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 3.41
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.33
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.35
+          "rawProbability": 0.5,
+          "probability": 0.5,
+          "count": 4.95,
+          "meanResidual": 1.1,
+          "center": 14.5
         }
       ]
     },
@@ -14655,76 +13738,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.94
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 2.16
+          "bucket": "35",
+          "bucketValue": 35,
+          "rawProbability": 0.57,
+          "probability": 0.57,
+          "count": 6.27,
+          "meanResidual": -0.03,
+          "center": 34.57
         },
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 2.21
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.78
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.91
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 4.73,
+          "meanResidual": -0.03,
+          "center": 34.57
         }
       ],
       "probabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2.94
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.16
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.21
+          "rawProbability": 0.9,
+          "probability": 0.9,
+          "count": 9.03,
+          "meanResidual": -0.5,
+          "center": 34.1
         },
         {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.78
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.91
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.97,
+          "meanResidual": -0.5,
+          "center": 34.1
         }
       ]
     },
@@ -14771,76 +13820,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3.25
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3.35
+          "rawProbability": 0.52,
+          "probability": 0.52,
+          "count": 5.72,
+          "meanResidual": 1.1,
+          "center": 16.48
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.9
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.94
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.85
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 5.28,
+          "meanResidual": 1.1,
+          "center": 16.48
         }
       ],
       "probabilities": [
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 3.35
+          "rawProbability": 0.96,
+          "probability": 0.96,
+          "count": 9.6,
+          "meanResidual": 0.58,
+          "center": 15.96
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 3.25
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.9
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.85
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.66
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.4,
+          "meanResidual": 0.58,
+          "center": 15.96
         }
       ]
     },
@@ -14890,30 +13905,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 4.68
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 3.84
+          "rawProbability": 0.92,
+          "probability": 0.92,
+          "count": 10.17,
+          "meanResidual": 0.59,
+          "center": 17.08
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.48
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.99
+          "rawProbability": 0.08,
+          "probability": 0.08,
+          "count": 0.83,
+          "meanResidual": 0.59,
+          "center": 17.08
         }
       ]
     },
@@ -14962,74 +13967,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3.27
+          "rawProbability": 0.78,
+          "probability": 0.78,
+          "count": 8.59,
+          "meanResidual": 0.77,
+          "center": 13.22
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.28
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 2.15
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.3
-        },
-        {
-          "bucket": "10",
-          "bucketValue": 10,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 2.41,
+          "meanResidual": 0.77,
+          "center": 13.22
         }
       ],
       "probabilities": [
         {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 3.27
+          "rawProbability": 0.52,
+          "probability": 0.52,
+          "count": 5.19,
+          "meanResidual": 1.03,
+          "center": 13.48
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.28
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.15
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.3
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.82
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 4.81,
+          "meanResidual": 1.03,
+          "center": 13.48
         }
       ]
     },
@@ -15077,32 +14048,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 5.73
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 2.8
-        },
-        {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.82
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 5.95,
+          "meanResidual": 0.94,
+          "center": 23.54
         },
         {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.65
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 5.05,
+          "meanResidual": 0.94,
+          "center": 23.54
         }
       ]
     },
@@ -15150,32 +14111,13 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 5.39
-        },
-        {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 5.28
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.19
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.14
+          "rawProbability": 1,
+          "probability": 1,
+          "count": 10.98,
+          "meanResidual": 0.55,
+          "center": 28
         }
       ]
     },
@@ -15224,67 +14166,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 6.05
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.98
+          "rawProbability": 0.76,
+          "probability": 0.76,
+          "count": 8.33,
+          "meanResidual": 0.17,
+          "center": 19.24
         },
         {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.86
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.86
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.14
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 2.67,
+          "meanResidual": 0.17,
+          "center": 19.24
         }
       ],
       "probabilities": [
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 6.05
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.98
+          "rawProbability": 0.51,
+          "probability": 0.51,
+          "count": 5.08,
+          "meanResidual": 0.42,
+          "center": 19.49
         },
         {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.86
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.12
+          "rawProbability": 0.49,
+          "probability": 0.49,
+          "count": 4.92,
+          "meanResidual": 0.42,
+          "center": 19.49
         }
       ]
     },
@@ -15333,74 +14248,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 4.98
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.93
+          "rawProbability": 0.67,
+          "probability": 0.67,
+          "count": 7.34,
+          "meanResidual": 0.21,
+          "center": 14.33
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.35
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.25
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.72
+          "rawProbability": 0.33,
+          "probability": 0.33,
+          "count": 3.66,
+          "meanResidual": 0.21,
+          "center": 14.33
         }
       ],
       "probabilities": [
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 4.98
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.93
+          "rawProbability": 0.92,
+          "probability": 0.92,
+          "count": 9.21,
+          "meanResidual": -0.04,
+          "center": 14.08
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.35
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.25
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.47
+          "rawProbability": 0.08,
+          "probability": 0.08,
+          "count": 0.79,
+          "meanResidual": -0.04,
+          "center": 14.08
         }
       ]
     },
@@ -15449,74 +14330,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 3.94
+          "rawProbability": 0.79,
+          "probability": 0.79,
+          "count": 8.64,
+          "meanResidual": 1.19,
+          "center": 18.79
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 3.11
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.63
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.98
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.25
+          "rawProbability": 0.21,
+          "probability": 0.21,
+          "count": 2.36,
+          "meanResidual": 1.19,
+          "center": 18.79
         }
       ],
       "probabilities": [
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 3.94
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 5.91,
+          "meanResidual": 0.99,
+          "center": 18.59
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 3.11
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 2.63
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.25
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.08
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 4.09,
+          "meanResidual": 0.99,
+          "center": 18.59
         }
       ]
     },
@@ -15564,32 +14411,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 2.5
-        },
-        {
           "bucket": "70-71",
           "bucketValue": 70,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 1.8
+          "rawProbability": 0.76,
+          "probability": 0.76,
+          "count": 4.56,
+          "meanResidual": 1.52,
+          "center": 70.52
         },
         {
-          "bucket": "72-73",
-          "bucketValue": 72,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.2
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.5
+          "bucket": "68-69",
+          "bucketValue": 68,
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 1.44,
+          "meanResidual": 1.52,
+          "center": 70.52
         }
       ]
     },
@@ -15639,37 +14476,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 3
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.56
+          "rawProbability": 0.68,
+          "probability": 0.68,
+          "count": 4.74,
+          "meanResidual": 1.35,
+          "center": 64.35
         },
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.44
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.62
-        },
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.38
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 2.26,
+          "meanResidual": 1.35,
+          "center": 64.35
         }
       ]
     },
@@ -15719,23 +14539,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.65,
-          "probability": 0.65,
-          "count": 5.2
+          "rawProbability": 0.91,
+          "probability": 0.91,
+          "count": 7.3,
+          "meanResidual": 2.83,
+          "center": 64.83
         },
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.8
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.7,
+          "meanResidual": 2.83,
+          "center": 64.83
         }
       ]
     },
@@ -15785,9 +14602,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "82-83",
           "bucketValue": 82,
-          "rawProbability": 1,
-          "probability": 1,
-          "count": 1
+          "rawProbability": 0.8,
+          "probability": 0.8,
+          "count": 0.8,
+          "meanResidual": 4.4,
+          "center": 83.4
+        },
+        {
+          "bucket": "84-85",
+          "bucketValue": 84,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 0.2,
+          "meanResidual": 4.4,
+          "center": 83.4
         }
       ]
     },
@@ -15836,67 +14664,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 4.29
+          "rawProbability": 0.66,
+          "probability": 0.66,
+          "count": 6.64,
+          "meanResidual": 0.33,
+          "center": 90.33
         },
         {
           "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 3.53
-        },
-        {
-          "bucket": "92-93",
-          "bucketValue": 92,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.91
-        },
-        {
-          "bucket": "86-87",
-          "bucketValue": 86,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.8
-        },
-        {
-          "bucket": "94-95",
-          "bucketValue": 94,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.47
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 3.36,
+          "meanResidual": 0.33,
+          "center": 90.33
         }
       ],
       "probabilities": [
         {
-          "bucket": "90-91",
-          "bucketValue": 90,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 4.29
-        },
-        {
           "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 3.53
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 4.85,
+          "meanResidual": -0.08,
+          "center": 89.92
         },
         {
-          "bucket": "86-87",
-          "bucketValue": 86,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.8
-        },
-        {
-          "bucket": "92-93",
-          "bucketValue": 92,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.38
+          "bucket": "90-91",
+          "bucketValue": 90,
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 4.15,
+          "meanResidual": -0.08,
+          "center": 89.92
         }
       ]
     },
@@ -15944,25 +14745,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "62-63",
-          "bucketValue": 62,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 2.8
+          "bucket": "58-59",
+          "bucketValue": 58,
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 2.7,
+          "meanResidual": -3.08,
+          "center": 59.92
         },
         {
-          "bucket": "54-55",
-          "bucketValue": 54,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 2
-        },
-        {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.2
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 2.3,
+          "meanResidual": -3.08,
+          "center": 59.92
         }
       ]
     },
@@ -16011,74 +14809,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 3.85
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.31
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.82
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.85
+          "rawProbability": 0.68,
+          "probability": 0.68,
+          "count": 6.75,
+          "meanResidual": 1.45,
+          "center": 24.33
         },
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.64
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 3.25,
+          "meanResidual": 1.45,
+          "center": 24.33
         }
       ],
       "probabilities": [
         {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 3.85
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 2.31
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.82
-        },
-        {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.64
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 5.27,
+          "meanResidual": 1.71,
+          "center": 24.59
         },
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.38
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 3.73,
+          "meanResidual": 1.71,
+          "center": 24.59
         }
       ]
     },
@@ -16128,30 +14892,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 4.56
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 2.83
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.44
+          "rawProbability": 0.96,
+          "probability": 0.96,
+          "count": 9.57,
+          "meanResidual": 1.64,
+          "center": 24.04
         },
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.16
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.43,
+          "meanResidual": 1.64,
+          "center": 24.04
         }
       ]
     },
@@ -16199,32 +14953,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 3.32
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.99,
+          "probability": 0.99,
+          "count": 8.91,
+          "meanResidual": 0.52,
+          "center": 16.01
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 2.23
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.9
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.52
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.09,
+          "meanResidual": 0.52,
+          "center": 16.01
         }
       ]
     },
@@ -16272,18 +15016,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 2.58
-        },
-        {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 2.42
+          "rawProbability": 0.94,
+          "probability": 0.94,
+          "count": 4.7,
+          "meanResidual": 1.1,
+          "center": 32.94
+        },
+        {
+          "bucket": "32",
+          "bucketValue": 32,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.3,
+          "meanResidual": 1.1,
+          "center": 32.94
         }
       ]
     },
@@ -16333,30 +15081,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 1.63
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 4.46,
+          "meanResidual": 0.29,
+          "center": 33.89
         },
         {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 1.62
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 0.99
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 0.75
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.54,
+          "meanResidual": 0.29,
+          "center": 33.89
         }
       ]
     },
@@ -16403,76 +15141,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "28",
-          "bucketValue": 28,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 4.72
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.59
-        },
-        {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.68
+          "rawProbability": 0.56,
+          "probability": 0.56,
+          "count": 6.75,
+          "meanResidual": 1.15,
+          "center": 27.44
         },
         {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1.05
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.52
+          "bucket": "28",
+          "bucketValue": 28,
+          "rawProbability": 0.44,
+          "probability": 0.44,
+          "count": 5.25,
+          "meanResidual": 1.15,
+          "center": 27.44
         }
       ],
       "probabilities": [
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 4.72
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.59
+          "rawProbability": 0.66,
+          "probability": 0.66,
+          "count": 7.26,
+          "meanResidual": 1.37,
+          "center": 27.66
         },
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.68
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.56
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.45
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 3.74,
+          "meanResidual": 1.37,
+          "center": 27.66
         }
       ]
     },
@@ -16520,25 +15224,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.58,
-          "probability": 0.58,
-          "count": 6.92
-        },
-        {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.93
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 6.44,
+          "meanResidual": 1.33,
+          "center": 22.54
         },
         {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 2.15
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 5.56,
+          "meanResidual": 1.33,
+          "center": 22.54
         }
       ]
     },
@@ -16585,76 +15286,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 4.41
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.84
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.68
+          "rawProbability": 0.65,
+          "probability": 0.65,
+          "count": 7.77,
+          "meanResidual": 1.2,
+          "center": 14.65
         },
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1.14
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.65
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.35,
+          "probability": 0.35,
+          "count": 4.23,
+          "meanResidual": 1.2,
+          "center": 14.65
         }
       ],
       "probabilities": [
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 4.41
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 2.84
+          "rawProbability": 0.55,
+          "probability": 0.55,
+          "count": 6.08,
+          "meanResidual": 1,
+          "center": 14.45
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.68
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.65
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.42
+          "rawProbability": 0.45,
+          "probability": 0.45,
+          "count": 4.92,
+          "meanResidual": 1,
+          "center": 14.45
         }
       ]
     },
@@ -16703,74 +15370,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 3.26
-        },
-        {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 2.97
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 2.39
+          "rawProbability": 0.52,
+          "probability": 0.52,
+          "count": 6.24,
+          "meanResidual": 0.04,
+          "center": 34.48
         },
         {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.23
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.16
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 5.76,
+          "meanResidual": 0.04,
+          "center": 34.48
         }
       ],
       "probabilities": [
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3.26
-        },
-        {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.97
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.39
+          "rawProbability": 0.87,
+          "probability": 0.87,
+          "count": 9.57,
+          "meanResidual": -0.31,
+          "center": 34.13
         },
         {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.23
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.16
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 1.43,
+          "meanResidual": -0.31,
+          "center": 34.13
         }
       ]
     },
@@ -16817,69 +15450,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 4.17
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 3.83
-        },
-        {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.96
+          "rawProbability": 0.6,
+          "probability": 0.6,
+          "count": 7.15,
+          "meanResidual": 1,
+          "center": 16.6
         },
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.99
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 1
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.4,
+          "probability": 0.4,
+          "count": 4.85,
+          "meanResidual": 1,
+          "center": 16.6
         }
       ],
       "probabilities": [
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 4.17
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 3.83
+          "rawProbability": 0.85,
+          "probability": 0.85,
+          "count": 9.35,
+          "meanResidual": 0.55,
+          "center": 16.15
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.96
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.99
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.65,
+          "meanResidual": 0.55,
+          "center": 16.15
         }
       ]
     },
@@ -16929,30 +15535,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.47,
-          "probability": 0.47,
-          "count": 5.63
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 4.15
+          "rawProbability": 0.91,
+          "probability": 0.91,
+          "count": 10.97,
+          "meanResidual": 0.49,
+          "center": 17.09
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.22
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 1
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 1.03,
+          "meanResidual": 0.49,
+          "center": 17.09
         }
       ]
     },
@@ -17001,74 +15597,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 4.34
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 2.42
+          "rawProbability": 0.92,
+          "probability": 0.92,
+          "count": 10.99,
+          "meanResidual": 0.6,
+          "center": 12.92
         },
         {
           "bucket": "12",
           "bucketValue": 12,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 2.1
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.57
-        },
-        {
-          "bucket": "10",
-          "bucketValue": 10,
           "rawProbability": 0.08,
           "probability": 0.08,
-          "count": 0.98
+          "count": 1.01,
+          "meanResidual": 0.6,
+          "center": 12.92
         }
       ],
       "probabilities": [
         {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 4.34
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.4
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 2.1
+          "rawProbability": 0.88,
+          "probability": 0.88,
+          "count": 9.64,
+          "meanResidual": 0.8,
+          "center": 13.12
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.57
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.59
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.36,
+          "meanResidual": 0.8,
+          "center": 13.12
         }
       ]
     },
@@ -17116,32 +15678,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.67,
-          "probability": 0.67,
-          "count": 8.03
-        },
-        {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 2.32
+          "rawProbability": 0.88,
+          "probability": 0.88,
+          "count": 10.56,
+          "meanResidual": 0.92,
+          "center": 23.88
         },
         {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.33
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.32
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.44,
+          "meanResidual": 0.92,
+          "center": 23.88
         }
       ]
     },
@@ -17191,30 +15743,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 6.06
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 5.17
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 10.73,
+          "meanResidual": 0.66,
+          "center": 28.11
         },
         {
           "bucket": "29",
           "bucketValue": 29,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.62
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.15
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 1.27,
+          "meanResidual": 0.66,
+          "center": 28.11
         }
       ]
     },
@@ -17261,69 +15803,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 6.55
-        },
-        {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.83
+          "rawProbability": 0.67,
+          "probability": 0.67,
+          "count": 8.02,
+          "meanResidual": 0.23,
+          "center": 19.67
         },
         {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.62
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.95
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 1
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.33,
+          "probability": 0.33,
+          "count": 3.98,
+          "meanResidual": 0.23,
+          "center": 19.67
         }
       ],
       "probabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 6.55
-        },
-        {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.83
+          "rawProbability": 0.88,
+          "probability": 0.88,
+          "count": 9.68,
+          "meanResidual": 0.45,
+          "center": 19.88
         },
         {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.62
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.32,
+          "meanResidual": 0.45,
+          "center": 19.88
         }
       ]
     },
@@ -17372,74 +15887,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 4.01
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.92
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.93
+          "rawProbability": 0.93,
+          "probability": 0.93,
+          "count": 10.23,
+          "meanResidual": 0.25,
+          "center": 15.07
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.96
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.77,
+          "meanResidual": 0.25,
+          "center": 15.07
         }
       ],
       "probabilities": [
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 4.01
+          "rawProbability": 0.84,
+          "probability": 0.84,
+          "count": 8.35,
+          "meanResidual": 0.02,
+          "center": 14.84
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2.92
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.93
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.96
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.18
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.65,
+          "meanResidual": 0.02,
+          "center": 14.84
         }
       ]
     },
@@ -17486,69 +15967,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 3.89
-        },
-        {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 3.05
+          "rawProbability": 0.91,
+          "probability": 0.91,
+          "count": 10.01,
+          "meanResidual": 1.21,
+          "center": 19.09
         },
         {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 2.07
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.6
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.39
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.99,
+          "meanResidual": 1.21,
+          "center": 19.09
         }
       ],
       "probabilities": [
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 3.89
-        },
-        {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 3.05
+          "rawProbability": 0.91,
+          "probability": 0.91,
+          "count": 9.06,
+          "meanResidual": 1.03,
+          "center": 18.91
         },
         {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.6
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.46
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.94,
+          "meanResidual": 1.03,
+          "center": 18.91
         }
       ]
     },
@@ -17598,30 +16052,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "70-71",
           "bucketValue": 70,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 2.5
+          "rawProbability": 0.57,
+          "probability": 0.57,
+          "count": 3.44,
+          "meanResidual": 1.85,
+          "center": 71.85
         },
         {
           "bucket": "72-73",
           "bucketValue": 72,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2
-        },
-        {
-          "bucket": "74-75",
-          "bucketValue": 74,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1
-        },
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.5
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 2.56,
+          "meanResidual": 1.85,
+          "center": 71.85
         }
       ]
     },
@@ -17669,32 +16113,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 3.62
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.56
-        },
-        {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.44
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 5.26,
+          "meanResidual": 1.5,
+          "center": 63.5
         },
         {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.38
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 1.74,
+          "meanResidual": 1.5,
+          "center": 63.5
         }
       ]
     },
@@ -17744,23 +16178,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 3.7
+          "rawProbability": 0.91,
+          "probability": 0.91,
+          "count": 7.3,
+          "meanResidual": 2.83,
+          "center": 64.83
         },
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 2.5
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.8
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.7,
+          "meanResidual": 2.83,
+          "center": 64.83
         }
       ]
     },
@@ -17810,9 +16241,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "82-83",
           "bucketValue": 82,
-          "rawProbability": 1,
-          "probability": 1,
-          "count": 1
+          "rawProbability": 0.8,
+          "probability": 0.8,
+          "count": 0.8,
+          "meanResidual": 4.4,
+          "center": 83.4
+        },
+        {
+          "bucket": "84-85",
+          "bucketValue": 84,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 0.2,
+          "meanResidual": 4.4,
+          "center": 83.4
         }
       ]
     },
@@ -17861,67 +16303,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 4.29
+          "rawProbability": 0.66,
+          "probability": 0.66,
+          "count": 6.64,
+          "meanResidual": 0.33,
+          "center": 90.33
         },
         {
           "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 3.53
-        },
-        {
-          "bucket": "92-93",
-          "bucketValue": 92,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.91
-        },
-        {
-          "bucket": "86-87",
-          "bucketValue": 86,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.8
-        },
-        {
-          "bucket": "94-95",
-          "bucketValue": 94,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.47
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 3.36,
+          "meanResidual": 0.33,
+          "center": 90.33
         }
       ],
       "probabilities": [
         {
-          "bucket": "90-91",
-          "bucketValue": 90,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 4.29
-        },
-        {
           "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 3.53
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 4.85,
+          "meanResidual": -0.08,
+          "center": 89.92
         },
         {
-          "bucket": "86-87",
-          "bucketValue": 86,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.8
-        },
-        {
-          "bucket": "92-93",
-          "bucketValue": 92,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.38
+          "bucket": "90-91",
+          "bucketValue": 90,
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 4.15,
+          "meanResidual": -0.08,
+          "center": 89.92
         }
       ]
     },
@@ -17969,32 +16384,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "62-63",
-          "bucketValue": 62,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 2.8
+          "bucket": "58-59",
+          "bucketValue": 58,
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 2.7,
+          "meanResidual": -3.08,
+          "center": 59.92
         },
         {
-          "bucket": "52-53",
-          "bucketValue": 52,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
-        },
-        {
-          "bucket": "54-55",
-          "bucketValue": 54,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
-        },
-        {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.2
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 2.3,
+          "meanResidual": -3.08,
+          "center": 59.92
         }
       ]
     },
@@ -18043,74 +16448,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 4.43
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.71
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.6
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.1
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 5.93,
+          "meanResidual": 1.45,
+          "center": 24.41
         },
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.99
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 4.07,
+          "meanResidual": 1.45,
+          "center": 24.41
         }
       ],
       "probabilities": [
         {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 4.43
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.71
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.6
-        },
-        {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.99
+          "rawProbability": 0.65,
+          "probability": 0.65,
+          "count": 5.84,
+          "meanResidual": 1.69,
+          "center": 24.65
         },
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.26
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.35,
+          "probability": 0.35,
+          "count": 3.16,
+          "meanResidual": 1.69,
+          "center": 24.65
         }
       ]
     },
@@ -18160,30 +16531,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 3.83
+          "rawProbability": 0.99,
+          "probability": 0.99,
+          "count": 9.92,
+          "meanResidual": 1.59,
+          "center": 23.99
         },
         {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 3.42
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.58
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.16
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.08,
+          "meanResidual": 1.59,
+          "center": 23.99
         }
       ]
     },
@@ -18233,30 +16594,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2.96
+          "rawProbability": 0.94,
+          "probability": 0.94,
+          "count": 8.42,
+          "meanResidual": 0.34,
+          "center": 15.94
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 2.9
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.94
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.18
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.58,
+          "meanResidual": 0.34,
+          "center": 15.94
         }
       ]
     },
@@ -18306,16 +16657,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.59,
-          "probability": 0.59,
-          "count": 2.96
+          "rawProbability": 0.94,
+          "probability": 0.94,
+          "count": 4.72,
+          "meanResidual": 1.22,
+          "center": 33.06
         },
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 2.04
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.28,
+          "meanResidual": 1.22,
+          "center": 33.06
         }
       ]
     },
@@ -18363,32 +16718,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 1.79
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 1.45
+          "rawProbability": 0.87,
+          "probability": 0.87,
+          "count": 4.35,
+          "meanResidual": 0.27,
+          "center": 33.87
         },
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 0.99
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 0.75
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 0.65,
+          "meanResidual": 0.27,
+          "center": 33.87
         }
       ]
     },
@@ -18437,74 +16782,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 6.04
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.53
-        },
-        {
-          "bucket": "28",
-          "bucketValue": 28,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.55
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.47
+          "rawProbability": 0.88,
+          "probability": 0.88,
+          "count": 10.6,
+          "meanResidual": 0.95,
+          "center": 26.88
         },
         {
           "bucket": "26",
           "bucketValue": 26,
           "rawProbability": 0.12,
           "probability": 0.12,
-          "count": 1.41
+          "count": 1.4,
+          "meanResidual": 0.95,
+          "center": 26.88
         }
       ],
       "probabilities": [
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 6.04
+          "rawProbability": 0.92,
+          "probability": 0.92,
+          "count": 10.14,
+          "meanResidual": 1.15,
+          "center": 27.08
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.55
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.39
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.41
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.61
+          "rawProbability": 0.08,
+          "probability": 0.08,
+          "count": 0.86,
+          "meanResidual": 1.15,
+          "center": 27.08
         }
       ]
     },
@@ -18552,25 +16863,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 6.3
-        },
-        {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 3.03
+          "rawProbability": 0.55,
+          "probability": 0.55,
+          "count": 6.63,
+          "meanResidual": 1.34,
+          "center": 22.55
         },
         {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.67
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.45,
+          "probability": 0.45,
+          "count": 5.37,
+          "meanResidual": 1.34,
+          "center": 22.55
         }
       ]
     },
@@ -18619,74 +16927,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 4.25
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 4.01
+          "rawProbability": 0.85,
+          "probability": 0.85,
+          "count": 10.19,
+          "meanResidual": 1.08,
+          "center": 15.15
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.56
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.55
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.58
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.81,
+          "meanResidual": 1.08,
+          "center": 15.15
         }
       ],
       "probabilities": [
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 4.25
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 4.01
+          "rawProbability": 0.65,
+          "probability": 0.65,
+          "count": 7.16,
+          "meanResidual": 1.28,
+          "center": 15.35
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.56
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.12
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.06
+          "rawProbability": 0.35,
+          "probability": 0.35,
+          "count": 3.84,
+          "meanResidual": 1.28,
+          "center": 15.35
         }
       ]
     },
@@ -18733,76 +17007,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 3.34
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.63
+          "rawProbability": 0.6,
+          "probability": 0.6,
+          "count": 7.16,
+          "meanResidual": -0.05,
+          "center": 34.4
         },
         {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 2
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.17
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 1
+          "rawProbability": 0.4,
+          "probability": 0.4,
+          "count": 4.84,
+          "meanResidual": -0.05,
+          "center": 34.4
         }
       ],
       "probabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3.34
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.63
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 9.81,
+          "meanResidual": -0.34,
+          "center": 34.11
         },
         {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 2
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
           "rawProbability": 0.11,
           "probability": 0.11,
-          "count": 1.17
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1
+          "count": 1.19,
+          "meanResidual": -0.34,
+          "center": 34.11
         }
       ]
     },
@@ -18849,69 +17089,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 6.57
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.78
-        },
-        {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.46
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.19
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.84
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 6.57
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.78
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.46
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 10.68,
+          "meanResidual": 1.18,
+          "center": 17.11
         },
         {
           "bucket": "18",
           "bucketValue": 18,
           "rawProbability": 0.11,
           "probability": 0.11,
-          "count": 1.19
+          "count": 1.32,
+          "meanResidual": 1.18,
+          "center": 17.11
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.64,
+          "probability": 0.64,
+          "count": 7.09,
+          "meanResidual": 0.71,
+          "center": 16.64
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.36,
+          "probability": 0.36,
+          "count": 3.91,
+          "meanResidual": 0.71,
+          "center": 16.64
         }
       ]
     },
@@ -18960,67 +17173,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 7.25
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.75
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 7.14,
+          "meanResidual": 0.56,
+          "center": 17.41
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.15
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 1
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.85
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 4.86,
+          "meanResidual": 0.56,
+          "center": 17.41
         }
       ],
       "probabilities": [
         {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.66,
-          "probability": 0.66,
-          "count": 7.25
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.75
-        },
-        {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.15
+          "rawProbability": 0.58,
+          "probability": 0.58,
+          "count": 6.34,
+          "meanResidual": 0.74,
+          "center": 17.58
         },
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.85
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.42,
+          "probability": 0.42,
+          "count": 4.66,
+          "meanResidual": 0.74,
+          "center": 17.58
         }
       ]
     },
@@ -19069,74 +17255,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 3.72
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 3.22
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.64
+          "rawProbability": 0.65,
+          "probability": 0.65,
+          "count": 7.76,
+          "meanResidual": 0.95,
+          "center": 14.35
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.72
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.62
+          "rawProbability": 0.35,
+          "probability": 0.35,
+          "count": 4.24,
+          "meanResidual": 0.95,
+          "center": 14.35
         }
       ],
       "probabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 3.72
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 3.22
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.72
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 5.95,
+          "meanResidual": 1.14,
+          "center": 14.54
         },
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.62
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.72
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 5.05,
+          "meanResidual": 1.14,
+          "center": 14.54
         }
       ]
     },
@@ -19184,25 +17336,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.77,
-          "probability": 0.77,
-          "count": 9.24
-        },
-        {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.57
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 8.4,
+          "meanResidual": 0.74,
+          "center": 23.7
         },
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.19
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 3.6,
+          "meanResidual": 0.74,
+          "center": 23.7
         }
       ]
     },
@@ -19252,30 +17401,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 5.88
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 4.89
+          "rawProbability": 0.86,
+          "probability": 0.86,
+          "count": 10.29,
+          "meanResidual": 0.69,
+          "center": 28.14
         },
         {
           "bucket": "29",
           "bucketValue": 29,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1.04
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.19
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.71,
+          "meanResidual": 0.69,
+          "center": 28.14
         }
       ]
     },
@@ -19324,74 +17463,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.47,
-          "probability": 0.47,
-          "count": 5.61
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 3.73
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1.07
+          "rawProbability": 0.61,
+          "probability": 0.61,
+          "count": 7.27,
+          "meanResidual": 0.32,
+          "center": 19.39
         },
         {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.98
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.55
+          "rawProbability": 0.39,
+          "probability": 0.39,
+          "count": 4.73,
+          "meanResidual": 0.32,
+          "center": 19.39
         }
       ],
       "probabilities": [
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.51,
-          "probability": 0.51,
-          "count": 5.61
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 3.73
+          "rawProbability": 0.82,
+          "probability": 0.82,
+          "count": 8.97,
+          "meanResidual": 0.12,
+          "center": 19.18
         },
         {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.98
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.55
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.14
+          "rawProbability": 0.18,
+          "probability": 0.18,
+          "count": 2.03,
+          "meanResidual": 0.12,
+          "center": 19.18
         }
       ]
     },
@@ -19438,76 +17543,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 4.14
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 3.73
+          "rawProbability": 0.86,
+          "probability": 0.86,
+          "count": 9.42,
+          "meanResidual": 0.26,
+          "center": 14.86
         },
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.28
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.8
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.8
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.58,
+          "meanResidual": 0.26,
+          "center": 14.86
         }
       ],
       "probabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 4.14
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 3.73
+          "rawProbability": 0.62,
+          "probability": 0.62,
+          "count": 6.22,
+          "meanResidual": 0.02,
+          "center": 14.62
         },
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.28
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.8
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.05
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.38,
+          "probability": 0.38,
+          "count": 3.78,
+          "meanResidual": 0.02,
+          "center": 14.62
         }
       ]
     },
@@ -19555,32 +17626,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 4.26
-        },
-        {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 3.18
+          "rawProbability": 0.69,
+          "probability": 0.69,
+          "count": 7.63,
+          "meanResidual": 1.09,
+          "center": 18.69
         },
         {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.68
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.86
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.31,
+          "probability": 0.31,
+          "count": 3.37,
+          "meanResidual": 1.09,
+          "center": 18.69
         }
       ]
     },
@@ -19628,25 +17689,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 3
-        },
-        {
           "bucket": "70-71",
           "bucketValue": 70,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 2.8
+          "rawProbability": 0.71,
+          "probability": 0.71,
+          "count": 4.96,
+          "meanResidual": 1.42,
+          "center": 70.42
         },
         {
-          "bucket": "72-73",
-          "bucketValue": 72,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.2
+          "bucket": "68-69",
+          "bucketValue": 68,
+          "rawProbability": 0.29,
+          "probability": 0.29,
+          "count": 2.04,
+          "meanResidual": 1.42,
+          "center": 70.42
         }
       ]
     },
@@ -19696,30 +17754,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 3.2
+          "rawProbability": 0.52,
+          "probability": 0.52,
+          "count": 4.14,
+          "meanResidual": 1.04,
+          "center": 64.04
         },
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 2.24
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.56
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 3.86,
+          "meanResidual": 1.04,
+          "center": 64.04
         }
       ]
     },
@@ -19771,14 +17819,18 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 66,
           "rawProbability": 0.66,
           "probability": 0.66,
-          "count": 5.3
+          "count": 5.3,
+          "meanResidual": 2.33,
+          "center": 66.33
         },
         {
           "bucket": "64-65",
           "bucketValue": 64,
           "rawProbability": 0.34,
           "probability": 0.34,
-          "count": 2.7
+          "count": 2.7,
+          "meanResidual": 2.33,
+          "center": 66.33
         }
       ]
     },
@@ -19828,9 +17880,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "84-85",
           "bucketValue": 84,
-          "rawProbability": 1,
-          "probability": 1,
-          "count": 1
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 0.7,
+          "meanResidual": 4.4,
+          "center": 84.4
+        },
+        {
+          "bucket": "82-83",
+          "bucketValue": 82,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 0.3,
+          "meanResidual": 4.4,
+          "center": 84.4
         }
       ]
     },
@@ -19878,25 +17941,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "88-89",
-          "bucketValue": 88,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 5
-        },
-        {
           "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 4.53
+          "rawProbability": 0.56,
+          "probability": 0.56,
+          "count": 5.64,
+          "meanResidual": 0.13,
+          "center": 90.13
         },
         {
-          "bucket": "92-93",
-          "bucketValue": 92,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.47
+          "bucket": "88-89",
+          "bucketValue": 88,
+          "rawProbability": 0.44,
+          "probability": 0.44,
+          "count": 4.36,
+          "meanResidual": 0.13,
+          "center": 90.13
         }
       ]
     },
@@ -19944,25 +18004,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 3
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.94,
+          "probability": 0.94,
+          "count": 4.7,
+          "meanResidual": -2.88,
+          "center": 61.12
         },
         {
-          "bucket": "54-55",
-          "bucketValue": 54,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
-        },
-        {
-          "bucket": "56-57",
-          "bucketValue": 56,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.3,
+          "meanResidual": -2.88,
+          "center": 61.12
         }
       ]
     },
@@ -20009,76 +18066,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 5.03
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.12
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.59
-        },
-        {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.13
+          "rawProbability": 0.65,
+          "probability": 0.65,
+          "count": 6.52,
+          "meanResidual": 1.49,
+          "center": 24.65
         },
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.14
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.35,
+          "probability": 0.35,
+          "count": 3.48,
+          "meanResidual": 1.49,
+          "center": 24.65
         }
       ],
       "probabilities": [
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 5.03
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.12
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 4.87,
+          "meanResidual": 1.3,
+          "center": 24.46
         },
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.12
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.59
-        },
-        {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.14
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 4.13,
+          "meanResidual": 1.3,
+          "center": 24.46
         }
       ]
     },
@@ -20126,32 +18149,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 3.54
-        },
-        {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 3.53
+          "rawProbability": 0.93,
+          "probability": 0.93,
+          "count": 9.33,
+          "meanResidual": 1.53,
+          "center": 23.93
         },
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.75
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.18
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.67,
+          "meanResidual": 1.53,
+          "center": 23.93
         }
       ]
     },
@@ -20199,32 +18212,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 4.38
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 3.57
+          "rawProbability": 0.98,
+          "probability": 0.98,
+          "count": 9.81,
+          "meanResidual": 0.38,
+          "center": 15.98
         },
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.01
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.04
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.02,
+          "probability": 0.02,
+          "count": 0.19,
+          "meanResidual": 0.38,
+          "center": 15.98
         }
       ]
     },
@@ -20274,16 +18277,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "32",
           "bucketValue": 32,
-          "rawProbability": 0.79,
-          "probability": 0.79,
-          "count": 4.76
+          "rawProbability": 0.78,
+          "probability": 0.78,
+          "count": 4.69,
+          "meanResidual": 0.73,
+          "center": 32.22
         },
         {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.24
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 1.31,
+          "meanResidual": 0.73,
+          "center": 32.22
         }
       ]
     },
@@ -20331,39 +18338,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 2.74
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 1.18
+          "rawProbability": 0.6,
+          "probability": 0.6,
+          "count": 2.99,
+          "meanResidual": 0.2,
+          "center": 33.6
         },
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 0.92
-        },
-        {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.08
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.07
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.4,
+          "probability": 0.4,
+          "count": 2.01,
+          "meanResidual": 0.2,
+          "center": 33.6
         }
       ]
     },
@@ -20412,74 +18402,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 5.41
+          "rawProbability": 0.67,
+          "probability": 0.67,
+          "count": 8.02,
+          "meanResidual": 0.99,
+          "center": 27.33
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.79
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.8
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.41
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.41
+          "rawProbability": 0.33,
+          "probability": 0.33,
+          "count": 3.98,
+          "meanResidual": 0.99,
+          "center": 27.33
         }
       ],
       "probabilities": [
         {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 5.41
-        },
-        {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 2.79
+          "rawProbability": 0.53,
+          "probability": 0.53,
+          "count": 5.78,
+          "meanResidual": 1.19,
+          "center": 27.53
         },
         {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.8
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.59
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.41
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 5.22,
+          "meanResidual": 1.19,
+          "center": 27.53
         }
       ]
     },
@@ -20527,32 +18483,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.58,
-          "probability": 0.58,
-          "count": 6.98
-        },
-        {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.85
+          "rawProbability": 0.53,
+          "probability": 0.53,
+          "count": 6.33,
+          "meanResidual": 1.24,
+          "center": 22.53
         },
         {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.96
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.22
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 5.67,
+          "meanResidual": 1.24,
+          "center": 22.53
         }
       ]
     },
@@ -20601,60 +18547,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 4.58
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 3.68
+          "rawProbability": 0.81,
+          "probability": 0.81,
+          "count": 9.75,
+          "meanResidual": 1.12,
+          "center": 15.19
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.61
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1.1
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 2.25,
+          "meanResidual": 1.12,
+          "center": 15.19
         }
       ],
       "probabilities": [
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 4.58
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 3.68
+          "rawProbability": 0.65,
+          "probability": 0.65,
+          "count": 7.12,
+          "meanResidual": 1.28,
+          "center": 15.35
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.61
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.12
+          "rawProbability": 0.35,
+          "probability": 0.35,
+          "count": 3.88,
+          "meanResidual": 1.28,
+          "center": 15.35
         }
       ]
     },
@@ -20701,76 +18627,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 4.36
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 2.13
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.76
+          "rawProbability": 0.57,
+          "probability": 0.57,
+          "count": 6.81,
+          "meanResidual": 0.16,
+          "center": 34.43
         },
         {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.71
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.58
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 5.19,
+          "meanResidual": 0.16,
+          "center": 34.43
         }
       ],
       "probabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 4.36
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 2.13
+          "rawProbability": 0.8,
+          "probability": 0.8,
+          "count": 8.78,
+          "meanResidual": -0.07,
+          "center": 34.2
         },
         {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.71
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.58
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.22
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 2.22,
+          "meanResidual": -0.07,
+          "center": 34.2
         }
       ]
     },
@@ -20817,69 +18709,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 6.63
-        },
-        {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 2.21
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.37
+          "rawProbability": 0.86,
+          "probability": 0.86,
+          "count": 10.3,
+          "meanResidual": 1.21,
+          "center": 17.14
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.8
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.88
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.7,
+          "meanResidual": 1.21,
+          "center": 17.14
         }
       ],
       "probabilities": [
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 6.63
-        },
-        {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 2.21
+          "rawProbability": 0.72,
+          "probability": 0.72,
+          "count": 7.97,
+          "meanResidual": 0.79,
+          "center": 16.72
         },
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.37
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.8
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 3.03,
+          "meanResidual": 0.79,
+          "center": 16.72
         }
       ]
     },
@@ -20928,67 +18793,31 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 5.82
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 3.84
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.99
+          "rawProbability": 0.84,
+          "probability": 0.84,
+          "count": 10.07,
+          "meanResidual": 0.56,
+          "center": 17.16
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.88
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.47
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.93,
+          "meanResidual": 0.56,
+          "center": 17.16
         }
       ],
       "probabilities": [
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.53,
-          "probability": 0.53,
-          "count": 5.82
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 3.84
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.99
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.35
+          "rawProbability": 1,
+          "probability": 1,
+          "count": 10.95,
+          "meanResidual": 0.4,
+          "center": 17
         }
       ]
     },
@@ -21037,74 +18866,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 3.67
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.65
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 2.31
+          "rawProbability": 0.58,
+          "probability": 0.58,
+          "count": 7.01,
+          "meanResidual": 0.97,
+          "center": 14.42
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.41
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.96
+          "rawProbability": 0.42,
+          "probability": 0.42,
+          "count": 4.99,
+          "meanResidual": 0.97,
+          "center": 14.42
         }
       ],
       "probabilities": [
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 3.67
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.65
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.31
+          "rawProbability": 0.86,
+          "probability": 0.86,
+          "count": 9.51,
+          "meanResidual": 0.69,
+          "center": 14.14
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.41
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.96
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.49,
+          "meanResidual": 0.69,
+          "center": 14.14
         }
       ]
     },
@@ -21152,25 +18947,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.67,
-          "probability": 0.67,
-          "count": 8.06
-        },
-        {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 3.68
+          "rawProbability": 0.76,
+          "probability": 0.76,
+          "count": 9.13,
+          "meanResidual": 0.8,
+          "center": 23.76
         },
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.26
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 2.87,
+          "meanResidual": 0.8,
+          "center": 23.76
         }
       ]
     },
@@ -21220,23 +19012,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 5.76
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 4.96
+          "rawProbability": 0.83,
+          "probability": 0.83,
+          "count": 9.99,
+          "meanResidual": 0.72,
+          "center": 28.17
         },
         {
           "bucket": "29",
           "bucketValue": 29,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.24
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 2.01,
+          "meanResidual": 0.72,
+          "center": 28.17
         }
       ]
     },
@@ -21283,76 +19072,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 6.65
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.77
-        },
-        {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.22
+          "rawProbability": 0.53,
+          "probability": 0.53,
+          "count": 6.33,
+          "meanResidual": 0.46,
+          "center": 19.53
         },
         {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1.11
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.25
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 5.67,
+          "meanResidual": 0.46,
+          "center": 19.53
         }
       ],
       "probabilities": [
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 6.65
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 2.77
+          "rawProbability": 0.66,
+          "probability": 0.66,
+          "count": 7.28,
+          "meanResidual": 0.27,
+          "center": 19.34
         },
         {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.22
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.25
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.12
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 3.72,
+          "meanResidual": 0.27,
+          "center": 19.34
         }
       ]
     },
@@ -21401,74 +19156,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 4.57
+          "rawProbability": 0.98,
+          "probability": 0.98,
+          "count": 11.74,
+          "meanResidual": 0.38,
+          "center": 14.98
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 4.28
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.52
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.8
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.45
+          "rawProbability": 0.02,
+          "probability": 0.02,
+          "count": 0.26,
+          "meanResidual": 0.38,
+          "center": 14.98
         }
       ],
       "probabilities": [
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 4.57
+          "rawProbability": 0.78,
+          "probability": 0.78,
+          "count": 8.54,
+          "meanResidual": 0.18,
+          "center": 14.78
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 4.28
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.52
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.38
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.25
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 2.46,
+          "meanResidual": 0.18,
+          "center": 14.78
         }
       ]
     },
@@ -21518,30 +19239,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 4.46
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3.31
+          "rawProbability": 0.57,
+          "probability": 0.57,
+          "count": 6.23,
+          "meanResidual": 1.11,
+          "center": 18.43
         },
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 3.06
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.18
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 4.77,
+          "meanResidual": 1.11,
+          "center": 18.43
         }
       ]
     },
@@ -21591,23 +19302,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "70-71",
           "bucketValue": 70,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 4.18
+          "rawProbability": 0.72,
+          "probability": 0.72,
+          "count": 5.04,
+          "meanResidual": 1.56,
+          "center": 71.56
         },
         {
           "bucket": "72-73",
           "bucketValue": 72,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 2.2
-        },
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.62
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 1.96,
+          "meanResidual": 1.56,
+          "center": 71.56
         }
       ]
     },
@@ -21655,32 +19363,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 3.62
-        },
-        {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 2.44
+          "rawProbability": 0.79,
+          "probability": 0.79,
+          "count": 6.36,
+          "meanResidual": 1.41,
+          "center": 63.41
         },
         {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.56
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.38
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.21,
+          "probability": 0.21,
+          "count": 1.64,
+          "meanResidual": 1.41,
+          "center": 63.41
         }
       ]
     },
@@ -21730,23 +19428,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 5
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 8,
+          "meanResidual": 2.22,
+          "center": 65.22
         },
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 2.5
-        },
-        {
-          "bucket": "62-63",
-          "bucketValue": 62,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.5
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 1,
+          "meanResidual": 2.22,
+          "center": 65.22
         }
       ]
     },
@@ -21796,9 +19491,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "84-85",
           "bucketValue": 84,
-          "rawProbability": 1,
-          "probability": 1,
-          "count": 1
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 0.7,
+          "meanResidual": 5.4,
+          "center": 84.4
+        },
+        {
+          "bucket": "82-83",
+          "bucketValue": 82,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 0.3,
+          "meanResidual": 5.4,
+          "center": 84.4
         }
       ]
     },
@@ -21848,30 +19554,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.53,
-          "probability": 0.53,
-          "count": 5.8
+          "rawProbability": 0.52,
+          "probability": 0.52,
+          "count": 5.76,
+          "meanResidual": -0.05,
+          "center": 89.95
         },
         {
           "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 4.53
-        },
-        {
-          "bucket": "92-93",
-          "bucketValue": 92,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.47
-        },
-        {
-          "bucket": "86-87",
-          "bucketValue": 86,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.2
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 5.24,
+          "meanResidual": -0.05,
+          "center": 89.95
         }
       ]
     },
@@ -21919,25 +19615,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 3
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.74,
+          "probability": 0.74,
+          "count": 3.7,
+          "meanResidual": -2.48,
+          "center": 61.52
         },
         {
-          "bucket": "54-55",
-          "bucketValue": 54,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
-        },
-        {
-          "bucket": "58-59",
-          "bucketValue": 58,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.26,
+          "probability": 0.26,
+          "count": 1.3,
+          "meanResidual": -2.48,
+          "center": 61.52
         }
       ]
     },
@@ -21984,62 +19677,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 5.68
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.52
-        },
-        {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.67
+          "rawProbability": 0.62,
+          "probability": 0.62,
+          "count": 6.85,
+          "meanResidual": 1.22,
+          "center": 24.62
         },
         {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.13
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.38,
+          "probability": 0.38,
+          "count": 4.15,
+          "meanResidual": 1.22,
+          "center": 24.62
         }
       ],
       "probabilities": [
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.57,
-          "probability": 0.57,
-          "count": 5.68
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 2.52
+          "rawProbability": 0.56,
+          "probability": 0.56,
+          "count": 5.65,
+          "meanResidual": 1.04,
+          "center": 24.44
         },
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.67
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.13
+          "rawProbability": 0.44,
+          "probability": 0.44,
+          "count": 4.35,
+          "meanResidual": 1.04,
+          "center": 24.44
         }
       ]
     },
@@ -22087,25 +19760,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 5.35
-        },
-        {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 4.8
+          "rawProbability": 0.92,
+          "probability": 0.92,
+          "count": 10.08,
+          "meanResidual": 1.04,
+          "center": 23.08
         },
         {
           "bucket": "24",
           "bucketValue": 24,
           "rawProbability": 0.08,
           "probability": 0.08,
-          "count": 0.85
+          "count": 0.92,
+          "meanResidual": 1.04,
+          "center": 23.08
         }
       ]
     },
@@ -22153,32 +19823,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 5.58
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 3.08
+          "rawProbability": 0.91,
+          "probability": 0.91,
+          "count": 9.05,
+          "meanResidual": 0.49,
+          "center": 16.1
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.24
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.1
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.95,
+          "meanResidual": 0.49,
+          "center": 16.1
         }
       ]
     },
@@ -22228,23 +19888,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "32",
           "bucketValue": 32,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 2.93
-        },
-        {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 2.6
+          "rawProbability": 0.82,
+          "probability": 0.82,
+          "count": 4.92,
+          "meanResidual": 0.58,
+          "center": 32.18
         },
         {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.47
+          "rawProbability": 0.18,
+          "probability": 0.18,
+          "count": 1.08,
+          "meanResidual": 0.58,
+          "center": 32.18
         }
       ]
     },
@@ -22292,32 +19949,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 2.21
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 1.45
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 3.51,
+          "meanResidual": 0.1,
+          "center": 33.7
         },
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.34
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 1.49,
+          "meanResidual": 0.1,
+          "center": 33.7
         }
       ]
     },
@@ -22367,23 +20014,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "26",
           "bucketValue": 26,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 1.62
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 1.38
+          "rawProbability": 0.65,
+          "probability": 0.65,
+          "count": 2.61,
+          "meanResidual": 0.97,
+          "center": 26.35
         },
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 1
+          "rawProbability": 0.35,
+          "probability": 0.35,
+          "count": 1.39,
+          "meanResidual": 0.97,
+          "center": 26.35
         }
       ]
     },
@@ -22432,53 +20076,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "22",
           "bucketValue": 22,
-          "rawProbability": 0.64,
-          "probability": 0.64,
-          "count": 7.65
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 7.08,
+          "meanResidual": 1.2,
+          "center": 22.41
         },
         {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.97
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.38
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 1
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 4.92,
+          "meanResidual": 1.2,
+          "center": 22.41
         }
       ],
       "probabilities": [
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.7,
-          "probability": 0.7,
-          "count": 7.65
-        },
-        {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.97
+          "rawProbability": 0.58,
+          "probability": 0.58,
+          "count": 6.41,
+          "meanResidual": 1.37,
+          "center": 22.58
         },
         {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.38
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.42,
+          "probability": 0.42,
+          "count": 4.59,
+          "meanResidual": 1.37,
+          "center": 22.58
         }
       ]
     },
@@ -22528,30 +20159,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 5.2
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 3.39
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.9
+          "rawProbability": 0.99,
+          "probability": 0.99,
+          "count": 11.91,
+          "meanResidual": 0.89,
+          "center": 15.01
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.52
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.09,
+          "meanResidual": 0.89,
+          "center": 15.01
         }
       ]
     },
@@ -22598,76 +20219,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 4.59
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.72
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.69
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.59
+          "rawProbability": 0.79,
+          "probability": 0.79,
+          "count": 8.73,
+          "meanResidual": -0.06,
+          "center": 34.21
         },
         {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.24
+          "rawProbability": 0.21,
+          "probability": 0.21,
+          "count": 2.27,
+          "meanResidual": -0.06,
+          "center": 34.21
         }
       ],
       "probabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 4.59
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.69
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.72
+          "rawProbability": 0.95,
+          "probability": 0.95,
+          "count": 9.5,
+          "meanResidual": -0.32,
+          "center": 33.95
         },
         {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.24
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.76
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.5,
+          "meanResidual": -0.32,
+          "center": 33.95
         }
       ]
     },
@@ -22714,76 +20301,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 5.52
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.63,
+          "probability": 0.63,
+          "count": 7.55,
+          "meanResidual": 1.14,
+          "center": 16.63
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.92
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 2.02
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.59
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.46
+          "rawProbability": 0.37,
+          "probability": 0.37,
+          "count": 4.45,
+          "meanResidual": 1.14,
+          "center": 16.63
         }
       ],
       "probabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 5.52
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.92
+          "rawProbability": 0.85,
+          "probability": 0.85,
+          "count": 9.39,
+          "meanResidual": 0.66,
+          "center": 16.15
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 2.02
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.46
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.07
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.61,
+          "meanResidual": 0.66,
+          "center": 16.15
         }
       ]
     },
@@ -22832,67 +20385,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 5.42
+          "rawProbability": 0.86,
+          "probability": 0.86,
+          "count": 10.3,
+          "meanResidual": 0.52,
+          "center": 16.86
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 5.01
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.69
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.47
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.41
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.7,
+          "meanResidual": 0.52,
+          "center": 16.86
         }
       ],
       "probabilities": [
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 5.42
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 5.01
+          "rawProbability": 0.97,
+          "probability": 0.97,
+          "count": 10.72,
+          "meanResidual": 0.69,
+          "center": 17.03
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.41
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.16
+          "rawProbability": 0.03,
+          "probability": 0.03,
+          "count": 0.28,
+          "meanResidual": 0.69,
+          "center": 17.03
         }
       ]
     },
@@ -22941,74 +20467,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 3.33
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 3.06
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 2.29
+          "rawProbability": 0.68,
+          "probability": 0.68,
+          "count": 8.11,
+          "meanResidual": 0.92,
+          "center": 14.32
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.54
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.98
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 3.89,
+          "meanResidual": 0.92,
+          "center": 14.32
         }
       ],
       "probabilities": [
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3.33
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 3.06
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.29
+          "rawProbability": 0.98,
+          "probability": 0.98,
+          "count": 10.74,
+          "meanResidual": 0.62,
+          "center": 14.02
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.54
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.7
+          "rawProbability": 0.02,
+          "probability": 0.02,
+          "count": 0.26,
+          "meanResidual": 0.62,
+          "center": 14.02
         }
       ]
     },
@@ -23056,25 +20548,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 6.74
-        },
-        {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 5.06
+          "rawProbability": 0.86,
+          "probability": 0.86,
+          "count": 10.3,
+          "meanResidual": 0.9,
+          "center": 23.86
         },
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.2
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.7,
+          "meanResidual": 0.9,
+          "center": 23.86
         }
       ]
     },
@@ -23122,32 +20611,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 5.93
-        },
-        {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 4.17
+          "rawProbability": 0.94,
+          "probability": 0.94,
+          "count": 11.31,
+          "meanResidual": 0.49,
+          "center": 27.94
         },
         {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1.1
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.8
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.69,
+          "meanResidual": 0.49,
+          "center": 27.94
         }
       ]
     },
@@ -23194,76 +20673,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 6.65
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 2.42
-        },
-        {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.57
+          "rawProbability": 0.58,
+          "probability": 0.58,
+          "count": 7.01,
+          "meanResidual": 0.51,
+          "center": 19.58
         },
         {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1.12
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.25
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.42,
+          "probability": 0.42,
+          "count": 4.99,
+          "meanResidual": 0.51,
+          "center": 19.58
         }
       ],
       "probabilities": [
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 6.65
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.42
+          "rawProbability": 0.58,
+          "probability": 0.58,
+          "count": 6.4,
+          "meanResidual": 0.35,
+          "center": 19.42
         },
         {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.57
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.25
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.12
+          "rawProbability": 0.42,
+          "probability": 0.42,
+          "count": 4.6,
+          "meanResidual": 0.35,
+          "center": 19.42
         }
       ]
     },
@@ -23310,76 +20755,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.57,
-          "probability": 0.57,
-          "count": 6.88
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.61
+          "rawProbability": 0.83,
+          "probability": 0.83,
+          "count": 9.96,
+          "meanResidual": 0.4,
+          "center": 14.83
         },
         {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.74
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.59
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.63
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 2.04,
+          "meanResidual": 0.4,
+          "center": 14.83
         }
       ],
       "probabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.63,
-          "probability": 0.63,
-          "count": 6.88
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.61
+          "rawProbability": 0.63,
+          "probability": 0.63,
+          "count": 6.93,
+          "meanResidual": 0.19,
+          "center": 14.63
         },
         {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.74
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.59
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.18
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.37,
+          "probability": 0.37,
+          "count": 4.07,
+          "meanResidual": 0.19,
+          "center": 14.63
         }
       ]
     },
@@ -23427,32 +20838,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 5.94
-        },
-        {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.63
+          "rawProbability": 0.74,
+          "probability": 0.74,
+          "count": 8.93,
+          "meanResidual": 0.85,
+          "center": 17.74
         },
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 2.32
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1.11
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.26,
+          "probability": 0.26,
+          "count": 3.07,
+          "meanResidual": 0.85,
+          "center": 17.74
         }
       ]
     },
@@ -23502,23 +20903,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "68-69",
           "bucketValue": 68,
-          "rawProbability": 0.61,
-          "probability": 0.61,
-          "count": 4.3
+          "rawProbability": 0.72,
+          "probability": 0.72,
+          "count": 5.04,
+          "meanResidual": 1.56,
+          "center": 69.56
         },
         {
           "bucket": "70-71",
           "bucketValue": 70,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 2.2
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.5
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 1.96,
+          "meanResidual": 1.56,
+          "center": 69.56
         }
       ]
     },
@@ -23568,30 +20966,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 3.2
+          "rawProbability": 0.58,
+          "probability": 0.58,
+          "count": 4.64,
+          "meanResidual": 1.16,
+          "center": 64.16
         },
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 2.24
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.56
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
+          "rawProbability": 0.42,
+          "probability": 0.42,
+          "count": 3.36,
+          "meanResidual": 1.16,
+          "center": 64.16
         }
       ]
     },
@@ -23641,23 +21029,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 4.7
+          "rawProbability": 0.83,
+          "probability": 0.83,
+          "count": 7.5,
+          "meanResidual": 2.67,
+          "center": 66.67
         },
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 3
-        },
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.3
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.5,
+          "meanResidual": 2.67,
+          "center": 66.67
         }
       ]
     },
@@ -23707,9 +21092,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "84-85",
           "bucketValue": 84,
-          "rawProbability": 1,
-          "probability": 1,
-          "count": 1
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 0.7,
+          "meanResidual": 6.4,
+          "center": 84.4
+        },
+        {
+          "bucket": "82-83",
+          "bucketValue": 82,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 0.3,
+          "meanResidual": 6.4,
+          "center": 84.4
         }
       ]
     },
@@ -23759,30 +21155,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.58,
-          "probability": 0.58,
-          "count": 6.33
+          "rawProbability": 0.61,
+          "probability": 0.61,
+          "count": 6.76,
+          "meanResidual": -0.23,
+          "center": 89.77
         },
         {
           "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 4
-        },
-        {
-          "bucket": "92-93",
-          "bucketValue": 92,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.47
-        },
-        {
-          "bucket": "86-87",
-          "bucketValue": 86,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.2
+          "rawProbability": 0.39,
+          "probability": 0.39,
+          "count": 4.24,
+          "meanResidual": -0.23,
+          "center": 89.77
         }
       ]
     },
@@ -23830,32 +21216,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.58,
-          "probability": 0.58,
-          "count": 3.5
-        },
-        {
-          "bucket": "54-55",
-          "bucketValue": 54,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.72,
+          "probability": 0.72,
+          "count": 4.3,
+          "meanResidual": -1.57,
+          "center": 62.43
         },
         {
           "bucket": "60-61",
           "bucketValue": 60,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1
-        },
-        {
-          "bucket": "62-63",
-          "bucketValue": 62,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.5
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 1.7,
+          "meanResidual": -1.57,
+          "center": 62.43
         }
       ]
     },
@@ -23905,16 +21281,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.79,
-          "probability": 0.79,
-          "count": 1.59
+          "rawProbability": 0.77,
+          "probability": 0.77,
+          "count": 1.55,
+          "meanResidual": 1.06,
+          "center": 24.23
         },
         {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 0.41
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.23,
+          "probability": 0.23,
+          "count": 0.45,
+          "meanResidual": 1.06,
+          "center": 24.23
         }
       ]
     },
@@ -23962,25 +21342,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
-        },
-        {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 0.9
+          "rawProbability": 0.61,
+          "probability": 0.61,
+          "count": 1.22,
+          "meanResidual": 2.57,
+          "center": 24.61
         },
         {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.1
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.39,
+          "probability": 0.39,
+          "count": 0.78,
+          "meanResidual": 2.57,
+          "center": 24.61
         }
       ]
     },
@@ -24030,37 +21407,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 4.89
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 3.34
+          "rawProbability": 0.85,
+          "probability": 0.85,
+          "count": 8.47,
+          "meanResidual": 0.42,
+          "center": 16.15
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.94
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.75
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.08
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.53,
+          "meanResidual": 0.42,
+          "center": 16.15
         }
       ]
     },
@@ -24108,32 +21468,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "34",
-          "bucketValue": 34,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 0.9
-        },
-        {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 0.77
+          "rawProbability": 0.91,
+          "probability": 0.91,
+          "count": 2.72,
+          "meanResidual": 1.49,
+          "center": 33.09
         },
         {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 0.66
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 0.67
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.28,
+          "meanResidual": 1.49,
+          "center": 33.09
         }
       ]
     },
@@ -24181,18 +21531,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 0.99
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 1.78,
+          "meanResidual": 0.4,
+          "center": 34.11
+        },
+        {
+          "bucket": "35",
+          "bucketValue": 35,
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.22,
+          "meanResidual": 0.4,
+          "center": 34.11
         }
       ]
     },
@@ -24241,46 +21595,31 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "22",
           "bucketValue": 22,
-          "rawProbability": 0.62,
-          "probability": 0.62,
-          "count": 7.43
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3.55
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.84
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.16
+          "rawProbability": 1,
+          "probability": 1,
+          "count": 11.95,
+          "meanResidual": 1.07,
+          "center": 22
         }
       ],
       "probabilities": [
         {
           "bucket": "22",
           "bucketValue": 22,
-          "rawProbability": 0.68,
-          "probability": 0.68,
-          "count": 7.43
+          "rawProbability": 0.83,
+          "probability": 0.83,
+          "count": 9.18,
+          "meanResidual": 1.24,
+          "center": 22.17
         },
         {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 3.55
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.82,
+          "meanResidual": 1.24,
+          "center": 22.17
         }
       ]
     },
@@ -24330,30 +21669,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.62,
-          "probability": 0.62,
-          "count": 7.42
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 3.08
+          "rawProbability": 0.76,
+          "probability": 0.76,
+          "count": 9.08,
+          "meanResidual": 0.64,
+          "center": 15.24
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.15
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.35
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 2.92,
+          "meanResidual": 0.64,
+          "center": 15.24
         }
       ]
     },
@@ -24403,30 +21732,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.47,
-          "probability": 0.47,
-          "count": 1.87
+          "rawProbability": 0.98,
+          "probability": 0.98,
+          "count": 3.94,
+          "meanResidual": 0.59,
+          "center": 33.99
         },
         {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 1.8
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.2
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.13
+          "rawProbability": 0.02,
+          "probability": 0.02,
+          "count": 0.06,
+          "meanResidual": 0.59,
+          "center": 33.99
         }
       ]
     },
@@ -24473,69 +21792,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.47,
-          "probability": 0.47,
-          "count": 5.6
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.53,
+          "probability": 0.53,
+          "count": 6.35,
+          "meanResidual": 1.15,
+          "center": 16.53
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 2.34
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 2.16
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.9
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.77
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 5.65,
+          "meanResidual": 1.15,
+          "center": 16.53
         }
       ],
       "probabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.51,
-          "probability": 0.51,
-          "count": 5.6
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.34
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 9.83,
+          "meanResidual": 0.73,
+          "center": 16.11
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 2.16
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.9
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 1.17,
+          "meanResidual": 0.73,
+          "center": 16.11
         }
       ]
     },
@@ -24587,21 +21879,18 @@ window.__TEMP_DASHBOARD_DATA__ = {
           "bucketValue": 16,
           "rawProbability": 0.58,
           "probability": 0.58,
-          "count": 6.95
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.87
+          "count": 6.97,
+          "meanResidual": 0.64,
+          "center": 16.42
         },
         {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 2.16
+          "rawProbability": 0.42,
+          "probability": 0.42,
+          "count": 5.03,
+          "meanResidual": 0.64,
+          "center": 16.42
         }
       ]
     },
@@ -24650,67 +21939,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 4.99
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 3.3
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.96
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 1
+          "rawProbability": 0.76,
+          "probability": 0.76,
+          "count": 9.12,
+          "meanResidual": 0.86,
+          "center": 14.24
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.75
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 2.88,
+          "meanResidual": 0.86,
+          "center": 14.24
         }
       ],
       "probabilities": [
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 4.99
+          "rawProbability": 0.85,
+          "probability": 0.85,
+          "count": 9.38,
+          "meanResidual": 0.47,
+          "center": 13.85
         },
         {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3.3
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.96
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.75
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.62,
+          "meanResidual": 0.47,
+          "center": 13.85
         }
       ]
     },
@@ -24758,25 +22020,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.62,
-          "probability": 0.62,
-          "count": 7.43
-        },
-        {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 3.85
+          "rawProbability": 0.74,
+          "probability": 0.74,
+          "count": 8.86,
+          "meanResidual": 0.78,
+          "center": 23.74
         },
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.71
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.26,
+          "probability": 0.26,
+          "count": 3.14,
+          "meanResidual": 0.78,
+          "center": 23.74
         }
       ]
     },
@@ -24826,23 +22085,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.74,
-          "probability": 0.74,
-          "count": 8.92
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.48
+          "rawProbability": 0.63,
+          "probability": 0.63,
+          "count": 7.62,
+          "meanResidual": 0.55,
+          "center": 27.37
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.6
+          "rawProbability": 0.37,
+          "probability": 0.37,
+          "count": 4.38,
+          "meanResidual": 0.55,
+          "center": 27.37
         }
       ]
     },
@@ -24890,32 +22146,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 4.38
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 3.48
-        },
-        {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 3.33
+          "rawProbability": 0.63,
+          "probability": 0.63,
+          "count": 7.6,
+          "meanResidual": 0.56,
+          "center": 19.63
         },
         {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.82
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.37,
+          "probability": 0.37,
+          "count": 4.4,
+          "meanResidual": 0.56,
+          "center": 19.63
         }
       ]
     },
@@ -24964,74 +22210,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 6.59
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 2.19
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1.1
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 8.45,
+          "meanResidual": 0.23,
+          "center": 14.3
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1.02
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.98
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 3.55,
+          "meanResidual": 0.23,
+          "center": 14.3
         }
       ],
       "probabilities": [
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 6.59
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 2.19
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.1
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 9.82,
+          "meanResidual": 0.04,
+          "center": 14.11
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.12
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 1.18,
+          "meanResidual": 0.04,
+          "center": 14.11
         }
       ]
     },
@@ -25079,32 +22291,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 4.83
-        },
-        {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 4.21
+          "rawProbability": 0.74,
+          "probability": 0.74,
+          "count": 8.86,
+          "meanResidual": 0.94,
+          "center": 18.26
         },
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.73
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.24
+          "rawProbability": 0.26,
+          "probability": 0.26,
+          "count": 3.14,
+          "meanResidual": 0.94,
+          "center": 18.26
         }
       ]
     },
@@ -25154,30 +22356,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "70-71",
           "bucketValue": 70,
-          "rawProbability": 0.83,
-          "probability": 0.83,
-          "count": 5.8
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.5
+          "rawProbability": 0.78,
+          "probability": 0.78,
+          "count": 5.46,
+          "meanResidual": 1.56,
+          "center": 70.56
         },
         {
           "bucket": "68-69",
           "bucketValue": 68,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.5
-        },
-        {
-          "bucket": "72-73",
-          "bucketValue": 72,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.2
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 1.54,
+          "meanResidual": 1.56,
+          "center": 70.56
         }
       ]
     },
@@ -25225,32 +22417,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "62-63",
-          "bucketValue": 62,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 2.8
-        },
-        {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 2.82
+          "rawProbability": 0.58,
+          "probability": 0.58,
+          "count": 4.64,
+          "meanResidual": 1.16,
+          "center": 64.16
         },
         {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.38
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.42,
+          "probability": 0.42,
+          "count": 3.36,
+          "meanResidual": 1.16,
+          "center": 64.16
         }
       ]
     },
@@ -25300,23 +22482,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 5
+          "rawProbability": 0.78,
+          "probability": 0.78,
+          "count": 7,
+          "meanResidual": 2.56,
+          "center": 66.56
         },
         {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 3
-        },
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 2,
+          "meanResidual": 2.56,
+          "center": 66.56
         }
       ]
     },
@@ -25366,9 +22545,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "82-83",
           "bucketValue": 82,
-          "rawProbability": 1,
-          "probability": 1,
-          "count": 1
+          "rawProbability": 0.8,
+          "probability": 0.8,
+          "count": 0.8,
+          "meanResidual": 5.4,
+          "center": 83.4
+        },
+        {
+          "bucket": "84-85",
+          "bucketValue": 84,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 0.2,
+          "meanResidual": 5.4,
+          "center": 83.4
         }
       ]
     },
@@ -25418,30 +22608,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 6.13
+          "rawProbability": 0.57,
+          "probability": 0.57,
+          "count": 6.26,
+          "meanResidual": -0.14,
+          "center": 89.86
         },
         {
           "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 4.2
-        },
-        {
-          "bucket": "92-93",
-          "bucketValue": 92,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.47
-        },
-        {
-          "bucket": "86-87",
-          "bucketValue": 86,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.2
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 4.74,
+          "meanResidual": -0.14,
+          "center": 89.86
         }
       ]
     },
@@ -25489,25 +22669,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.95,
+          "probability": 0.95,
+          "count": 5.7,
+          "meanResidual": -0.9,
+          "center": 63.1
+        },
+        {
           "bucket": "64-65",
           "bucketValue": 64,
-          "rawProbability": 0.67,
-          "probability": 0.67,
-          "count": 4
-        },
-        {
-          "bucket": "56-57",
-          "bucketValue": 56,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.3,
+          "meanResidual": -0.9,
+          "center": 63.1
         }
       ]
     },
@@ -25555,32 +22732,400 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 4.45
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 3.56
+          "rawProbability": 0.97,
+          "probability": 0.97,
+          "count": 9.66,
+          "meanResidual": 0.48,
+          "center": 15.97
         },
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.95
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.03,
+          "probability": 0.03,
+          "count": 0.34,
+          "meanResidual": 0.48,
+          "center": 15.97
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "22点到23点",
+      "expectedField": "NYC预计",
+      "predicted": 70,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 1,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 1,
+      "momentumRecentDelta": 1.5,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 69,
+      "baselineDelta": 1,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.99,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 3,
+      "baselineCityTimeSampleSize": 2,
+      "baselineCitySampleSize": 16,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 7,
+      "momentumSampleSize": 1,
+      "timeSampleSize": 7,
+      "trendSampleSize": 59,
+      "citySampleSize": 59,
+      "modelLevel": "city-time",
+      "modelSampleSize": 7,
+      "modelOriginalSampleSize": 7,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "70-71",
+          "bucketValue": 70,
+          "rawProbability": 0.72,
+          "probability": 0.72,
+          "count": 5.04,
+          "meanResidual": 1.56,
+          "center": 71.56
         },
         {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.03
+          "bucket": "72-73",
+          "bucketValue": 72,
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 1.96,
+          "meanResidual": 1.56,
+          "center": 71.56
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "22点到23点",
+      "expectedField": "San预计",
+      "predicted": 63,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 0.5,
+      "momentumThresholdScore": 0.25,
+      "momentumThresholdUsable": 4,
+      "baselinePredicted": 63,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.95,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 3,
+      "baselineCitySampleSize": 35,
+      "correctionRegime": "high",
+      "correctionRegimeN": 4,
+      "correctionRegimeHighRate": 0.75,
+      "correctionLowMean": -0.15,
+      "correctionHighMean": 2.34,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 7,
+      "momentumSampleSize": 4,
+      "timeSampleSize": 8,
+      "trendSampleSize": 65,
+      "citySampleSize": 68,
+      "modelLevel": "city-time",
+      "modelSampleSize": 8,
+      "modelOriginalSampleSize": 8,
+      "outlierDropped": 0,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 5.64,
+          "meanResidual": 1.41,
+          "center": 64.41
+        },
+        {
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 2.36,
+          "meanResidual": 1.41,
+          "center": 64.41
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "22点到23点",
+      "expectedField": "chicago预计",
+      "predicted": 63,
+      "unit": "F",
+      "totalTrend": "up",
+      "totalDelta": 1,
+      "momentumSignal": "offset",
+      "momentumFirstDelta": 1,
+      "momentumRecentDelta": -1,
+      "momentumThreshold": 0,
+      "momentumThresholdScore": 0.5,
+      "momentumThresholdUsable": 3,
+      "baselinePredicted": 62,
+      "baselineDelta": 1,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.7,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 4,
+      "baselineCitySampleSize": 29,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 57,
+      "trendSignalRate": 0.75,
+      "exactSampleSize": 5,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 8,
+      "trendSampleSize": 30,
+      "citySampleSize": 73,
+      "modelLevel": "city-time",
+      "modelSampleSize": 8,
+      "modelOriginalSampleSize": 8,
+      "outlierDropped": 0,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.84,
+          "probability": 0.84,
+          "count": 6.7,
+          "meanResidual": 2.33,
+          "center": 65.33
+        },
+        {
+          "bucket": "66-67",
+          "bucketValue": 66,
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.3,
+          "meanResidual": 2.33,
+          "center": 65.33
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "22点到23点",
+      "expectedField": "dallas预计",
+      "predicted": 79,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 2,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 2,
+      "momentumRecentDelta": 1,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 77,
+      "baselineDelta": 2,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": null,
+      "baselineBandMinSpread": null,
+      "baselineUsableBandCount": 0,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 1,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 1,
+      "trendSampleSize": 8,
+      "citySampleSize": 8,
+      "modelLevel": "city-time",
+      "modelSampleSize": 1,
+      "modelOriginalSampleSize": 1,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "84-85",
+          "bucketValue": 84,
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 0.7,
+          "meanResidual": 5.4,
+          "center": 84.4
+        },
+        {
+          "bucket": "82-83",
+          "bucketValue": 82,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 0.3,
+          "meanResidual": 5.4,
+          "center": 84.4
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "22点到23点",
+      "expectedField": "miami本土预计",
+      "predicted": 90,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": -1,
+      "momentumSignal": "recent_flat",
+      "momentumFirstDelta": -1,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 91,
+      "baselineDelta": -1,
+      "baselineBand": "<= -0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.18,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 9,
+      "momentumSampleSize": 6,
+      "timeSampleSize": 9,
+      "trendSampleSize": 90,
+      "citySampleSize": 90,
+      "modelLevel": "city-time",
+      "modelSampleSize": 9,
+      "modelOriginalSampleSize": 9,
+      "outlierDropped": 0,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "88-89",
+          "bucketValue": 88,
+          "rawProbability": 0.53,
+          "probability": 0.53,
+          "count": 4.76,
+          "meanResidual": -0.06,
+          "center": 89.94
+        },
+        {
+          "bucket": "90-91",
+          "bucketValue": 90,
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 4.24,
+          "meanResidual": -0.06,
+          "center": 89.94
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "timeNode": "22点到23点",
+      "expectedField": "seattle预计",
+      "predicted": 64,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 1,
+      "momentumThresholdScore": 0.25,
+      "momentumThresholdUsable": 4,
+      "baselinePredicted": 64,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 2.09,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 10,
+      "correctionRegime": "high",
+      "correctionRegimeN": 4,
+      "correctionRegimeHighRate": 0.75,
+      "correctionLowMean": -6.1,
+      "correctionHighMean": 0.7,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 6,
+      "momentumSampleSize": 4,
+      "timeSampleSize": 6,
+      "trendSampleSize": 47,
+      "citySampleSize": 47,
+      "modelLevel": "city-time",
+      "modelSampleSize": 6,
+      "modelOriginalSampleSize": 6,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.72,
+          "probability": 0.72,
+          "count": 4.3,
+          "meanResidual": -1.57,
+          "center": 62.43
+        },
+        {
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 1.7,
+          "meanResidual": -1.57,
+          "center": 62.43
         }
       ]
     },
@@ -25628,25 +23173,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.59,
-          "probability": 0.59,
-          "count": 1.19
-        },
-        {
           "bucket": "30",
           "bucketValue": 30,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 0.56
+          "rawProbability": 0.61,
+          "probability": 0.61,
+          "count": 1.21,
+          "meanResidual": 1.16,
+          "center": 29.61
         },
         {
-          "bucket": "28",
-          "bucketValue": 28,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.25
+          "bucket": "29",
+          "bucketValue": 29,
+          "rawProbability": 0.39,
+          "probability": 0.39,
+          "count": 0.79,
+          "meanResidual": 1.16,
+          "center": 29.61
         }
       ]
     },
@@ -25694,18 +23236,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
-        },
-        {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
+          "rawProbability": 0.97,
+          "probability": 0.97,
+          "count": 1.94,
+          "meanResidual": 1.76,
+          "center": 22.97
+        },
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.03,
+          "probability": 0.03,
+          "count": 0.06,
+          "meanResidual": 1.76,
+          "center": 22.97
         }
       ]
     },
@@ -25753,18 +23299,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.98,
-          "probability": 0.98,
-          "count": 1.96
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.04
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 1.19,
+          "meanResidual": 0.33,
+          "center": 14.6
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 0.81,
+          "meanResidual": 0.33,
+          "center": 14.6
         }
       ]
     },
@@ -25812,18 +23362,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
-        },
-        {
           "bucket": "36",
           "bucketValue": 36,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
+          "rawProbability": 0.93,
+          "probability": 0.93,
+          "count": 1.86,
+          "meanResidual": 0.84,
+          "center": 36.07
+        },
+        {
+          "bucket": "37",
+          "bucketValue": 37,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.14,
+          "meanResidual": 0.84,
+          "center": 36.07
         }
       ]
     },
@@ -25871,18 +23425,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 0.99
-        },
-        {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
+          "rawProbability": 0.96,
+          "probability": 0.96,
+          "count": 1.92,
+          "meanResidual": -0.11,
+          "center": 18.96
+        },
+        {
+          "bucket": "18",
+          "bucketValue": 18,
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.08,
+          "meanResidual": -0.11,
+          "center": 18.96
         }
       ]
     },
@@ -25932,30 +23490,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "19",
           "bucketValue": 19,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 0.7
+          "rawProbability": 0.98,
+          "probability": 0.98,
+          "count": 1.96,
+          "meanResidual": -0.46,
+          "center": 18.98
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 0.64
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 0.36
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 0.3
+          "rawProbability": 0.02,
+          "probability": 0.02,
+          "count": 0.04,
+          "meanResidual": -0.46,
+          "center": 18.98
         }
       ]
     },
@@ -26003,25 +23551,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
-        },
-        {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 0.66
+          "rawProbability": 0.81,
+          "probability": 0.81,
+          "count": 1.63,
+          "meanResidual": 1.87,
+          "center": 14.19
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 0.34
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 0.37,
+          "meanResidual": 1.87,
+          "center": 14.19
         }
       ]
     },
@@ -26071,16 +23616,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.94,
-          "probability": 0.94,
-          "count": 1.88
+          "rawProbability": 0.67,
+          "probability": 0.67,
+          "count": 1.33,
+          "meanResidual": 0.12,
+          "center": 16.33
         },
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.12
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.33,
+          "probability": 0.33,
+          "count": 0.67,
+          "meanResidual": 0.12,
+          "center": 16.33
         }
       ]
     },
@@ -26130,16 +23679,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 1.05
+          "rawProbability": 0.88,
+          "probability": 0.88,
+          "count": 1.77,
+          "meanResidual": 0.22,
+          "center": 27.12
         },
         {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 0.95
+          "bucket": "28",
+          "bucketValue": 28,
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 0.23,
+          "meanResidual": 0.22,
+          "center": 27.12
         }
       ]
     },
@@ -26187,32 +23740,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 0.86
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.98,
+          "probability": 0.98,
+          "count": 1.97,
+          "meanResidual": -0.33,
+          "center": 21.99
         },
         {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 0.82
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.18
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.14
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.02,
+          "probability": 0.02,
+          "count": 0.03,
+          "meanResidual": -0.33,
+          "center": 21.99
         }
       ]
     },
@@ -26260,25 +23803,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
-        },
-        {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 0.97
+          "rawProbability": 0.94,
+          "probability": 0.94,
+          "count": 1.89,
+          "meanResidual": 0.1,
+          "center": 13.06
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.03
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.11,
+          "meanResidual": 0.1,
+          "center": 13.06
         }
       ]
     },
@@ -26328,16 +23868,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.61,
-          "probability": 0.61,
-          "count": 1.22
+          "rawProbability": 0.91,
+          "probability": 0.91,
+          "count": 1.81,
+          "meanResidual": -0.03,
+          "center": 14.1
         },
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 0.78
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.19,
+          "meanResidual": -0.03,
+          "center": 14.1
         }
       ]
     },
@@ -26563,16 +24107,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "92-93",
           "bucketValue": 92,
-          "rawProbability": 0.8,
-          "probability": 0.8,
-          "count": 0.8
+          "rawProbability": 0.6,
+          "probability": 0.6,
+          "count": 0.6,
+          "meanResidual": 2.2,
+          "center": 92.2
         },
         {
           "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 0.2
+          "rawProbability": 0.4,
+          "probability": 0.4,
+          "count": 0.4,
+          "meanResidual": 2.2,
+          "center": 92.2
         }
       ]
     },
@@ -26664,25 +24212,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 0.98
-        },
-        {
           "bucket": "26",
           "bucketValue": 26,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.02
+          "rawProbability": 0.94,
+          "probability": 0.94,
+          "count": 1.88,
+          "meanResidual": 0.17,
+          "center": 25.94
+        },
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.13,
+          "meanResidual": 0.17,
+          "center": 25.94
         }
       ]
     },
@@ -26732,23 +24277,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 0.99
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 0.69
+          "rawProbability": 0.74,
+          "probability": 0.74,
+          "count": 1.48,
+          "meanResidual": 1.36,
+          "center": 24.74
         },
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 0.31
+          "rawProbability": 0.26,
+          "probability": 0.26,
+          "count": 0.52,
+          "meanResidual": 1.36,
+          "center": 24.74
         }
       ]
     },
@@ -26796,18 +24338,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "9",
-          "bucketValue": 9,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
-        },
-        {
           "bucket": "10",
           "bucketValue": 10,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
+          "rawProbability": 0.94,
+          "probability": 0.94,
+          "count": 1.88,
+          "meanResidual": -0.44,
+          "center": 9.94
+        },
+        {
+          "bucket": "9",
+          "bucketValue": 9,
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.12,
+          "meanResidual": -0.44,
+          "center": 9.94
         }
       ]
     },
@@ -26857,23 +24403,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "31",
           "bucketValue": 31,
-          "rawProbability": 0.67,
-          "probability": 0.67,
-          "count": 1.34
-        },
-        {
-          "bucket": "30",
-          "bucketValue": 30,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 0.47
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 1.19,
+          "meanResidual": 0.68,
+          "center": 31.41
         },
         {
           "bucket": "32",
           "bucketValue": 32,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.19
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 0.81,
+          "meanResidual": 0.68,
+          "center": 31.41
         }
       ]
     },
@@ -26921,25 +24464,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 1
-        },
-        {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 0.9
+          "rawProbability": 0.92,
+          "probability": 0.92,
+          "count": 1.84,
+          "meanResidual": -0.52,
+          "center": 33.08
         },
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.1
+          "rawProbability": 0.08,
+          "probability": 0.08,
+          "count": 0.16,
+          "meanResidual": -0.52,
+          "center": 33.08
         }
       ]
     },
@@ -26988,74 +24528,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 3.1
+          "rawProbability": 0.58,
+          "probability": 0.58,
+          "count": 5.22,
+          "meanResidual": 0.97,
+          "center": 28.42
         },
         {
           "bucket": "29",
           "bucketValue": 29,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.9
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.58
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.34
-        },
-        {
-          "bucket": "30",
-          "bucketValue": 30,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.86
+          "rawProbability": 0.42,
+          "probability": 0.42,
+          "count": 3.78,
+          "meanResidual": 0.97,
+          "center": 28.42
         }
       ],
       "probabilities": [
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 3.1
+          "rawProbability": 0.87,
+          "probability": 0.87,
+          "count": 6.97,
+          "meanResidual": 0.68,
+          "center": 28.13
         },
         {
           "bucket": "29",
           "bucketValue": 29,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 1.9
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.58
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.34
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.08
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 1.03,
+          "meanResidual": 0.68,
+          "center": 28.13
         }
       ]
     },
@@ -27103,25 +24609,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.67,
-          "probability": 0.67,
-          "count": 5.37
-        },
-        {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.71
+          "rawProbability": 0.55,
+          "probability": 0.55,
+          "count": 4.4,
+          "meanResidual": 1.62,
+          "center": 22.55
         },
         {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.91
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.45,
+          "probability": 0.45,
+          "count": 3.6,
+          "meanResidual": 1.62,
+          "center": 22.55
         }
       ]
     },
@@ -27168,76 +24671,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 4.01
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.68
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.19
+          "rawProbability": 0.56,
+          "probability": 0.56,
+          "count": 4.49,
+          "meanResidual": 1.17,
+          "center": 15.44
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.85
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.03,
-          "probability": 0.03,
-          "count": 0.27
+          "rawProbability": 0.44,
+          "probability": 0.44,
+          "count": 3.51,
+          "meanResidual": 1.17,
+          "center": 15.44
         }
       ],
       "probabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.57,
-          "probability": 0.57,
-          "count": 4.01
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.19
+          "rawProbability": 0.86,
+          "probability": 0.86,
+          "count": 6.01,
+          "meanResidual": 0.87,
+          "center": 15.14
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.85
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.68
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.27
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 0.99,
+          "meanResidual": 0.87,
+          "center": 15.14
         }
       ]
     },
@@ -27284,69 +24753,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 4.04
-        },
-        {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.97
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.81
+          "rawProbability": 0.73,
+          "probability": 0.73,
+          "count": 6.61,
+          "meanResidual": -0.5,
+          "center": 34.73
         },
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.02
-        },
-        {
-          "bucket": "37",
-          "bucketValue": 37,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.16
+          "rawProbability": 0.27,
+          "probability": 0.27,
+          "count": 2.39,
+          "meanResidual": -0.5,
+          "center": 34.73
         }
       ],
       "probabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.51,
-          "probability": 0.51,
-          "count": 4.04
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.52,
+          "probability": 0.52,
+          "count": 4.16,
+          "meanResidual": -0.75,
+          "center": 34.48
         },
         {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 1.97
-        },
-        {
-          "bucket": "34",
-          "bucketValue": 34,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.02
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.97
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 3.84,
+          "meanResidual": -0.75,
+          "center": 34.48
         }
       ]
     },
@@ -27393,69 +24835,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 3.03
-        },
-        {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.14
+          "rawProbability": 0.55,
+          "probability": 0.55,
+          "count": 4.44,
+          "meanResidual": 0.56,
+          "center": 19.56
         },
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.48
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.82
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.52
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.45,
+          "probability": 0.45,
+          "count": 3.56,
+          "meanResidual": 0.56,
+          "center": 19.56
         }
       ],
       "probabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 3.03
-        },
-        {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 2.14
+          "rawProbability": 0.81,
+          "probability": 0.81,
+          "count": 5.66,
+          "meanResidual": 0.82,
+          "center": 19.81
         },
         {
-          "bucket": "18",
-          "bucketValue": 18,
+          "bucket": "19",
+          "bucketValue": 19,
           "rawProbability": 0.19,
           "probability": 0.19,
-          "count": 1.31
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.52
+          "count": 1.34,
+          "meanResidual": 0.82,
+          "center": 19.81
         }
       ]
     },
@@ -27504,53 +24919,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 4.39
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.6
+          "rawProbability": 0.85,
+          "probability": 0.85,
+          "count": 6.78,
+          "meanResidual": 0.44,
+          "center": 20.15
         },
         {
           "bucket": "21",
           "bucketValue": 21,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.01
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.99
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.22,
+          "meanResidual": 0.44,
+          "center": 20.15
         }
       ],
       "probabilities": [
         {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.63,
-          "probability": 0.63,
-          "count": 4.39
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.6
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 4.16,
+          "meanResidual": 0.69,
+          "center": 20.41
         },
         {
           "bucket": "21",
           "bucketValue": 21,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.01
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 2.84,
+          "meanResidual": 0.69,
+          "center": 20.41
         }
       ]
     },
@@ -27597,69 +24999,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 3.65
-        },
-        {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.65
+          "rawProbability": 0.93,
+          "probability": 0.93,
+          "count": 7.46,
+          "meanResidual": 1.61,
+          "center": 13.93
         },
         {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.35
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.82
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
+          "bucket": "13",
+          "bucketValue": 13,
           "rawProbability": 0.07,
           "probability": 0.07,
-          "count": 0.53
+          "count": 0.54,
+          "meanResidual": 1.61,
+          "center": 13.93
         }
       ],
       "probabilities": [
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 3.65
-        },
-        {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 1.65
+          "rawProbability": 0.63,
+          "probability": 0.63,
+          "count": 4.44,
+          "meanResidual": 1.31,
+          "center": 13.63
         },
         {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.35
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.35
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.37,
+          "probability": 0.37,
+          "count": 2.56,
+          "meanResidual": 1.31,
+          "center": 13.63
         }
       ]
     },
@@ -27706,69 +25081,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.47,
-          "probability": 0.47,
-          "count": 3.74
-        },
-        {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 2.59
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
+          "rawProbability": 0.65,
+          "probability": 0.65,
+          "count": 5.19,
+          "meanResidual": 1.14,
+          "center": 17.35
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.59
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.07
+          "rawProbability": 0.35,
+          "probability": 0.35,
+          "count": 2.81,
+          "meanResidual": 1.14,
+          "center": 17.35
         }
       ],
       "probabilities": [
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.53,
-          "probability": 0.53,
-          "count": 3.74
-        },
-        {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 2.59
+          "rawProbability": 0.96,
+          "probability": 0.96,
+          "count": 6.69,
+          "meanResidual": 0.83,
+          "center": 17.04
         },
         {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.59
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.07
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.31,
+          "meanResidual": 0.83,
+          "center": 17.04
         }
       ]
     },
@@ -27818,23 +25166,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 4.16
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2.32
+          "rawProbability": 0.6,
+          "probability": 0.6,
+          "count": 4.81,
+          "meanResidual": 0.51,
+          "center": 27.4
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.52
+          "rawProbability": 0.4,
+          "probability": 0.4,
+          "count": 3.19,
+          "meanResidual": 0.51,
+          "center": 27.4
         }
       ]
     },
@@ -27881,55 +25226,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 3.61
-        },
-        {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 3.25
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 5.97,
+          "meanResidual": 0.43,
+          "center": 22.75
         },
         {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.14
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 2.03,
+          "meanResidual": 0.43,
+          "center": 22.75
         }
       ],
       "probabilities": [
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 3.61
-        },
-        {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 3.25
+          "rawProbability": 0.94,
+          "probability": 0.94,
+          "count": 6.58,
+          "meanResidual": 0.74,
+          "center": 23.06
         },
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.14
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.42,
+          "meanResidual": 0.74,
+          "center": 23.06
         }
       ]
     },
@@ -27976,76 +25308,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 3.71
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.54
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.09
-        },
-        {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.85
+          "rawProbability": 0.96,
+          "probability": 0.96,
+          "count": 7.71,
+          "meanResidual": 0.44,
+          "center": 13.04
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.46
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.29,
+          "meanResidual": 0.44,
+          "center": 13.04
         }
       ],
       "probabilities": [
         {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.53,
-          "probability": 0.53,
-          "count": 3.71
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.09
-        },
-        {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.85
+          "rawProbability": 0.71,
+          "probability": 0.71,
+          "count": 4.94,
+          "meanResidual": 0.11,
+          "center": 12.71
         },
         {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.58
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.42
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.29,
+          "probability": 0.29,
+          "count": 2.06,
+          "meanResidual": 0.11,
+          "center": 12.71
         }
       ]
     },
@@ -28092,69 +25390,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 3.55
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.66
+          "rawProbability": 0.63,
+          "probability": 0.63,
+          "count": 5.02,
+          "meanResidual": 1.1,
+          "center": 15.37
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.35
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.44
+          "rawProbability": 0.37,
+          "probability": 0.37,
+          "count": 2.98,
+          "meanResidual": 1.1,
+          "center": 15.37
         }
       ],
       "probabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.51,
-          "probability": 0.51,
-          "count": 3.55
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 1.66
+          "rawProbability": 0.94,
+          "probability": 0.94,
+          "count": 6.59,
+          "meanResidual": 0.79,
+          "center": 15.06
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.35
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
           "rawProbability": 0.06,
           "probability": 0.06,
-          "count": 0.44
+          "count": 0.41,
+          "meanResidual": 0.79,
+          "center": 15.06
         }
       ]
     },
@@ -28204,23 +25475,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 3
+          "rawProbability": 0.84,
+          "probability": 0.84,
+          "count": 5.06,
+          "meanResidual": 1.69,
+          "center": 62.69
         },
         {
           "bucket": "60-61",
           "bucketValue": 60,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 2
-        },
-        {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 0.94,
+          "meanResidual": 1.69,
+          "center": 62.69
         }
       ]
     },
@@ -28268,32 +25536,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
+          "bucket": "68-69",
+          "bucketValue": 68,
+          "rawProbability": 0.97,
+          "probability": 0.97,
+          "count": 6.76,
+          "meanResidual": 1.07,
+          "center": 69.07
+        },
+        {
           "bucket": "70-71",
           "bucketValue": 70,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 3.62
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 2.2
-        },
-        {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.8
-        },
-        {
-          "bucket": "72-73",
-          "bucketValue": 72,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.38
+          "rawProbability": 0.03,
+          "probability": 0.03,
+          "count": 0.24,
+          "meanResidual": 1.07,
+          "center": 69.07
         }
       ]
     },
@@ -28343,23 +25601,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "58-59",
           "bucketValue": 58,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 2.6
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 6.2,
+          "meanResidual": 3.23,
+          "center": 59.23
         },
         {
           "bucket": "60-61",
           "bucketValue": 60,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 2.6
-        },
-        {
-          "bucket": "56-57",
-          "bucketValue": 56,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 1.8
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.8,
+          "meanResidual": 3.23,
+          "center": 59.23
         }
       ]
     },
@@ -28452,53 +25707,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.54,
-          "probability": 0.54,
-          "count": 4.29
-        },
-        {
-          "bucket": "88-89",
-          "bucketValue": 88,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.53
-        },
-        {
-          "bucket": "92-93",
-          "bucketValue": 92,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.18
-        },
-        {
-          "bucket": "94-95",
-          "bucketValue": 94,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
-        }
-      ],
-      "probabilities": [
-        {
-          "bucket": "90-91",
-          "bucketValue": 90,
-          "rawProbability": 0.61,
-          "probability": 0.61,
-          "count": 4.29
-        },
-        {
-          "bucket": "88-89",
-          "bucketValue": 88,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.53
+          "rawProbability": 0.83,
+          "probability": 0.83,
+          "count": 6.66,
+          "meanResidual": 1.34,
+          "center": 91.34
         },
         {
           "bucket": "92-93",
           "bucketValue": 92,
           "rawProbability": 0.17,
           "probability": 0.17,
-          "count": 1.18
+          "count": 1.34,
+          "meanResidual": 1.34,
+          "center": 91.34
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "90-91",
+          "bucketValue": 90,
+          "rawProbability": 0.91,
+          "probability": 0.91,
+          "count": 6.35,
+          "meanResidual": 0.81,
+          "center": 90.81
+        },
+        {
+          "bucket": "88-89",
+          "bucketValue": 88,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.65,
+          "meanResidual": 0.81,
+          "center": 90.81
         }
       ]
     },
@@ -28546,25 +25788,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 3,
+          "meanResidual": -2.5,
+          "center": 65.5
+        },
+        {
           "bucket": "66-67",
           "bucketValue": 66,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 2
-        },
-        {
-          "bucket": "58-59",
-          "bucketValue": 58,
           "rawProbability": 0.25,
           "probability": 0.25,
-          "count": 1
-        },
-        {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 1
+          "count": 1,
+          "meanResidual": -2.5,
+          "center": 65.5
         }
       ]
     },
@@ -28613,74 +25852,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 3.97
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.59
+          "rawProbability": 0.63,
+          "probability": 0.63,
+          "count": 5.68,
+          "meanResidual": 1.6,
+          "center": 27.37
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.01
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.92
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.78
+          "rawProbability": 0.37,
+          "probability": 0.37,
+          "count": 3.32,
+          "meanResidual": 1.6,
+          "center": 27.37
         }
       ],
       "probabilities": [
         {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 3.97
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.59
-        },
-        {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.01
+          "rawProbability": 0.69,
+          "probability": 0.69,
+          "count": 5.51,
+          "meanResidual": 1.92,
+          "center": 27.69
         },
         {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.7
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.73
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.31,
+          "probability": 0.31,
+          "count": 2.49,
+          "meanResidual": 1.92,
+          "center": 27.69
         }
       ]
     },
@@ -28729,60 +25934,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 3.8
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 3.5
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.69
+          "rawProbability": 0.83,
+          "probability": 0.83,
+          "count": 7.49,
+          "meanResidual": 1.79,
+          "center": 25.17
         },
         {
           "bucket": "26",
           "bucketValue": 26,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.54
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.47
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.51,
+          "meanResidual": 1.79,
+          "center": 25.17
         }
       ],
       "probabilities": [
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.47,
-          "probability": 0.47,
-          "count": 3.8
+          "rawProbability": 0.94,
+          "probability": 0.94,
+          "count": 7.53,
+          "meanResidual": 1.56,
+          "center": 24.94
         },
         {
           "bucket": "24",
           "bucketValue": 24,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 3.5
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.69
+          "rawProbability": 0.06,
+          "probability": 0.06,
+          "count": 0.47,
+          "meanResidual": 1.56,
+          "center": 24.94
         }
       ]
     },
@@ -28830,39 +26015,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 2.83
-        },
-        {
-          "bucket": "10",
-          "bucketValue": 10,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 2.43
-        },
-        {
-          "bucket": "9",
-          "bucketValue": 9,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.67
-        },
-        {
           "bucket": "11",
           "bucketValue": 11,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1
+          "rawProbability": 0.86,
+          "probability": 0.86,
+          "count": 6.89,
+          "meanResidual": 0.76,
+          "center": 11.14
         },
         {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.06
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 1.11,
+          "meanResidual": 0.76,
+          "center": 11.14
         }
       ]
     },
@@ -28912,23 +26080,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "32",
           "bucketValue": 32,
-          "rawProbability": 0.57,
-          "probability": 0.57,
-          "count": 2.86
-        },
-        {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 1.9
+          "rawProbability": 0.88,
+          "probability": 0.88,
+          "count": 4.38,
+          "meanResidual": 0.91,
+          "center": 32.12
         },
         {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.22
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 0.62,
+          "meanResidual": 0.91,
+          "center": 32.12
         }
       ]
     },
@@ -28976,25 +26141,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 1.93
-        },
-        {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 1.07
+          "rawProbability": 0.53,
+          "probability": 0.53,
+          "count": 2.13,
+          "meanResidual": -0.07,
+          "center": 33.53
         },
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 1
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 1.87,
+          "meanResidual": -0.07,
+          "center": 33.53
         }
       ]
     },
@@ -29043,74 +26205,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 4.03
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.24
+          "rawProbability": 0.79,
+          "probability": 0.79,
+          "count": 7.89,
+          "meanResidual": 0.81,
+          "center": 28.21
         },
         {
           "bucket": "29",
           "bucketValue": 29,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.15
-        },
-        {
-          "bucket": "30",
-          "bucketValue": 30,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.8
+          "rawProbability": 0.21,
+          "probability": 0.21,
+          "count": 2.11,
+          "meanResidual": 0.81,
+          "center": 28.21
         }
       ],
       "probabilities": [
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 4.03
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 2.24
+          "rawProbability": 0.52,
+          "probability": 0.52,
+          "count": 4.69,
+          "meanResidual": 1.08,
+          "center": 28.48
         },
         {
           "bucket": "29",
           "bucketValue": 29,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.15
-        },
-        {
-          "bucket": "30",
-          "bucketValue": 30,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.58
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 4.31,
+          "meanResidual": 1.08,
+          "center": 28.48
         }
       ]
     },
@@ -29160,23 +26288,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "22",
           "bucketValue": 22,
-          "rawProbability": 0.66,
-          "probability": 0.66,
-          "count": 5.3
+          "rawProbability": 0.51,
+          "probability": 0.51,
+          "count": 4.1,
+          "meanResidual": 1.71,
+          "center": 22.49
         },
         {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.47
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.23
+          "rawProbability": 0.49,
+          "probability": 0.49,
+          "count": 3.9,
+          "meanResidual": 1.71,
+          "center": 22.49
         }
       ]
     },
@@ -29223,69 +26348,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 3.83
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.55
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.33
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 4.73,
+          "meanResidual": 1.16,
+          "center": 15.59
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.22
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.07
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 3.27,
+          "meanResidual": 1.16,
+          "center": 15.59
         }
       ],
       "probabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 3.83
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.71,
+          "probability": 0.71,
+          "count": 4.95,
+          "meanResidual": 0.86,
+          "center": 15.29
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.55
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.22
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.4
+          "rawProbability": 0.29,
+          "probability": 0.29,
+          "count": 2.05,
+          "meanResidual": 0.86,
+          "center": 15.29
         }
       ]
     },
@@ -29332,69 +26430,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 4.61
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.08
-        },
-        {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.71
+          "rawProbability": 0.71,
+          "probability": 0.71,
+          "count": 7.09,
+          "meanResidual": -0.47,
+          "center": 34.71
         },
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.5
-        },
-        {
-          "bucket": "37",
-          "bucketValue": 37,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.1
+          "rawProbability": 0.29,
+          "probability": 0.29,
+          "count": 2.91,
+          "meanResidual": -0.47,
+          "center": 34.71
         }
       ],
       "probabilities": [
         {
-          "bucket": "33",
-          "bucketValue": 33,
+          "bucket": "34",
+          "bucketValue": 34,
           "rawProbability": 0.51,
           "probability": 0.51,
-          "count": 4.61
+          "count": 4.63,
+          "meanResidual": -0.69,
+          "center": 34.49
         },
         {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.71
-        },
-        {
-          "bucket": "34",
-          "bucketValue": 34,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.5
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.18
+          "rawProbability": 0.49,
+          "probability": 0.49,
+          "count": 4.37,
+          "meanResidual": -0.69,
+          "center": 34.49
         }
       ]
     },
@@ -29441,69 +26512,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 3.28
-        },
-        {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.69
+          "rawProbability": 0.58,
+          "probability": 0.58,
+          "count": 4.63,
+          "meanResidual": 0.51,
+          "center": 19.58
         },
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.11
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.92
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.42,
+          "probability": 0.42,
+          "count": 3.38,
+          "meanResidual": 0.51,
+          "center": 19.58
         }
       ],
       "probabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.47,
-          "probability": 0.47,
-          "count": 3.28
-        },
-        {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 1.69
+          "rawProbability": 0.86,
+          "probability": 0.86,
+          "count": 6.04,
+          "meanResidual": 0.79,
+          "center": 19.86
         },
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.11
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 0.92
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.14,
+          "probability": 0.14,
+          "count": 0.96,
+          "meanResidual": 0.79,
+          "center": 19.86
         }
       ]
     },
@@ -29550,69 +26594,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 3.41
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.58
-        },
-        {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.37
+          "rawProbability": 0.77,
+          "probability": 0.77,
+          "count": 6.13,
+          "meanResidual": 0.5,
+          "center": 19.77
         },
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.03
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.61
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.23,
+          "probability": 0.23,
+          "count": 1.87,
+          "meanResidual": 0.5,
+          "center": 19.77
         }
       ],
       "probabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 3.41
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.97,
+          "probability": 0.97,
+          "count": 6.8,
+          "meanResidual": 0.76,
+          "center": 20.03
         },
         {
           "bucket": "21",
           "bucketValue": 21,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.58
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.37
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.64
+          "rawProbability": 0.03,
+          "probability": 0.03,
+          "count": 0.2,
+          "meanResidual": 0.76,
+          "center": 20.03
         }
       ]
     },
@@ -29659,69 +26676,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 3.37
-        },
-        {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.15
+          "rawProbability": 0.71,
+          "probability": 0.71,
+          "count": 5.72,
+          "meanResidual": 1.45,
+          "center": 13.29
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.99
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 0.85
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.64
+          "rawProbability": 0.29,
+          "probability": 0.29,
+          "count": 2.28,
+          "meanResidual": 1.45,
+          "center": 13.29
         }
       ],
       "probabilities": [
         {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.48,
-          "probability": 0.48,
-          "count": 3.37
-        },
-        {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 2.15
+          "rawProbability": 0.99,
+          "probability": 0.99,
+          "count": 6.95,
+          "meanResidual": 1.17,
+          "center": 13.01
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.83
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.64
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.05,
+          "meanResidual": 1.17,
+          "center": 13.01
         }
       ]
     },
@@ -29769,32 +26759,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.55,
-          "probability": 0.55,
-          "count": 4.36
-        },
-        {
           "bucket": "18",
           "bucketValue": 18,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.37
+          "rawProbability": 0.72,
+          "probability": 0.72,
+          "count": 5.77,
+          "meanResidual": 1.12,
+          "center": 17.72
         },
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.29
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.98
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.28,
+          "probability": 0.28,
+          "count": 2.23,
+          "meanResidual": 1.12,
+          "center": 17.72
         }
       ]
     },
@@ -29844,23 +26824,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.54,
-          "probability": 0.54,
-          "count": 3.26
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 1.96
+          "rawProbability": 0.68,
+          "probability": 0.68,
+          "count": 4.08,
+          "meanResidual": 0.43,
+          "center": 27.32
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 0.78
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 1.92,
+          "meanResidual": 0.43,
+          "center": 27.32
         }
       ]
     },
@@ -29907,48 +26884,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 3.59
-        },
-        {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 3.41
+          "rawProbability": 0.66,
+          "probability": 0.66,
+          "count": 5.27,
+          "meanResidual": 0.34,
+          "center": 22.66
         },
         {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.82
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.18
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 2.73,
+          "meanResidual": 0.34,
+          "center": 22.66
         }
       ],
       "probabilities": [
         {
-          "bucket": "22",
-          "bucketValue": 22,
-          "rawProbability": 0.51,
-          "probability": 0.51,
-          "count": 3.59
-        },
-        {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 3.41
+          "rawProbability": 0.99,
+          "probability": 0.99,
+          "count": 6.95,
+          "meanResidual": 0.69,
+          "center": 23.01
+        },
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.05,
+          "meanResidual": 0.69,
+          "center": 23.01
         }
       ]
     },
@@ -29995,76 +26966,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 2.57
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.77,
+          "probability": 0.77,
+          "count": 6.17,
+          "meanResidual": 0.17,
+          "center": 12.77
         },
         {
           "bucket": "12",
           "bucketValue": 12,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 2.4
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.03
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.96
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.69
+          "rawProbability": 0.23,
+          "probability": 0.23,
+          "count": 1.83,
+          "meanResidual": 0.17,
+          "center": 12.77
         }
       ],
       "probabilities": [
         {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 2.57
-        },
-        {
           "bucket": "12",
           "bucketValue": 12,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 2.4
+          "rawProbability": 0.6,
+          "probability": 0.6,
+          "count": 4.18,
+          "meanResidual": -0.2,
+          "center": 12.4
         },
         {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.03
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.65
-        },
-        {
-          "bucket": "10",
-          "bucketValue": 10,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.35
+          "rawProbability": 0.4,
+          "probability": 0.4,
+          "count": 2.82,
+          "meanResidual": -0.2,
+          "center": 12.4
         }
       ]
     },
@@ -30111,69 +27048,33 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 3.47
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.26,
-          "probability": 0.26,
-          "count": 2.1
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1
+          "rawProbability": 0.68,
+          "probability": 0.68,
+          "count": 5.41,
+          "meanResidual": 1.05,
+          "center": 15.32
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.94
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.49
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 2.59,
+          "meanResidual": 1.05,
+          "center": 15.32
         }
       ],
       "probabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 3.47
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 2.1
-        },
-        {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 0.94
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.49
+          "rawProbability": 1,
+          "probability": 1,
+          "count": 6.98,
+          "meanResidual": 0.73,
+          "center": 15
         }
       ]
     },
@@ -30223,30 +27124,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.47,
-          "probability": 0.47,
-          "count": 2.8
+          "rawProbability": 0.84,
+          "probability": 0.84,
+          "count": 5.06,
+          "meanResidual": 1.69,
+          "center": 62.69
         },
         {
           "bucket": "60-61",
           "bucketValue": 60,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 1.5
-        },
-        {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.2
-        },
-        {
-          "bucket": "58-59",
-          "bucketValue": 58,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.5
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 0.94,
+          "meanResidual": 1.69,
+          "center": 62.69
         }
       ]
     },
@@ -30296,30 +27187,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "70-71",
           "bucketValue": 70,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2
-        },
-        {
-          "bucket": "72-73",
-          "bucketValue": 72,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 5.24,
+          "meanResidual": 1.5,
+          "center": 70.5
         },
         {
           "bucket": "68-69",
           "bucketValue": 68,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.64
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.36
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 1.76,
+          "meanResidual": 1.5,
+          "center": 70.5
         }
       ]
     },
@@ -30369,23 +27250,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "58-59",
           "bucketValue": 58,
-          "rawProbability": 0.63,
-          "probability": 0.63,
-          "count": 4.4
+          "rawProbability": 0.89,
+          "probability": 0.89,
+          "count": 6.2,
+          "meanResidual": 3.23,
+          "center": 59.23
         },
         {
           "bucket": "60-61",
           "bucketValue": 60,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.6
-        },
-        {
-          "bucket": "56-57",
-          "bucketValue": 56,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1
+          "rawProbability": 0.11,
+          "probability": 0.11,
+          "count": 0.8,
+          "meanResidual": 3.23,
+          "center": 59.23
         }
       ]
     },
@@ -30435,9 +27313,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "84-85",
           "bucketValue": 84,
-          "rawProbability": 1,
-          "probability": 1,
-          "count": 1
+          "rawProbability": 0.8,
+          "probability": 0.8,
+          "count": 0.8,
+          "meanResidual": 5.4,
+          "center": 85.4
+        },
+        {
+          "bucket": "86-87",
+          "bucketValue": 86,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 0.2,
+          "meanResidual": 5.4,
+          "center": 85.4
         }
       ]
     },
@@ -30487,30 +27376,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.47,
-          "probability": 0.47,
-          "count": 4.2
+          "rawProbability": 0.53,
+          "probability": 0.53,
+          "count": 4.76,
+          "meanResidual": 0.94,
+          "center": 89.94
         },
         {
           "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2.6
-        },
-        {
-          "bucket": "92-93",
-          "bucketValue": 92,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.2
-        },
-        {
-          "bucket": "86-87",
-          "bucketValue": 86,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 4.24,
+          "meanResidual": 0.94,
+          "center": 89.94
         }
       ]
     },
@@ -30558,32 +27437,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 2
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.96,
+          "probability": 0.96,
+          "count": 4.8,
+          "meanResidual": -3.08,
+          "center": 64.92
         },
         {
-          "bucket": "58-59",
-          "bucketValue": 58,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 1.2
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
-        },
-        {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 0.8
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.2,
+          "meanResidual": -3.08,
+          "center": 64.92
         }
       ]
     },
@@ -30632,74 +27501,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 3.03
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.63
-        },
-        {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.03
+          "rawProbability": 0.61,
+          "probability": 0.61,
+          "count": 4.85,
+          "meanResidual": 1.61,
+          "center": 27.39
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 0.99
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.65
+          "rawProbability": 0.39,
+          "probability": 0.39,
+          "count": 3.15,
+          "meanResidual": 1.61,
+          "center": 27.39
         }
       ],
       "probabilities": [
         {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 3.03
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 1.63
-        },
-        {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 0.99
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 5.25,
+          "meanResidual": 1.97,
+          "center": 27.75
         },
         {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.68
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 0.67
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 1.75,
+          "meanResidual": 1.97,
+          "center": 27.75
         }
       ]
     },
@@ -30749,37 +27584,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 4.4
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 3.45
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.03
+          "rawProbability": 0.88,
+          "probability": 0.88,
+          "count": 8.84,
+          "meanResidual": 1.74,
+          "center": 25.12
         },
         {
           "bucket": "26",
           "bucketValue": 26,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.95
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.18
+          "rawProbability": 0.12,
+          "probability": 0.12,
+          "count": 1.16,
+          "meanResidual": 1.74,
+          "center": 25.12
         }
       ]
     },
@@ -30826,62 +27644,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "9",
-          "bucketValue": 9,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 2.96
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 2
+          "bucket": "11",
+          "bucketValue": 11,
+          "rawProbability": 0.84,
+          "probability": 0.84,
+          "count": 6.75,
+          "meanResidual": 0.61,
+          "center": 10.84
         },
         {
           "bucket": "10",
           "bucketValue": 10,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.49
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.54
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.25,
+          "meanResidual": 0.61,
+          "center": 10.84
         }
       ],
       "probabilities": [
         {
-          "bucket": "9",
-          "bucketValue": 9,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 2.96
-        },
-        {
           "bucket": "11",
           "bucketValue": 11,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.54
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 4.14,
+          "meanResidual": 0.36,
+          "center": 10.59
         },
         {
           "bucket": "10",
           "bucketValue": 10,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.49
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.01
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 2.86,
+          "meanResidual": 0.36,
+          "center": 10.59
         }
       ]
     },
@@ -30931,23 +27729,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "32",
           "bucketValue": 32,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 2.78
-        },
-        {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 1.53
+          "rawProbability": 0.76,
+          "probability": 0.76,
+          "count": 3.78,
+          "meanResidual": 1.03,
+          "center": 32.24
         },
         {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 0.66
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 1.22,
+          "meanResidual": 1.03,
+          "center": 32.24
         }
       ]
     },
@@ -30997,30 +27792,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 2.3
+          "rawProbability": 0.9,
+          "probability": 0.9,
+          "count": 4.52,
+          "meanResidual": 0.3,
+          "center": 33.9
         },
         {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 1.36
-        },
-        {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
-        },
-        {
-          "bucket": "35",
-          "bucketValue": 35,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.34
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.48,
+          "meanResidual": 0.3,
+          "center": 33.9
         }
       ]
     },
@@ -31069,74 +27854,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "30",
           "bucketValue": 30,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 4.15
+          "rawProbability": 0.51,
+          "probability": 0.51,
+          "count": 5.65,
+          "meanResidual": 1.06,
+          "center": 29.51
         },
         {
           "bucket": "29",
           "bucketValue": 29,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3.25
-        },
-        {
-          "bucket": "28",
-          "bucketValue": 28,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.68
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.34
-        },
-        {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.5
+          "rawProbability": 0.49,
+          "probability": 0.49,
+          "count": 5.35,
+          "meanResidual": 1.06,
+          "center": 29.51
         }
       ],
       "probabilities": [
         {
           "bucket": "30",
           "bucketValue": 30,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 4.15
+          "rawProbability": 0.73,
+          "probability": 0.73,
+          "count": 7.35,
+          "meanResidual": 1.28,
+          "center": 29.74
         },
         {
           "bucket": "29",
           "bucketValue": 29,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 3.25
-        },
-        {
-          "bucket": "28",
-          "bucketValue": 28,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.68
-        },
-        {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.5
-        },
-        {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.42
+          "rawProbability": 0.27,
+          "probability": 0.27,
+          "count": 2.65,
+          "meanResidual": 1.28,
+          "center": 29.74
         }
       ]
     },
@@ -31186,30 +27937,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "22",
           "bucketValue": 22,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 4.94
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 3.86
+          "rawProbability": 0.81,
+          "probability": 0.81,
+          "count": 8.89,
+          "meanResidual": 1.43,
+          "center": 22.19
         },
         {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.69
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.51
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 2.11,
+          "meanResidual": 1.43,
+          "center": 22.19
         }
       ]
     },
@@ -31256,69 +27997,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 3.79
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 3.44
+          "rawProbability": 0.73,
+          "probability": 0.73,
+          "count": 8.04,
+          "meanResidual": 1.3,
+          "center": 15.73
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.37
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.28
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.12
+          "rawProbability": 0.27,
+          "probability": 0.27,
+          "count": 2.97,
+          "meanResidual": 1.3,
+          "center": 15.73
         }
       ],
       "probabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 3.79
-        },
-        {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 3.44
+          "rawProbability": 0.53,
+          "probability": 0.53,
+          "count": 5.3,
+          "meanResidual": 1.1,
+          "center": 15.53
         },
         {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.37
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.4
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 4.7,
+          "meanResidual": 1.1,
+          "center": 15.53
         }
       ]
     },
@@ -31365,76 +28079,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "34",
-          "bucketValue": 34,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 3.38
+          "bucket": "36",
+          "bucketValue": 36,
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 7.7,
+          "meanResidual": -0.03,
+          "center": 35.7
         },
         {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.99
-        },
-        {
-          "bucket": "36",
-          "bucketValue": 36,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.74
-        },
-        {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.62
-        },
-        {
-          "bucket": "37",
-          "bucketValue": 37,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.28
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 3.3,
+          "meanResidual": -0.03,
+          "center": 35.7
         }
       ],
       "probabilities": [
         {
-          "bucket": "34",
-          "bucketValue": 34,
-          "rawProbability": 0.34,
-          "probability": 0.34,
-          "count": 3.38
-        },
-        {
           "bucket": "35",
           "bucketValue": 35,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.99
+          "rawProbability": 0.77,
+          "probability": 0.77,
+          "count": 7.73,
+          "meanResidual": -0.5,
+          "center": 35.23
         },
         {
           "bucket": "36",
           "bucketValue": 36,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.74
-        },
-        {
-          "bucket": "33",
-          "bucketValue": 33,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.62
-        },
-        {
-          "bucket": "37",
-          "bucketValue": 37,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.28
+          "rawProbability": 0.23,
+          "probability": 0.23,
+          "count": 2.27,
+          "meanResidual": -0.5,
+          "center": 35.23
         }
       ]
     },
@@ -31481,76 +28161,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.38,
-          "probability": 0.38,
-          "count": 4.15
-        },
-        {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.31
-        },
-        {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.41
+          "rawProbability": 0.83,
+          "probability": 0.83,
+          "count": 9.13,
+          "meanResidual": 1.1,
+          "center": 20.17
         },
         {
           "bucket": "21",
           "bucketValue": 21,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.13
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1
+          "rawProbability": 0.17,
+          "probability": 0.17,
+          "count": 1.87,
+          "meanResidual": 1.1,
+          "center": 20.17
         }
       ],
       "probabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 4.15
-        },
-        {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.31
+          "rawProbability": 0.65,
+          "probability": 0.65,
+          "count": 6.49,
+          "meanResidual": 0.58,
+          "center": 19.65
         },
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.14,
-          "probability": 0.14,
-          "count": 1.41
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.13
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.35,
+          "probability": 0.35,
+          "count": 3.51,
+          "meanResidual": 0.58,
+          "center": 19.65
         }
       ]
     },
@@ -31598,39 +28244,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.53,
-          "probability": 0.53,
-          "count": 5.79
-        },
-        {
           "bucket": "20",
           "bucketValue": 20,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.46
+          "rawProbability": 0.58,
+          "probability": 0.58,
+          "count": 6.33,
+          "meanResidual": 0.59,
+          "center": 19.58
         },
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.6
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.06,
-          "probability": 0.06,
-          "count": 0.66
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.48
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.42,
+          "probability": 0.42,
+          "count": 4.67,
+          "meanResidual": 0.59,
+          "center": 19.58
         }
       ]
     },
@@ -31679,74 +28308,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3.27
+          "rawProbability": 0.78,
+          "probability": 0.78,
+          "count": 8.59,
+          "meanResidual": 0.77,
+          "center": 13.22
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.28
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 2.15
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.3
-        },
-        {
-          "bucket": "10",
-          "bucketValue": 10,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1
+          "rawProbability": 0.22,
+          "probability": 0.22,
+          "count": 2.41,
+          "meanResidual": 0.77,
+          "center": 13.22
         }
       ],
       "probabilities": [
         {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 3.27
+          "rawProbability": 0.52,
+          "probability": 0.52,
+          "count": 5.19,
+          "meanResidual": 1.03,
+          "center": 13.48
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.23,
-          "probability": 0.23,
-          "count": 2.28
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 2.15
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.3
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.82
+          "rawProbability": 0.48,
+          "probability": 0.48,
+          "count": 4.81,
+          "meanResidual": 1.03,
+          "center": 13.48
         }
       ]
     },
@@ -31794,32 +28389,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "16",
-          "bucketValue": 16,
-          "rawProbability": 0.6,
-          "probability": 0.6,
-          "count": 6.64
-        },
-        {
           "bucket": "17",
           "bucketValue": 17,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.68
+          "rawProbability": 0.87,
+          "probability": 0.87,
+          "count": 9.58,
+          "meanResidual": 0.94,
+          "center": 16.87
         },
         {
-          "bucket": "18",
-          "bucketValue": 18,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.18
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.5
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.13,
+          "probability": 0.13,
+          "count": 1.42,
+          "meanResidual": 0.94,
+          "center": 16.87
         }
       ]
     },
@@ -31869,23 +28454,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "27",
           "bucketValue": 27,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 5.37
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 3.17
+          "rawProbability": 0.56,
+          "probability": 0.56,
+          "count": 6.14,
+          "meanResidual": 0.55,
+          "center": 27.44
         },
         {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.46
+          "rawProbability": 0.44,
+          "probability": 0.44,
+          "count": 4.86,
+          "meanResidual": 0.55,
+          "center": 27.44
         }
       ]
     },
@@ -31934,67 +28516,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "22",
           "bucketValue": 22,
-          "rawProbability": 0.44,
-          "probability": 0.44,
-          "count": 4.87
+          "rawProbability": 0.99,
+          "probability": 0.99,
+          "count": 10.92,
+          "meanResidual": 0.17,
+          "center": 21.99
         },
         {
           "bucket": "21",
           "bucketValue": 21,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 3.67
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.33
-        },
-        {
-          "bucket": "19",
-          "bucketValue": 19,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 1
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
           "rawProbability": 0.01,
           "probability": 0.01,
-          "count": 0.13
+          "count": 0.08,
+          "meanResidual": 0.17,
+          "center": 21.99
         }
       ],
       "probabilities": [
         {
           "bucket": "22",
           "bucketValue": 22,
-          "rawProbability": 0.49,
-          "probability": 0.49,
-          "count": 4.87
-        },
-        {
-          "bucket": "21",
-          "bucketValue": 21,
-          "rawProbability": 0.37,
-          "probability": 0.37,
-          "count": 3.67
+          "rawProbability": 0.76,
+          "probability": 0.76,
+          "count": 7.58,
+          "meanResidual": 0.42,
+          "center": 22.24
         },
         {
           "bucket": "23",
           "bucketValue": 23,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.33
-        },
-        {
-          "bucket": "20",
-          "bucketValue": 20,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.13
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 2.42,
+          "meanResidual": 0.42,
+          "center": 22.24
         }
       ]
     },
@@ -32043,74 +28598,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.39,
-          "probability": 0.39,
-          "count": 4.25
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.24,
-          "probability": 0.24,
-          "count": 2.66
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.21
+          "rawProbability": 0.91,
+          "probability": 0.91,
+          "count": 9.97,
+          "meanResidual": 0.21,
+          "center": 13.09
         },
         {
           "bucket": "14",
           "bucketValue": 14,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.06
-        },
-        {
-          "bucket": "15",
-          "bucketValue": 15,
           "rawProbability": 0.09,
           "probability": 0.09,
-          "count": 0.98
+          "count": 1.03,
+          "meanResidual": 0.21,
+          "center": 13.09
         }
       ],
       "probabilities": [
         {
           "bucket": "13",
           "bucketValue": 13,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 4.25
+          "rawProbability": 0.84,
+          "probability": 0.84,
+          "count": 8.4,
+          "meanResidual": -0.04,
+          "center": 12.84
         },
         {
           "bucket": "12",
           "bucketValue": 12,
-          "rawProbability": 0.27,
-          "probability": 0.27,
-          "count": 2.66
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.21
-        },
-        {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.06
-        },
-        {
-          "bucket": "10",
-          "bucketValue": 10,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.82
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.6,
+          "meanResidual": -0.04,
+          "center": 12.84
         }
       ]
     },
@@ -32157,69 +28678,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.32,
-          "probability": 0.32,
-          "count": 3.54
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 3.27
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 5.99,
+          "meanResidual": 1.19,
+          "center": 15.46
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2.47
-        },
-        {
-          "bucket": "17",
-          "bucketValue": 17,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.99
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.74
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 5.01,
+          "meanResidual": 1.19,
+          "center": 15.46
         }
       ],
       "probabilities": [
         {
-          "bucket": "14",
-          "bucketValue": 14,
-          "rawProbability": 0.35,
-          "probability": 0.35,
-          "count": 3.54
-        },
-        {
           "bucket": "15",
           "bucketValue": 15,
-          "rawProbability": 0.33,
-          "probability": 0.33,
-          "count": 3.27
+          "rawProbability": 0.74,
+          "probability": 0.74,
+          "count": 7.39,
+          "meanResidual": 0.99,
+          "center": 15.26
         },
         {
           "bucket": "16",
           "bucketValue": 16,
-          "rawProbability": 0.25,
-          "probability": 0.25,
-          "count": 2.46
-        },
-        {
-          "bucket": "13",
-          "bucketValue": 13,
-          "rawProbability": 0.07,
-          "probability": 0.07,
-          "count": 0.74
+          "rawProbability": 0.26,
+          "probability": 0.26,
+          "count": 2.61,
+          "meanResidual": 0.99,
+          "center": 15.26
         }
       ]
     },
@@ -32267,32 +28761,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.42,
-          "probability": 0.42,
-          "count": 2.5
-        },
-        {
           "bucket": "62-63",
           "bucketValue": 62,
-          "rawProbability": 0.3,
-          "probability": 0.3,
-          "count": 1.8
+          "rawProbability": 0.76,
+          "probability": 0.76,
+          "count": 4.56,
+          "meanResidual": 1.52,
+          "center": 62.52
         },
         {
-          "bucket": "64-65",
-          "bucketValue": 64,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.2
-        },
-        {
-          "bucket": "58-59",
-          "bucketValue": 58,
-          "rawProbability": 0.08,
-          "probability": 0.08,
-          "count": 0.5
+          "bucket": "60-61",
+          "bucketValue": 60,
+          "rawProbability": 0.24,
+          "probability": 0.24,
+          "count": 1.44,
+          "meanResidual": 1.52,
+          "center": 62.52
         }
       ]
     },
@@ -32342,37 +28826,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "70-71",
           "bucketValue": 70,
-          "rawProbability": 0.43,
-          "probability": 0.43,
-          "count": 3
-        },
-        {
-          "bucket": "66-67",
-          "bucketValue": 66,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.56
+          "rawProbability": 0.68,
+          "probability": 0.68,
+          "count": 4.74,
+          "meanResidual": 1.35,
+          "center": 70.35
         },
         {
           "bucket": "68-69",
           "bucketValue": 68,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.44
-        },
-        {
-          "bucket": "72-73",
-          "bucketValue": 72,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.62
-        },
-        {
-          "bucket": "74-75",
-          "bucketValue": 74,
-          "rawProbability": 0.05,
-          "probability": 0.05,
-          "count": 0.38
+          "rawProbability": 0.32,
+          "probability": 0.32,
+          "count": 2.26,
+          "meanResidual": 1.35,
+          "center": 70.35
         }
       ]
     },
@@ -32422,23 +28889,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "56-57",
           "bucketValue": 56,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 4.2
+          "rawProbability": 0.59,
+          "probability": 0.59,
+          "count": 4.7,
+          "meanResidual": 2.83,
+          "center": 57.83
         },
         {
           "bucket": "58-59",
           "bucketValue": 58,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 3.6
-        },
-        {
-          "bucket": "54-55",
-          "bucketValue": 54,
-          "rawProbability": 0.02,
-          "probability": 0.02,
-          "count": 0.2
+          "rawProbability": 0.41,
+          "probability": 0.41,
+          "count": 3.3,
+          "meanResidual": 2.83,
+          "center": 57.83
         }
       ]
     },
@@ -32488,9 +28952,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "84-85",
           "bucketValue": 84,
-          "rawProbability": 1,
-          "probability": 1,
-          "count": 1
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 0.7,
+          "meanResidual": 4.4,
+          "center": 84.4
+        },
+        {
+          "bucket": "82-83",
+          "bucketValue": 82,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 0.3,
+          "meanResidual": 4.4,
+          "center": 84.4
         }
       ]
     },
@@ -32539,53 +29014,40 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.52,
-          "probability": 0.52,
-          "count": 5.2
-        },
-        {
-          "bucket": "86-87",
-          "bucketValue": 86,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 2
+          "rawProbability": 0.84,
+          "probability": 0.84,
+          "count": 8.36,
+          "meanResidual": 0.33,
+          "center": 89.33
         },
         {
           "bucket": "90-91",
           "bucketValue": 90,
-          "rawProbability": 0.18,
-          "probability": 0.18,
-          "count": 1.8
-        },
-        {
-          "bucket": "92-93",
-          "bucketValue": 92,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.64,
+          "meanResidual": 0.33,
+          "center": 89.33
         }
       ],
       "probabilities": [
         {
           "bucket": "88-89",
           "bucketValue": 88,
-          "rawProbability": 0.58,
-          "probability": 0.58,
-          "count": 5.2
+          "rawProbability": 0.96,
+          "probability": 0.96,
+          "count": 8.65,
+          "meanResidual": -0.08,
+          "center": 88.92
         },
         {
           "bucket": "86-87",
           "bucketValue": 86,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 2
-        },
-        {
-          "bucket": "90-91",
-          "bucketValue": 90,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1.8
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.35,
+          "meanResidual": -0.08,
+          "center": 88.92
         }
       ]
     },
@@ -32633,25 +29095,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "68-69",
-          "bucketValue": 68,
-          "rawProbability": 0.56,
-          "probability": 0.56,
-          "count": 2.8
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 2.7,
+          "meanResidual": -3.08,
+          "center": 65.92
         },
         {
-          "bucket": "60-61",
-          "bucketValue": 60,
-          "rawProbability": 0.4,
-          "probability": 0.4,
-          "count": 2
-        },
-        {
-          "bucket": "70-71",
-          "bucketValue": 70,
-          "rawProbability": 0.04,
-          "probability": 0.04,
-          "count": 0.2
+          "bucket": "66-67",
+          "bucketValue": 66,
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 2.3,
+          "meanResidual": -3.08,
+          "center": 65.92
         }
       ]
     },
@@ -32698,76 +29157,42 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "outlierThreshold": 1.7,
       "unfilteredProbabilities": [
         {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.45,
-          "probability": 0.45,
-          "count": 4.49
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.19,
-          "probability": 0.19,
-          "count": 1.94
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.15,
-          "probability": 0.15,
-          "count": 1.48
-        },
-        {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.1,
-          "probability": 0.1,
-          "count": 1.03
+          "rawProbability": 0.66,
+          "probability": 0.66,
+          "count": 6.55,
+          "meanResidual": 1.45,
+          "center": 27.66
         },
         {
-          "bucket": "25",
-          "bucketValue": 25,
-          "rawProbability": 0.09,
-          "probability": 0.09,
-          "count": 0.93
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 3.45,
+          "meanResidual": 1.45,
+          "center": 27.66
         }
       ],
       "probabilities": [
         {
-          "bucket": "27",
-          "bucketValue": 27,
-          "rawProbability": 0.5,
-          "probability": 0.5,
-          "count": 4.49
-        },
-        {
-          "bucket": "29",
-          "bucketValue": 29,
-          "rawProbability": 0.22,
-          "probability": 0.22,
-          "count": 1.94
-        },
-        {
-          "bucket": "26",
-          "bucketValue": 26,
-          "rawProbability": 0.16,
-          "probability": 0.16,
-          "count": 1.48
-        },
-        {
           "bucket": "28",
           "bucketValue": 28,
-          "rawProbability": 0.11,
-          "probability": 0.11,
-          "count": 1.03
+          "rawProbability": 0.92,
+          "probability": 0.92,
+          "count": 8.24,
+          "meanResidual": 1.71,
+          "center": 27.92
         },
         {
-          "bucket": "30",
-          "bucketValue": 30,
-          "rawProbability": 0.01,
-          "probability": 0.01,
-          "count": 0.06
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.08,
+          "probability": 0.08,
+          "count": 0.76,
+          "meanResidual": 1.71,
+          "center": 27.92
         }
       ]
     },
@@ -32817,30 +29242,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "25",
           "bucketValue": 25,
-          "rawProbability": 0.46,
-          "probability": 0.46,
-          "count": 4.6
-        },
-        {
-          "bucket": "24",
-          "bucketValue": 24,
-          "rawProbability": 0.29,
-          "probability": 0.29,
-          "count": 2.92
+          "rawProbability": 0.91,
+          "probability": 0.91,
+          "count": 9.07,
+          "meanResidual": 1.64,
+          "center": 25.09
         },
         {
           "bucket": "26",
           "bucketValue": 26,
-          "rawProbability": 0.13,
-          "probability": 0.13,
-          "count": 1.26
-        },
-        {
-          "bucket": "23",
-          "bucketValue": 23,
-          "rawProbability": 0.12,
-          "probability": 0.12,
-          "count": 1.21
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.93,
+          "meanResidual": 1.64,
+          "center": 25.09
         }
       ]
     },
@@ -32888,32 +29303,22 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "unfilteredProbabilities": [],
       "probabilities": [
         {
-          "bucket": "9",
-          "bucketValue": 9,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 2.81
+          "bucket": "11",
+          "bucketValue": 11,
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 6.75,
+          "meanResidual": 0.52,
+          "center": 10.75
         },
         {
           "bucket": "10",
           "bucketValue": 10,
-          "rawProbability": 0.31,
-          "probability": 0.31,
-          "count": 2.8
-        },
-        {
-          "bucket": "12",
-          "bucketValue": 12,
-          "rawProbability": 0.21,
-          "probability": 0.21,
-          "count": 1.86
-        },
-        {
-          "bucket": "11",
-          "bucketValue": 11,
-          "rawProbability": 0.17,
-          "probability": 0.17,
-          "count": 1.54
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 2.25,
+          "meanResidual": 0.52,
+          "center": 10.75
         }
       ]
     },
@@ -32963,16 +29368,20 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "32",
           "bucketValue": 32,
-          "rawProbability": 0.59,
-          "probability": 0.59,
-          "count": 2.94
+          "rawProbability": 0.97,
+          "probability": 0.97,
+          "count": 4.85,
+          "meanResidual": 1.1,
+          "center": 32.03
         },
         {
-          "bucket": "31",
-          "bucketValue": 31,
-          "rawProbability": 0.41,
-          "probability": 0.41,
-          "count": 2.06
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.03,
+          "probability": 0.03,
+          "count": 0.15,
+          "meanResidual": 1.1,
+          "center": 32.03
         }
       ]
     },
@@ -33022,357 +29431,1664 @@ window.__TEMP_DASHBOARD_DATA__ = {
         {
           "bucket": "34",
           "bucketValue": 34,
-          "rawProbability": 0.36,
-          "probability": 0.36,
-          "count": 1.78
+          "rawProbability": 0.95,
+          "probability": 0.95,
+          "count": 4.74,
+          "meanResidual": 0.29,
+          "center": 33.95
         },
         {
           "bucket": "33",
           "bucketValue": 33,
-          "rawProbability": 0.28,
-          "probability": 0.28,
-          "count": 1.39
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.26,
+          "meanResidual": 0.29,
+          "center": 33.95
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "HK预计",
+      "predicted": 28.38,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": -0.07,
+      "momentumSignal": "offset",
+      "momentumFirstDelta": -0.07,
+      "momentumRecentDelta": 0.46,
+      "momentumThreshold": 0,
+      "momentumThresholdScore": 0.25,
+      "momentumThresholdUsable": 4,
+      "baselinePredicted": 27.45,
+      "baselineDelta": 0.93,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.11,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 2,
+      "baselineCitySampleSize": 17,
+      "correctionRegime": "high",
+      "correctionRegimeN": 4,
+      "correctionRegimeHighRate": 0.75,
+      "correctionLowMean": -0.34,
+      "correctionHighMean": 1.68,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 9,
+      "momentumSampleSize": 4,
+      "timeSampleSize": 12,
+      "trendSampleSize": 57,
+      "citySampleSize": 73,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "modelOriginalSampleSize": 12,
+      "outlierDropped": 1,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "30",
+          "bucketValue": 30,
+          "rawProbability": 0.53,
+          "probability": 0.53,
+          "count": 6.33,
+          "meanResidual": 1.15,
+          "center": 29.53
         },
         {
-          "bucket": "32",
-          "bucketValue": 32,
-          "rawProbability": 0.2,
-          "probability": 0.2,
-          "count": 1
+          "bucket": "29",
+          "bucketValue": 29,
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 5.67,
+          "meanResidual": 1.15,
+          "center": 29.53
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "30",
+          "bucketValue": 30,
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 8.25,
+          "meanResidual": 1.37,
+          "center": 29.75
+        },
+        {
+          "bucket": "29",
+          "bucketValue": 29,
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 2.75,
+          "meanResidual": 1.37,
+          "center": 29.75
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "ankara预计",
+      "predicted": 20.4,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": -0.81,
+      "momentumSignal": "double_down",
+      "momentumFirstDelta": -0.81,
+      "momentumRecentDelta": -0.37,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 20.93,
+      "baselineDelta": -0.53,
+      "baselineBand": "<= -0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.29,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 2,
+      "baselineCitySampleSize": 14,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 12,
+      "momentumSampleSize": 1,
+      "timeSampleSize": 12,
+      "trendSampleSize": 89,
+      "citySampleSize": 89,
+      "modelLevel": "city-time",
+      "modelSampleSize": 12,
+      "modelOriginalSampleSize": 12,
+      "outlierDropped": 0,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.73,
+          "probability": 0.73,
+          "count": 8.72,
+          "meanResidual": 1.33,
+          "center": 21.73
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
+          "rawProbability": 0.27,
+          "probability": 0.27,
+          "count": 3.28,
+          "meanResidual": 1.33,
+          "center": 21.73
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "helsink预计",
+      "predicted": 14.4,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 0.13,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0.13,
+      "momentumRecentDelta": -0.04,
+      "momentumThreshold": 0.15,
+      "momentumThresholdScore": 0.36,
+      "momentumThresholdUsable": 7,
+      "baselinePredicted": 14.27,
+      "baselineDelta": 0.13,
+      "baselineBand": "+0.1 到 +0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 0.93,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 3,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 1,
+      "correctionRegimeHighRate": 0,
+      "correctionLowMean": 0.56,
+      "correctionHighMean": 2.6,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 12,
+      "momentumSampleSize": 1,
+      "timeSampleSize": 12,
+      "trendSampleSize": 89,
+      "citySampleSize": 89,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "modelOriginalSampleSize": 12,
+      "outlierDropped": 1,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.6,
+          "probability": 0.6,
+          "count": 7.17,
+          "meanResidual": 1.2,
+          "center": 15.6
+        },
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.4,
+          "probability": 0.4,
+          "count": 4.83,
+          "meanResidual": 1.2,
+          "center": 15.6
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.6,
+          "probability": 0.6,
+          "count": 6.63,
+          "meanResidual": 1,
+          "center": 15.4
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.4,
+          "probability": 0.4,
+          "count": 4.37,
+          "meanResidual": 1,
+          "center": 15.4
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "lucknow预计",
+      "predicted": 35.77,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 0.54,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 0.54,
+      "momentumRecentDelta": 0.31,
+      "momentumThreshold": 0.15,
+      "momentumThresholdScore": 0.21,
+      "momentumThresholdUsable": 7,
+      "baselinePredicted": 35.23,
+      "baselineDelta": 0.54,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.7,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 5,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 6,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 12,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 12,
+      "trendSampleSize": 83,
+      "citySampleSize": 83,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "modelOriginalSampleSize": 12,
+      "outlierDropped": 1,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "36",
+          "bucketValue": 36,
+          "rawProbability": 0.81,
+          "probability": 0.81,
+          "count": 9.72,
+          "meanResidual": 0.04,
+          "center": 35.81
         },
         {
           "bucket": "35",
           "bucketValue": 35,
+          "rawProbability": 0.19,
+          "probability": 0.19,
+          "count": 2.28,
+          "meanResidual": 0.04,
+          "center": 35.81
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "35",
+          "bucketValue": 35,
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 5.94,
+          "meanResidual": -0.31,
+          "center": 35.46
+        },
+        {
+          "bucket": "36",
+          "bucketValue": 36,
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 5.06,
+          "meanResidual": -0.31,
+          "center": 35.46
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "madrid预计",
+      "predicted": 18.99,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": -0.08,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": -0.08,
+      "momentumRecentDelta": -0.08,
+      "momentumThreshold": 0.2,
+      "momentumThresholdScore": 0.3,
+      "momentumThresholdUsable": 5,
+      "baselinePredicted": 18.99,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.26,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 5,
+      "baselineCityTimeSampleSize": 4,
+      "baselineCitySampleSize": 20,
+      "correctionRegime": "high",
+      "correctionRegimeN": 5,
+      "correctionRegimeHighRate": 0.8,
+      "correctionLowMean": -0.4,
+      "correctionHighMean": 1.15,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 10,
+      "momentumSampleSize": 5,
+      "timeSampleSize": 12,
+      "trendSampleSize": 62,
+      "citySampleSize": 89,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "modelOriginalSampleSize": 12,
+      "outlierDropped": 1,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.99,
+          "probability": 0.99,
+          "count": 11.83,
+          "meanResidual": 1,
+          "center": 19.99
+        },
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.17,
+          "meanResidual": 1,
+          "center": 19.99
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.54,
+          "probability": 0.54,
+          "count": 5.94,
+          "meanResidual": 0.55,
+          "center": 19.54
+        },
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.46,
+          "probability": 0.46,
+          "count": 5.06,
+          "meanResidual": 0.55,
+          "center": 19.54
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "milan预计",
+      "predicted": 18.71,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": -0.72,
+      "momentumSignal": "double_down",
+      "momentumFirstDelta": -0.72,
+      "momentumRecentDelta": -0.42,
+      "momentumThreshold": 0,
+      "momentumThresholdScore": 0.17,
+      "momentumThresholdUsable": 6,
+      "baselinePredicted": 19.71,
+      "baselineDelta": -1,
+      "baselineBand": "<= -0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.37,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 5,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 12,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 3,
+      "correctionRegimeHighRate": 0.67,
+      "correctionLowMean": -0.24,
+      "correctionHighMean": 1.05,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 12,
+      "momentumSampleSize": 3,
+      "timeSampleSize": 12,
+      "trendSampleSize": 89,
+      "citySampleSize": 89,
+      "modelLevel": "city-time",
+      "modelSampleSize": 12,
+      "modelOriginalSampleSize": 12,
+      "outlierDropped": 0,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "19",
+          "bucketValue": 19,
+          "rawProbability": 0.8,
+          "probability": 0.8,
+          "count": 9.65,
+          "meanResidual": 0.49,
+          "center": 19.2
+        },
+        {
+          "bucket": "20",
+          "bucketValue": 20,
+          "rawProbability": 0.2,
+          "probability": 0.2,
+          "count": 2.35,
+          "meanResidual": 0.49,
+          "center": 19.2
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "moscow预计",
+      "predicted": 12.45,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 0.13,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0.13,
+      "momentumRecentDelta": 0.3,
+      "momentumThreshold": 0.5,
+      "momentumThresholdScore": 0.3,
+      "momentumThresholdUsable": 5,
+      "baselinePredicted": 12.32,
+      "baselineDelta": 0.13,
+      "baselineBand": "+0.1 到 +0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 2.66,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 5,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 12,
+      "correctionRegime": "low",
+      "correctionRegimeN": 5,
+      "correctionRegimeHighRate": 0.2,
+      "correctionLowMean": 0.69,
+      "correctionHighMean": 1.88,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 12,
+      "momentumSampleSize": 5,
+      "timeSampleSize": 12,
+      "trendSampleSize": 89,
+      "citySampleSize": 89,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "modelOriginalSampleSize": 12,
+      "outlierDropped": 1,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.95,
+          "probability": 0.95,
+          "count": 11.46,
+          "meanResidual": 0.6,
+          "center": 13.05
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.54,
+          "meanResidual": 0.6,
+          "center": 13.05
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 8.21,
+          "meanResidual": 0.8,
+          "center": 13.25
+        },
+        {
+          "bucket": "14",
+          "bucketValue": 14,
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 2.79,
+          "meanResidual": 0.8,
+          "center": 13.25
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "munich预计",
+      "predicted": 15.78,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": -0.43,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": -0.43,
+      "momentumRecentDelta": -0.49,
+      "momentumThreshold": 1,
+      "momentumThresholdScore": 0.36,
+      "momentumThresholdUsable": 7,
+      "baselinePredicted": 16.21,
+      "baselineDelta": -0.43,
+      "baselineBand": "<= -0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.26,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 3,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 11,
+      "correctionRegime": "low",
+      "correctionRegimeN": 7,
+      "correctionRegimeHighRate": 0.14,
+      "correctionLowMean": 0.7,
+      "correctionHighMean": 2.15,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 12,
+      "momentumSampleSize": 7,
+      "timeSampleSize": 12,
+      "trendSampleSize": 89,
+      "citySampleSize": 89,
+      "modelLevel": "city-time",
+      "modelSampleSize": 12,
+      "modelOriginalSampleSize": 12,
+      "outlierDropped": 0,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "17",
+          "bucketValue": 17,
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 8.4,
+          "meanResidual": 0.92,
+          "center": 16.7
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 3.6,
+          "meanResidual": 0.92,
+          "center": 16.7
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "telaviv预计",
+      "predicted": 26.89,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 0.15,
+      "momentumThresholdScore": 0.3,
+      "momentumThresholdUsable": 5,
+      "baselinePredicted": 26.89,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 0.83,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 4,
+      "baselineCitySampleSize": 27,
+      "correctionRegime": "low",
+      "correctionRegimeN": 5,
+      "correctionRegimeHighRate": 0.2,
+      "correctionLowMean": 0.16,
+      "correctionHighMean": 1.21,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 11,
+      "momentumSampleSize": 5,
+      "timeSampleSize": 12,
+      "trendSampleSize": 70,
+      "citySampleSize": 89,
+      "modelLevel": "city-time",
+      "modelSampleSize": 12,
+      "modelOriginalSampleSize": 12,
+      "outlierDropped": 0,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "28",
+          "bucketValue": 28,
+          "rawProbability": 0.55,
+          "probability": 0.55,
+          "count": 6.55,
+          "meanResidual": 0.66,
+          "center": 27.55
+        },
+        {
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.45,
+          "probability": 0.45,
+          "count": 5.45,
+          "meanResidual": 0.66,
+          "center": 27.55
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "warsaw预计",
+      "predicted": 21.6,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": -0.72,
+      "momentumSignal": "double_down",
+      "momentumFirstDelta": -0.72,
+      "momentumRecentDelta": -0.47,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": 0.5,
+      "momentumThresholdUsable": 3,
+      "baselinePredicted": 22.32,
+      "baselineDelta": -0.72,
+      "baselineBand": "<= -0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.73,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 5,
+      "baselineCityTimeSampleSize": 2,
+      "baselineCitySampleSize": 20,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 2,
+      "correctionRegimeHighRate": 1,
+      "correctionLowMean": -1.43,
+      "correctionHighMean": 0.8,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 12,
+      "momentumSampleSize": 2,
+      "timeSampleSize": 12,
+      "trendSampleSize": 90,
+      "citySampleSize": 90,
+      "modelLevel": "city-time",
+      "modelSampleSize": 11,
+      "modelOriginalSampleSize": 12,
+      "outlierDropped": 1,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.83,
+          "probability": 0.83,
+          "count": 10,
+          "meanResidual": 0.23,
+          "center": 21.83
+        },
+        {
+          "bucket": "21",
+          "bucketValue": 21,
           "rawProbability": 0.17,
           "probability": 0.17,
-          "count": 0.83
+          "count": 2,
+          "meanResidual": 0.23,
+          "center": 21.83
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "22",
+          "bucketValue": 22,
+          "rawProbability": 0.95,
+          "probability": 0.95,
+          "count": 10.5,
+          "meanResidual": 0.45,
+          "center": 22.05
+        },
+        {
+          "bucket": "23",
+          "bucketValue": 23,
+          "rawProbability": 0.05,
+          "probability": 0.05,
+          "count": 0.5,
+          "meanResidual": 0.45,
+          "center": 22.05
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "london预计",
+      "predicted": 12.45,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": -0.51,
+      "momentumSignal": "recent_flat",
+      "momentumFirstDelta": -0.51,
+      "momentumRecentDelta": -0.29,
+      "momentumThreshold": 0.4,
+      "momentumThresholdScore": 0.25,
+      "momentumThresholdUsable": 8,
+      "baselinePredicted": 12.6,
+      "baselineDelta": -0.15,
+      "baselineBand": "-0.3 到 -0.1",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.61,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 5,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 5,
+      "correctionRegime": "low",
+      "correctionRegimeN": 4,
+      "correctionRegimeHighRate": 0.25,
+      "correctionLowMean": -0.35,
+      "correctionHighMean": 2.06,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 5,
+      "momentumSampleSize": 4,
+      "timeSampleSize": 11,
+      "trendSampleSize": 48,
+      "citySampleSize": 87,
+      "modelLevel": "city-time",
+      "modelSampleSize": 10,
+      "modelOriginalSampleSize": 11,
+      "outlierDropped": 1,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 7.7,
+          "meanResidual": 0.25,
+          "center": 12.7
+        },
+        {
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 3.3,
+          "meanResidual": 0.25,
+          "center": 12.7
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "12",
+          "bucketValue": 12,
+          "rawProbability": 0.53,
+          "probability": 0.53,
+          "count": 5.35,
+          "meanResidual": 0.02,
+          "center": 12.47
+        },
+        {
+          "bucket": "13",
+          "bucketValue": 13,
+          "rawProbability": 0.47,
+          "probability": 0.47,
+          "count": 4.65,
+          "meanResidual": 0.02,
+          "center": 12.47
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "paris预计",
+      "predicted": 14.12,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "first_flat",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": -0.15,
+      "momentumThreshold": 0.15,
+      "momentumThresholdScore": 0.5,
+      "momentumThresholdUsable": 3,
+      "baselinePredicted": 14.27,
+      "baselineDelta": -0.15,
+      "baselineBand": "-0.3 到 -0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.62,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 5,
+      "baselineCityTimeSampleSize": 2,
+      "baselineCitySampleSize": 7,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 11,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 11,
+      "trendSampleSize": 86,
+      "citySampleSize": 86,
+      "modelLevel": "city-time",
+      "modelSampleSize": 10,
+      "modelOriginalSampleSize": 11,
+      "outlierDropped": 1,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.67,
+          "probability": 0.67,
+          "count": 7.37,
+          "meanResidual": 1.21,
+          "center": 15.33
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.33,
+          "probability": 0.33,
+          "count": 3.63,
+          "meanResidual": 1.21,
+          "center": 15.33
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "15",
+          "bucketValue": 15,
+          "rawProbability": 0.85,
+          "probability": 0.85,
+          "count": 8.54,
+          "meanResidual": 1.03,
+          "center": 15.15
+        },
+        {
+          "bucket": "16",
+          "bucketValue": 16,
+          "rawProbability": 0.15,
+          "probability": 0.15,
+          "count": 1.46,
+          "meanResidual": 1.03,
+          "center": 15.15
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "NYC预计",
+      "predicted": 62,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 1,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 1,
+      "momentumRecentDelta": 1,
+      "momentumThreshold": 1,
+      "momentumThresholdScore": 0,
+      "momentumThresholdUsable": 6,
+      "baselinePredicted": 61,
+      "baselineDelta": 1,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.99,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 3,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 16,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 6,
+      "correctionRegimeHighRate": 0.5,
+      "correctionLowMean": 0.51,
+      "correctionHighMean": 3.2,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 6,
+      "momentumSampleSize": 6,
+      "timeSampleSize": 6,
+      "trendSampleSize": 59,
+      "citySampleSize": 59,
+      "modelLevel": "city-time",
+      "modelSampleSize": 6,
+      "modelOriginalSampleSize": 6,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.57,
+          "probability": 0.57,
+          "count": 3.44,
+          "meanResidual": 1.85,
+          "center": 63.85
+        },
+        {
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 2.56,
+          "meanResidual": 1.85,
+          "center": 63.85
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "San预计",
+      "predicted": 69,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 0.5,
+      "momentumThresholdScore": 0.5,
+      "momentumThresholdUsable": 4,
+      "baselinePredicted": 68,
+      "baselineDelta": 1,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.95,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 3,
+      "correctionRegime": "high",
+      "correctionRegimeN": 4,
+      "correctionRegimeHighRate": 1,
+      "correctionLowMean": -0.21,
+      "correctionHighMean": 2.78,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 7,
+      "momentumSampleSize": 4,
+      "timeSampleSize": 7,
+      "trendSampleSize": 65,
+      "citySampleSize": 68,
+      "modelLevel": "city-time",
+      "modelSampleSize": 7,
+      "modelOriginalSampleSize": 7,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "70-71",
+          "bucketValue": 70,
+          "rawProbability": 0.75,
+          "probability": 0.75,
+          "count": 5.24,
+          "meanResidual": 1.5,
+          "center": 70.5
+        },
+        {
+          "bucket": "68-69",
+          "bucketValue": 68,
+          "rawProbability": 0.25,
+          "probability": 0.25,
+          "count": 1.76,
+          "meanResidual": 1.5,
+          "center": 70.5
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "chicago预计",
+      "predicted": 56,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "first_flat",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": 0.5,
+      "momentumThreshold": 0,
+      "momentumThresholdScore": 0.33,
+      "momentumThresholdUsable": 6,
+      "baselinePredicted": 56,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.7,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 4,
+      "baselineCitySampleSize": 23,
+      "correctionRegime": "high",
+      "correctionRegimeN": 3,
+      "correctionRegimeHighRate": 1,
+      "correctionLowMean": 1.33,
+      "correctionHighMean": 3.9,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 5,
+      "momentumSampleSize": 3,
+      "timeSampleSize": 8,
+      "trendSampleSize": 43,
+      "citySampleSize": 73,
+      "modelLevel": "city-time",
+      "modelSampleSize": 8,
+      "modelOriginalSampleSize": 8,
+      "outlierDropped": 0,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "58-59",
+          "bucketValue": 58,
+          "rawProbability": 0.91,
+          "probability": 0.91,
+          "count": 7.3,
+          "meanResidual": 2.83,
+          "center": 58.83
+        },
+        {
+          "bucket": "56-57",
+          "bucketValue": 56,
+          "rawProbability": 0.09,
+          "probability": 0.09,
+          "count": 0.7,
+          "meanResidual": 2.83,
+          "center": 58.83
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "dallas预计",
+      "predicted": 80,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 1,
+      "momentumSignal": "recent_flat",
+      "momentumFirstDelta": 1,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 80,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": null,
+      "baselineBandMinSpread": null,
+      "baselineUsableBandCount": 0,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 1,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 1,
+      "trendSampleSize": 8,
+      "citySampleSize": 8,
+      "modelLevel": "city-time",
+      "modelSampleSize": 1,
+      "modelOriginalSampleSize": 1,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "84-85",
+          "bucketValue": 84,
+          "rawProbability": 0.7,
+          "probability": 0.7,
+          "count": 0.7,
+          "meanResidual": 4.4,
+          "center": 84.4
+        },
+        {
+          "bucket": "82-83",
+          "bucketValue": 82,
+          "rawProbability": 0.3,
+          "probability": 0.3,
+          "count": 0.3,
+          "meanResidual": 4.4,
+          "center": 84.4
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "miami本土预计",
+      "predicted": 89,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": -1,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": -1,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 1,
+      "momentumThresholdScore": 0.13,
+      "momentumThresholdUsable": 8,
+      "baselinePredicted": 90,
+      "baselineDelta": -1,
+      "baselineBand": "<= -0.3",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.18,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 0,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 8,
+      "correctionRegimeHighRate": 0.38,
+      "correctionLowMean": -0.27,
+      "correctionHighMean": 2.37,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 10,
+      "momentumSampleSize": 8,
+      "timeSampleSize": 10,
+      "trendSampleSize": 90,
+      "citySampleSize": 90,
+      "modelLevel": "city-time",
+      "modelSampleSize": 9,
+      "modelOriginalSampleSize": 10,
+      "outlierDropped": 1,
+      "outlierThreshold": 3.5,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "88-89",
+          "bucketValue": 88,
+          "rawProbability": 0.84,
+          "probability": 0.84,
+          "count": 8.36,
+          "meanResidual": 0.33,
+          "center": 89.33
+        },
+        {
+          "bucket": "90-91",
+          "bucketValue": 90,
+          "rawProbability": 0.16,
+          "probability": 0.16,
+          "count": 1.64,
+          "meanResidual": 0.33,
+          "center": 89.33
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "88-89",
+          "bucketValue": 88,
+          "rawProbability": 0.96,
+          "probability": 0.96,
+          "count": 8.65,
+          "meanResidual": -0.08,
+          "center": 88.92
+        },
+        {
+          "bucket": "86-87",
+          "bucketValue": 86,
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.35,
+          "meanResidual": -0.08,
+          "center": 88.92
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "seattle预计",
+      "predicted": 68,
+      "unit": "F",
+      "totalTrend": "flat",
+      "totalDelta": 0,
+      "momentumSignal": "first_flat",
+      "momentumFirstDelta": 0,
+      "momentumRecentDelta": -0.5,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 68,
+      "baselineDelta": 0,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 2.09,
+      "baselineBandMinSpread": 2,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 1,
+      "baselineCitySampleSize": 10,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 5,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 5,
+      "trendSampleSize": 47,
+      "citySampleSize": 47,
+      "modelLevel": "city-time",
+      "modelSampleSize": 5,
+      "modelOriginalSampleSize": 5,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "64-65",
+          "bucketValue": 64,
+          "rawProbability": 0.96,
+          "probability": 0.96,
+          "count": 4.8,
+          "meanResidual": -3.08,
+          "center": 64.92
+        },
+        {
+          "bucket": "62-63",
+          "bucketValue": 62,
+          "rawProbability": 0.04,
+          "probability": 0.04,
+          "count": 0.2,
+          "meanResidual": -3.08,
+          "center": 64.92
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "shanghai预计",
+      "predicted": 26.21,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 0.45,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 0.45,
+      "momentumRecentDelta": 0.21,
+      "momentumThreshold": 0.15,
+      "momentumThresholdScore": 0.3,
+      "momentumThresholdUsable": 5,
+      "baselinePredicted": 25.77,
+      "baselineDelta": 0.45,
+      "baselineBand": ">= +0.3",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.25,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 3,
+      "baselineCitySampleSize": 17,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 2,
+      "correctionRegimeHighRate": 0.5,
+      "correctionLowMean": 0.83,
+      "correctionHighMean": 2.88,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 10,
+      "momentumSampleSize": 2,
+      "timeSampleSize": 10,
+      "trendSampleSize": 64,
+      "citySampleSize": 64,
+      "modelLevel": "city-time",
+      "modelSampleSize": 9,
+      "modelOriginalSampleSize": 10,
+      "outlierDropped": 1,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [
+        {
+          "bucket": "28",
+          "bucketValue": 28,
+          "rawProbability": 0.66,
+          "probability": 0.66,
+          "count": 6.57,
+          "meanResidual": 1.45,
+          "center": 27.66
+        },
+        {
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.34,
+          "probability": 0.34,
+          "count": 3.43,
+          "meanResidual": 1.45,
+          "center": 27.66
+        }
+      ],
+      "probabilities": [
+        {
+          "bucket": "28",
+          "bucketValue": 28,
+          "rawProbability": 0.9,
+          "probability": 0.9,
+          "count": 8.09,
+          "meanResidual": 1.69,
+          "center": 27.9
+        },
+        {
+          "bucket": "27",
+          "bucketValue": 27,
+          "rawProbability": 0.1,
+          "probability": 0.1,
+          "count": 0.91,
+          "meanResidual": 1.69,
+          "center": 27.9
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "toyko预计",
+      "predicted": 23.4,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 0.02,
+      "momentumSignal": "offset",
+      "momentumFirstDelta": 0.02,
+      "momentumRecentDelta": -0.02,
+      "momentumThreshold": 0,
+      "momentumThresholdScore": 0.25,
+      "momentumThresholdUsable": 4,
+      "baselinePredicted": 23.38,
+      "baselineDelta": 0.02,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.75,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 4,
+      "baselineCitySampleSize": 16,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 10,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 10,
+      "trendSampleSize": 64,
+      "citySampleSize": 64,
+      "modelLevel": "city-time",
+      "modelSampleSize": 10,
+      "modelOriginalSampleSize": 10,
+      "outlierDropped": 0,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "25",
+          "bucketValue": 25,
+          "rawProbability": 0.99,
+          "probability": 0.99,
+          "count": 9.92,
+          "meanResidual": 1.59,
+          "center": 24.99
+        },
+        {
+          "bucket": "24",
+          "bucketValue": 24,
+          "rawProbability": 0.01,
+          "probability": 0.01,
+          "count": 0.08,
+          "meanResidual": 1.59,
+          "center": 24.99
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "amsterdam预计",
+      "predicted": 10.23,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": -0.15,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": -0.15,
+      "momentumRecentDelta": 0,
+      "momentumThreshold": 0.75,
+      "momentumThresholdScore": 0.17,
+      "momentumThresholdUsable": 6,
+      "baselinePredicted": 10.38,
+      "baselineDelta": -0.15,
+      "baselineBand": "-0.3 到 -0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.62,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 0,
+      "baselineCitySampleSize": 3,
+      "correctionRegime": "unclear",
+      "correctionRegimeN": 6,
+      "correctionRegimeHighRate": 0.33,
+      "correctionLowMean": -0.5,
+      "correctionHighMean": 1.23,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 9,
+      "momentumSampleSize": 6,
+      "timeSampleSize": 9,
+      "trendSampleSize": 76,
+      "citySampleSize": 76,
+      "modelLevel": "city-time",
+      "modelSampleSize": 9,
+      "modelOriginalSampleSize": 9,
+      "outlierDropped": 0,
+      "outlierThreshold": 1.7,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "11",
+          "bucketValue": 11,
+          "rawProbability": 0.57,
+          "probability": 0.57,
+          "count": 5.09,
+          "meanResidual": 0.34,
+          "center": 10.57
+        },
+        {
+          "bucket": "10",
+          "bucketValue": 10,
+          "rawProbability": 0.43,
+          "probability": 0.43,
+          "count": 3.91,
+          "meanResidual": 0.34,
+          "center": 10.57
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "singa预计",
+      "predicted": 31.29,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 0.56,
+      "momentumSignal": "double_up",
+      "momentumFirstDelta": 0.56,
+      "momentumRecentDelta": 0.22,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 31.21,
+      "baselineDelta": 0.08,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": false,
+      "baselineBandSpread": 0.58,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 4,
+      "baselineCityTimeSampleSize": 2,
+      "baselineCitySampleSize": 7,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 5,
+      "momentumSampleSize": 0,
+      "timeSampleSize": 5,
+      "trendSampleSize": 37,
+      "citySampleSize": 37,
+      "modelLevel": "city-time",
+      "modelSampleSize": 5,
+      "modelOriginalSampleSize": 5,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.51,
+          "probability": 0.51,
+          "count": 2.53,
+          "meanResidual": 1.22,
+          "center": 32.51
+        },
+        {
+          "bucket": "32",
+          "bucketValue": 32,
+          "rawProbability": 0.49,
+          "probability": 0.49,
+          "count": 2.47,
+          "meanResidual": 1.22,
+          "center": 32.51
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "jakarta预计",
+      "predicted": 33.66,
+      "unit": "C",
+      "totalTrend": "flat",
+      "totalDelta": 0.05,
+      "momentumSignal": "flat",
+      "momentumFirstDelta": 0.05,
+      "momentumRecentDelta": 0.03,
+      "momentumThreshold": 0.1,
+      "momentumThresholdScore": null,
+      "momentumThresholdUsable": 0,
+      "baselinePredicted": 33.6,
+      "baselineDelta": 0.05,
+      "baselineBand": "-0.1 到 +0.1",
+      "baselineBandEnabled": true,
+      "baselineBandSpread": 1.03,
+      "baselineBandMinSpread": 0.8,
+      "baselineUsableBandCount": 2,
+      "baselineCityTimeSampleSize": 2,
+      "baselineCitySampleSize": 10,
+      "correctionRegime": "none",
+      "correctionRegimeN": 0,
+      "correctionRegimeHighRate": null,
+      "correctionLowMean": null,
+      "correctionHighMean": null,
+      "trendThreshold": 0.1,
+      "trendSignalN": 0,
+      "trendSignalRate": null,
+      "exactSampleSize": 5,
+      "momentumSampleSize": 1,
+      "timeSampleSize": 5,
+      "trendSampleSize": 33,
+      "citySampleSize": 33,
+      "modelLevel": "city-time",
+      "modelSampleSize": 5,
+      "modelOriginalSampleSize": 5,
+      "outlierDropped": 0,
+      "outlierThreshold": null,
+      "unfilteredProbabilities": [],
+      "probabilities": [
+        {
+          "bucket": "34",
+          "bucketValue": 34,
+          "rawProbability": 0.93,
+          "probability": 0.93,
+          "count": 4.63,
+          "meanResidual": 0.27,
+          "center": 33.93
+        },
+        {
+          "bucket": "33",
+          "bucketValue": 33,
+          "rawProbability": 0.07,
+          "probability": 0.07,
+          "count": 0.37,
+          "meanResidual": 0.27,
+          "center": 33.93
         }
       ]
     }
   ],
   "openMarketCandidates": [
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨10点到11点",
-      "expectedField": "warsaw预计",
-      "predicted": 22.32,
-      "unit": "C",
-      "adjustedForSettlement": 22.6,
-      "buyBuckets": [
-        "23",
-        "22"
-      ],
-      "estimatedTop1HitRate": 0.54,
-      "estimatedTop2HitRate": 0.72
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨10点到11点",
-      "expectedField": "london预计",
-      "predicted": 12.6,
-      "unit": "C",
-      "adjustedForSettlement": 12.9,
-      "buyBuckets": [
-        "13",
-        "12"
-      ],
-      "estimatedTop1HitRate": 0.46,
-      "estimatedTop2HitRate": 0.66
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨10点到11点",
-      "expectedField": "paris预计",
-      "predicted": 14.27,
-      "unit": "C",
-      "adjustedForSettlement": 15.11,
-      "buyBuckets": [
-        "15",
-        "16"
-      ],
-      "estimatedTop1HitRate": 0.41,
-      "estimatedTop2HitRate": 0.69
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨10点到11点",
-      "expectedField": "NYC预计",
-      "predicted": 61,
-      "unit": "F",
-      "adjustedForSettlement": 62.6,
-      "buyBuckets": [
-        "62-63",
-        "64-65"
-      ],
-      "estimatedTop1HitRate": 0.37,
-      "estimatedTop2HitRate": 0.68
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨10点到11点",
-      "expectedField": "San预计",
-      "predicted": 68,
-      "unit": "F",
-      "adjustedForSettlement": 70.4,
-      "buyBuckets": [
-        "70-71",
-        "68-69"
-      ],
-      "estimatedTop1HitRate": 0.25,
-      "estimatedTop2HitRate": 0.41
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨10点到11点",
-      "expectedField": "chicago预计",
-      "predicted": 56,
-      "unit": "F",
-      "adjustedForSettlement": 58.8,
-      "buyBuckets": [
-        "58-59",
-        "60-61"
-      ],
-      "estimatedTop1HitRate": 0.16,
-      "estimatedTop2HitRate": 0.38
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨10点到11点",
-      "expectedField": "dallas预计",
-      "predicted": 80,
-      "unit": "F",
-      "adjustedForSettlement": 85.4,
-      "buyBuckets": [
-        "84-85",
-        "86-87"
-      ],
-      "estimatedTop1HitRate": 0,
-      "estimatedTop2HitRate": 0
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨10点到11点",
-      "expectedField": "miami本土预计",
-      "predicted": 90,
-      "unit": "F",
-      "adjustedForSettlement": 90.09,
-      "buyBuckets": [
-        "90-91",
-        "88-89"
-      ],
-      "estimatedTop1HitRate": 0.46,
-      "estimatedTop2HitRate": 0.83
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨10点到11点",
-      "expectedField": "seattle预计",
-      "predicted": 68,
-      "unit": "F",
-      "adjustedForSettlement": 68.4,
-      "buyBuckets": [
-        "68-69",
-        "66-67"
-      ],
-      "estimatedTop1HitRate": 0.53,
-      "estimatedTop2HitRate": 0.64
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨10点到11点",
-      "expectedField": "shanghai预计",
-      "predicted": 25.77,
-      "unit": "C",
-      "adjustedForSettlement": 27.15,
-      "buyBuckets": [
-        "27",
-        "28"
-      ],
-      "estimatedTop1HitRate": 0.2,
-      "estimatedTop2HitRate": 0.56
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨10点到11点",
-      "expectedField": "toyko预计",
-      "predicted": 23.38,
-      "unit": "C",
-      "adjustedForSettlement": 24.83,
-      "buyBuckets": [
-        "25",
-        "24"
-      ],
-      "estimatedTop1HitRate": 0.31,
-      "estimatedTop2HitRate": 0.52
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨10点到11点",
-      "expectedField": "amsterdam预计",
-      "predicted": 10.38,
-      "unit": "C",
-      "adjustedForSettlement": 10.78,
-      "buyBuckets": [
-        "11",
-        "10"
-      ],
-      "estimatedTop1HitRate": 0.49,
-      "estimatedTop2HitRate": 0.67
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨10点到11点",
-      "expectedField": "singa预计",
-      "predicted": 31.21,
-      "unit": "C",
-      "adjustedForSettlement": 32.11,
-      "buyBuckets": [
-        "32",
-        "33"
-      ],
-      "estimatedTop1HitRate": 0.54,
-      "estimatedTop2HitRate": 0.86
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨10点到11点",
-      "expectedField": "jakarta预计",
-      "predicted": 33.6,
-      "unit": "C",
-      "adjustedForSettlement": 33.94,
-      "buyBuckets": [
-        "34",
-        "33"
-      ],
-      "estimatedTop1HitRate": 0.58,
-      "estimatedTop2HitRate": 0.73
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨14点到15点",
-      "expectedField": "HK预计",
-      "predicted": 27.4,
-      "unit": "C",
-      "adjustedForSettlement": 28.6,
-      "buyBuckets": [
-        "29",
-        "28"
-      ],
-      "estimatedTop1HitRate": 0.3,
-      "estimatedTop2HitRate": 0.52
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨14点到15点",
-      "expectedField": "ankara预计",
-      "predicted": 20.78,
-      "unit": "C",
-      "adjustedForSettlement": 22.18,
-      "buyBuckets": [
-        "22",
-        "23"
-      ],
-      "estimatedTop1HitRate": 0.21,
-      "estimatedTop2HitRate": 0.52
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨14点到15点",
-      "expectedField": "helsink预计",
-      "predicted": 14.44,
-      "unit": "C",
-      "adjustedForSettlement": 15.34,
-      "buyBuckets": [
-        "15",
-        "16"
-      ],
-      "estimatedTop1HitRate": 0.46,
-      "estimatedTop2HitRate": 0.64
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨14点到15点",
-      "expectedField": "lucknow预计",
-      "predicted": 35.18,
-      "unit": "C",
-      "adjustedForSettlement": 34.88,
-      "buyBuckets": [
-        "35",
-        "34"
-      ],
-      "estimatedTop1HitRate": 0.18,
-      "estimatedTop2HitRate": 0.37
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨14点到15点",
-      "expectedField": "madrid预计",
-      "predicted": 19.07,
-      "unit": "C",
-      "adjustedForSettlement": 19.57,
-      "buyBuckets": [
-        "20",
-        "19"
-      ],
-      "estimatedTop1HitRate": 0.46,
-      "estimatedTop2HitRate": 0.67
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨14点到15点",
-      "expectedField": "milan预计",
-      "predicted": 19.27,
-      "unit": "C",
-      "adjustedForSettlement": 19.84,
-      "buyBuckets": [
-        "20",
-        "19"
-      ],
-      "estimatedTop1HitRate": 0.56,
-      "estimatedTop2HitRate": 0.76
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨14点到15点",
-      "expectedField": "moscow预计",
-      "predicted": 11.84,
-      "unit": "C",
-      "adjustedForSettlement": 12.8,
-      "buyBuckets": [
-        "13",
-        "12"
-      ],
-      "estimatedTop1HitRate": 0.28,
-      "estimatedTop2HitRate": 0.55
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨14点到15点",
-      "expectedField": "munich预计",
-      "predicted": 16.6,
-      "unit": "C",
-      "adjustedForSettlement": 17.3,
-      "buyBuckets": [
-        "17",
-        "18"
-      ],
-      "estimatedTop1HitRate": 0.61,
-      "estimatedTop2HitRate": 0.84
-    },
-    {
-      "date": "2026-05-11",
-      "timeNode": "昨14点到15点",
-      "expectedField": "telaviv预计",
-      "predicted": 26.89,
-      "unit": "C",
-      "adjustedForSettlement": 27.49,
-      "buyBuckets": [
-        "27",
-        "28"
-      ],
-      "estimatedTop1HitRate": 0.52,
-      "estimatedTop2HitRate": 0.94
-    },
     {
       "date": "2026-05-11",
       "timeNode": "昨14点到15点",
@@ -33890,6 +31606,328 @@ window.__TEMP_DASHBOARD_DATA__ = {
       ],
       "estimatedTop1HitRate": 0.58,
       "estimatedTop2HitRate": 0.73
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "HK预计",
+      "predicted": 28.38,
+      "unit": "C",
+      "adjustedForSettlement": 29.58,
+      "buyBuckets": [
+        "30",
+        "29"
+      ],
+      "estimatedTop1HitRate": 0.3,
+      "estimatedTop2HitRate": 0.52
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "ankara预计",
+      "predicted": 20.4,
+      "unit": "C",
+      "adjustedForSettlement": 21.8,
+      "buyBuckets": [
+        "22",
+        "21"
+      ],
+      "estimatedTop1HitRate": 0.21,
+      "estimatedTop2HitRate": 0.52
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "helsink预计",
+      "predicted": 14.4,
+      "unit": "C",
+      "adjustedForSettlement": 15.3,
+      "buyBuckets": [
+        "15",
+        "16"
+      ],
+      "estimatedTop1HitRate": 0.46,
+      "estimatedTop2HitRate": 0.64
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "lucknow预计",
+      "predicted": 35.77,
+      "unit": "C",
+      "adjustedForSettlement": 35.47,
+      "buyBuckets": [
+        "35",
+        "36"
+      ],
+      "estimatedTop1HitRate": 0.18,
+      "estimatedTop2HitRate": 0.37
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "madrid预计",
+      "predicted": 18.99,
+      "unit": "C",
+      "adjustedForSettlement": 19.49,
+      "buyBuckets": [
+        "19",
+        "20"
+      ],
+      "estimatedTop1HitRate": 0.46,
+      "estimatedTop2HitRate": 0.67
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "milan预计",
+      "predicted": 18.71,
+      "unit": "C",
+      "adjustedForSettlement": 19.28,
+      "buyBuckets": [
+        "19",
+        "20"
+      ],
+      "estimatedTop1HitRate": 0.56,
+      "estimatedTop2HitRate": 0.76
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "moscow预计",
+      "predicted": 12.45,
+      "unit": "C",
+      "adjustedForSettlement": 13.41,
+      "buyBuckets": [
+        "13",
+        "14"
+      ],
+      "estimatedTop1HitRate": 0.28,
+      "estimatedTop2HitRate": 0.55
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "munich预计",
+      "predicted": 15.78,
+      "unit": "C",
+      "adjustedForSettlement": 16.48,
+      "buyBuckets": [
+        "16",
+        "17"
+      ],
+      "estimatedTop1HitRate": 0.61,
+      "estimatedTop2HitRate": 0.84
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "telaviv预计",
+      "predicted": 26.89,
+      "unit": "C",
+      "adjustedForSettlement": 27.49,
+      "buyBuckets": [
+        "27",
+        "28"
+      ],
+      "estimatedTop1HitRate": 0.52,
+      "estimatedTop2HitRate": 0.94
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "warsaw预计",
+      "predicted": 21.6,
+      "unit": "C",
+      "adjustedForSettlement": 21.88,
+      "buyBuckets": [
+        "22",
+        "21"
+      ],
+      "estimatedTop1HitRate": 0.54,
+      "estimatedTop2HitRate": 0.72
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "london预计",
+      "predicted": 12.45,
+      "unit": "C",
+      "adjustedForSettlement": 12.75,
+      "buyBuckets": [
+        "13",
+        "12"
+      ],
+      "estimatedTop1HitRate": 0.46,
+      "estimatedTop2HitRate": 0.66
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "paris预计",
+      "predicted": 14.12,
+      "unit": "C",
+      "adjustedForSettlement": 14.96,
+      "buyBuckets": [
+        "15",
+        "14"
+      ],
+      "estimatedTop1HitRate": 0.41,
+      "estimatedTop2HitRate": 0.69
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "NYC预计",
+      "predicted": 62,
+      "unit": "F",
+      "adjustedForSettlement": 63.6,
+      "buyBuckets": [
+        "62-63",
+        "64-65"
+      ],
+      "estimatedTop1HitRate": 0.37,
+      "estimatedTop2HitRate": 0.68
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "San预计",
+      "predicted": 69,
+      "unit": "F",
+      "adjustedForSettlement": 71.4,
+      "buyBuckets": [
+        "70-71",
+        "72-73"
+      ],
+      "estimatedTop1HitRate": 0.25,
+      "estimatedTop2HitRate": 0.41
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "chicago预计",
+      "predicted": 56,
+      "unit": "F",
+      "adjustedForSettlement": 58.8,
+      "buyBuckets": [
+        "58-59",
+        "60-61"
+      ],
+      "estimatedTop1HitRate": 0.16,
+      "estimatedTop2HitRate": 0.38
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "dallas预计",
+      "predicted": 80,
+      "unit": "F",
+      "adjustedForSettlement": 85.4,
+      "buyBuckets": [
+        "84-85",
+        "86-87"
+      ],
+      "estimatedTop1HitRate": 0,
+      "estimatedTop2HitRate": 0
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "miami本土预计",
+      "predicted": 89,
+      "unit": "F",
+      "adjustedForSettlement": 89.09,
+      "buyBuckets": [
+        "88-89",
+        "90-91"
+      ],
+      "estimatedTop1HitRate": 0.46,
+      "estimatedTop2HitRate": 0.83
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "seattle预计",
+      "predicted": 68,
+      "unit": "F",
+      "adjustedForSettlement": 68.4,
+      "buyBuckets": [
+        "68-69",
+        "66-67"
+      ],
+      "estimatedTop1HitRate": 0.53,
+      "estimatedTop2HitRate": 0.64
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "shanghai预计",
+      "predicted": 26.21,
+      "unit": "C",
+      "adjustedForSettlement": 27.59,
+      "buyBuckets": [
+        "28",
+        "27"
+      ],
+      "estimatedTop1HitRate": 0.2,
+      "estimatedTop2HitRate": 0.56
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "toyko预计",
+      "predicted": 23.4,
+      "unit": "C",
+      "adjustedForSettlement": 24.85,
+      "buyBuckets": [
+        "25",
+        "24"
+      ],
+      "estimatedTop1HitRate": 0.31,
+      "estimatedTop2HitRate": 0.52
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "amsterdam预计",
+      "predicted": 10.23,
+      "unit": "C",
+      "adjustedForSettlement": 10.63,
+      "buyBuckets": [
+        "11",
+        "10"
+      ],
+      "estimatedTop1HitRate": 0.49,
+      "estimatedTop2HitRate": 0.67
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "singa预计",
+      "predicted": 31.29,
+      "unit": "C",
+      "adjustedForSettlement": 32.19,
+      "buyBuckets": [
+        "32",
+        "33"
+      ],
+      "estimatedTop1HitRate": 0.54,
+      "estimatedTop2HitRate": 0.86
+    },
+    {
+      "date": "2026-05-11",
+      "timeNode": "昨22点到23点",
+      "expectedField": "jakarta预计",
+      "predicted": 33.66,
+      "unit": "C",
+      "adjustedForSettlement": 34,
+      "buyBuckets": [
+        "34",
+        "33"
+      ],
+      "estimatedTop1HitRate": 0.58,
+      "estimatedTop2HitRate": 0.73
     }
   ],
   "forecastStability": [
@@ -33901,13 +31939,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "maxForecastRange": 0
     },
     {
-      "city": "buenos",
-      "dateCount": 4,
-      "medianForecastRange": 0.14,
-      "meanForecastRange": 0.21,
-      "maxForecastRange": 0.56
-    },
-    {
       "city": "toronto",
       "dateCount": 4,
       "medianForecastRange": 0.25,
@@ -33915,18 +31946,18 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "maxForecastRange": 1.55
     },
     {
+      "city": "buenos",
+      "dateCount": 4,
+      "medianForecastRange": 0.28,
+      "meanForecastRange": 0.31,
+      "maxForecastRange": 0.66
+    },
+    {
       "city": "chengdu",
       "dateCount": 3,
       "medianForecastRange": 0.34,
       "meanForecastRange": 0.47,
       "maxForecastRange": 0.78
-    },
-    {
-      "city": "ankarar",
-      "dateCount": 14,
-      "medianForecastRange": 0.49,
-      "meanForecastRange": 0.61,
-      "maxForecastRange": 1.58
     },
     {
       "city": "Jakarta",
@@ -33950,10 +31981,17 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "maxForecastRange": 2.39
     },
     {
-      "city": "london",
+      "city": "ankarar",
       "dateCount": 14,
       "medianForecastRange": 0.51,
-      "meanForecastRange": 0.56,
+      "meanForecastRange": 0.63,
+      "maxForecastRange": 1.58
+    },
+    {
+      "city": "london",
+      "dateCount": 14,
+      "medianForecastRange": 0.54,
+      "meanForecastRange": 0.6,
       "maxForecastRange": 1.54
     },
     {
@@ -33981,7 +32019,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "city": "munich",
       "dateCount": 14,
       "medianForecastRange": 0.61,
-      "meanForecastRange": 0.75,
+      "meanForecastRange": 0.78,
       "maxForecastRange": 2.79
     },
     {
@@ -34027,13 +32065,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "maxForecastRange": 1.56
     },
     {
-      "city": "seoul",
-      "dateCount": 4,
-      "medianForecastRange": 0.84,
-      "meanForecastRange": 0.95,
-      "maxForecastRange": 2.12
-    },
-    {
       "city": "San",
       "dateCount": 10,
       "medianForecastRange": 1,
@@ -34051,13 +32082,6 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "city": "San数量",
       "dateCount": 3,
       "medianForecastRange": 1,
-      "meanForecastRange": 1.33,
-      "maxForecastRange": 3
-    },
-    {
-      "city": "austin",
-      "dateCount": 3,
-      "medianForecastRange": 1,
       "meanForecastRange": 1.67,
       "maxForecastRange": 3
     },
@@ -34067,6 +32091,13 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "medianForecastRange": 1.07,
       "meanForecastRange": 1.05,
       "maxForecastRange": 2.22
+    },
+    {
+      "city": "seoul",
+      "dateCount": 4,
+      "medianForecastRange": 1.09,
+      "meanForecastRange": 1.07,
+      "maxForecastRange": 2.12
     },
     {
       "city": "singa",
@@ -34086,7 +32117,7 @@ window.__TEMP_DASHBOARD_DATA__ = {
       "city": "NYC",
       "dateCount": 10,
       "medianForecastRange": 1.5,
-      "meanForecastRange": 1.4,
+      "meanForecastRange": 1.5,
       "maxForecastRange": 3
     },
     {
@@ -34113,6 +32144,13 @@ window.__TEMP_DASHBOARD_DATA__ = {
     {
       "city": "dallas",
       "dateCount": 4,
+      "medianForecastRange": 2,
+      "meanForecastRange": 2,
+      "maxForecastRange": 3
+    },
+    {
+      "city": "austin",
+      "dateCount": 3,
       "medianForecastRange": 2,
       "meanForecastRange": 2,
       "maxForecastRange": 3
