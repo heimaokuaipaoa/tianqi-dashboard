@@ -107,6 +107,27 @@ input {
   cursor: pointer;
 }
 
+.analysis-link {
+  align-self: end;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  border: 1px solid #087443;
+  border-radius: 7px;
+  background: #087443;
+  color: #fff;
+  padding: 0 14px;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.analysis-link:hover {
+  filter: brightness(0.96);
+}
+
 .toolbar-button:hover {
   filter: brightness(0.96);
 }
@@ -804,6 +825,10 @@ h3 {
     display: none;
   }
 
+  .analysis-link {
+    display: none;
+  }
+
   .city-group,
   .edge-board,
   .board {
@@ -833,6 +858,7 @@ h3 {
             最低优势
             <input id="edgeFilter" type="number" value="15" min="-50" max="100" step="1" />
           </label>
+          <a class="analysis-link" href="./trading-report.html" target="_blank" rel="noopener">交易分析报告</a>
           <button id="exportFullPage" class="toolbar-button" type="button">整页截图</button>
         </div>
       </header>
