@@ -61,7 +61,7 @@ const timeOrder = [
 const $ = (selector) => document.querySelector(selector);
 
 function cityKey(field) {
-  return field.replace("预计", "");
+  return String(field || "").replace(/预计$|棰勮$/u, "");
 }
 
 function displayCity(field) {
@@ -363,6 +363,76 @@ function cardScore(item) {
 
 function topRawProbability(item) {
   return item.probabilities?.[0]?.probability || item.probabilities?.[0]?.rawProbability || 0;
+}
+
+function isYesterdayTime(timeNode) {
+  const text = String(timeNode || "");
+  return text.startsWith("昨") || text.startsWith("鏄?");
+}
+
+function tradeCostStep(timeNode) {
+  const hour = timeStartHour(timeNode);
+  if (hour == null) return null;
+  const yesterday = isYesterdayTime(timeNode);
+  if (yesterday) return ({ 10: 0, 14: 1, 17: 2, 22: 3 })[hour] ?? null;
+  return ({ 6: 4, 10: 5, 14: 6, 17: 7, 22: 8 })[hour] ?? null;
+}
+
+function tradeScore(item) {
+  const step = tradeCostStep(item.timeNode);
+  const top = topProbabilities(item, 2);
+  if (step == null || !top.length) return null;
+  const top1Probability = Math.round((top[0].probability || 0) * 100);
+  const top2Probability = Math.round(((top[0]?.probability || 0) + (top[1]?.probability || 0)) * 100);
+  const top1Cost = 40 + step * 2;
+  const top2Cost = 65 + step * 3;
+  const top1Edge = top1Probability - top1Cost;
+  const top2Edge = top.length >= 2 ? top2Probability - top2Cost : -999;
+  const bestSide = top1Edge >= top2Edge ? "Top1" : "Top2";
+  return {
+    item,
+    step,
+    sample: item.modelSampleSize || 0,
+    top1Bucket: top[0]?.bucket || "",
+    top2Buckets: top.map((probability) => probability.bucket).join(" / "),
+    top1Probability,
+    top2Probability,
+    top1Cost,
+    top2Cost,
+    top1Edge,
+    top2Edge,
+    bestSide,
+    bestProbability: bestSide === "Top1" ? top1Probability : top2Probability,
+    bestCost: bestSide === "Top1" ? top1Cost : top2Cost,
+    bestEdge: Math.max(top1Edge, top2Edge),
+    bestBuckets: bestSide === "Top1" ? top[0]?.bucket || "" : top.map((probability) => probability.bucket).join(" / "),
+  };
+}
+
+function signedNumber(value) {
+  if (value == null || !Number.isFinite(value)) return "-";
+  return `${value > 0 ? "+" : ""}${value}`;
+}
+
+function allTradeScoresForDates(dates) {
+  const dateSet = new Set(dates.filter(Boolean));
+  return (state.data?.probabilityCandidates || [])
+    .filter((item) => dateSet.has(item.date))
+    .map(tradeScore)
+    .filter(Boolean);
+}
+
+function bestTradeForCityDate(item) {
+  const key = cityKey(item.expectedField);
+  return (state.data?.probabilityCandidates || [])
+    .filter((candidate) => candidate.date === item.date && cityKey(candidate.expectedField) === key)
+    .map(tradeScore)
+    .filter(Boolean)
+    .sort((a, b) =>
+      Number((b.sample || 0) >= 6) - Number((a.sample || 0) >= 6) ||
+      b.bestEdge - a.bestEdge ||
+      (b.sample || 0) - (a.sample || 0)
+    )[0] || null;
 }
 
 function compareBySampleThenRaw(a, b) {
@@ -891,6 +961,47 @@ function renderHoldingBoard(items) {
     .join("");
 }
 
+function renderProfitPicks() {
+  const container = $("#profitPicks");
+  if (!container) return;
+  const selections = pairedSelection($("#dateFilter")?.value, $("#timeFilter")?.value);
+  const dates = [...new Set(selections.map((selection) => selection.date).filter(Boolean))];
+  const bestByCityDate = new Map();
+  for (const score of allTradeScoresForDates(dates)) {
+    const key = `${score.item.date}|${cityKey(score.item.expectedField)}`;
+    const current = bestByCityDate.get(key);
+    const scoreRank = Number((score.sample || 0) >= 6) * 10000 + score.bestEdge * 10 + (score.sample || 0);
+    if (!current || scoreRank > current.scoreRank) bestByCityDate.set(key, { ...score, scoreRank });
+  }
+  const picks = [...bestByCityDate.values()]
+    .filter((score) => (score.sample || 0) >= 6)
+    .sort((a, b) =>
+      b.bestEdge - a.bestEdge ||
+      b.bestProbability - a.bestProbability ||
+      displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
+    )
+    .slice(0, 12);
+  if (!picks.length) {
+    container.innerHTML = `<div class="profit-empty">当前两天没有样本 >= 6 的收益窗口。</div>`;
+    return;
+  }
+  container.innerHTML = picks
+    .map((pick) => `
+      <article class="profit-pick ${pick.bestEdge >= 20 ? "profit-strong" : pick.bestEdge >= 8 ? "profit-watch" : "profit-weak"}">
+        <div>
+          <strong>${displayCity(pick.item.expectedField)}</strong>
+          <span>${pick.item.date} · ${pick.item.timeNode} · n=${pick.sample}</span>
+        </div>
+        <div class="profit-main">
+          <b>${pick.bestSide} ${pick.bestBuckets}</b>
+          <em>${pick.bestProbability}% - 成本${pick.bestCost} = ${signedNumber(pick.bestEdge)}</em>
+        </div>
+        <small>Top1 ${pick.top1Bucket}：${pick.top1Probability}% / 成本${pick.top1Cost} · Top2 ${pick.top2Buckets}：${pick.top2Probability}% / 成本${pick.top2Cost}</small>
+      </article>
+    `)
+    .join("");
+}
+
 function opportunityPicks(items) {
   const picks = [];
   for (const item of items) {
@@ -964,6 +1075,28 @@ function renderCardHtml(item) {
   template.querySelector(".buckets").innerHTML = displayProbabilities(item)
     .map((probability) => renderBucket(item, probability))
     .join("");
+  const currentTrade = tradeScore(item);
+  const bestTrade = bestTradeForCityDate(item);
+  if (currentTrade) {
+    const profitBox = document.createElement("div");
+    const bestIsCurrent = bestTrade &&
+      bestTrade.item.date === item.date &&
+      bestTrade.item.timeNode === item.timeNode &&
+      cityKey(bestTrade.item.expectedField) === cityKey(item.expectedField);
+    profitBox.className = `profit-hint ${currentTrade.bestEdge >= 15 ? "profit-good" : currentTrade.bestEdge >= 0 ? "profit-ok" : "profit-bad"}`;
+    profitBox.innerHTML = `
+      <div>
+        <span>当前窗口预估</span>
+        <b>${currentTrade.bestSide} ${currentTrade.bestBuckets}：${currentTrade.bestProbability}% - 成本${currentTrade.bestCost} = ${signedNumber(currentTrade.bestEdge)}</b>
+      </div>
+      <div>
+        <span>同城同日期最佳</span>
+        <b>${bestTrade ? `${bestTrade.item.timeNode} · ${bestTrade.bestSide} ${bestTrade.bestBuckets} · 优势${signedNumber(bestTrade.bestEdge)}` : "暂无可比窗口"}</b>
+      </div>
+      <em>${bestIsCurrent ? "当前就是最高预估盈利窗口" : "当前不是最高预估盈利窗口，可对比后再做"}</em>
+    `;
+    template.querySelector(".signal-row").after(profitBox);
+  }
   if (modelN < 6) {
     const warning = document.createElement("div");
     warning.className = "sample-warning";
@@ -1066,7 +1199,7 @@ function render() {
   const items = filteredItems();
   renderSummary(items);
   renderHoldingBoard(items);
-  renderTopChanges(items);
+  renderProfitPicks();
   renderEdgePicks(items);
   renderCards(items);
 }
