@@ -461,6 +461,23 @@ function bestHistoricalForCityDate(item) {
     )[0] || null;
 }
 
+function windowAvailabilityForDate(date) {
+  const expected = timeOrder.filter((time) => !isYesterdayTime(time) && tradeCostStep(time) != null);
+  const available = new Set(
+    (state.data?.probabilityCandidates || [])
+      .filter((item) => item.date === date && tradeCostStep(item.timeNode) != null)
+      .map((item) => item.timeNode),
+  );
+  const appeared = expected.filter((time) => available.has(time));
+  const missing = expected.filter((time) => !available.has(time));
+  return {
+    appeared,
+    missing,
+    appearedText: appeared.length ? appeared.join("、") : "无",
+    missingText: missing.length ? missing.join("、") : "无",
+  };
+}
+
 function allTradeScoresForDates(dates) {
   const dateSet = new Set(dates.filter(Boolean));
   return (state.data?.probabilityCandidates || [])
@@ -1040,6 +1057,7 @@ function renderProfitPicks() {
     .map((date, index) => ({
       date,
       label: index === 0 ? "今天" : index === 1 ? "明天" : date,
+      availability: windowAvailabilityForDate(date),
       picks: picks.filter((pick) => pick.item.date === date),
     }))
     .filter((group) => group.picks.length);
@@ -1049,6 +1067,8 @@ function renderProfitPicks() {
         <div class="profit-date-title">
           <strong>${group.label}</strong>
           <span>${group.date}</span>
+          <em>已出窗口：${group.availability.appearedText}</em>
+          <em class="missing">未出窗口：${group.availability.missingText}</em>
         </div>
         <div class="profit-date-picks">
           ${group.picks.map((pick) => `
