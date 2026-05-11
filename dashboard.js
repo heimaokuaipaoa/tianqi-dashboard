@@ -463,7 +463,8 @@ function bestHistoricalForCityDate(item) {
     .sort((a, b) =>
       b.top2Accuracy - a.top2Accuracy ||
       b.top1Accuracy - a.top1Accuracy ||
-      (b.n || 0) - (a.n || 0)
+      (b.n || 0) - (a.n || 0) ||
+      (tradeCostStep(a.item.timeNode) ?? 99) - (tradeCostStep(b.item.timeNode) ?? 99)
     )[0] || null;
 }
 
@@ -522,6 +523,7 @@ function missingWindowWatchlist(date, availability) {
       b.top2Accuracy - a.top2Accuracy ||
       b.top1Accuracy - a.top1Accuracy ||
       (b.n || 0) - (a.n || 0) ||
+      (tradeCostStep(a.timeNode) ?? 99) - (tradeCostStep(b.timeNode) ?? 99) ||
       displayCity(a.expectedField).localeCompare(displayCity(b.expectedField))
     )
     .slice(0, 8);
@@ -1100,6 +1102,7 @@ function renderProfitPicks() {
       b.top2Accuracy - a.top2Accuracy ||
       b.top1Accuracy - a.top1Accuracy ||
       (b.n || 0) - (a.n || 0) ||
+      (tradeCostStep(a.item.timeNode) ?? 99) - (tradeCostStep(b.item.timeNode) ?? 99) ||
       displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
     )
     .slice(0, 12);
