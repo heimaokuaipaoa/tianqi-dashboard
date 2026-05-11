@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>温度交易看板</title>
-    <link rel="stylesheet" href="./dashboard.css?v=20260511-clean-ui" />
+    <link rel="stylesheet" href="./dashboard.css?v=20260511-top2only-ui" />
   </head>
   <body>
     <main class="app-shell">
@@ -35,7 +35,7 @@
       <section class="profit-board">
         <div class="profit-board-head">
           <h2>历史命中率最高窗口</h2>
-          <span>Top1/Top2 历史命中率均 >= 85%，样本 >= 6</span>
+          <span>历史 Top2 >= 85%，样本 >= 6；Top1 作为参考</span>
         </div>
         <div id="profitPicks" class="profit-picks"></div>
       </section>
@@ -92,9 +92,9 @@
       </article>
     </template>
 
-    <script src="./poly_prices.js?v=20260511-clean-ui"></script>
-    <script src="./dashboard_data.next.js?v=20260511-clean-ui"></script>
-    <script src="./backtest_accuracy.next.js?v=20260511-clean-ui"></script>
-    <script src="./dashboard.js?v=20260511-clean-ui"></script>
+    <script src="./poly_prices.js?v=20260511-top2only-ui"></script>
+    <script src="./dashboard_data.next.js?v=20260511-top2only-ui"></script>
+    <script src="./backtest_accuracy.next.js?v=20260511-top2only-ui"></script>
+    <script src="./dashboard.js?v=20260511-top2only-ui"></script>
   </body>
 </html>
