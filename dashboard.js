@@ -16,7 +16,6 @@ function loadSavedHoldings() {
 
 const state = {
   data: null,
-  accuracy: window.__TEMP_BACKTEST_ACCURACY__ || { summary: [] },
   prices: loadSavedPrices(),
   holdings: loadSavedHoldings(),
   polyPrices: window.__POLY_PRICES__ || { markets: [] },
@@ -59,12 +58,10 @@ const timeOrder = [
   "22点到23点",
 ];
 
-const HISTORY_TOP2_THRESHOLD = 85;
-
 const $ = (selector) => document.querySelector(selector);
 
 function cityKey(field) {
-  return String(field || "").replace(/预计$|棰勮$/u, "");
+  return field.replace("预计", "");
 }
 
 function displayCity(field) {
@@ -366,241 +363,6 @@ function cardScore(item) {
 
 function topRawProbability(item) {
   return item.probabilities?.[0]?.probability || item.probabilities?.[0]?.rawProbability || 0;
-}
-
-function isYesterdayTime(timeNode) {
-  const text = String(timeNode || "");
-  return text.startsWith("昨") || text.startsWith("鏄?");
-}
-
-function tradeCostStep(timeNode) {
-  const hour = timeStartHour(timeNode);
-  if (hour == null) return null;
-  const yesterday = isYesterdayTime(timeNode);
-  if (yesterday) return ({ 10: 0, 14: 1, 17: 2, 22: 3 })[hour] ?? null;
-  return ({ 6: 4, 10: 5, 14: 6, 17: 7, 22: 8 })[hour] ?? null;
-}
-
-function tradeScore(item) {
-  const step = tradeCostStep(item.timeNode);
-  const top = topProbabilities(item, 2);
-  if (step == null || !top.length) return null;
-  const top1Probability = Math.round((top[0].probability || 0) * 100);
-  const top2Probability = Math.round(((top[0]?.probability || 0) + (top[1]?.probability || 0)) * 100);
-  const top1Cost = 40 + step * 2;
-  const top2Cost = 65 + step * 2;
-  const top1Edge = top1Probability - top1Cost;
-  const top2Edge = top.length >= 2 ? top2Probability - top2Cost : -999;
-  const bestSide = top1Edge >= top2Edge ? "Top1" : "Top2";
-  return {
-    item,
-    step,
-    sample: item.modelSampleSize || 0,
-    top1Bucket: top[0]?.bucket || "",
-    top2Buckets: top.map((probability) => probability.bucket).join(" / "),
-    top1Probability,
-    top2Probability,
-    top1Cost,
-    top2Cost,
-    top1Edge,
-    top2Edge,
-    bestSide,
-    bestProbability: bestSide === "Top1" ? top1Probability : top2Probability,
-    bestCost: bestSide === "Top1" ? top1Cost : top2Cost,
-    bestEdge: Math.max(top1Edge, top2Edge),
-    bestBuckets: bestSide === "Top1" ? top[0]?.bucket || "" : top.map((probability) => probability.bucket).join(" / "),
-  };
-}
-
-function signedNumber(value) {
-  if (value == null || !Number.isFinite(value)) return "-";
-  return `${value > 0 ? "+" : ""}${value}`;
-}
-
-function accuracyKey(expectedField, timeNode) {
-  return `${cityKey(expectedField)}|${timeNode}`;
-}
-
-function buildAccuracyMap() {
-  const map = new Map();
-  for (const row of state.accuracy?.summary || []) {
-    map.set(accuracyKey(row.expectedField, row.timeNode), row);
-  }
-  return map;
-}
-
-function historicalAccuracy(item) {
-  if (!state.accuracyMap) state.accuracyMap = buildAccuracyMap();
-  return state.accuracyMap.get(accuracyKey(item.expectedField, item.timeNode)) || null;
-}
-
-function historicalScore(item) {
-  const history = historicalAccuracy(item);
-  if (!history) return null;
-  return {
-    item,
-    history,
-    n: history.n || 0,
-    sample: item.modelSampleSize || 0,
-    top1Accuracy: history.top1Accuracy || 0,
-    top2Accuracy: history.top2Accuracy || 0,
-    top1Hits: history.top1Hits || 0,
-    top2Hits: history.top2Hits || 0,
-  };
-}
-
-function earlierTimeRank(timeNode) {
-  return tradeCostStep(timeNode) ?? 99;
-}
-
-function compareHistoricalWindow(a, b) {
-  return (
-    (b.top2Accuracy || 0) - (a.top2Accuracy || 0) ||
-    (b.n || 0) - (a.n || 0) ||
-    earlierTimeRank(a.item?.timeNode || a.timeNode) - earlierTimeRank(b.item?.timeNode || b.timeNode) ||
-    (b.top1Accuracy || 0) - (a.top1Accuracy || 0)
-  );
-}
-
-function bestHistoricalForCityDate(item) {
-  const key = cityKey(item.expectedField);
-  return (state.data?.probabilityCandidates || [])
-    .filter((candidate) => candidate.date === item.date && cityKey(candidate.expectedField) === key)
-    .map(historicalScore)
-    .filter(Boolean)
-    .filter((score) =>
-      (score.n || 0) >= 6 &&
-      (score.sample || 0) >= 6 &&
-      (score.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD
-    )
-    .sort(compareHistoricalWindow)[0] || null;
-}
-
-function windowAvailabilityForDate(date) {
-  const allItems = state.data?.probabilityCandidates || [];
-  const availableTimes = new Set(
-    allItems
-      .filter((item) => item.date === date && tradeCostStep(item.timeNode) != null)
-      .map((item) => item.timeNode),
-  );
-  const normalExpected = ["6点到7点", "10点到11点", "14点到15点", "17点到18点", "22点到23点"];
-  const yesterdayExpected = ["昨6点到7点", "昨10点到11点", "昨14点到15点", "昨17点到18点", "昨22点到23点"];
-  const normalCount = normalExpected.filter((time) => availableTimes.has(time)).length;
-  const yesterdayCount = yesterdayExpected.filter((time) => availableTimes.has(time)).length;
-  const expected = normalCount > 0 ? normalExpected : yesterdayExpected;
-  const available = new Set(
-    allItems
-      .filter((item) => item.date === date && tradeCostStep(item.timeNode) != null)
-      .map((item) => item.timeNode),
-  );
-  const appeared = expected.filter((time) => available.has(time));
-  const missing = expected.filter((time) => !available.has(time));
-  return {
-    appeared,
-    missing,
-    appearedText: appeared.length ? appeared.join("、") : "无",
-    missingText: missing.length ? missing.join("、") : "无",
-  };
-}
-
-function missingWindowWatchlist(date, availability, excludedCityKeys = new Set()) {
-  if (!state.accuracyMap) state.accuracyMap = buildAccuracyMap();
-  const knownCities = new Set((state.data?.probabilityCandidates || []).map((item) => cityKey(item.expectedField)).filter(Boolean));
-  const validCurrentKeys = new Set(
-    (state.data?.probabilityCandidates || [])
-      .filter((item) => item.date === date && (item.modelSampleSize || 0) >= 6)
-      .map((item) => accuracyKey(item.expectedField, item.timeNode)),
-  );
-  const bestByCity = new Map();
-  const seen = new Set();
-  for (const history of state.accuracy?.summary || []) {
-    const city = cityKey(history.expectedField);
-    if (!knownCities.has(city) || excludedCityKeys.has(city)) continue;
-    if ((history.n || 0) < 6 || (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
-    const key = accuracyKey(history.expectedField, history.timeNode);
-    if (validCurrentKeys.has(key) || seen.has(key)) continue;
-    seen.add(key);
-    const row = {
-      expectedField: history.expectedField,
-      timeNode: history.timeNode,
-      n: history.n || 0,
-      top1Accuracy: history.top1Accuracy || 0,
-      top2Accuracy: history.top2Accuracy || 0,
-      top1Hits: history.top1Hits || 0,
-      top2Hits: history.top2Hits || 0,
-    };
-    const current = bestByCity.get(city);
-    if (!current || compareHistoricalWindow(row, current) < 0) bestByCity.set(city, row);
-  }
-  return [...bestByCity.values()]
-    .sort((a, b) =>
-      earlierTimeRank(a.timeNode) - earlierTimeRank(b.timeNode) ||
-      b.top2Accuracy - a.top2Accuracy ||
-      (b.n || 0) - (a.n || 0) ||
-      b.top1Accuracy - a.top1Accuracy ||
-      displayCity(a.expectedField).localeCompare(displayCity(b.expectedField))
-    )
-    .slice(0, 16);
-}
-
-function groupedWatchlist(items) {
-  const groups = new Map();
-  for (const item of items || []) {
-    if (!groups.has(item.timeNode)) groups.set(item.timeNode, []);
-    groups.get(item.timeNode).push(item);
-  }
-  return [...groups.entries()]
-    .map(([timeNode, rows]) => ({
-      timeNode,
-      rows: rows.sort((a, b) =>
-        b.top2Accuracy - a.top2Accuracy ||
-        (b.n || 0) - (a.n || 0) ||
-        b.top1Accuracy - a.top1Accuracy ||
-        displayCity(a.expectedField).localeCompare(displayCity(b.expectedField))
-      ),
-    }))
-    .sort((a, b) => earlierTimeRank(a.timeNode) - earlierTimeRank(b.timeNode));
-}
-
-function groupedProfitPicks(picks) {
-  const groups = new Map();
-  for (const pick of picks || []) {
-    const timeNode = pick.item?.timeNode || pick.timeNode;
-    if (!groups.has(timeNode)) groups.set(timeNode, []);
-    groups.get(timeNode).push(pick);
-  }
-  return [...groups.entries()]
-    .map(([timeNode, rows]) => ({
-      timeNode,
-      rows: rows.sort((a, b) =>
-        b.top2Accuracy - a.top2Accuracy ||
-        (b.n || 0) - (a.n || 0) ||
-        b.top1Accuracy - a.top1Accuracy ||
-        displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
-      ),
-    }))
-    .sort((a, b) => earlierTimeRank(a.timeNode) - earlierTimeRank(b.timeNode));
-}
-
-function allTradeScoresForDates(dates) {
-  const dateSet = new Set(dates.filter(Boolean));
-  return (state.data?.probabilityCandidates || [])
-    .filter((item) => dateSet.has(item.date))
-    .map(tradeScore)
-    .filter(Boolean);
-}
-
-function bestTradeForCityDate(item) {
-  const key = cityKey(item.expectedField);
-  return (state.data?.probabilityCandidates || [])
-    .filter((candidate) => candidate.date === item.date && cityKey(candidate.expectedField) === key)
-    .map(tradeScore)
-    .filter(Boolean)
-    .filter((score) => (score.sample || 0) >= 6)
-    .sort((a, b) =>
-      b.bestEdge - a.bestEdge ||
-      (b.sample || 0) - (a.sample || 0)
-    )[0] || null;
 }
 
 function compareBySampleThenRaw(a, b) {
@@ -1129,120 +891,6 @@ function renderHoldingBoard(items) {
     .join("");
 }
 
-function renderProfitPicks() {
-  const container = $("#profitPicks");
-  if (!container) return;
-  const selections = pairedSelection($("#dateFilter")?.value, $("#timeFilter")?.value);
-  const dates = [...new Set(selections.map((selection) => selection.date).filter(Boolean))];
-  const bestByCityDate = new Map();
-  const dateSet = new Set(dates);
-  for (const item of state.data?.probabilityCandidates || []) {
-    if (!dateSet.has(item.date)) continue;
-    const score = historicalScore(item);
-    if (
-      !score ||
-      (score.n || 0) < 6 ||
-      (score.sample || 0) < 6 ||
-      (score.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD
-    ) continue;
-    const key = `${score.item.date}|${cityKey(score.item.expectedField)}`;
-    const current = bestByCityDate.get(key);
-    if (!current || compareHistoricalWindow(score, current) < 0) bestByCityDate.set(key, score);
-  }
-  const picks = [...bestByCityDate.values()]
-    .sort((a, b) =>
-      b.top2Accuracy - a.top2Accuracy ||
-      (b.n || 0) - (a.n || 0) ||
-      earlierTimeRank(a.item.timeNode) - earlierTimeRank(b.item.timeNode) ||
-      b.top1Accuracy - a.top1Accuracy ||
-      displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
-    );
-  const grouped = dates
-    .map((date, index) => {
-      const availability = windowAvailabilityForDate(date);
-      const allDatePicks = picks.filter((pick) => pick.item.date === date);
-      const shownPicks = allDatePicks.slice(0, 16);
-      const issuedCityKeys = new Set(allDatePicks.map((pick) => cityKey(pick.item.expectedField)));
-      return {
-        date,
-        label: index === 0 ? "今天" : index === 1 ? "明天" : date,
-        availability,
-        picks: shownPicks,
-        watchlist: missingWindowWatchlist(date, availability, issuedCityKeys),
-      };
-    })
-    .filter((group) => group.picks.length || group.watchlist.length);
-  if (!grouped.length) {
-    container.innerHTML = `<div class="profit-empty">当前两天没有历史 Top2 命中率 >= ${HISTORY_TOP2_THRESHOLD}% 且样本 >= 6 的窗口。</div>`;
-    return;
-  }
-  container.innerHTML = grouped
-    .map((group) => `
-      <section class="profit-date-group">
-        <div class="profit-date-title">
-          <strong>${group.label}</strong>
-          <span>${group.date}</span>
-          <span class="window-summary">已出：${group.availability.appearedText} · 未出：${group.availability.missingText}</span>
-          <span class="window-summary strong-count">已出推荐 ${group.picks.length} · 待出关注 ${group.watchlist.length}</span>
-        </div>
-        <div class="profit-window-groups">
-          ${groupedProfitPicks(group.picks).map((windowGroup) => `
-            <section class="profit-window-group">
-              <div class="profit-window-title">
-                <b>${windowGroup.timeNode}</b>
-                <span>${windowGroup.rows.length} 个已出推荐</span>
-              </div>
-              <div class="profit-date-picks">
-                ${windowGroup.rows.map((pick) => `
-                  <article class="profit-pick ${pick.top2Accuracy >= 80 ? "profit-strong" : pick.top2Accuracy >= 65 ? "profit-watch" : "profit-weak"}">
-                    <div class="profit-card-head">
-                      <strong>${displayCity(pick.item.expectedField)}</strong>
-                      <span>${pick.item.timeNode}</span>
-                    </div>
-                    <div class="buy-now">
-                      <span>马上看</span>
-                      <b>${topProbabilities(pick.item, 2).map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`).join(" / ")}</b>
-                    </div>
-                    <div class="profit-main">
-                      <b>历史 Top2 ${pick.top2Accuracy}%</b>
-                      <em>Top1 ${pick.top1Accuracy}%</em>
-                      <span>当前样本 ${pick.sample} · 回测样本 ${pick.n}</span>
-                    </div>
-                  </article>
-                `).join("")}
-              </div>
-            </section>
-          `).join("")}
-        </div>
-        ${group.watchlist.length ? `
-          <div class="missing-watchlist">
-            <strong>未出/待出窗口提前关注</strong>
-            <span class="watchlist-note">历史 Top2 命中率 ≥ ${HISTORY_TOP2_THRESHOLD}%，当前还没有有效样本，等数据出来后再确认概率。</span>
-            <div class="watch-window-groups">
-              ${groupedWatchlist(group.watchlist).map((windowGroup) => `
-                <section class="watch-window-group">
-                  <div class="watch-window-title">
-                    <b>${windowGroup.timeNode}</b>
-                    <span>${windowGroup.rows.length} 个</span>
-                  </div>
-                  <div class="watch-city-list">
-                    ${windowGroup.rows.map((item) => `
-                      <article>
-                        <b>${displayCity(item.expectedField)}</b>
-                        <span>Top2 ${item.top2Accuracy}% · Top1 ${item.top1Accuracy}% · n=${item.n}</span>
-                      </article>
-                    `).join("")}
-                  </div>
-                </section>
-              `).join("")}
-            </div>
-          </div>
-        ` : ""}
-      </section>
-    `)
-    .join("");
-}
-
 function opportunityPicks(items) {
   const picks = [];
   for (const item of items) {
@@ -1316,28 +964,6 @@ function renderCardHtml(item) {
   template.querySelector(".buckets").innerHTML = displayProbabilities(item)
     .map((probability) => renderBucket(item, probability))
     .join("");
-  const currentHistory = historicalScore(item);
-  const bestHistory = bestHistoricalForCityDate(item);
-  if (currentHistory) {
-    const profitBox = document.createElement("div");
-    const bestIsCurrent = bestHistory &&
-      bestHistory.item.date === item.date &&
-      bestHistory.item.timeNode === item.timeNode &&
-      cityKey(bestHistory.item.expectedField) === cityKey(item.expectedField);
-    profitBox.className = `profit-hint ${currentHistory.top2Accuracy >= 80 ? "profit-good" : currentHistory.top2Accuracy >= 65 ? "profit-ok" : "profit-bad"}`;
-    profitBox.innerHTML = `
-      <div>
-        <span>当前窗口历史命中率</span>
-        <b>Top1 ${currentHistory.top1Accuracy}% · Top2 ${currentHistory.top2Accuracy}% · n=${currentHistory.n}</b>
-      </div>
-      <div>
-        <span>同城同日期最佳历史窗口</span>
-        <b>${bestHistory ? `${bestHistory.item.timeNode} · Top1 ${bestHistory.top1Accuracy}% · Top2 ${bestHistory.top2Accuracy}% · n=${bestHistory.n}` : "暂无样本>=6窗口"}</b>
-      </div>
-      <em>${bestIsCurrent ? "当前就是该城市历史命中率最高窗口" : "当前不是该城市历史命中率最高窗口，可考虑等最佳窗口"}</em>
-    `;
-    template.querySelector(".signal-row").after(profitBox);
-  }
   if (modelN < 6) {
     const warning = document.createElement("div");
     warning.className = "sample-warning";
@@ -1440,7 +1066,7 @@ function render() {
   const items = filteredItems();
   renderSummary(items);
   renderHoldingBoard(items);
-  renderProfitPicks();
+  renderTopChanges(items);
   renderEdgePicks(items);
   renderCards(items);
 }
