@@ -16,6 +16,7 @@ function loadSavedHoldings() {
 
 const state = {
   data: null,
+  accuracy: window.__TEMP_BACKTEST_ACCURACY__ || { summary: [] },
   prices: loadSavedPrices(),
   holdings: loadSavedHoldings(),
   polyPrices: window.__POLY_PRICES__ || { markets: [] },
@@ -412,6 +413,52 @@ function tradeScore(item) {
 function signedNumber(value) {
   if (value == null || !Number.isFinite(value)) return "-";
   return `${value > 0 ? "+" : ""}${value}`;
+}
+
+function accuracyKey(expectedField, timeNode) {
+  return `${cityKey(expectedField)}|${timeNode}`;
+}
+
+function buildAccuracyMap() {
+  const map = new Map();
+  for (const row of state.accuracy?.summary || []) {
+    map.set(accuracyKey(row.expectedField, row.timeNode), row);
+  }
+  return map;
+}
+
+function historicalAccuracy(item) {
+  if (!state.accuracyMap) state.accuracyMap = buildAccuracyMap();
+  return state.accuracyMap.get(accuracyKey(item.expectedField, item.timeNode)) || null;
+}
+
+function historicalScore(item) {
+  const history = historicalAccuracy(item);
+  if (!history) return null;
+  return {
+    item,
+    history,
+    n: history.n || 0,
+    sample: item.modelSampleSize || 0,
+    top1Accuracy: history.top1Accuracy || 0,
+    top2Accuracy: history.top2Accuracy || 0,
+    top1Hits: history.top1Hits || 0,
+    top2Hits: history.top2Hits || 0,
+  };
+}
+
+function bestHistoricalForCityDate(item) {
+  const key = cityKey(item.expectedField);
+  return (state.data?.probabilityCandidates || [])
+    .filter((candidate) => candidate.date === item.date && cityKey(candidate.expectedField) === key)
+    .map(historicalScore)
+    .filter(Boolean)
+    .filter((score) => (score.n || 0) >= 6 && (score.sample || 0) >= 6)
+    .sort((a, b) =>
+      b.top2Accuracy - a.top2Accuracy ||
+      b.top1Accuracy - a.top1Accuracy ||
+      (b.n || 0) - (a.n || 0)
+    )[0] || null;
 }
 
 function allTradeScoresForDates(dates) {
@@ -967,22 +1014,26 @@ function renderProfitPicks() {
   const selections = pairedSelection($("#dateFilter")?.value, $("#timeFilter")?.value);
   const dates = [...new Set(selections.map((selection) => selection.date).filter(Boolean))];
   const bestByCityDate = new Map();
-  for (const score of allTradeScoresForDates(dates)) {
+  const dateSet = new Set(dates);
+  for (const item of state.data?.probabilityCandidates || []) {
+    if (!dateSet.has(item.date)) continue;
+    const score = historicalScore(item);
+    if (!score || (score.n || 0) < 6 || (score.sample || 0) < 6) continue;
     const key = `${score.item.date}|${cityKey(score.item.expectedField)}`;
     const current = bestByCityDate.get(key);
-    const scoreRank = Number((score.sample || 0) >= 6) * 10000 + score.bestEdge * 10 + (score.sample || 0);
+    const scoreRank = score.top2Accuracy * 10000 + score.top1Accuracy * 100 + (score.n || 0);
     if (!current || scoreRank > current.scoreRank) bestByCityDate.set(key, { ...score, scoreRank });
   }
   const picks = [...bestByCityDate.values()]
-    .filter((score) => (score.sample || 0) >= 6)
     .sort((a, b) =>
-      b.bestEdge - a.bestEdge ||
-      b.bestProbability - a.bestProbability ||
+      b.top2Accuracy - a.top2Accuracy ||
+      b.top1Accuracy - a.top1Accuracy ||
+      (b.n || 0) - (a.n || 0) ||
       displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
     )
     .slice(0, 12);
   if (!picks.length) {
-    container.innerHTML = `<div class="profit-empty">当前两天没有样本 >= 6 的收益窗口。</div>`;
+    container.innerHTML = `<div class="profit-empty">当前两天没有历史样本 >= 6 且当前样本 >= 6 的窗口。</div>`;
     return;
   }
   const grouped = dates
@@ -1001,16 +1052,16 @@ function renderProfitPicks() {
         </div>
         <div class="profit-date-picks">
           ${group.picks.map((pick) => `
-            <article class="profit-pick ${pick.bestEdge >= 20 ? "profit-strong" : pick.bestEdge >= 8 ? "profit-watch" : "profit-weak"}">
+            <article class="profit-pick ${pick.top2Accuracy >= 80 ? "profit-strong" : pick.top2Accuracy >= 65 ? "profit-watch" : "profit-weak"}">
               <div>
                 <strong>${displayCity(pick.item.expectedField)}</strong>
-                <span>${pick.item.timeNode} · n=${pick.sample}</span>
+                <span>${pick.item.timeNode} · 历史n=${pick.n} · 当前n=${pick.sample}</span>
               </div>
               <div class="profit-main">
-                <b>${pick.bestSide} ${pick.bestBuckets}</b>
-                <em>${pick.bestProbability}% - 成本${pick.bestCost} = ${signedNumber(pick.bestEdge)}</em>
+                <b>历史 Top2 ${pick.top2Accuracy}%</b>
+                <em>Top1 ${pick.top1Accuracy}%</em>
               </div>
-              <small>Top1 ${pick.top1Bucket}：${pick.top1Probability}% / 成本${pick.top1Cost} · Top2 ${pick.top2Buckets}：${pick.top2Probability}% / 成本${pick.top2Cost}</small>
+              <small>回测命中：Top1 ${pick.top1Hits}/${pick.n} · Top2 ${pick.top2Hits}/${pick.n}</small>
             </article>
           `).join("")}
         </div>
@@ -1092,25 +1143,25 @@ function renderCardHtml(item) {
   template.querySelector(".buckets").innerHTML = displayProbabilities(item)
     .map((probability) => renderBucket(item, probability))
     .join("");
-  const currentTrade = tradeScore(item);
-  const bestTrade = bestTradeForCityDate(item);
-  if (currentTrade) {
+  const currentHistory = historicalScore(item);
+  const bestHistory = bestHistoricalForCityDate(item);
+  if (currentHistory) {
     const profitBox = document.createElement("div");
-    const bestIsCurrent = bestTrade &&
-      bestTrade.item.date === item.date &&
-      bestTrade.item.timeNode === item.timeNode &&
-      cityKey(bestTrade.item.expectedField) === cityKey(item.expectedField);
-    profitBox.className = `profit-hint ${currentTrade.bestEdge >= 15 ? "profit-good" : currentTrade.bestEdge >= 0 ? "profit-ok" : "profit-bad"}`;
+    const bestIsCurrent = bestHistory &&
+      bestHistory.item.date === item.date &&
+      bestHistory.item.timeNode === item.timeNode &&
+      cityKey(bestHistory.item.expectedField) === cityKey(item.expectedField);
+    profitBox.className = `profit-hint ${currentHistory.top2Accuracy >= 80 ? "profit-good" : currentHistory.top2Accuracy >= 65 ? "profit-ok" : "profit-bad"}`;
     profitBox.innerHTML = `
       <div>
-        <span>当前窗口预估</span>
-        <b>${currentTrade.bestSide} ${currentTrade.bestBuckets}：${currentTrade.bestProbability}% - 成本${currentTrade.bestCost} = ${signedNumber(currentTrade.bestEdge)}</b>
+        <span>当前窗口历史命中率</span>
+        <b>Top1 ${currentHistory.top1Accuracy}% · Top2 ${currentHistory.top2Accuracy}% · n=${currentHistory.n}</b>
       </div>
       <div>
-        <span>同城同日期最佳</span>
-        <b>${bestTrade ? `${bestTrade.item.timeNode} · ${bestTrade.bestSide} ${bestTrade.bestBuckets} · 优势${signedNumber(bestTrade.bestEdge)}` : "暂无可比窗口"}</b>
+        <span>同城同日期最佳历史窗口</span>
+        <b>${bestHistory ? `${bestHistory.item.timeNode} · Top1 ${bestHistory.top1Accuracy}% · Top2 ${bestHistory.top2Accuracy}% · n=${bestHistory.n}` : "暂无样本>=6窗口"}</b>
       </div>
-      <em>${bestIsCurrent ? "当前就是最高预估盈利窗口" : "当前不是最高预估盈利窗口，可对比后再做"}</em>
+      <em>${bestIsCurrent ? "当前就是该城市历史命中率最高窗口" : "当前不是该城市历史命中率最高窗口，可考虑等最佳窗口"}</em>
     `;
     template.querySelector(".signal-row").after(profitBox);
   }
