@@ -59,6 +59,8 @@ const timeOrder = [
   "22点到23点",
 ];
 
+const HISTORY_TOP2_THRESHOLD = 85;
+
 const $ = (selector) => document.querySelector(selector);
 
 function cityKey(field) {
@@ -453,7 +455,7 @@ function bestHistoricalForCityDate(item) {
     .filter((candidate) => candidate.date === item.date && cityKey(candidate.expectedField) === key)
     .map(historicalScore)
     .filter(Boolean)
-    .filter((score) => (score.n || 0) >= 6 && (score.sample || 0) >= 6 && (score.top2Accuracy || 0) >= 75)
+    .filter((score) => (score.n || 0) >= 6 && (score.sample || 0) >= 6 && (score.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD)
     .sort((a, b) =>
       b.top2Accuracy - a.top2Accuracy ||
       b.top1Accuracy - a.top1Accuracy ||
@@ -462,9 +464,19 @@ function bestHistoricalForCityDate(item) {
 }
 
 function windowAvailabilityForDate(date) {
-  const expected = timeOrder.filter((time) => !isYesterdayTime(time) && tradeCostStep(time) != null);
+  const allItems = state.data?.probabilityCandidates || [];
+  const availableTimes = new Set(
+    allItems
+      .filter((item) => item.date === date && tradeCostStep(item.timeNode) != null)
+      .map((item) => item.timeNode),
+  );
+  const normalExpected = ["6点到7点", "10点到11点", "14点到15点", "17点到18点", "22点到23点"];
+  const yesterdayExpected = ["昨6点到7点", "昨10点到11点", "昨14点到15点", "昨17点到18点", "昨22点到23点"];
+  const normalCount = normalExpected.filter((time) => availableTimes.has(time)).length;
+  const yesterdayCount = yesterdayExpected.filter((time) => availableTimes.has(time)).length;
+  const expected = normalCount > 0 ? normalExpected : yesterdayExpected;
   const available = new Set(
-    (state.data?.probabilityCandidates || [])
+    allItems
       .filter((item) => item.date === date && tradeCostStep(item.timeNode) != null)
       .map((item) => item.timeNode),
   );
@@ -476,6 +488,35 @@ function windowAvailabilityForDate(date) {
     appearedText: appeared.length ? appeared.join("、") : "无",
     missingText: missing.length ? missing.join("、") : "无",
   };
+}
+
+function missingWindowWatchlist(date, availability) {
+  if (!state.accuracyMap) state.accuracyMap = buildAccuracyMap();
+  const expectedFields = [...new Set((state.data?.probabilityCandidates || []).map((item) => item.expectedField).filter(Boolean))];
+  const rows = [];
+  for (const timeNode of availability.missing || []) {
+    for (const expectedField of expectedFields) {
+      const history = state.accuracyMap.get(accuracyKey(expectedField, timeNode));
+      if (!history || (history.n || 0) < 6 || (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
+      rows.push({
+        expectedField,
+        timeNode,
+        n: history.n || 0,
+        top1Accuracy: history.top1Accuracy || 0,
+        top2Accuracy: history.top2Accuracy || 0,
+        top1Hits: history.top1Hits || 0,
+        top2Hits: history.top2Hits || 0,
+      });
+    }
+  }
+  return rows
+    .sort((a, b) =>
+      b.top2Accuracy - a.top2Accuracy ||
+      b.top1Accuracy - a.top1Accuracy ||
+      (b.n || 0) - (a.n || 0) ||
+      displayCity(a.expectedField).localeCompare(displayCity(b.expectedField))
+    )
+    .slice(0, 8);
 }
 
 function allTradeScoresForDates(dates) {
@@ -1035,7 +1076,7 @@ function renderProfitPicks() {
   for (const item of state.data?.probabilityCandidates || []) {
     if (!dateSet.has(item.date)) continue;
     const score = historicalScore(item);
-    if (!score || (score.n || 0) < 6 || (score.sample || 0) < 6 || (score.top2Accuracy || 0) < 75) continue;
+    if (!score || (score.n || 0) < 6 || (score.sample || 0) < 6 || (score.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
     const key = `${score.item.date}|${cityKey(score.item.expectedField)}`;
     const current = bestByCityDate.get(key);
     const scoreRank = score.top2Accuracy * 10000 + score.top1Accuracy * 100 + (score.n || 0);
@@ -1054,13 +1095,17 @@ function renderProfitPicks() {
     return;
   }
   const grouped = dates
-    .map((date, index) => ({
-      date,
-      label: index === 0 ? "今天" : index === 1 ? "明天" : date,
-      availability: windowAvailabilityForDate(date),
-      picks: picks.filter((pick) => pick.item.date === date),
-    }))
-    .filter((group) => group.picks.length);
+    .map((date, index) => {
+      const availability = windowAvailabilityForDate(date);
+      return {
+        date,
+        label: index === 0 ? "今天" : index === 1 ? "明天" : date,
+        availability,
+        picks: picks.filter((pick) => pick.item.date === date),
+        watchlist: missingWindowWatchlist(date, availability),
+      };
+    })
+    .filter((group) => group.picks.length || group.watchlist.length);
   container.innerHTML = grouped
     .map((group) => `
       <section class="profit-date-group">
@@ -1090,6 +1135,19 @@ function renderProfitPicks() {
             </article>
           `).join("")}
         </div>
+        ${group.watchlist.length ? `
+          <div class="missing-watchlist">
+            <strong>未出窗口提前关注（历史 Top2 ≥ ${HISTORY_TOP2_THRESHOLD}%）</strong>
+            <div>
+              ${group.watchlist.map((item) => `
+                <article>
+                  <b>${displayCity(item.expectedField)} · ${item.timeNode}</b>
+                  <span>历史 Top2 ${item.top2Accuracy}% · Top1 ${item.top1Accuracy}% · n=${item.n}</span>
+                </article>
+              `).join("")}
+            </div>
+          </div>
+        ` : ""}
       </section>
     `)
     .join("");
