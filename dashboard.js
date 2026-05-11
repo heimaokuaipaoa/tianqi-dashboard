@@ -453,7 +453,7 @@ function bestHistoricalForCityDate(item) {
     .filter((candidate) => candidate.date === item.date && cityKey(candidate.expectedField) === key)
     .map(historicalScore)
     .filter(Boolean)
-    .filter((score) => (score.n || 0) >= 6 && (score.sample || 0) >= 6)
+    .filter((score) => (score.n || 0) >= 6 && (score.sample || 0) >= 6 && (score.top2Accuracy || 0) >= 75)
     .sort((a, b) =>
       b.top2Accuracy - a.top2Accuracy ||
       b.top1Accuracy - a.top1Accuracy ||
@@ -1018,7 +1018,7 @@ function renderProfitPicks() {
   for (const item of state.data?.probabilityCandidates || []) {
     if (!dateSet.has(item.date)) continue;
     const score = historicalScore(item);
-    if (!score || (score.n || 0) < 6 || (score.sample || 0) < 6) continue;
+    if (!score || (score.n || 0) < 6 || (score.sample || 0) < 6 || (score.top2Accuracy || 0) < 75) continue;
     const key = `${score.item.date}|${cityKey(score.item.expectedField)}`;
     const current = bestByCityDate.get(key);
     const scoreRank = score.top2Accuracy * 10000 + score.top1Accuracy * 100 + (score.n || 0);
