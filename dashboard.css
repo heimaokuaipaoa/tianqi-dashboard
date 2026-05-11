@@ -197,6 +197,11 @@ input {
   font-size: 13px;
 }
 
+.profit-date-title .strong-count {
+  color: #087443;
+  font-weight: 800;
+}
+
 .profit-date-picks {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
