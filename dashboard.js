@@ -428,8 +428,8 @@ function bestTradeForCityDate(item) {
     .filter((candidate) => candidate.date === item.date && cityKey(candidate.expectedField) === key)
     .map(tradeScore)
     .filter(Boolean)
+    .filter((score) => (score.sample || 0) >= 6)
     .sort((a, b) =>
-      Number((b.sample || 0) >= 6) - Number((a.sample || 0) >= 6) ||
       b.bestEdge - a.bestEdge ||
       (b.sample || 0) - (a.sample || 0)
     )[0] || null;
