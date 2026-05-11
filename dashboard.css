@@ -228,11 +228,42 @@ input {
   font-size: 12px;
 }
 
-.missing-watchlist > div {
+.watch-window-groups {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.watch-window-group {
+  border: 1px solid #f0d99a;
+  border-radius: 8px;
+  background: #fffdf7;
+  padding: 10px;
+}
+
+.watch-window-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.watch-window-title b {
+  color: #7a4c00;
+  font-size: 14px;
+}
+
+.watch-window-title span {
+  color: #946200;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.watch-city-list {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 8px;
-  margin-top: 10px;
 }
 
 .missing-watchlist article {
@@ -970,7 +1001,7 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .missing-watchlist > div {
+  .watch-city-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1007,7 +1038,7 @@ h3 {
     .group-cards,
     .change-picks,
     .profit-date-picks,
-    .missing-watchlist > div,
+    .watch-city-list,
     .edge-picks,
     .holding-picks {
     grid-template-columns: 1fr;
