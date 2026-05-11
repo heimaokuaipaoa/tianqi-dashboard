@@ -59,6 +59,7 @@ const timeOrder = [
   "22点到23点",
 ];
 
+const HISTORY_TOP1_THRESHOLD = 85;
 const HISTORY_TOP2_THRESHOLD = 85;
 
 const $ = (selector) => document.querySelector(selector);
@@ -455,7 +456,12 @@ function bestHistoricalForCityDate(item) {
     .filter((candidate) => candidate.date === item.date && cityKey(candidate.expectedField) === key)
     .map(historicalScore)
     .filter(Boolean)
-    .filter((score) => (score.n || 0) >= 6 && (score.sample || 0) >= 6 && (score.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD)
+    .filter((score) =>
+      (score.n || 0) >= 6 &&
+      (score.sample || 0) >= 6 &&
+      (score.top1Accuracy || 0) >= HISTORY_TOP1_THRESHOLD &&
+      (score.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD
+    )
     .sort((a, b) =>
       b.top2Accuracy - a.top2Accuracy ||
       b.top1Accuracy - a.top1Accuracy ||
@@ -497,7 +503,12 @@ function missingWindowWatchlist(date, availability) {
   for (const timeNode of availability.missing || []) {
     for (const expectedField of expectedFields) {
       const history = state.accuracyMap.get(accuracyKey(expectedField, timeNode));
-      if (!history || (history.n || 0) < 6 || (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
+      if (
+        !history ||
+        (history.n || 0) < 6 ||
+        (history.top1Accuracy || 0) < HISTORY_TOP1_THRESHOLD ||
+        (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD
+      ) continue;
       rows.push({
         expectedField,
         timeNode,
@@ -1076,7 +1087,13 @@ function renderProfitPicks() {
   for (const item of state.data?.probabilityCandidates || []) {
     if (!dateSet.has(item.date)) continue;
     const score = historicalScore(item);
-    if (!score || (score.n || 0) < 6 || (score.sample || 0) < 6 || (score.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
+    if (
+      !score ||
+      (score.n || 0) < 6 ||
+      (score.sample || 0) < 6 ||
+      (score.top1Accuracy || 0) < HISTORY_TOP1_THRESHOLD ||
+      (score.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD
+    ) continue;
     const key = `${score.item.date}|${cityKey(score.item.expectedField)}`;
     const current = bestByCityDate.get(key);
     const scoreRank = score.top2Accuracy * 10000 + score.top1Accuracy * 100 + (score.n || 0);
@@ -1091,7 +1108,7 @@ function renderProfitPicks() {
     )
     .slice(0, 12);
   if (!picks.length) {
-    container.innerHTML = `<div class="profit-empty">当前两天没有历史样本 >= 6 且当前样本 >= 6 的窗口。</div>`;
+    container.innerHTML = `<div class="profit-empty">当前两天没有同时满足 Top1/Top2 历史命中率 >= ${HISTORY_TOP1_THRESHOLD}% 且样本 >= 6 的窗口。</div>`;
     return;
   }
   const grouped = dates
@@ -1112,37 +1129,36 @@ function renderProfitPicks() {
         <div class="profit-date-title">
           <strong>${group.label}</strong>
           <span>${group.date}</span>
-          <em>已出窗口：${group.availability.appearedText}</em>
-          <em class="missing">未出窗口：${group.availability.missingText}</em>
+          <span class="window-summary">已出：${group.availability.appearedText} · 未出：${group.availability.missingText}</span>
         </div>
         <div class="profit-date-picks">
           ${group.picks.map((pick) => `
             <article class="profit-pick ${pick.top2Accuracy >= 80 ? "profit-strong" : pick.top2Accuracy >= 65 ? "profit-watch" : "profit-weak"}">
-              <div>
+              <div class="profit-card-head">
                 <strong>${displayCity(pick.item.expectedField)}</strong>
-                <span>${pick.item.timeNode} · 历史n=${pick.n} · 当前n=${pick.sample}</span>
+                <span>${pick.item.timeNode}</span>
               </div>
               <div class="buy-now">
-                <span>马上看这两个温度</span>
-                <b>买：${topProbabilities(pick.item, 2).map((probability) => `${probability.bucket}（${Math.round((probability.probability || 0) * 100)}%）`).join(" / ")}</b>
-                <em>样本参考：当前n=${pick.sample} · 历史回测n=${pick.n}</em>
+                <span>马上看</span>
+                <b>${topProbabilities(pick.item, 2).map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`).join(" / ")}</b>
               </div>
               <div class="profit-main">
                 <b>历史 Top2 ${pick.top2Accuracy}%</b>
                 <em>Top1 ${pick.top1Accuracy}%</em>
+                <span>当前样本 ${pick.sample} · 回测样本 ${pick.n}</span>
               </div>
-              <small>回测命中：Top1 ${pick.top1Hits}/${pick.n} · Top2 ${pick.top2Hits}/${pick.n}</small>
             </article>
           `).join("")}
         </div>
         ${group.watchlist.length ? `
           <div class="missing-watchlist">
-            <strong>未出窗口提前关注（历史 Top2 ≥ ${HISTORY_TOP2_THRESHOLD}%）</strong>
+            <strong>未出窗口提前关注</strong>
+            <span class="watchlist-note">Top1/Top2 历史命中率均 ≥ ${HISTORY_TOP1_THRESHOLD}%，等窗口出现后再确认当前概率。</span>
             <div>
               ${group.watchlist.map((item) => `
                 <article>
-                  <b>${displayCity(item.expectedField)} · ${item.timeNode}</b>
-                  <span>历史 Top2 ${item.top2Accuracy}% · Top1 ${item.top1Accuracy}% · n=${item.n}</span>
+                  <b>${displayCity(item.expectedField)}</b>
+                  <span>${item.timeNode} · Top2 ${item.top2Accuracy}% · Top1 ${item.top1Accuracy}% · n=${item.n}</span>
                 </article>
               `).join("")}
             </div>
