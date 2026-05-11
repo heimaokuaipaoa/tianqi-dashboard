@@ -166,9 +166,35 @@ input {
 
 .profit-picks {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
   padding: 12px;
+}
+
+.profit-date-group {
+  display: grid;
+  gap: 10px;
+}
+
+.profit-date-title {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 2px 2px 0;
+}
+
+.profit-date-title strong {
+  font-size: 18px;
+}
+
+.profit-date-title span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.profit-date-picks {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
 }
 
 .profit-pick {
@@ -844,7 +870,7 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .profit-picks {
+  .profit-date-picks {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -880,7 +906,7 @@ h3 {
     .summary-grid,
     .group-cards,
     .change-picks,
-    .profit-picks,
+    .profit-date-picks,
     .edge-picks,
     .holding-picks {
     grid-template-columns: 1fr;
