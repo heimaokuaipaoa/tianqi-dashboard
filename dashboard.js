@@ -449,6 +449,19 @@ function historicalScore(item) {
   };
 }
 
+function earlierTimeRank(timeNode) {
+  return tradeCostStep(timeNode) ?? 99;
+}
+
+function compareHistoricalWindow(a, b) {
+  return (
+    (b.top2Accuracy || 0) - (a.top2Accuracy || 0) ||
+    (b.top1Accuracy || 0) - (a.top1Accuracy || 0) ||
+    (b.n || 0) - (a.n || 0) ||
+    earlierTimeRank(a.item?.timeNode || a.timeNode) - earlierTimeRank(b.item?.timeNode || b.timeNode)
+  );
+}
+
 function bestHistoricalForCityDate(item) {
   const key = cityKey(item.expectedField);
   return (state.data?.probabilityCandidates || [])
@@ -460,12 +473,7 @@ function bestHistoricalForCityDate(item) {
       (score.sample || 0) >= 6 &&
       (score.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD
     )
-    .sort((a, b) =>
-      b.top2Accuracy - a.top2Accuracy ||
-      b.top1Accuracy - a.top1Accuracy ||
-      (b.n || 0) - (a.n || 0) ||
-      (tradeCostStep(a.item.timeNode) ?? 99) - (tradeCostStep(b.item.timeNode) ?? 99)
-    )[0] || null;
+    .sort(compareHistoricalWindow)[0] || null;
 }
 
 function windowAvailabilityForDate(date) {
@@ -523,7 +531,7 @@ function missingWindowWatchlist(date, availability) {
       b.top2Accuracy - a.top2Accuracy ||
       b.top1Accuracy - a.top1Accuracy ||
       (b.n || 0) - (a.n || 0) ||
-      (tradeCostStep(a.timeNode) ?? 99) - (tradeCostStep(b.timeNode) ?? 99) ||
+      earlierTimeRank(a.timeNode) - earlierTimeRank(b.timeNode) ||
       displayCity(a.expectedField).localeCompare(displayCity(b.expectedField))
     )
     .slice(0, 8);
@@ -1094,15 +1102,14 @@ function renderProfitPicks() {
     ) continue;
     const key = `${score.item.date}|${cityKey(score.item.expectedField)}`;
     const current = bestByCityDate.get(key);
-    const scoreRank = score.top2Accuracy * 10000 + score.top1Accuracy * 100 + (score.n || 0);
-    if (!current || scoreRank > current.scoreRank) bestByCityDate.set(key, { ...score, scoreRank });
+    if (!current || compareHistoricalWindow(score, current) < 0) bestByCityDate.set(key, score);
   }
   const picks = [...bestByCityDate.values()]
     .sort((a, b) =>
       b.top2Accuracy - a.top2Accuracy ||
       b.top1Accuracy - a.top1Accuracy ||
       (b.n || 0) - (a.n || 0) ||
-      (tradeCostStep(a.item.timeNode) ?? 99) - (tradeCostStep(b.item.timeNode) ?? 99) ||
+      earlierTimeRank(a.item.timeNode) - earlierTimeRank(b.item.timeNode) ||
       displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
     )
     .slice(0, 12);
