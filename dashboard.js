@@ -559,6 +559,26 @@ function groupedWatchlist(items) {
     .sort((a, b) => earlierTimeRank(a.timeNode) - earlierTimeRank(b.timeNode));
 }
 
+function groupedProfitPicks(picks) {
+  const groups = new Map();
+  for (const pick of picks || []) {
+    const timeNode = pick.item?.timeNode || pick.timeNode;
+    if (!groups.has(timeNode)) groups.set(timeNode, []);
+    groups.get(timeNode).push(pick);
+  }
+  return [...groups.entries()]
+    .map(([timeNode, rows]) => ({
+      timeNode,
+      rows: rows.sort((a, b) =>
+        b.top2Accuracy - a.top2Accuracy ||
+        b.top1Accuracy - a.top1Accuracy ||
+        (b.n || 0) - (a.n || 0) ||
+        displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
+      ),
+    }))
+    .sort((a, b) => earlierTimeRank(a.timeNode) - earlierTimeRank(b.timeNode));
+}
+
 function allTradeScoresForDates(dates) {
   const dateSet = new Set(dates.filter(Boolean));
   return (state.data?.probabilityCandidates || [])
@@ -1159,23 +1179,33 @@ function renderProfitPicks() {
           <span class="window-summary">已出：${group.availability.appearedText} · 未出：${group.availability.missingText}</span>
           <span class="window-summary strong-count">已出推荐 ${group.picks.length} · 待出关注 ${group.watchlist.length}</span>
         </div>
-        <div class="profit-date-picks">
-          ${group.picks.map((pick) => `
-            <article class="profit-pick ${pick.top2Accuracy >= 80 ? "profit-strong" : pick.top2Accuracy >= 65 ? "profit-watch" : "profit-weak"}">
-              <div class="profit-card-head">
-                <strong>${displayCity(pick.item.expectedField)}</strong>
-                <span>${pick.item.timeNode}</span>
+        <div class="profit-window-groups">
+          ${groupedProfitPicks(group.picks).map((windowGroup) => `
+            <section class="profit-window-group">
+              <div class="profit-window-title">
+                <b>${windowGroup.timeNode}</b>
+                <span>${windowGroup.rows.length} 个已出推荐</span>
               </div>
-              <div class="buy-now">
-                <span>马上看</span>
-                <b>${topProbabilities(pick.item, 2).map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`).join(" / ")}</b>
+              <div class="profit-date-picks">
+                ${windowGroup.rows.map((pick) => `
+                  <article class="profit-pick ${pick.top2Accuracy >= 80 ? "profit-strong" : pick.top2Accuracy >= 65 ? "profit-watch" : "profit-weak"}">
+                    <div class="profit-card-head">
+                      <strong>${displayCity(pick.item.expectedField)}</strong>
+                      <span>${pick.item.timeNode}</span>
+                    </div>
+                    <div class="buy-now">
+                      <span>马上看</span>
+                      <b>${topProbabilities(pick.item, 2).map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`).join(" / ")}</b>
+                    </div>
+                    <div class="profit-main">
+                      <b>历史 Top2 ${pick.top2Accuracy}%</b>
+                      <em>Top1 ${pick.top1Accuracy}%</em>
+                      <span>当前样本 ${pick.sample} · 回测样本 ${pick.n}</span>
+                    </div>
+                  </article>
+                `).join("")}
               </div>
-              <div class="profit-main">
-                <b>历史 Top2 ${pick.top2Accuracy}%</b>
-                <em>Top1 ${pick.top1Accuracy}%</em>
-                <span>当前样本 ${pick.sample} · 回测样本 ${pick.n}</span>
-              </div>
-            </article>
+            </section>
           `).join("")}
         </div>
         ${group.watchlist.length ? `
