@@ -59,7 +59,6 @@ const timeOrder = [
   "22点到23点",
 ];
 
-const HISTORY_TOP1_THRESHOLD = 85;
 const HISTORY_TOP2_THRESHOLD = 85;
 
 const $ = (selector) => document.querySelector(selector);
@@ -459,7 +458,6 @@ function bestHistoricalForCityDate(item) {
     .filter((score) =>
       (score.n || 0) >= 6 &&
       (score.sample || 0) >= 6 &&
-      (score.top1Accuracy || 0) >= HISTORY_TOP1_THRESHOLD &&
       (score.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD
     )
     .sort((a, b) =>
@@ -506,7 +504,6 @@ function missingWindowWatchlist(date, availability) {
       if (
         !history ||
         (history.n || 0) < 6 ||
-        (history.top1Accuracy || 0) < HISTORY_TOP1_THRESHOLD ||
         (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD
       ) continue;
       rows.push({
@@ -1091,7 +1088,6 @@ function renderProfitPicks() {
       !score ||
       (score.n || 0) < 6 ||
       (score.sample || 0) < 6 ||
-      (score.top1Accuracy || 0) < HISTORY_TOP1_THRESHOLD ||
       (score.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD
     ) continue;
     const key = `${score.item.date}|${cityKey(score.item.expectedField)}`;
@@ -1108,7 +1104,7 @@ function renderProfitPicks() {
     )
     .slice(0, 12);
   if (!picks.length) {
-    container.innerHTML = `<div class="profit-empty">当前两天没有同时满足 Top1/Top2 历史命中率 >= ${HISTORY_TOP1_THRESHOLD}% 且样本 >= 6 的窗口。</div>`;
+    container.innerHTML = `<div class="profit-empty">当前两天没有历史 Top2 命中率 >= ${HISTORY_TOP2_THRESHOLD}% 且样本 >= 6 的窗口。</div>`;
     return;
   }
   const grouped = dates
@@ -1153,7 +1149,7 @@ function renderProfitPicks() {
         ${group.watchlist.length ? `
           <div class="missing-watchlist">
             <strong>未出窗口提前关注</strong>
-            <span class="watchlist-note">Top1/Top2 历史命中率均 ≥ ${HISTORY_TOP1_THRESHOLD}%，等窗口出现后再确认当前概率。</span>
+            <span class="watchlist-note">历史 Top2 命中率 ≥ ${HISTORY_TOP2_THRESHOLD}%，等窗口出现后再确认当前概率。</span>
             <div>
               ${group.watchlist.map((item) => `
                 <article>
