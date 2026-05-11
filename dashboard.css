@@ -179,6 +179,7 @@ input {
   display: flex;
   align-items: baseline;
   gap: 8px;
+  flex-wrap: wrap;
   padding: 2px 2px 0;
 }
 
@@ -189,6 +190,21 @@ input {
 .profit-date-title span {
   color: var(--muted);
   font-size: 13px;
+}
+
+.profit-date-title em {
+  border-radius: 999px;
+  background: #eef3ff;
+  color: #245bdb;
+  padding: 3px 8px;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.profit-date-title em.missing {
+  background: #fff8e8;
+  color: #946200;
 }
 
 .profit-date-picks {
