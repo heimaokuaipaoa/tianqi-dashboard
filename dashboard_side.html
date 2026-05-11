@@ -173,19 +173,19 @@ input {
 
 .profit-picks {
   display: grid;
-  gap: 10px;
-  padding: 12px;
+  gap: 14px;
+  padding: 14px;
 }
 
 .profit-date-group {
   display: grid;
-  gap: 10px;
+  gap: 12px;
 }
 
 .profit-date-title {
   display: flex;
   align-items: baseline;
-  gap: 8px;
+  gap: 10px;
   flex-wrap: wrap;
   padding: 2px 2px 0;
 }
@@ -199,19 +199,9 @@ input {
   font-size: 13px;
 }
 
-.profit-date-title em {
-  border-radius: 999px;
-  background: #eef3ff;
-  color: #245bdb;
-  padding: 3px 8px;
-  font-style: normal;
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.profit-date-title em.missing {
-  background: #fff8e8;
-  color: #946200;
+.profit-date-title .window-summary {
+  color: #475467;
+  font-size: 13px;
 }
 
 .profit-date-picks {
@@ -221,28 +211,34 @@ input {
 }
 
 .missing-watchlist {
-  border: 1px solid #e7b85a;
-  border-left: 4px solid #946200;
+  border: 1px solid var(--line);
+  border-left: 3px solid #98a2b3;
   border-radius: 8px;
-  background: #fffaf0;
+  background: #fafafa;
   padding: 12px;
 }
 
 .missing-watchlist > strong {
-  display: block;
-  margin-bottom: 10px;
-  color: #7a4c00;
+  display: inline-block;
+  margin-right: 8px;
+  color: var(--text);
   font-size: 15px;
+}
+
+.watchlist-note {
+  color: var(--muted);
+  font-size: 12px;
 }
 
 .missing-watchlist > div {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 8px;
+  margin-top: 10px;
 }
 
 .missing-watchlist article {
-  border: 1px solid #edd59d;
+  border: 1px solid var(--line);
   border-radius: 7px;
   background: #fff;
   padding: 8px 10px;
@@ -263,27 +259,38 @@ input {
 
 .profit-pick {
   border: 1px solid var(--line);
-  border-left: 4px solid var(--watch);
+  border-left: 3px solid #98a2b3;
   border-radius: 8px;
-  padding: 12px;
-  background: #fffaf0;
+  padding: 12px 14px;
+  background: #ffffff;
 }
 
 .profit-pick.profit-strong {
-  border-color: #9fd4b8;
+  border-color: #cbd5e1;
   border-left-color: var(--strong);
-  background: #f4fbf7;
+  background: #ffffff;
 }
 
 .profit-pick.profit-weak {
   border-left-color: var(--weak);
-  background: #fff7f7;
+  background: #ffffff;
 }
 
-.profit-pick strong,
-.profit-main b {
+.profit-card-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.profit-pick strong {
   display: block;
   font-size: 17px;
+}
+
+.profit-main b {
+  display: inline;
+  font-size: 15px;
 }
 
 .profit-pick span,
@@ -293,52 +300,43 @@ input {
 }
 
 .profit-main {
-  margin: 9px 0 6px;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
 }
 
 .buy-now {
+  display: grid;
+  gap: 4px;
   margin-top: 10px;
-  border: 2px solid #087443;
+  border: 1px solid #d0d5dd;
   border-radius: 7px;
-  background: #eafaf1;
-  padding: 10px 12px;
+  background: #f8fafc;
+  padding: 10px;
 }
 
 .buy-now span {
   display: block;
-  color: #075437;
+  color: var(--muted);
   font-size: 12px;
-  font-weight: 900;
-  margin-bottom: 3px;
+  font-weight: 700;
 }
 
 .buy-now b {
   display: block;
-  color: #062b1a;
-  font-size: 22px;
+  color: var(--text);
+  font-size: 20px;
   line-height: 1.2;
   overflow-wrap: anywhere;
 }
 
-.buy-now em {
-  display: inline-block;
-  margin-top: 8px;
-  border-radius: 999px;
-  background: #087443;
-  color: #ffffff;
-  padding: 4px 8px;
-  font-style: normal;
-  font-size: 12px;
-  font-weight: 900;
-}
-
 .profit-main em {
-  display: block;
-  margin-top: 2px;
-  color: var(--strong);
+  color: var(--text);
   font-style: normal;
-  font-size: 18px;
-  font-weight: 900;
+  font-size: 15px;
+  font-weight: 800;
   font-variant-numeric: tabular-nums;
 }
 
@@ -1079,7 +1077,7 @@ h3 {
       <section class="profit-board">
         <div class="profit-board-head">
           <h2>历史命中率最高窗口</h2>
-          <span>历史 Top2 >= 85%，样本 >= 6</span>
+          <span>Top1/Top2 历史命中率均 >= 85%，样本 >= 6</span>
         </div>
         <div id="profitPicks" class="profit-picks"></div>
       </section>
@@ -108798,6 +108796,7 @@ const timeOrder = [
   "22点到23点",
 ];
 
+const HISTORY_TOP1_THRESHOLD = 85;
 const HISTORY_TOP2_THRESHOLD = 85;
 
 const $ = (selector) => document.querySelector(selector);
@@ -109194,7 +109193,12 @@ function bestHistoricalForCityDate(item) {
     .filter((candidate) => candidate.date === item.date && cityKey(candidate.expectedField) === key)
     .map(historicalScore)
     .filter(Boolean)
-    .filter((score) => (score.n || 0) >= 6 && (score.sample || 0) >= 6 && (score.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD)
+    .filter((score) =>
+      (score.n || 0) >= 6 &&
+      (score.sample || 0) >= 6 &&
+      (score.top1Accuracy || 0) >= HISTORY_TOP1_THRESHOLD &&
+      (score.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD
+    )
     .sort((a, b) =>
       b.top2Accuracy - a.top2Accuracy ||
       b.top1Accuracy - a.top1Accuracy ||
@@ -109236,7 +109240,12 @@ function missingWindowWatchlist(date, availability) {
   for (const timeNode of availability.missing || []) {
     for (const expectedField of expectedFields) {
       const history = state.accuracyMap.get(accuracyKey(expectedField, timeNode));
-      if (!history || (history.n || 0) < 6 || (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
+      if (
+        !history ||
+        (history.n || 0) < 6 ||
+        (history.top1Accuracy || 0) < HISTORY_TOP1_THRESHOLD ||
+        (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD
+      ) continue;
       rows.push({
         expectedField,
         timeNode,
@@ -109815,7 +109824,13 @@ function renderProfitPicks() {
   for (const item of state.data?.probabilityCandidates || []) {
     if (!dateSet.has(item.date)) continue;
     const score = historicalScore(item);
-    if (!score || (score.n || 0) < 6 || (score.sample || 0) < 6 || (score.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
+    if (
+      !score ||
+      (score.n || 0) < 6 ||
+      (score.sample || 0) < 6 ||
+      (score.top1Accuracy || 0) < HISTORY_TOP1_THRESHOLD ||
+      (score.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD
+    ) continue;
     const key = `${score.item.date}|${cityKey(score.item.expectedField)}`;
     const current = bestByCityDate.get(key);
     const scoreRank = score.top2Accuracy * 10000 + score.top1Accuracy * 100 + (score.n || 0);
@@ -109830,7 +109845,7 @@ function renderProfitPicks() {
     )
     .slice(0, 12);
   if (!picks.length) {
-    container.innerHTML = `<div class="profit-empty">当前两天没有历史样本 >= 6 且当前样本 >= 6 的窗口。</div>`;
+    container.innerHTML = `<div class="profit-empty">当前两天没有同时满足 Top1/Top2 历史命中率 >= ${HISTORY_TOP1_THRESHOLD}% 且样本 >= 6 的窗口。</div>`;
     return;
   }
   const grouped = dates
@@ -109851,37 +109866,36 @@ function renderProfitPicks() {
         <div class="profit-date-title">
           <strong>${group.label}</strong>
           <span>${group.date}</span>
-          <em>已出窗口：${group.availability.appearedText}</em>
-          <em class="missing">未出窗口：${group.availability.missingText}</em>
+          <span class="window-summary">已出：${group.availability.appearedText} · 未出：${group.availability.missingText}</span>
         </div>
         <div class="profit-date-picks">
           ${group.picks.map((pick) => `
             <article class="profit-pick ${pick.top2Accuracy >= 80 ? "profit-strong" : pick.top2Accuracy >= 65 ? "profit-watch" : "profit-weak"}">
-              <div>
+              <div class="profit-card-head">
                 <strong>${displayCity(pick.item.expectedField)}</strong>
-                <span>${pick.item.timeNode} · 历史n=${pick.n} · 当前n=${pick.sample}</span>
+                <span>${pick.item.timeNode}</span>
               </div>
               <div class="buy-now">
-                <span>马上看这两个温度</span>
-                <b>买：${topProbabilities(pick.item, 2).map((probability) => `${probability.bucket}（${Math.round((probability.probability || 0) * 100)}%）`).join(" / ")}</b>
-                <em>样本参考：当前n=${pick.sample} · 历史回测n=${pick.n}</em>
+                <span>马上看</span>
+                <b>${topProbabilities(pick.item, 2).map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`).join(" / ")}</b>
               </div>
               <div class="profit-main">
                 <b>历史 Top2 ${pick.top2Accuracy}%</b>
                 <em>Top1 ${pick.top1Accuracy}%</em>
+                <span>当前样本 ${pick.sample} · 回测样本 ${pick.n}</span>
               </div>
-              <small>回测命中：Top1 ${pick.top1Hits}/${pick.n} · Top2 ${pick.top2Hits}/${pick.n}</small>
             </article>
           `).join("")}
         </div>
         ${group.watchlist.length ? `
           <div class="missing-watchlist">
-            <strong>未出窗口提前关注（历史 Top2 ≥ ${HISTORY_TOP2_THRESHOLD}%）</strong>
+            <strong>未出窗口提前关注</strong>
+            <span class="watchlist-note">Top1/Top2 历史命中率均 ≥ ${HISTORY_TOP1_THRESHOLD}%，等窗口出现后再确认当前概率。</span>
             <div>
               ${group.watchlist.map((item) => `
                 <article>
-                  <b>${displayCity(item.expectedField)} · ${item.timeNode}</b>
-                  <span>历史 Top2 ${item.top2Accuracy}% · Top1 ${item.top1Accuracy}% · n=${item.n}</span>
+                  <b>${displayCity(item.expectedField)}</b>
+                  <span>${item.timeNode} · Top2 ${item.top2Accuracy}% · Top1 ${item.top1Accuracy}% · n=${item.n}</span>
                 </article>
               `).join("")}
             </div>
