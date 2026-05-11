@@ -1057,6 +1057,10 @@ function renderProfitPicks() {
                 <strong>${displayCity(pick.item.expectedField)}</strong>
                 <span>${pick.item.timeNode} · 历史n=${pick.n} · 当前n=${pick.sample}</span>
               </div>
+              <div class="buy-now">
+                <span>可买温度</span>
+                <b>${topProbabilities(pick.item, 2).map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`).join(" / ")}</b>
+              </div>
               <div class="profit-main">
                 <b>历史 Top2 ${pick.top2Accuracy}%</b>
                 <em>Top1 ${pick.top1Accuracy}%</em>
