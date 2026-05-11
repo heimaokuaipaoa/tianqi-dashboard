@@ -1138,6 +1138,7 @@ function renderProfitPicks() {
           <strong>${group.label}</strong>
           <span>${group.date}</span>
           <span class="window-summary">已出：${group.availability.appearedText} · 未出：${group.availability.missingText}</span>
+          <span class="window-summary strong-count">已出推荐 ${group.picks.length} · 待出关注 ${group.watchlist.length}</span>
         </div>
         <div class="profit-date-picks">
           ${group.picks.map((pick) => `
