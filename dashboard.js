@@ -1060,6 +1060,7 @@ function renderProfitPicks() {
               <div class="buy-now">
                 <span>马上看这两个温度</span>
                 <b>买：${topProbabilities(pick.item, 2).map((probability) => `${probability.bucket}（${Math.round((probability.probability || 0) * 100)}%）`).join(" / ")}</b>
+                <em>样本参考：当前n=${pick.sample} · 历史回测n=${pick.n}</em>
               </div>
               <div class="profit-main">
                 <b>历史 Top2 ${pick.top2Accuracy}%</b>
