@@ -109848,8 +109848,7 @@ function renderProfitPicks() {
       (b.n || 0) - (a.n || 0) ||
       earlierTimeRank(a.item.timeNode) - earlierTimeRank(b.item.timeNode) ||
       displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
-    )
-    .slice(0, 12);
+    );
   if (!picks.length) {
     container.innerHTML = `<div class="profit-empty">当前两天没有历史 Top2 命中率 >= ${HISTORY_TOP2_THRESHOLD}% 且样本 >= 6 的窗口。</div>`;
     return;
@@ -109861,7 +109860,7 @@ function renderProfitPicks() {
         date,
         label: index === 0 ? "今天" : index === 1 ? "明天" : date,
         availability,
-        picks: picks.filter((pick) => pick.item.date === date),
+        picks: picks.filter((pick) => pick.item.date === date).slice(0, 16),
         watchlist: missingWindowWatchlist(date, availability),
       };
     })
