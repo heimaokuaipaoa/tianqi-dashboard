@@ -256,6 +256,18 @@ input {
   overflow-wrap: anywhere;
 }
 
+.buy-now em {
+  display: inline-block;
+  margin-top: 8px;
+  border-radius: 999px;
+  background: #087443;
+  color: #ffffff;
+  padding: 4px 8px;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 900;
+}
+
 .profit-main em {
   display: block;
   margin-top: 2px;
