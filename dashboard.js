@@ -456,9 +456,9 @@ function earlierTimeRank(timeNode) {
 function compareHistoricalWindow(a, b) {
   return (
     (b.top2Accuracy || 0) - (a.top2Accuracy || 0) ||
-    (b.top1Accuracy || 0) - (a.top1Accuracy || 0) ||
     (b.n || 0) - (a.n || 0) ||
-    earlierTimeRank(a.item?.timeNode || a.timeNode) - earlierTimeRank(b.item?.timeNode || b.timeNode)
+    earlierTimeRank(a.item?.timeNode || a.timeNode) - earlierTimeRank(b.item?.timeNode || b.timeNode) ||
+    (b.top1Accuracy || 0) - (a.top1Accuracy || 0)
   );
 }
 
@@ -503,7 +503,7 @@ function windowAvailabilityForDate(date) {
   };
 }
 
-function missingWindowWatchlist(date, availability) {
+function missingWindowWatchlist(date, availability, excludedCityKeys = new Set()) {
   if (!state.accuracyMap) state.accuracyMap = buildAccuracyMap();
   const knownCities = new Set((state.data?.probabilityCandidates || []).map((item) => cityKey(item.expectedField)).filter(Boolean));
   const validCurrentKeys = new Set(
@@ -511,15 +511,16 @@ function missingWindowWatchlist(date, availability) {
       .filter((item) => item.date === date && (item.modelSampleSize || 0) >= 6)
       .map((item) => accuracyKey(item.expectedField, item.timeNode)),
   );
-  const rows = [];
+  const bestByCity = new Map();
   const seen = new Set();
   for (const history of state.accuracy?.summary || []) {
-    if (!knownCities.has(cityKey(history.expectedField))) continue;
+    const city = cityKey(history.expectedField);
+    if (!knownCities.has(city) || excludedCityKeys.has(city)) continue;
     if ((history.n || 0) < 6 || (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
     const key = accuracyKey(history.expectedField, history.timeNode);
     if (validCurrentKeys.has(key) || seen.has(key)) continue;
     seen.add(key);
-    rows.push({
+    const row = {
       expectedField: history.expectedField,
       timeNode: history.timeNode,
       n: history.n || 0,
@@ -527,14 +528,16 @@ function missingWindowWatchlist(date, availability) {
       top2Accuracy: history.top2Accuracy || 0,
       top1Hits: history.top1Hits || 0,
       top2Hits: history.top2Hits || 0,
-    });
+    };
+    const current = bestByCity.get(city);
+    if (!current || compareHistoricalWindow(row, current) < 0) bestByCity.set(city, row);
   }
-  return rows
+  return [...bestByCity.values()]
     .sort((a, b) =>
       earlierTimeRank(a.timeNode) - earlierTimeRank(b.timeNode) ||
       b.top2Accuracy - a.top2Accuracy ||
-      b.top1Accuracy - a.top1Accuracy ||
       (b.n || 0) - (a.n || 0) ||
+      b.top1Accuracy - a.top1Accuracy ||
       displayCity(a.expectedField).localeCompare(displayCity(b.expectedField))
     )
     .slice(0, 16);
@@ -551,8 +554,8 @@ function groupedWatchlist(items) {
       timeNode,
       rows: rows.sort((a, b) =>
         b.top2Accuracy - a.top2Accuracy ||
-        b.top1Accuracy - a.top1Accuracy ||
         (b.n || 0) - (a.n || 0) ||
+        b.top1Accuracy - a.top1Accuracy ||
         displayCity(a.expectedField).localeCompare(displayCity(b.expectedField))
       ),
     }))
@@ -571,8 +574,8 @@ function groupedProfitPicks(picks) {
       timeNode,
       rows: rows.sort((a, b) =>
         b.top2Accuracy - a.top2Accuracy ||
-        b.top1Accuracy - a.top1Accuracy ||
         (b.n || 0) - (a.n || 0) ||
+        b.top1Accuracy - a.top1Accuracy ||
         displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
       ),
     }))
@@ -1149,27 +1152,30 @@ function renderProfitPicks() {
   const picks = [...bestByCityDate.values()]
     .sort((a, b) =>
       b.top2Accuracy - a.top2Accuracy ||
-      b.top1Accuracy - a.top1Accuracy ||
       (b.n || 0) - (a.n || 0) ||
       earlierTimeRank(a.item.timeNode) - earlierTimeRank(b.item.timeNode) ||
+      b.top1Accuracy - a.top1Accuracy ||
       displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
     );
-  if (!picks.length) {
-    container.innerHTML = `<div class="profit-empty">当前两天没有历史 Top2 命中率 >= ${HISTORY_TOP2_THRESHOLD}% 且样本 >= 6 的窗口。</div>`;
-    return;
-  }
   const grouped = dates
     .map((date, index) => {
       const availability = windowAvailabilityForDate(date);
+      const allDatePicks = picks.filter((pick) => pick.item.date === date);
+      const shownPicks = allDatePicks.slice(0, 16);
+      const issuedCityKeys = new Set(allDatePicks.map((pick) => cityKey(pick.item.expectedField)));
       return {
         date,
         label: index === 0 ? "今天" : index === 1 ? "明天" : date,
         availability,
-        picks: picks.filter((pick) => pick.item.date === date).slice(0, 16),
-        watchlist: missingWindowWatchlist(date, availability),
+        picks: shownPicks,
+        watchlist: missingWindowWatchlist(date, availability, issuedCityKeys),
       };
     })
     .filter((group) => group.picks.length || group.watchlist.length);
+  if (!grouped.length) {
+    container.innerHTML = `<div class="profit-empty">当前两天没有历史 Top2 命中率 >= ${HISTORY_TOP2_THRESHOLD}% 且样本 >= 6 的窗口。</div>`;
+    return;
+  }
   container.innerHTML = grouped
     .map((group) => `
       <section class="profit-date-group">
