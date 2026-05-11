@@ -63855,7 +63855,7 @@ function tradeScore(item) {
   const top1Probability = Math.round((top[0].probability || 0) * 100);
   const top2Probability = Math.round(((top[0]?.probability || 0) + (top[1]?.probability || 0)) * 100);
   const top1Cost = 40 + step * 2;
-  const top2Cost = 65 + step * 3;
+  const top2Cost = 65 + step * 2;
   const top1Edge = top1Probability - top1Cost;
   const top2Edge = top.length >= 2 ? top2Probability - top2Cost : -999;
   const bestSide = top1Edge >= top2Edge ? "Top1" : "Top2";
