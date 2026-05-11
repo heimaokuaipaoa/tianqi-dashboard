@@ -135,6 +135,7 @@ input {
 }
 
 .change-board,
+.profit-board,
 .edge-board,
 .hold-board {
   background: #ffffff;
@@ -144,6 +145,7 @@ input {
 }
 
 .change-board-head,
+.profit-board-head,
 .edge-board-head,
 .hold-board-head {
   display: flex;
@@ -155,10 +157,68 @@ input {
 }
 
 .change-board-head span,
+.profit-board-head span,
 .edge-board-head span,
 .hold-board-head span {
   color: var(--muted);
   font-size: 13px;
+}
+
+.profit-picks {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  padding: 12px;
+}
+
+.profit-pick {
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--watch);
+  border-radius: 8px;
+  padding: 12px;
+  background: #fffaf0;
+}
+
+.profit-pick.profit-strong {
+  border-color: #9fd4b8;
+  border-left-color: var(--strong);
+  background: #f4fbf7;
+}
+
+.profit-pick.profit-weak {
+  border-left-color: var(--weak);
+  background: #fff7f7;
+}
+
+.profit-pick strong,
+.profit-main b {
+  display: block;
+  font-size: 17px;
+}
+
+.profit-pick span,
+.profit-pick small {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.profit-main {
+  margin: 9px 0 6px;
+}
+
+.profit-main em {
+  display: block;
+  margin-top: 2px;
+  color: var(--strong);
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+}
+
+.profit-empty {
+  color: var(--muted);
+  padding: 18px;
 }
 
 .change-picks {
@@ -529,6 +589,7 @@ h3 {
 .sample-warning,
 .next-window-warning,
 .outlier-warning,
+.profit-hint,
 .hold-advice-box {
   margin: -2px 0 12px;
   border: 1px solid #e7b85a;
@@ -560,6 +621,49 @@ h3 {
   border-left-color: #2563eb;
   background: #eff6ff;
   color: #1e3a8a;
+}
+
+.profit-hint {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 8px 10px;
+  border-color: #9fd4b8;
+  border-left-color: var(--strong);
+  background: #f4fbf7;
+  color: var(--text);
+}
+
+.profit-hint.profit-ok {
+  border-color: #e7b85a;
+  border-left-color: var(--watch);
+  background: #fffaf0;
+}
+
+.profit-hint.profit-bad {
+  border-color: #ef9a9a;
+  border-left-color: var(--weak);
+  background: #fff7f7;
+}
+
+.profit-hint span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.profit-hint b {
+  display: block;
+  margin-top: 2px;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.profit-hint em {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-style: normal;
+  font-weight: 800;
 }
 
 .hold-advice-box {
@@ -740,6 +844,10 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .profit-picks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .holding-picks {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -769,11 +877,16 @@ h3 {
   }
 
   .cards,
-  .summary-grid,
-  .group-cards,
-  .change-picks,
-  .edge-picks,
-  .holding-picks {
+    .summary-grid,
+    .group-cards,
+    .change-picks,
+    .profit-picks,
+    .edge-picks,
+    .holding-picks {
+    grid-template-columns: 1fr;
+  }
+
+  .profit-hint {
     grid-template-columns: 1fr;
   }
 
