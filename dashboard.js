@@ -505,26 +505,29 @@ function windowAvailabilityForDate(date) {
 
 function missingWindowWatchlist(date, availability) {
   if (!state.accuracyMap) state.accuracyMap = buildAccuracyMap();
-  const expectedFields = [...new Set((state.data?.probabilityCandidates || []).map((item) => item.expectedField).filter(Boolean))];
+  const knownCities = new Set((state.data?.probabilityCandidates || []).map((item) => cityKey(item.expectedField)).filter(Boolean));
+  const validCurrentKeys = new Set(
+    (state.data?.probabilityCandidates || [])
+      .filter((item) => item.date === date && (item.modelSampleSize || 0) >= 6)
+      .map((item) => accuracyKey(item.expectedField, item.timeNode)),
+  );
   const rows = [];
-  for (const timeNode of availability.missing || []) {
-    for (const expectedField of expectedFields) {
-      const history = state.accuracyMap.get(accuracyKey(expectedField, timeNode));
-      if (
-        !history ||
-        (history.n || 0) < 6 ||
-        (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD
-      ) continue;
-      rows.push({
-        expectedField,
-        timeNode,
-        n: history.n || 0,
-        top1Accuracy: history.top1Accuracy || 0,
-        top2Accuracy: history.top2Accuracy || 0,
-        top1Hits: history.top1Hits || 0,
-        top2Hits: history.top2Hits || 0,
-      });
-    }
+  const seen = new Set();
+  for (const history of state.accuracy?.summary || []) {
+    if (!knownCities.has(cityKey(history.expectedField))) continue;
+    if ((history.n || 0) < 6 || (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
+    const key = accuracyKey(history.expectedField, history.timeNode);
+    if (validCurrentKeys.has(key) || seen.has(key)) continue;
+    seen.add(key);
+    rows.push({
+      expectedField: history.expectedField,
+      timeNode: history.timeNode,
+      n: history.n || 0,
+      top1Accuracy: history.top1Accuracy || 0,
+      top2Accuracy: history.top2Accuracy || 0,
+      top1Hits: history.top1Hits || 0,
+      top2Hits: history.top2Hits || 0,
+    });
   }
   return rows
     .sort((a, b) =>
@@ -534,7 +537,7 @@ function missingWindowWatchlist(date, availability) {
       earlierTimeRank(a.timeNode) - earlierTimeRank(b.timeNode) ||
       displayCity(a.expectedField).localeCompare(displayCity(b.expectedField))
     )
-    .slice(0, 8);
+    .slice(0, 16);
 }
 
 function allTradeScoresForDates(dates) {
@@ -1157,8 +1160,8 @@ function renderProfitPicks() {
         </div>
         ${group.watchlist.length ? `
           <div class="missing-watchlist">
-            <strong>未出窗口提前关注</strong>
-            <span class="watchlist-note">历史 Top2 命中率 ≥ ${HISTORY_TOP2_THRESHOLD}%，等窗口出现后再确认当前概率。</span>
+            <strong>未出/待出窗口提前关注</strong>
+            <span class="watchlist-note">历史 Top2 命中率 ≥ ${HISTORY_TOP2_THRESHOLD}%，当前还没有有效样本，等数据出来后再确认概率。</span>
             <div>
               ${group.watchlist.map((item) => `
                 <article>
