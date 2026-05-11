@@ -531,13 +531,32 @@ function missingWindowWatchlist(date, availability) {
   }
   return rows
     .sort((a, b) =>
+      earlierTimeRank(a.timeNode) - earlierTimeRank(b.timeNode) ||
       b.top2Accuracy - a.top2Accuracy ||
       b.top1Accuracy - a.top1Accuracy ||
       (b.n || 0) - (a.n || 0) ||
-      earlierTimeRank(a.timeNode) - earlierTimeRank(b.timeNode) ||
       displayCity(a.expectedField).localeCompare(displayCity(b.expectedField))
     )
     .slice(0, 16);
+}
+
+function groupedWatchlist(items) {
+  const groups = new Map();
+  for (const item of items || []) {
+    if (!groups.has(item.timeNode)) groups.set(item.timeNode, []);
+    groups.get(item.timeNode).push(item);
+  }
+  return [...groups.entries()]
+    .map(([timeNode, rows]) => ({
+      timeNode,
+      rows: rows.sort((a, b) =>
+        b.top2Accuracy - a.top2Accuracy ||
+        b.top1Accuracy - a.top1Accuracy ||
+        (b.n || 0) - (a.n || 0) ||
+        displayCity(a.expectedField).localeCompare(displayCity(b.expectedField))
+      ),
+    }))
+    .sort((a, b) => earlierTimeRank(a.timeNode) - earlierTimeRank(b.timeNode));
 }
 
 function allTradeScoresForDates(dates) {
@@ -1163,12 +1182,22 @@ function renderProfitPicks() {
           <div class="missing-watchlist">
             <strong>未出/待出窗口提前关注</strong>
             <span class="watchlist-note">历史 Top2 命中率 ≥ ${HISTORY_TOP2_THRESHOLD}%，当前还没有有效样本，等数据出来后再确认概率。</span>
-            <div>
-              ${group.watchlist.map((item) => `
-                <article>
-                  <b>${displayCity(item.expectedField)}</b>
-                  <span>${item.timeNode} · Top2 ${item.top2Accuracy}% · Top1 ${item.top1Accuracy}% · n=${item.n}</span>
-                </article>
+            <div class="watch-window-groups">
+              ${groupedWatchlist(group.watchlist).map((windowGroup) => `
+                <section class="watch-window-group">
+                  <div class="watch-window-title">
+                    <b>${windowGroup.timeNode}</b>
+                    <span>${windowGroup.rows.length} 个</span>
+                  </div>
+                  <div class="watch-city-list">
+                    ${windowGroup.rows.map((item) => `
+                      <article>
+                        <b>${displayCity(item.expectedField)}</b>
+                        <span>Top2 ${item.top2Accuracy}% · Top1 ${item.top1Accuracy}% · n=${item.n}</span>
+                      </article>
+                    `).join("")}
+                  </div>
+                </section>
               `).join("")}
             </div>
           </div>
