@@ -166,19 +166,19 @@ input {
 
 .profit-picks {
   display: grid;
-  gap: 10px;
-  padding: 12px;
+  gap: 14px;
+  padding: 14px;
 }
 
 .profit-date-group {
   display: grid;
-  gap: 10px;
+  gap: 12px;
 }
 
 .profit-date-title {
   display: flex;
   align-items: baseline;
-  gap: 8px;
+  gap: 10px;
   flex-wrap: wrap;
   padding: 2px 2px 0;
 }
@@ -192,19 +192,9 @@ input {
   font-size: 13px;
 }
 
-.profit-date-title em {
-  border-radius: 999px;
-  background: #eef3ff;
-  color: #245bdb;
-  padding: 3px 8px;
-  font-style: normal;
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.profit-date-title em.missing {
-  background: #fff8e8;
-  color: #946200;
+.profit-date-title .window-summary {
+  color: #475467;
+  font-size: 13px;
 }
 
 .profit-date-picks {
@@ -214,28 +204,34 @@ input {
 }
 
 .missing-watchlist {
-  border: 1px solid #e7b85a;
-  border-left: 4px solid #946200;
+  border: 1px solid var(--line);
+  border-left: 3px solid #98a2b3;
   border-radius: 8px;
-  background: #fffaf0;
+  background: #fafafa;
   padding: 12px;
 }
 
 .missing-watchlist > strong {
-  display: block;
-  margin-bottom: 10px;
-  color: #7a4c00;
+  display: inline-block;
+  margin-right: 8px;
+  color: var(--text);
   font-size: 15px;
+}
+
+.watchlist-note {
+  color: var(--muted);
+  font-size: 12px;
 }
 
 .missing-watchlist > div {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 8px;
+  margin-top: 10px;
 }
 
 .missing-watchlist article {
-  border: 1px solid #edd59d;
+  border: 1px solid var(--line);
   border-radius: 7px;
   background: #fff;
   padding: 8px 10px;
@@ -256,27 +252,38 @@ input {
 
 .profit-pick {
   border: 1px solid var(--line);
-  border-left: 4px solid var(--watch);
+  border-left: 3px solid #98a2b3;
   border-radius: 8px;
-  padding: 12px;
-  background: #fffaf0;
+  padding: 12px 14px;
+  background: #ffffff;
 }
 
 .profit-pick.profit-strong {
-  border-color: #9fd4b8;
+  border-color: #cbd5e1;
   border-left-color: var(--strong);
-  background: #f4fbf7;
+  background: #ffffff;
 }
 
 .profit-pick.profit-weak {
   border-left-color: var(--weak);
-  background: #fff7f7;
+  background: #ffffff;
 }
 
-.profit-pick strong,
-.profit-main b {
+.profit-card-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.profit-pick strong {
   display: block;
   font-size: 17px;
+}
+
+.profit-main b {
+  display: inline;
+  font-size: 15px;
 }
 
 .profit-pick span,
@@ -286,52 +293,43 @@ input {
 }
 
 .profit-main {
-  margin: 9px 0 6px;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
 }
 
 .buy-now {
+  display: grid;
+  gap: 4px;
   margin-top: 10px;
-  border: 2px solid #087443;
+  border: 1px solid #d0d5dd;
   border-radius: 7px;
-  background: #eafaf1;
-  padding: 10px 12px;
+  background: #f8fafc;
+  padding: 10px;
 }
 
 .buy-now span {
   display: block;
-  color: #075437;
+  color: var(--muted);
   font-size: 12px;
-  font-weight: 900;
-  margin-bottom: 3px;
+  font-weight: 700;
 }
 
 .buy-now b {
   display: block;
-  color: #062b1a;
-  font-size: 22px;
+  color: var(--text);
+  font-size: 20px;
   line-height: 1.2;
   overflow-wrap: anywhere;
 }
 
-.buy-now em {
-  display: inline-block;
-  margin-top: 8px;
-  border-radius: 999px;
-  background: #087443;
-  color: #ffffff;
-  padding: 4px 8px;
-  font-style: normal;
-  font-size: 12px;
-  font-weight: 900;
-}
-
 .profit-main em {
-  display: block;
-  margin-top: 2px;
-  color: var(--strong);
+  color: var(--text);
   font-style: normal;
-  font-size: 18px;
-  font-weight: 900;
+  font-size: 15px;
+  font-weight: 800;
   font-variant-numeric: tabular-nums;
 }
 
