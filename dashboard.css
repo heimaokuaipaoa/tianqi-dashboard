@@ -208,6 +208,38 @@ input {
   gap: 10px;
 }
 
+.profit-window-groups {
+  display: grid;
+  gap: 12px;
+}
+
+.profit-window-group {
+  border: 1px solid #d8e3f4;
+  border-radius: 8px;
+  background: #fbfdff;
+  padding: 10px;
+}
+
+.profit-window-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding: 0 2px;
+}
+
+.profit-window-title b {
+  color: #175cd3;
+  font-size: 15px;
+}
+
+.profit-window-title span {
+  color: #475467;
+  font-size: 12px;
+  font-weight: 800;
+}
+
 .missing-watchlist {
   border: 1px solid #f0d99a;
   border-left: 3px solid #b7791f;
