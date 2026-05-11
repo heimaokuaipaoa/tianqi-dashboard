@@ -985,19 +985,36 @@ function renderProfitPicks() {
     container.innerHTML = `<div class="profit-empty">当前两天没有样本 >= 6 的收益窗口。</div>`;
     return;
   }
-  container.innerHTML = picks
-    .map((pick) => `
-      <article class="profit-pick ${pick.bestEdge >= 20 ? "profit-strong" : pick.bestEdge >= 8 ? "profit-watch" : "profit-weak"}">
-        <div>
-          <strong>${displayCity(pick.item.expectedField)}</strong>
-          <span>${pick.item.date} · ${pick.item.timeNode} · n=${pick.sample}</span>
+  const grouped = dates
+    .map((date, index) => ({
+      date,
+      label: index === 0 ? "今天" : index === 1 ? "明天" : date,
+      picks: picks.filter((pick) => pick.item.date === date),
+    }))
+    .filter((group) => group.picks.length);
+  container.innerHTML = grouped
+    .map((group) => `
+      <section class="profit-date-group">
+        <div class="profit-date-title">
+          <strong>${group.label}</strong>
+          <span>${group.date}</span>
         </div>
-        <div class="profit-main">
-          <b>${pick.bestSide} ${pick.bestBuckets}</b>
-          <em>${pick.bestProbability}% - 成本${pick.bestCost} = ${signedNumber(pick.bestEdge)}</em>
+        <div class="profit-date-picks">
+          ${group.picks.map((pick) => `
+            <article class="profit-pick ${pick.bestEdge >= 20 ? "profit-strong" : pick.bestEdge >= 8 ? "profit-watch" : "profit-weak"}">
+              <div>
+                <strong>${displayCity(pick.item.expectedField)}</strong>
+                <span>${pick.item.timeNode} · n=${pick.sample}</span>
+              </div>
+              <div class="profit-main">
+                <b>${pick.bestSide} ${pick.bestBuckets}</b>
+                <em>${pick.bestProbability}% - 成本${pick.bestCost} = ${signedNumber(pick.bestEdge)}</em>
+              </div>
+              <small>Top1 ${pick.top1Bucket}：${pick.top1Probability}% / 成本${pick.top1Cost} · Top2 ${pick.top2Buckets}：${pick.top2Probability}% / 成本${pick.top2Cost}</small>
+            </article>
+          `).join("")}
         </div>
-        <small>Top1 ${pick.top1Bucket}：${pick.top1Probability}% / 成本${pick.top1Cost} · Top2 ${pick.top2Buckets}：${pick.top2Probability}% / 成本${pick.top2Cost}</small>
-      </article>
+      </section>
     `)
     .join("");
 }
