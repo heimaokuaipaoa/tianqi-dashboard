@@ -173,9 +173,35 @@ input {
 
 .profit-picks {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
   padding: 12px;
+}
+
+.profit-date-group {
+  display: grid;
+  gap: 10px;
+}
+
+.profit-date-title {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 2px 2px 0;
+}
+
+.profit-date-title strong {
+  font-size: 18px;
+}
+
+.profit-date-title span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.profit-date-picks {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
 }
 
 .profit-pick {
@@ -851,7 +877,7 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .profit-picks {
+  .profit-date-picks {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -887,7 +913,7 @@ h3 {
     .summary-grid,
     .group-cards,
     .change-picks,
-    .profit-picks,
+    .profit-date-picks,
     .edge-picks,
     .holding-picks {
     grid-template-columns: 1fr;
@@ -64429,19 +64455,36 @@ function renderProfitPicks() {
     container.innerHTML = `<div class="profit-empty">当前两天没有样本 >= 6 的收益窗口。</div>`;
     return;
   }
-  container.innerHTML = picks
-    .map((pick) => `
-      <article class="profit-pick ${pick.bestEdge >= 20 ? "profit-strong" : pick.bestEdge >= 8 ? "profit-watch" : "profit-weak"}">
-        <div>
-          <strong>${displayCity(pick.item.expectedField)}</strong>
-          <span>${pick.item.date} · ${pick.item.timeNode} · n=${pick.sample}</span>
+  const grouped = dates
+    .map((date, index) => ({
+      date,
+      label: index === 0 ? "今天" : index === 1 ? "明天" : date,
+      picks: picks.filter((pick) => pick.item.date === date),
+    }))
+    .filter((group) => group.picks.length);
+  container.innerHTML = grouped
+    .map((group) => `
+      <section class="profit-date-group">
+        <div class="profit-date-title">
+          <strong>${group.label}</strong>
+          <span>${group.date}</span>
         </div>
-        <div class="profit-main">
-          <b>${pick.bestSide} ${pick.bestBuckets}</b>
-          <em>${pick.bestProbability}% - 成本${pick.bestCost} = ${signedNumber(pick.bestEdge)}</em>
+        <div class="profit-date-picks">
+          ${group.picks.map((pick) => `
+            <article class="profit-pick ${pick.bestEdge >= 20 ? "profit-strong" : pick.bestEdge >= 8 ? "profit-watch" : "profit-weak"}">
+              <div>
+                <strong>${displayCity(pick.item.expectedField)}</strong>
+                <span>${pick.item.timeNode} · n=${pick.sample}</span>
+              </div>
+              <div class="profit-main">
+                <b>${pick.bestSide} ${pick.bestBuckets}</b>
+                <em>${pick.bestProbability}% - 成本${pick.bestCost} = ${signedNumber(pick.bestEdge)}</em>
+              </div>
+              <small>Top1 ${pick.top1Bucket}：${pick.top1Probability}% / 成本${pick.top1Cost} · Top2 ${pick.top2Buckets}：${pick.top2Probability}% / 成本${pick.top2Cost}</small>
+            </article>
+          `).join("")}
         </div>
-        <small>Top1 ${pick.top1Bucket}：${pick.top1Probability}% / 成本${pick.top1Cost} · Top2 ${pick.top2Buckets}：${pick.top2Probability}% / 成本${pick.top2Cost}</small>
-      </article>
+      </section>
     `)
     .join("");
 }
