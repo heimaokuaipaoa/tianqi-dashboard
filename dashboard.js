@@ -464,6 +464,8 @@ function historicalScore(item) {
       top1Hits: history.top1Hits,
       top2Hits: history.top2Hits,
       optimizedModelLabel: history.optimizedModelLabel,
+      tradableBestWindow: item.optimizedWindowTradableBest !== false,
+      tradeCutoffReason: item.optimizedWindowCutoffReason || "",
     };
   }
   const history = historicalAccuracy(item);
@@ -474,9 +476,11 @@ function historicalScore(item) {
     n: history.n || 0,
     sample: item.modelSampleSize || 0,
     top1Accuracy: history.top1Accuracy || 0,
-    top2Accuracy: history.top2Accuracy || 0,
-    top1Hits: history.top1Hits || 0,
-    top2Hits: history.top2Hits || 0,
+      top2Accuracy: history.top2Accuracy || 0,
+      top1Hits: history.top1Hits || 0,
+      top2Hits: history.top2Hits || 0,
+      tradableBestWindow: true,
+      tradeCutoffReason: "",
   };
 }
 
@@ -502,6 +506,7 @@ function bestHistoricalForCityDate(item) {
     .filter((score) =>
       (score.n || 0) >= 6 &&
       (score.sample || 0) >= 6 &&
+      score.tradableBestWindow !== false &&
       (score.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD
     )
     .sort(compareHistoricalWindow)[0] || null;
@@ -554,12 +559,15 @@ function missingWindowWatchlist(date, availability, excludedCityKeys = new Set()
       top1Hits: window.top1Hits || 0,
       top2Hits: window.top2Hits || 0,
       optimizedModelLabel: optimization.configLabel || "",
+      tradableBestWindow: window.tradableBestWindow !== false,
+      tradeCutoffReason: window.tradeCutoffReason || "",
     }))
   );
   const sourceHistoryRows = optimizedHistoryRows.length ? optimizedHistoryRows : (state.accuracy?.summary || []);
   for (const history of sourceHistoryRows) {
     const city = cityKey(history.expectedField);
     if (!knownCities.has(city) || excludedCityKeys.has(city)) continue;
+    if (history.tradableBestWindow === false) continue;
     if ((history.n || 0) < 6 || (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
     const key = accuracyKey(history.expectedField, history.timeNode);
     if (validCurrentKeys.has(key) || seen.has(key)) continue;
@@ -1405,6 +1413,7 @@ function renderProfitPicks() {
       !score ||
       (score.n || 0) < 6 ||
       (score.sample || 0) < 6 ||
+      score.tradableBestWindow === false ||
       (score.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD
     ) continue;
     const key = `${score.item.date}|${cityKey(score.item.expectedField)}`;
@@ -1599,7 +1608,7 @@ function renderCardHtml(item) {
       <em>${bestIsCurrent ? "当前就是该城市历史命中率最高窗口" : "当前不是该城市历史命中率最高窗口，可考虑等最佳窗口"}</em>
     `;
     const modelLine = document.createElement("div");
-    modelLine.innerHTML = `<span>城市专属模型</span><b>${item.optimizedModelLabel || "-"} · 最强窗口 ${item.optimizedBestTimeNode || "-"}</b>`;
+    modelLine.innerHTML = `<span>城市专属模型</span><b>${item.optimizedModelLabel || "-"} · 最强可交易窗口 ${item.optimizedBestTimeNode || "-"}</b>`;
     profitBox.insertBefore(modelLine, profitBox.querySelector("em"));
     template.querySelector(".signal-row").after(profitBox);
   }
