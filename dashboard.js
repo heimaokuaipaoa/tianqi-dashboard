@@ -1563,6 +1563,14 @@ function renderCardHtml(item) {
     `;
     template.querySelector(".signal-row").after(profitBox);
   }
+  if ((item.temperatureBandWeight || 0) > 0) {
+    const hint = document.createElement("div");
+    hint.className = "temperature-band-hint";
+    const meanText = item.temperatureBandMeanResidual == null ? "-" : signedNumber(item.temperatureBandMeanResidual);
+    const medianText = item.temperatureBandMedianResidual == null ? "-" : signedNumber(item.temperatureBandMedianResidual);
+    hint.textContent = `温度段修正：${item.temperatureBand} · ${item.temperatureBandLevel} · n=${item.temperatureBandSampleSize || 0} · 平均${meanText} · 中位${medianText} · 权重${Math.round((item.temperatureBandWeight || 0) * 100)}%`;
+    template.querySelector(".signal-row").after(hint);
+  }
   if (modelN < 6) {
     const warning = document.createElement("div");
     warning.className = "sample-warning";
