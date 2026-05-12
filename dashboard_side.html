@@ -109503,6 +109503,60 @@ function probabilityByBucket(item, bucket) {
   return match?.probability || 0;
 }
 
+function stopLossSignal(item, holding, context) {
+  const span = bucketSpan({ bucket: holding.bucket });
+  if (!span || item.predicted == null || holding.purchaseItem?.predicted == null) return null;
+
+  const unit = item.unit || holding.purchaseItem.unit || "C";
+  const isFahrenheit = unit === "F";
+  const predictedRise = item.predicted - holding.purchaseItem.predicted;
+  const overUpper = item.predicted - span.max;
+  const dangerOver = isFahrenheit ? 1 : 0.7;
+  const meaningfulRise = predictedRise >= (isFahrenheit ? 1 : 0.4);
+  const top = topProbabilities(item, 2);
+  const topMin = top.length ? Math.min(...top.map(bucketSortValue)) : null;
+  const higherTop = top.some((probability) =>
+    bucketSortValue(probability) > span.max &&
+    (probability.probability || 0) >= 0.2
+  );
+  const topShiftedAbove = topMin != null && topMin > span.max;
+  const probabilityDrop = (context.purchaseProbability || 0) - (context.currentProbability || 0);
+
+  if (topShiftedAbove) {
+    return {
+      status: "danger",
+      action: "考虑止损",
+      reason: `新Top2已经整体上移到 ${top.map((probability) => probability.bucket).join("/")}，原持仓 ${holding.bucket} 已落到下方`,
+    };
+  }
+
+  if ((context.rank == null || context.rank > 2) && probabilityDrop >= 0.15) {
+    return {
+      status: "danger",
+      action: "考虑止损",
+      reason: `原温度从 ${Math.round((context.purchaseProbability || 0) * 100)}% 降到 ${Math.round((context.currentProbability || 0) * 100)}%，且已不在当前Top2`,
+    };
+  }
+
+  if (overUpper >= dangerOver && (meaningfulRise || higherTop)) {
+    return {
+      status: "danger",
+      action: "考虑减仓",
+      reason: `当前预计 ${item.predicted} 已明显高过持仓档 ${holding.bucket}，从买入窗口已上移 ${round(predictedRise, 2)}`,
+    };
+  }
+
+  if (overUpper >= 0 && meaningfulRise && higherTop) {
+    return {
+      status: "observe",
+      action: "警惕上破",
+      reason: `当前预计 ${item.predicted} 已顶到 ${holding.bucket} 上沿，且更高温度进入Top2`,
+    };
+  }
+
+  return null;
+}
+
 function topSetDelta(a, b) {
   const buckets = new Set([
     ...topProbabilities(a, 2).map((probability) => String(probability.bucket)),
@@ -109575,6 +109629,13 @@ function holdingAdvice(item, holding) {
   const nextRank = nextItem ? rankOfBucket(nextItem, holding.bucket) : null;
   const risk = nextWindowRisk(item);
   const volatileNext = Boolean(risk);
+  const stopLoss = stopLossSignal(item, holding, {
+    purchaseProbability,
+    currentProbability,
+    rank,
+    nextProbability,
+    nextRank,
+  });
   const reboundVisible = nextItem && nextProbability != null && (
     nextProbability - currentProbability >= 0.2 ||
     (nextRank != null && nextRank <= 2)
@@ -109587,6 +109648,14 @@ function holdingAdvice(item, holding) {
     status = "danger";
     action = "不建议按这个窗口卖";
     reason = "样本太少，单个窗口容易误导";
+  } else if (stopLoss?.status === "danger") {
+    status = "danger";
+    action = stopLoss.action;
+    reason = stopLoss.reason;
+  } else if (stopLoss?.status === "observe") {
+    status = "observe";
+    action = stopLoss.action;
+    reason = stopLoss.reason;
   } else if (rank != null && rank <= 2) {
     status = "hold";
     action = "继续持有";
@@ -109613,6 +109682,7 @@ function holdingAdvice(item, holding) {
     nextProbability,
     rank,
     nextRank,
+    stopLoss,
     status,
     action,
     reason,
