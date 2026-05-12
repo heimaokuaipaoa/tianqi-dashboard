@@ -136,6 +136,7 @@ input {
 
 .change-board,
 .profit-board,
+.winrate-board,
 .edge-board,
 .hold-board {
   background: #ffffff;
@@ -146,6 +147,7 @@ input {
 
 .change-board-head,
 .profit-board-head,
+.winrate-board-head,
 .edge-board-head,
 .hold-board-head {
   display: flex;
@@ -158,6 +160,7 @@ input {
 
 .change-board-head span,
 .profit-board-head span,
+.winrate-board-head span,
 .edge-board-head span,
 .hold-board-head span {
   color: var(--muted);
@@ -506,6 +509,60 @@ input {
 }
 
 .change-empty {
+  color: var(--muted);
+  padding: 18px;
+}
+
+.winrate-alerts {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+}
+
+.winrate-card {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr 1.4fr;
+  gap: 12px;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-left: 4px solid #946200;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fffaf0;
+}
+
+.winrate-card.winrate-hold {
+  border-left-color: var(--strong);
+  background: #f4fbf7;
+}
+
+.winrate-card.winrate-danger {
+  border-left-color: var(--weak);
+  background: #fff4f4;
+}
+
+.winrate-card strong,
+.winrate-card b {
+  display: block;
+  font-size: 16px;
+}
+
+.winrate-card span {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.winrate-card p {
+  margin: 0;
+  color: #344054;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.winrate-empty {
   color: var(--muted);
   padding: 18px;
 }
@@ -1042,6 +1099,10 @@ h3 {
   }
 
   .hold-card {
+    grid-template-columns: 1fr;
+  }
+
+  .winrate-card {
     grid-template-columns: 1fr;
   }
 }
