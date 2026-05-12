@@ -388,6 +388,21 @@ function tradeCostStep(timeNode) {
   return ({ 6: 4, 10: 5, 14: 6, 17: 7, 22: 8 })[hour] ?? null;
 }
 
+function windowClockDate(dateText, timeNode) {
+  const match = String(dateText || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  const hour = timeStartHour(timeNode);
+  if (!match || hour == null) return null;
+  const [, year, month, day] = match.map(Number);
+  const date = new Date(year, month - 1, day, hour, 0, 0, 0);
+  if (isYesterdayTime(timeNode)) date.setDate(date.getDate() - 1);
+  return date;
+}
+
+function isFutureWindow(dateText, timeNode, now = new Date()) {
+  const clockDate = windowClockDate(dateText, timeNode);
+  return clockDate ? clockDate.getTime() > now.getTime() : false;
+}
+
 function tradeScore(item) {
   const step = tradeCostStep(item.timeNode);
   const top = topProbabilities(item, 2);
@@ -514,6 +529,7 @@ function bestHistoricalForCityDate(item) {
 
 function windowAvailabilityForDate(date) {
   const allItems = state.data?.probabilityCandidates || [];
+  const now = new Date();
   const availableTimes = new Set(
     allItems
       .filter((item) => item.date === date && tradeCostStep(item.timeNode) != null)
@@ -530,12 +546,15 @@ function windowAvailabilityForDate(date) {
       .map((item) => item.timeNode),
   );
   const appeared = expected.filter((time) => available.has(time));
-  const missing = expected.filter((time) => !available.has(time));
+  const missing = expected.filter((time) => !available.has(time) && isFutureWindow(date, time, now));
+  const expiredMissing = expected.filter((time) => !available.has(time) && !isFutureWindow(date, time, now));
   return {
     appeared,
     missing,
+    expiredMissing,
     appearedText: appeared.length ? appeared.join("、") : "无",
     missingText: missing.length ? missing.join("、") : "无",
+    expiredMissingText: expiredMissing.length ? expiredMissing.join("、") : "无",
   };
 }
 
@@ -568,6 +587,7 @@ function missingWindowWatchlist(date, availability, excludedCityKeys = new Set()
     const city = cityKey(history.expectedField);
     if (!knownCities.has(city) || excludedCityKeys.has(city)) continue;
     if (history.tradableBestWindow === false) continue;
+    if (!isFutureWindow(date, history.timeNode)) continue;
     if ((history.n || 0) < 6 || (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
     const key = accuracyKey(history.expectedField, history.timeNode);
     if (validCurrentKeys.has(key) || seen.has(key)) continue;
