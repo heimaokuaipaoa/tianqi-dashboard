@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>温度交易看板</title>
-    <link rel="stylesheet" href="./dashboard.css?v=20260512-1040" />
+    <link rel="stylesheet" href="./dashboard.css?v=202605120243" />
   </head>
   <body>
     <main class="app-shell">
@@ -32,12 +32,12 @@
 
       <section class="summary-grid" id="summaryGrid"></section>
 
-      <section class="profit-board">
-        <div class="profit-board-head">
-          <h2>历史命中率最高窗口</h2>
-          <span>历史 Top2 >= 85%，样本 >= 6；Top1 作为参考</span>
+      <section class="change-board">
+        <div class="change-board-head">
+          <h2>Top2 概率变化</h2>
+          <span id="changeWindowLabel"></span>
         </div>
-        <div id="profitPicks" class="profit-picks"></div>
+        <div id="topChangePicks" class="change-picks"></div>
       </section>
 
       <section class="edge-board">
@@ -92,9 +92,8 @@
       </article>
     </template>
 
-    <script src="./poly_prices.js?v=20260512-1040"></script>
-    <script src="./dashboard_data.next.js?v=20260512-1040"></script>
-    <script src="./backtest_accuracy.next.js?v=20260512-1040"></script>
-    <script src="./dashboard.js?v=20260512-1040"></script>
+    <script src="./poly_prices.js?v=202605120243"></script>
+    <script src="./dashboard_data.next.js?v=202605120243"></script>
+    <script src="./dashboard.js?v=202605120243"></script>
   </body>
 </html>
