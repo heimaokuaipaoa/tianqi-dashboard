@@ -143,6 +143,7 @@ input {
 
 .change-board,
 .profit-board,
+.winrate-board,
 .edge-board,
 .hold-board {
   background: #ffffff;
@@ -153,6 +154,7 @@ input {
 
 .change-board-head,
 .profit-board-head,
+.winrate-board-head,
 .edge-board-head,
 .hold-board-head {
   display: flex;
@@ -165,6 +167,7 @@ input {
 
 .change-board-head span,
 .profit-board-head span,
+.winrate-board-head span,
 .edge-board-head span,
 .hold-board-head span {
   color: var(--muted);
@@ -513,6 +516,60 @@ input {
 }
 
 .change-empty {
+  color: var(--muted);
+  padding: 18px;
+}
+
+.winrate-alerts {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+}
+
+.winrate-card {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr 1.4fr;
+  gap: 12px;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-left: 4px solid #946200;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fffaf0;
+}
+
+.winrate-card.winrate-hold {
+  border-left-color: var(--strong);
+  background: #f4fbf7;
+}
+
+.winrate-card.winrate-danger {
+  border-left-color: var(--weak);
+  background: #fff4f4;
+}
+
+.winrate-card strong,
+.winrate-card b {
+  display: block;
+  font-size: 16px;
+}
+
+.winrate-card span {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.winrate-card p {
+  margin: 0;
+  color: #344054;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.winrate-empty {
   color: var(--muted);
   padding: 18px;
 }
@@ -1049,6 +1106,10 @@ h3 {
   }
 
   .hold-card {
+    grid-template-columns: 1fr;
+  }
+
+  .winrate-card {
     grid-template-columns: 1fr;
   }
 }
@@ -91787,6 +91848,13 @@ function holdingKey(item, bucket) {
   return `${item.date}|${item.timeNode}|${item.expectedField}|${bucket}`;
 }
 
+function sameItem(a, b) {
+  return Boolean(a && b) &&
+    a.date === b.date &&
+    a.timeNode === b.timeNode &&
+    a.expectedField === b.expectedField;
+}
+
 function parseHoldingKey(key) {
   const [date, timeNode, expectedField, ...bucketParts] = String(key || "").split("|");
   return {
@@ -92617,6 +92685,154 @@ function holdingAdvicesForItem(item) {
     .map((holding) => holdingAdvice(item, holding));
 }
 
+function activeHoldings() {
+  return Object.entries(state.holdings || {})
+    .filter(([, active]) => active)
+    .map(([key, value]) => ({
+      key,
+      ...parseHoldingKey(key),
+      snapshot: value && typeof value === "object" ? value : null,
+    }))
+    .filter((holding) => holding.date && holding.timeNode && holding.expectedField && holding.bucket);
+}
+
+function holdingCurrentCheck(item, bucket) {
+  const history = historicalScore(item);
+  const bestHistory = bestHistoricalForCityDate(item);
+  const rank = rankOfBucket(item, bucket);
+  const probability = probabilityByBucket(item, bucket);
+  const sample = item.modelSampleSize || 0;
+  const historyOk = Boolean(history && (history.n || 0) >= 6 && sample >= 6 && (history.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD);
+  const bestOk = Boolean(bestHistory && sameItem(bestHistory.item, item));
+  const bucketOk = rank != null && rank <= 2;
+  const reasons = [];
+  if (!history) reasons.push("没有历史胜率");
+  else {
+    if ((history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) reasons.push(`历史 Top2 ${history.top2Accuracy}% < ${HISTORY_TOP2_THRESHOLD}%`);
+    if ((history.n || 0) < 6) reasons.push(`回测样本 ${history.n || 0} < 6`);
+  }
+  if (sample < 6) reasons.push(`当前样本 ${sample} < 6`);
+  if (!bestOk) reasons.push(bestHistory ? `同城同日最优是 ${bestHistory.item.timeNode}` : "同城同日没有达标推荐");
+  if (!bucketOk) reasons.push(rank ? `该温度当前排名第 ${rank}` : "该温度不在当前概率列表");
+  return {
+    item,
+    bucket,
+    history,
+    bestHistory,
+    rank,
+    probability,
+    sample,
+    buyable: historyOk && bestOk && bucketOk,
+    reasons,
+  };
+}
+
+function createHoldingSnapshot(item, bucket) {
+  const check = holdingCurrentCheck(item, bucket);
+  return {
+    heldAt: new Date().toISOString(),
+    purchaseProbability: check.probability,
+    purchaseRank: check.rank,
+    purchaseTop1Accuracy: check.history?.top1Accuracy ?? null,
+    purchaseTop2Accuracy: check.history?.top2Accuracy ?? null,
+    purchaseHistoryN: check.history?.n ?? null,
+    purchaseSample: check.sample,
+    purchaseBestTimeNode: check.bestHistory?.item?.timeNode || null,
+    purchaseRecommended: check.buyable,
+  };
+}
+
+function ensureWinrateUpdateBoard() {
+  let board = $("#winrateUpdateBoard");
+  if (board) return board;
+  const summary = $("#summaryGrid");
+  if (!summary) return null;
+  board = document.createElement("section");
+  board.id = "winrateUpdateBoard";
+  board.className = "winrate-board";
+  board.innerHTML = `
+    <div class="winrate-board-head">
+      <h2>胜率更新后持仓检查</h2>
+      <span>飞书/实际温度更新后，检查已标记持仓是否还满足买入条件</span>
+    </div>
+    <div id="winrateAlerts" class="winrate-alerts"></div>
+  `;
+  summary.after(board);
+  return board;
+}
+
+function renderWinrateUpdateBoard() {
+  const board = ensureWinrateUpdateBoard();
+  const container = $("#winrateAlerts");
+  if (!board || !container) return;
+  const alerts = activeHoldings()
+    .map((holding) => {
+      const item = findDashboardItem(holding.date, holding.timeNode, holding.expectedField);
+      if (!item) {
+        return {
+          holding,
+          status: "danger",
+          title: "数据已找不到",
+          reason: "当前看板数据里没有这个城市/日期/窗口，先人工确认是否已结算或字段变化。",
+        };
+      }
+      const check = holdingCurrentCheck(item, holding.bucket);
+      const wasRecommended = holding.snapshot?.purchaseRecommended;
+      let status = check.buyable ? "hold" : "danger";
+      let title = check.buyable ? "仍可继续观察" : "不再满足买入条件";
+      if (wasRecommended === true && !check.buyable) {
+        status = "danger";
+        title = "从可买变成不建议";
+      } else if (wasRecommended == null && !check.buyable) {
+        title = "当前不建议继续按原逻辑买";
+      }
+      return {
+        holding,
+        item,
+        check,
+        status,
+        title,
+        reason: check.buyable ? "仍满足：最优窗口、历史胜率、样本、Top2 温度都达标。" : check.reasons.join("；"),
+      };
+    })
+    .sort((a, b) =>
+      (a.status === "danger" ? -1 : 1) - (b.status === "danger" ? -1 : 1) ||
+      String(a.holding.date).localeCompare(String(b.holding.date)) ||
+      itemTimeIndex({ timeNode: a.holding.timeNode }) - itemTimeIndex({ timeNode: b.holding.timeNode }) ||
+      displayCity(a.holding.expectedField).localeCompare(displayCity(b.holding.expectedField))
+    );
+
+  if (!alerts.length) {
+    container.innerHTML = `<div class="winrate-empty">还没有标记持仓。买入后点温度行里的“持仓”，以后胜率刷新这里会自动检查。</div>`;
+    return;
+  }
+
+  container.innerHTML = alerts.map((alert) => {
+    const snapshot = alert.holding.snapshot;
+    const check = alert.check;
+    const nowText = check
+      ? `现在 ${Math.round((check.probability || 0) * 100)}% · 排名${check.rank || "-"} · Top2胜率${check.history?.top2Accuracy ?? "-"}% · n=${check.history?.n ?? "-"}`
+      : "";
+    const thenText = snapshot
+      ? `买入时 ${Math.round((snapshot.purchaseProbability || 0) * 100)}% · 排名${snapshot.purchaseRank || "-"} · Top2胜率${snapshot.purchaseTop2Accuracy ?? "-"}% · n=${snapshot.purchaseHistoryN ?? "-"}`
+      : "旧持仓未记录买入快照，只判断当前状态";
+    return `
+      <article class="winrate-card winrate-${alert.status}">
+        <div>
+          <strong>${displayCity(alert.holding.expectedField)} ${alert.holding.bucket}</strong>
+          <span>${alert.holding.date} · ${alert.holding.timeNode}</span>
+        </div>
+        <div>
+          <b>${alert.title}</b>
+          <span>${thenText}</span>
+          <span>${nowText}</span>
+        </div>
+        <p>${alert.reason}</p>
+      </article>
+    `;
+  }).join("");
+}
+
 function nextWindowRisk(item) {
   const next = nextWindowFor(item);
   if (!next) return null;
@@ -92762,8 +92978,8 @@ function renderTopChanges(items) {
 function ensureHoldingBoard() {
   let board = $("#holdingBoard");
   if (board) return board;
-  const summary = $("#summaryGrid");
-  if (!summary) return null;
+  const anchor = $("#winrateUpdateBoard") || $("#summaryGrid");
+  if (!anchor) return null;
   board = document.createElement("section");
   board.id = "holdingBoard";
   board.className = "hold-board";
@@ -92774,7 +92990,7 @@ function ensureHoldingBoard() {
     </div>
     <div id="holdingPicks" class="holding-picks"></div>
   `;
-  summary.after(board);
+  anchor.after(board);
   return board;
 }
 
@@ -93120,7 +93336,11 @@ function renderCards(items) {
     button.addEventListener("click", (event) => {
       const key = event.currentTarget.dataset.holdKey;
       if (state.holdings[key]) delete state.holdings[key];
-      else state.holdings[key] = true;
+      else {
+        const holding = parseHoldingKey(key);
+        const item = findDashboardItem(holding.date, holding.timeNode, holding.expectedField);
+        state.holdings[key] = item ? createHoldingSnapshot(item, holding.bucket) : true;
+      }
       saveHoldings();
       render();
     });
@@ -93130,6 +93350,7 @@ function renderCards(items) {
 function render() {
   const items = filteredItems();
   renderSummary(items);
+  renderWinrateUpdateBoard();
   renderHoldingBoard(items);
   renderProfitPicks();
   renderEdgePicks(items);
