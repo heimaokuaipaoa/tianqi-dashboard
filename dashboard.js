@@ -442,6 +442,30 @@ function historicalAccuracy(item) {
 }
 
 function historicalScore(item) {
+  if ((item.optimizedWindowN || 0) > 0 && item.optimizedWindowTop2Accuracy != null) {
+    const history = {
+      expectedField: item.expectedField,
+      timeNode: item.timeNode,
+      n: item.optimizedWindowN || 0,
+      top1Hits: item.optimizedWindowTop1Hits || 0,
+      top2Hits: item.optimizedWindowTop2Hits || 0,
+      top1Accuracy: item.optimizedWindowTop1Accuracy || 0,
+      top2Accuracy: item.optimizedWindowTop2Accuracy || 0,
+      optimizedModelName: item.optimizedModelName || "",
+      optimizedModelLabel: item.optimizedModelLabel || "",
+    };
+    return {
+      item,
+      history,
+      n: history.n,
+      sample: item.modelSampleSize || 0,
+      top1Accuracy: history.top1Accuracy,
+      top2Accuracy: history.top2Accuracy,
+      top1Hits: history.top1Hits,
+      top2Hits: history.top2Hits,
+      optimizedModelLabel: history.optimizedModelLabel,
+    };
+  }
   const history = historicalAccuracy(item);
   if (!history) return null;
   return {
@@ -520,7 +544,20 @@ function missingWindowWatchlist(date, availability, excludedCityKeys = new Set()
   );
   const bestByCity = new Map();
   const seen = new Set();
-  for (const history of state.accuracy?.summary || []) {
+  const optimizedHistoryRows = (state.data?.cityModelOptimizations || []).flatMap((optimization) =>
+    (optimization.windowStats || []).map((window) => ({
+      expectedField: optimization.expectedField,
+      timeNode: window.timeNode,
+      n: window.n || 0,
+      top1Accuracy: window.top1Accuracy || 0,
+      top2Accuracy: window.top2Accuracy || 0,
+      top1Hits: window.top1Hits || 0,
+      top2Hits: window.top2Hits || 0,
+      optimizedModelLabel: optimization.configLabel || "",
+    }))
+  );
+  const sourceHistoryRows = optimizedHistoryRows.length ? optimizedHistoryRows : (state.accuracy?.summary || []);
+  for (const history of sourceHistoryRows) {
     const city = cityKey(history.expectedField);
     if (!knownCities.has(city) || excludedCityKeys.has(city)) continue;
     if ((history.n || 0) < 6 || (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
@@ -1561,6 +1598,9 @@ function renderCardHtml(item) {
       </div>
       <em>${bestIsCurrent ? "当前就是该城市历史命中率最高窗口" : "当前不是该城市历史命中率最高窗口，可考虑等最佳窗口"}</em>
     `;
+    const modelLine = document.createElement("div");
+    modelLine.innerHTML = `<span>城市专属模型</span><b>${item.optimizedModelLabel || "-"} · 最强窗口 ${item.optimizedBestTimeNode || "-"}</b>`;
+    profitBox.insertBefore(modelLine, profitBox.querySelector("em"));
     template.querySelector(".signal-row").after(profitBox);
   }
   if ((item.temperatureBandWeight || 0) > 0) {
