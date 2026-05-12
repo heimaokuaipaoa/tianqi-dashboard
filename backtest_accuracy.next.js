@@ -1,5 +1,5 @@
 window.__TEMP_BACKTEST_ACCURACY__ = {
-  "generatedAt": "2026-05-12T02:44:49.864Z",
+  "generatedAt": "2026-05-12T03:01:44.845Z",
   "method": "leave-one-date-out current probability model",
   "records": 687,
   "detailCount": 2064,
