@@ -831,6 +831,7 @@ h3 {
 .sample-warning,
 .next-window-warning,
 .outlier-warning,
+.temperature-band-hint,
 .profit-hint,
 .hold-advice-box {
   margin: -2px 0 12px;
@@ -863,6 +864,13 @@ h3 {
   border-left-color: #2563eb;
   background: #eff6ff;
   color: #1e3a8a;
+}
+
+.temperature-band-hint {
+  border-color: #a7d8cf;
+  border-left-color: #0f766e;
+  background: #f0fdfa;
+  color: #134e4a;
 }
 
 .profit-hint {
