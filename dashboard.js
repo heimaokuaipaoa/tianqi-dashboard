@@ -1696,6 +1696,14 @@ function buildRecommendationTrackGroups() {
         byKey.set(row.key, row);
       }
     }
+    for (const item of state.data?.recommendationResults || []) {
+      if (!recommendationEligible(item)) continue;
+      const row = recommendationTrackRow(item, false);
+      if (!byKey.has(row.key)) {
+        row.sourceItem = item;
+        byKey.set(row.key, row);
+      }
+    }
     for (const item of state.data?.probabilityCandidates || []) {
       if (!recommendationEligible(item)) continue;
       const row = recommendationTrackRow(item, true);
