@@ -136,6 +136,7 @@ input {
 
 .change-board,
 .profit-board,
+.recommendation-board,
 .winrate-board,
 .edge-board,
 .hold-board {
@@ -147,6 +148,7 @@ input {
 
 .change-board-head,
 .profit-board-head,
+.recommendation-board-head,
 .winrate-board-head,
 .edge-board-head,
 .hold-board-head {
@@ -160,11 +162,100 @@ input {
 
 .change-board-head span,
 .profit-board-head span,
+.recommendation-board-head span,
 .winrate-board-head span,
 .edge-board-head span,
 .hold-board-head span {
   color: var(--muted);
   font-size: 13px;
+}
+
+.recommendation-performance {
+  display: grid;
+  gap: 12px;
+  padding: 14px;
+}
+
+.recommendation-date {
+  border: 1px solid #d8e3f4;
+  border-radius: 8px;
+  background: #fbfdff;
+  padding: 12px;
+}
+
+.recommendation-date-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.recommendation-date-head strong {
+  font-size: 17px;
+}
+
+.recommendation-date-head b {
+  color: var(--strong);
+  font-size: 18px;
+}
+
+.recommendation-date-head span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.recommendation-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.recommendation-result {
+  border: 1px solid var(--line);
+  border-left: 3px solid #98a2b3;
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px;
+}
+
+.recommendation-result.hit {
+  border-left-color: var(--strong);
+  background: #f5fbf7;
+}
+
+.recommendation-result.miss {
+  border-left-color: var(--weak);
+  background: #fff8f8;
+}
+
+.recommendation-result.pending {
+  border-left-color: #b7791f;
+  background: #fffaf0;
+}
+
+.recommendation-result strong {
+  display: block;
+  font-size: 15px;
+}
+
+.recommendation-result b {
+  display: block;
+  margin-top: 6px;
+  font-size: 16px;
+}
+
+.recommendation-result span {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.recommendation-empty {
+  color: var(--muted);
+  padding: 18px;
 }
 
 .profit-picks {
@@ -1098,6 +1189,10 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .recommendation-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .watch-city-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1139,6 +1234,7 @@ h3 {
     .group-cards,
     .change-picks,
     .profit-date-picks,
+    .recommendation-list,
     .watch-city-list,
     .edge-picks,
     .holding-picks {
