@@ -1510,43 +1510,33 @@ function renderProfitPicks() {
     .map((group) => `
       <section class="profit-date-group">
         <div class="profit-date-title">
-          <strong>${group.label}</strong>
+          <strong>${group.label}推荐</strong>
           <span>${group.date}</span>
           <span class="window-summary">已出：${group.availability.appearedText} · 未出：${group.availability.missingText}</span>
-          <span class="window-summary strong-count">已出推荐 ${group.picks.length} · 待出关注 ${group.watchlist.length}</span>
+          <span class="window-summary strong-count">${group.picks.length} 个推荐</span>
         </div>
-        <div class="profit-window-groups">
-          ${groupedProfitPicks(group.picks).map((windowGroup) => `
-            <section class="profit-window-group">
-              <div class="profit-window-title">
-                <b>${windowGroup.timeNode}</b>
-                <span>${windowGroup.rows.length} 个已出推荐</span>
+        <div class="profit-date-picks">
+          ${group.picks.map((pick) => `
+            <article class="profit-pick ${pick.top2Accuracy >= 80 ? "profit-strong" : pick.top2Accuracy >= 65 ? "profit-watch" : "profit-weak"}">
+              <div class="profit-card-head">
+                <strong>${displayCity(pick.item.expectedField)}</strong>
+                <span>${pick.item.timeNode}</span>
               </div>
-              <div class="profit-date-picks">
-                ${windowGroup.rows.map((pick) => `
-                  <article class="profit-pick ${pick.top2Accuracy >= 80 ? "profit-strong" : pick.top2Accuracy >= 65 ? "profit-watch" : "profit-weak"}">
-                    <div class="profit-card-head">
-                      <strong>${displayCity(pick.item.expectedField)}</strong>
-                      <span>${pick.item.timeNode}</span>
-                    </div>
-                    <div class="buy-now">
-                      <span>马上看</span>
-                      <b>${topProbabilities(pick.item, 2).map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`).join(" / ")}</b>
-                    </div>
-                    <div class="profit-main">
-                      <b>历史 Top2 ${pick.top2Accuracy}%</b>
-                      <em>Top1 ${pick.top1Accuracy}%</em>
-                      <span>${pick.optimizedRuleLabel || "全样本"} · 当前样本 ${pick.sample} · 回测样本 ${pick.n}</span>
-                    </div>
-                  </article>
-                `).join("")}
+              <div class="buy-now">
+                <span>马上看</span>
+                <b>${topProbabilities(pick.item, 2).map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`).join(" / ")}</b>
               </div>
-            </section>
+              <div class="profit-main">
+                <b>历史 Top2 ${pick.top2Accuracy}%</b>
+                <em>Top1 ${pick.top1Accuracy}%</em>
+                <span>当前样本 ${pick.sample} · 回测样本 ${pick.n}</span>
+              </div>
+            </article>
           `).join("")}
         </div>
         ${group.watchlist.length ? `
           <div class="missing-watchlist">
-            <strong>未出/待出窗口提前关注</strong>
+            <strong>${group.label}未出窗口关注</strong>
             <span class="watchlist-note">历史 Top2 命中率 ≥ ${HISTORY_TOP2_THRESHOLD}%，当前还没有有效样本，等数据出来后再确认概率。</span>
             <div class="watch-window-groups">
               ${groupedWatchlist(group.watchlist).map((windowGroup) => `
@@ -1667,7 +1657,7 @@ function renderCardHtml(item) {
       <em>${bestIsCurrent ? "当前就是该城市历史命中率最高窗口" : "当前不是该城市历史命中率最高窗口，可考虑等最佳窗口"}</em>
     `;
     const modelLine = document.createElement("div");
-    modelLine.innerHTML = `<span>城市专属规则</span><b>${item.optimizedModelLabel || "-"} · ${item.optimizedBestTimeNode || "-"} · ${item.optimizedBestRuleLabel || "全样本"}</b>`;
+    modelLine.innerHTML = `<span>城市专属模型</span><b>${item.optimizedModelLabel || "-"} · 最强可交易窗口 ${item.optimizedBestTimeNode || "-"}</b>`;
     profitBox.insertBefore(modelLine, profitBox.querySelector("em"));
     template.querySelector(".signal-row").after(profitBox);
   }
