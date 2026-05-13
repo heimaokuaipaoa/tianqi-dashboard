@@ -516,6 +516,7 @@ function bestHistoricalForCityDate(item) {
   const key = cityKey(item.expectedField);
   return (state.data?.probabilityCandidates || [])
     .filter((candidate) => candidate.date === item.date && cityKey(candidate.expectedField) === key)
+    .filter((candidate) => isFutureWindow(candidate.date, candidate.timeNode))
     .map(historicalScore)
     .filter(Boolean)
     .filter((score) =>
@@ -1428,6 +1429,7 @@ function renderProfitPicks() {
   const dateSet = new Set(dates);
   for (const item of state.data?.probabilityCandidates || []) {
     if (!dateSet.has(item.date)) continue;
+    if (!isFutureWindow(item.date, item.timeNode)) continue;
     const score = historicalScore(item);
     if (
       !score ||
