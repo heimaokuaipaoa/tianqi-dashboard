@@ -1641,8 +1641,58 @@ function recommendationTrackRow(item, pending = false) {
   };
 }
 
+function snapshotTopText(snapshot) {
+  if (snapshot.topText) return snapshot.topText;
+  const probabilities = snapshot.topProbabilities || [];
+  if (probabilities.length) {
+    return probabilities
+      .map((probability) => probability.probability == null
+        ? probability.bucket
+        : `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`)
+      .join(" / ");
+  }
+  return (snapshot.topBuckets || []).join(" / ");
+}
+
+function recommendationTrackRowFromSnapshot(snapshot) {
+  return {
+    key: snapshot.key || `${snapshot.date}|${cityKey(snapshot.expectedField)}`,
+    date: snapshot.date,
+    city: displayCity(snapshot.expectedField),
+    timeNode: snapshot.timeNode,
+    topText: snapshotTopText(snapshot),
+    actualBucket: snapshot.actualBucket || "",
+    hit: snapshot.top2Hit === true,
+    pending: !snapshot.settled,
+    top1Accuracy: snapshot.optimizedRuleTop1Accuracy ?? 0,
+    top2Accuracy: snapshot.optimizedRuleTop2Accuracy ?? 0,
+    n: snapshot.optimizedRuleN || 0,
+    sample: snapshot.modelSampleSize || 0,
+    snapshotAt: snapshot.snapshotAt || "",
+  };
+}
+
 function buildRecommendationTrackGroups() {
   const byKey = new Map();
+  const snapshots = state.data?.recommendationSnapshots || [];
+  if (snapshots.length) {
+    for (const snapshot of snapshots) {
+      if (!snapshot?.date || !snapshot?.expectedField) continue;
+      const row = recommendationTrackRowFromSnapshot(snapshot);
+      const current = byKey.get(row.key);
+      if (!current || String(row.snapshotAt || "").localeCompare(String(current.snapshotAt || "")) < 0) {
+        byKey.set(row.key, row);
+      }
+    }
+    for (const item of state.data?.probabilityCandidates || []) {
+      if (!recommendationEligible(item)) continue;
+      const row = recommendationTrackRow(item, true);
+      if (!byKey.has(row.key)) {
+        row.sourceItem = item;
+        byKey.set(row.key, row);
+      }
+    }
+  } else {
   for (const item of state.data?.recommendationResults || []) {
     if (!recommendationEligible(item)) continue;
     const row = recommendationTrackRow(item, false);
@@ -1659,6 +1709,7 @@ function buildRecommendationTrackGroups() {
       row.sourceItem = item;
       byKey.set(row.key, row);
     }
+  }
   }
   const groups = new Map();
   for (const row of byKey.values()) {
