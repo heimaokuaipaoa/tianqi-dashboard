@@ -476,6 +476,16 @@ function historicalAccuracy(item) {
   return state.accuracyMap.get(accuracyKey(item.expectedField, item.timeNode)) || null;
 }
 
+function cityOptimizationForField(expectedField) {
+  const key = cityKey(expectedField);
+  return (state.data?.cityModelOptimizations || []).find((optimization) => cityKey(optimization.expectedField) === key) || null;
+}
+
+function isOptimizedBestWindowItem(item) {
+  const bestTimeNode = item.optimizedBestTimeNode || cityOptimizationForField(item.expectedField)?.bestTimeNode || "";
+  return Boolean(bestTimeNode && item.timeNode === bestTimeNode);
+}
+
 function historicalScore(item) {
   if (item.optimizedRecommended && (item.optimizedRuleN || 0) > 0 && item.optimizedRuleTop2Accuracy != null) {
     const history = {
@@ -569,7 +579,7 @@ function bestHistoricalForCityDate(item) {
   const key = cityKey(item.expectedField);
   return (state.data?.probabilityCandidates || [])
     .filter((candidate) => candidate.date === item.date && cityKey(candidate.expectedField) === key)
-    .filter((candidate) => candidate.optimizedRecommended || !candidate.optimizedBestRuleType)
+    .filter((candidate) => isOptimizedBestWindowItem(candidate) && candidate.optimizedRecommended)
     .map(historicalScore)
     .filter(Boolean)
     .filter((score) =>
@@ -1483,7 +1493,8 @@ function renderProfitPicks() {
   const dateSet = new Set(dates);
   for (const item of state.data?.probabilityCandidates || []) {
     if (!dateSet.has(item.date)) continue;
-    if (item.optimizedBestRuleType && !item.optimizedRecommended) continue;
+    if (!isOptimizedBestWindowItem(item)) continue;
+    if (!item.optimizedRecommended) continue;
     const score = historicalScore(item);
     if (
       !score ||
@@ -1611,6 +1622,7 @@ function recommendationEligible(item) {
   const score = recommendationScoreFromItem(item);
   return Boolean(
     item.optimizedRecommended &&
+    isOptimizedBestWindowItem(item) &&
     score.n >= 6 &&
     score.sample >= 6 &&
     score.top2Accuracy >= HISTORY_TOP2_THRESHOLD
