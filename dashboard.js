@@ -1507,7 +1507,15 @@ function renderProfitPicks() {
   const grouped = dates
     .map((date, index) => {
       const availability = windowAvailabilityForDate(date);
-      const allDatePicks = picks.filter((pick) => pick.item.date === date);
+      const allDatePicks = picks
+        .filter((pick) => pick.item.date === date)
+        .sort((a, b) =>
+          earlierTimeRank(a.item.timeNode) - earlierTimeRank(b.item.timeNode) ||
+          b.top2Accuracy - a.top2Accuracy ||
+          (b.n || 0) - (a.n || 0) ||
+          b.top1Accuracy - a.top1Accuracy ||
+          displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
+        );
       const shownPicks = allDatePicks.slice(0, 16);
       const issuedCityKeys = new Set(allDatePicks.map((pick) => cityKey(pick.item.expectedField)));
       return {
