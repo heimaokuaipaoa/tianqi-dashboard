@@ -403,6 +403,26 @@ function isFutureWindow(dateText, timeNode, now = new Date()) {
   return clockDate ? clockDate.getTime() > now.getTime() : false;
 }
 
+function localDateText(date = new Date()) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function recommendationDates(items) {
+  const dates = uniqueSorted(items.map((item) => item.date));
+  const today = localDateText();
+  if (dates.includes(today)) {
+    const tomorrow = addDays(today, 1);
+    return [today, dates.includes(tomorrow) ? tomorrow : dates.find((date) => date > today)]
+      .filter(Boolean);
+  }
+  const futureOrToday = dates.filter((date) => date >= today);
+  if (futureOrToday.length) return futureOrToday.slice(0, 2);
+  return dates.slice(-2);
+}
+
 function tradeScore(item) {
   const step = tradeCostStep(item.timeNode);
   const top = topProbabilities(item, 2);
@@ -549,7 +569,6 @@ function bestHistoricalForCityDate(item) {
   const key = cityKey(item.expectedField);
   return (state.data?.probabilityCandidates || [])
     .filter((candidate) => candidate.date === item.date && cityKey(candidate.expectedField) === key)
-    .filter((candidate) => isFutureWindow(candidate.date, candidate.timeNode))
     .filter((candidate) => candidate.optimizedRecommended || !candidate.optimizedBestRuleType)
     .map(historicalScore)
     .filter(Boolean)
@@ -1459,13 +1478,11 @@ function renderHoldingBoard(items) {
 function renderProfitPicks() {
   const container = $("#profitPicks");
   if (!container) return;
-  const selections = pairedSelection($("#dateFilter")?.value, $("#timeFilter")?.value);
-  const dates = [...new Set(selections.map((selection) => selection.date).filter(Boolean))];
+  const dates = recommendationDates(state.data?.probabilityCandidates || []);
   const bestByCityDate = new Map();
   const dateSet = new Set(dates);
   for (const item of state.data?.probabilityCandidates || []) {
     if (!dateSet.has(item.date)) continue;
-    if (!isFutureWindow(item.date, item.timeNode)) continue;
     if (item.optimizedBestRuleType && !item.optimizedRecommended) continue;
     const score = historicalScore(item);
     if (
