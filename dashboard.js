@@ -457,6 +457,35 @@ function historicalAccuracy(item) {
 }
 
 function historicalScore(item) {
+  if (item.optimizedRecommended && (item.optimizedRuleN || 0) > 0 && item.optimizedRuleTop2Accuracy != null) {
+    const history = {
+      expectedField: item.expectedField,
+      timeNode: item.timeNode,
+      n: item.optimizedRuleN || 0,
+      top1Hits: item.optimizedRuleTop1Hits || 0,
+      top2Hits: item.optimizedRuleTop2Hits || 0,
+      top1Accuracy: item.optimizedRuleTop1Accuracy || 0,
+      top2Accuracy: item.optimizedRuleTop2Accuracy || 0,
+      optimizedModelName: item.optimizedModelName || "",
+      optimizedModelLabel: item.optimizedModelLabel || "",
+      optimizedRuleLabel: item.optimizedBestRuleLabel || "全样本",
+    };
+    return {
+      item,
+      history,
+      n: history.n,
+      sample: item.modelSampleSize || 0,
+      top1Accuracy: history.top1Accuracy,
+      top2Accuracy: history.top2Accuracy,
+      top1Hits: history.top1Hits,
+      top2Hits: history.top2Hits,
+      optimizedModelLabel: history.optimizedModelLabel,
+      optimizedRuleLabel: history.optimizedRuleLabel,
+      optimizedRuleBased: true,
+      tradableBestWindow: item.optimizedWindowTradableBest !== false,
+      tradeCutoffReason: item.optimizedWindowCutoffReason || "",
+    };
+  }
   if ((item.optimizedWindowN || 0) > 0 && item.optimizedWindowTop2Accuracy != null) {
     const history = {
       expectedField: item.expectedField,
@@ -479,6 +508,8 @@ function historicalScore(item) {
       top1Hits: history.top1Hits,
       top2Hits: history.top2Hits,
       optimizedModelLabel: history.optimizedModelLabel,
+      optimizedRuleLabel: item.optimizedBestRuleLabel || "",
+      optimizedRuleBased: false,
       tradableBestWindow: item.optimizedWindowTradableBest !== false,
       tradeCutoffReason: item.optimizedWindowCutoffReason || "",
     };
@@ -494,6 +525,8 @@ function historicalScore(item) {
       top2Accuracy: history.top2Accuracy || 0,
       top1Hits: history.top1Hits || 0,
       top2Hits: history.top2Hits || 0,
+      optimizedRuleLabel: "",
+      optimizedRuleBased: false,
       tradableBestWindow: true,
       tradeCutoffReason: "",
   };
@@ -517,6 +550,7 @@ function bestHistoricalForCityDate(item) {
   return (state.data?.probabilityCandidates || [])
     .filter((candidate) => candidate.date === item.date && cityKey(candidate.expectedField) === key)
     .filter((candidate) => isFutureWindow(candidate.date, candidate.timeNode))
+    .filter((candidate) => candidate.optimizedRecommended || !candidate.optimizedBestRuleType)
     .map(historicalScore)
     .filter(Boolean)
     .filter((score) =>
@@ -569,20 +603,21 @@ function missingWindowWatchlist(date, availability, excludedCityKeys = new Set()
   );
   const bestByCity = new Map();
   const seen = new Set();
-  const optimizedHistoryRows = (state.data?.cityModelOptimizations || []).flatMap((optimization) =>
-    (optimization.windowStats || []).map((window) => ({
+  const optimizedHistoryRows = (state.data?.cityModelOptimizations || [])
+    .filter((optimization) => optimization.bestTimeNode)
+    .map((optimization) => ({
       expectedField: optimization.expectedField,
-      timeNode: window.timeNode,
-      n: window.n || 0,
-      top1Accuracy: window.top1Accuracy || 0,
-      top2Accuracy: window.top2Accuracy || 0,
-      top1Hits: window.top1Hits || 0,
-      top2Hits: window.top2Hits || 0,
+      timeNode: optimization.bestTimeNode,
+      n: optimization.bestN || 0,
+      top1Accuracy: optimization.bestTop1Accuracy || 0,
+      top2Accuracy: optimization.bestTop2Accuracy || 0,
+      top1Hits: optimization.bestTop1Hits || 0,
+      top2Hits: optimization.bestTop2Hits || 0,
       optimizedModelLabel: optimization.configLabel || "",
-      tradableBestWindow: window.tradableBestWindow !== false,
-      tradeCutoffReason: window.tradeCutoffReason || "",
-    }))
-  );
+      optimizedRuleLabel: optimization.bestRuleLabel || "全样本",
+      tradableBestWindow: true,
+      tradeCutoffReason: "",
+    }));
   const sourceHistoryRows = optimizedHistoryRows.length ? optimizedHistoryRows : (state.accuracy?.summary || []);
   for (const history of sourceHistoryRows) {
     const city = cityKey(history.expectedField);
@@ -601,6 +636,7 @@ function missingWindowWatchlist(date, availability, excludedCityKeys = new Set()
       top2Accuracy: history.top2Accuracy || 0,
       top1Hits: history.top1Hits || 0,
       top2Hits: history.top2Hits || 0,
+      optimizedRuleLabel: history.optimizedRuleLabel || "全样本",
     };
     const current = bestByCity.get(city);
     if (!current || compareHistoricalWindow(row, current) < 0) bestByCity.set(city, row);
@@ -1430,6 +1466,7 @@ function renderProfitPicks() {
   for (const item of state.data?.probabilityCandidates || []) {
     if (!dateSet.has(item.date)) continue;
     if (!isFutureWindow(item.date, item.timeNode)) continue;
+    if (item.optimizedBestRuleType && !item.optimizedRecommended) continue;
     const score = historicalScore(item);
     if (
       !score ||
@@ -1499,7 +1536,7 @@ function renderProfitPicks() {
                     <div class="profit-main">
                       <b>历史 Top2 ${pick.top2Accuracy}%</b>
                       <em>Top1 ${pick.top1Accuracy}%</em>
-                      <span>当前样本 ${pick.sample} · 回测样本 ${pick.n}</span>
+                      <span>${pick.optimizedRuleLabel || "全样本"} · 当前样本 ${pick.sample} · 回测样本 ${pick.n}</span>
                     </div>
                   </article>
                 `).join("")}
@@ -1522,7 +1559,7 @@ function renderProfitPicks() {
                     ${windowGroup.rows.map((item) => `
                       <article>
                         <b>${displayCity(item.expectedField)}</b>
-                        <span>Top2 ${item.top2Accuracy}% · Top1 ${item.top1Accuracy}% · n=${item.n}</span>
+                        <span>${item.optimizedRuleLabel || "全样本"} · Top2 ${item.top2Accuracy}% · Top1 ${item.top1Accuracy}% · n=${item.n}</span>
                       </article>
                     `).join("")}
                   </div>
@@ -1630,7 +1667,7 @@ function renderCardHtml(item) {
       <em>${bestIsCurrent ? "当前就是该城市历史命中率最高窗口" : "当前不是该城市历史命中率最高窗口，可考虑等最佳窗口"}</em>
     `;
     const modelLine = document.createElement("div");
-    modelLine.innerHTML = `<span>城市专属模型</span><b>${item.optimizedModelLabel || "-"} · 最强可交易窗口 ${item.optimizedBestTimeNode || "-"}</b>`;
+    modelLine.innerHTML = `<span>城市专属规则</span><b>${item.optimizedModelLabel || "-"} · ${item.optimizedBestTimeNode || "-"} · ${item.optimizedBestRuleLabel || "全样本"}</b>`;
     profitBox.insertBefore(modelLine, profitBox.querySelector("em"));
     template.querySelector(".signal-row").after(profitBox);
   }
