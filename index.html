@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>温度交易看板</title>
-    <link rel="stylesheet" href="./dashboard.css?v=20260513-2234" />
+    <link rel="stylesheet" href="./dashboard.css?v=20260513-2246" />
   </head>
   <body>
     <main class="app-shell">
@@ -38,6 +38,14 @@
           <span>历史 Top2 >= 85%，样本 >= 6；Top1 作为参考</span>
         </div>
         <div id="profitPicks" class="profit-picks"></div>
+      </section>
+
+      <section class="recommendation-board">
+        <div class="recommendation-board-head">
+          <h2>推荐命中追踪</h2>
+          <span>按当天推荐的 Top2 结算，实际温度填写后自动统计命中</span>
+        </div>
+        <div id="recommendationPerformance" class="recommendation-performance"></div>
       </section>
 
       <section class="edge-board">
@@ -92,9 +100,9 @@
       </article>
     </template>
 
-    <script src="./poly_prices.js?v=20260513-2234"></script>
-    <script src="./dashboard_data.next.js?v=20260513-2234"></script>
-    <script src="./backtest_accuracy.next.js?v=20260513-2234"></script>
-    <script src="./dashboard.js?v=20260513-2234"></script>
+    <script src="./poly_prices.js?v=20260513-2246"></script>
+    <script src="./dashboard_data.next.js?v=20260513-2246"></script>
+    <script src="./backtest_accuracy.next.js?v=20260513-2246"></script>
+    <script src="./dashboard.js?v=20260513-2246"></script>
   </body>
 </html>
