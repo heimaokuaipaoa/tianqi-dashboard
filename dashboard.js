@@ -1598,6 +1598,122 @@ function renderProfitPicks() {
     .join("");
 }
 
+function recommendationScoreFromItem(item) {
+  return {
+    n: item.optimizedRuleN || item.optimizedWindowN || 0,
+    sample: item.modelSampleSize || 0,
+    top1Accuracy: item.optimizedRuleTop1Accuracy ?? item.optimizedWindowTop1Accuracy ?? 0,
+    top2Accuracy: item.optimizedRuleTop2Accuracy ?? item.optimizedWindowTop2Accuracy ?? 0,
+  };
+}
+
+function recommendationEligible(item) {
+  const score = recommendationScoreFromItem(item);
+  return Boolean(
+    item.optimizedRecommended &&
+    score.n >= 6 &&
+    score.sample >= 6 &&
+    score.top2Accuracy >= HISTORY_TOP2_THRESHOLD
+  );
+}
+
+function recommendationTopText(item) {
+  return topProbabilities(item, 2)
+    .map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`)
+    .join(" / ");
+}
+
+function recommendationTrackRow(item, pending = false) {
+  const score = recommendationScoreFromItem(item);
+  return {
+    key: `${item.date}|${cityKey(item.expectedField)}`,
+    date: item.date,
+    city: displayCity(item.expectedField),
+    timeNode: item.timeNode,
+    topText: recommendationTopText(item),
+    actualBucket: item.actualBucket || "",
+    hit: item.top2Hit === true,
+    pending,
+    top1Accuracy: score.top1Accuracy,
+    top2Accuracy: score.top2Accuracy,
+    n: score.n,
+    sample: score.sample,
+  };
+}
+
+function buildRecommendationTrackGroups() {
+  const byKey = new Map();
+  for (const item of state.data?.recommendationResults || []) {
+    if (!recommendationEligible(item)) continue;
+    const row = recommendationTrackRow(item, false);
+    const current = byKey.get(row.key);
+    if (!current || compareHistoricalWindow({ item, ...row }, { item: current.sourceItem || item, ...current }) < 0) {
+      row.sourceItem = item;
+      byKey.set(row.key, row);
+    }
+  }
+  for (const item of state.data?.probabilityCandidates || []) {
+    if (!recommendationEligible(item)) continue;
+    const row = recommendationTrackRow(item, true);
+    if (!byKey.has(row.key)) {
+      row.sourceItem = item;
+      byKey.set(row.key, row);
+    }
+  }
+  const groups = new Map();
+  for (const row of byKey.values()) {
+    if (!groups.has(row.date)) groups.set(row.date, []);
+    groups.get(row.date).push(row);
+  }
+  return [...groups.entries()]
+    .map(([date, rows]) => ({
+      date,
+      rows: rows.sort((a, b) =>
+        earlierTimeRank(a.timeNode) - earlierTimeRank(b.timeNode) ||
+        b.top2Accuracy - a.top2Accuracy ||
+        b.n - a.n ||
+        a.city.localeCompare(b.city)
+      ),
+    }))
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, 8);
+}
+
+function renderRecommendationPerformance() {
+  const container = $("#recommendationPerformance");
+  if (!container) return;
+  const groups = buildRecommendationTrackGroups();
+  if (!groups.length) {
+    container.innerHTML = `<div class="recommendation-empty">还没有可统计的推荐。后续飞书填写实际温度后，这里会显示每天推荐几个、命中几个。</div>`;
+    return;
+  }
+  container.innerHTML = groups.map((group) => {
+    const settled = group.rows.filter((row) => !row.pending);
+    const pending = group.rows.filter((row) => row.pending);
+    const hits = settled.filter((row) => row.hit).length;
+    const rate = settled.length ? Math.round(hits / settled.length * 100) : null;
+    return `
+      <section class="recommendation-date">
+        <div class="recommendation-date-head">
+          <strong>${group.date}</strong>
+          <b>${settled.length ? `推荐 ${settled.length} · 命中 ${hits} · ${rate}%` : "等待实际温度"}</b>
+          <span>${pending.length ? `待结算 ${pending.length} 个` : "已结算"}</span>
+        </div>
+        <div class="recommendation-list">
+          ${group.rows.map((row) => `
+            <article class="recommendation-result ${row.pending ? "pending" : row.hit ? "hit" : "miss"}">
+              <strong>${row.city} · ${row.timeNode}</strong>
+              <b>${row.topText}</b>
+              <span>${row.pending ? "待实际温度" : `实际 ${row.actualBucket || "-"} · ${row.hit ? "命中" : "未中"}`}</span>
+              <span>历史 Top2 ${row.top2Accuracy}% · 当前样本 ${row.sample} · 回测样本 ${row.n}</span>
+            </article>
+          `).join("")}
+        </div>
+      </section>
+    `;
+  }).join("");
+}
+
 function opportunityPicks(items) {
   const picks = [];
   for (const item of items) {
@@ -1812,6 +1928,7 @@ function render() {
   renderWinrateUpdateBoard();
   renderHoldingBoard(items);
   renderProfitPicks();
+  renderRecommendationPerformance();
   renderEdgePicks(items);
   renderCards(items);
 }
