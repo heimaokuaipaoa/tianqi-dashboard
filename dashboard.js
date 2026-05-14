@@ -1910,7 +1910,7 @@ function renderCardHtml(item) {
   if (guardInfo) {
     const hint = document.createElement("div");
     hint.className = "high-temp-guard-hint";
-    hint.textContent = `强高温保护：均值中心 ${guardInfo.highTemperatureMeanGuardCenter}，已保护上方 ${guardInfo.highTemperatureMeanGuardBucket}，防止推荐过低`;
+    hint.textContent = `强高温观察：均值中心 ${guardInfo.highTemperatureMeanGuardCenter}，上方 ${guardInfo.highTemperatureMeanGuardBucket} 只作风险提醒，不改概率`;
     template.querySelector(".signal-row").after(hint);
   }
   if (modelN < 6) {
