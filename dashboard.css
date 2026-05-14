@@ -923,6 +923,7 @@ h3 {
 .next-window-warning,
 .outlier-warning,
 .temperature-band-hint,
+.high-temp-guard-hint,
 .profit-hint,
 .hold-advice-box {
   margin: -2px 0 12px;
@@ -962,6 +963,13 @@ h3 {
   border-left-color: #0f766e;
   background: #f0fdfa;
   color: #134e4a;
+}
+
+.high-temp-guard-hint {
+  border-color: #f5c2a4;
+  border-left-color: #c2410c;
+  background: #fff7ed;
+  color: #7c2d12;
 }
 
 .profit-hint {
