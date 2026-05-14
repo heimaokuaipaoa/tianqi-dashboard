@@ -60,6 +60,7 @@ const timeOrder = [
 ];
 
 const HISTORY_TOP2_THRESHOLD = 85;
+const HISTORY_MIN_SAMPLE = 8;
 
 const $ = (selector) => document.querySelector(selector);
 
@@ -583,8 +584,8 @@ function bestHistoricalForCityDate(item) {
     .map(historicalScore)
     .filter(Boolean)
     .filter((score) =>
-      (score.n || 0) >= 6 &&
-      (score.sample || 0) >= 6 &&
+      (score.n || 0) >= HISTORY_MIN_SAMPLE &&
+      (score.sample || 0) >= HISTORY_MIN_SAMPLE &&
       score.tradableBestWindow !== false &&
       (score.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD
     )
@@ -627,7 +628,7 @@ function missingWindowWatchlist(date, availability, excludedCityKeys = new Set()
   const knownCities = new Set((state.data?.probabilityCandidates || []).map((item) => cityKey(item.expectedField)).filter(Boolean));
   const validCurrentKeys = new Set(
     (state.data?.probabilityCandidates || [])
-      .filter((item) => item.date === date && (item.modelSampleSize || 0) >= 6)
+      .filter((item) => item.date === date && (item.modelSampleSize || 0) >= HISTORY_MIN_SAMPLE)
       .map((item) => accuracyKey(item.expectedField, item.timeNode)),
   );
   const bestByCity = new Map();
@@ -653,7 +654,7 @@ function missingWindowWatchlist(date, availability, excludedCityKeys = new Set()
     if (!knownCities.has(city) || excludedCityKeys.has(city)) continue;
     if (history.tradableBestWindow === false) continue;
     if (!isFutureWindow(date, history.timeNode)) continue;
-    if ((history.n || 0) < 6 || (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
+    if ((history.n || 0) < HISTORY_MIN_SAMPLE || (history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
     const key = accuracyKey(history.expectedField, history.timeNode);
     if (validCurrentKeys.has(key) || seen.has(key)) continue;
     seen.add(key);
@@ -734,7 +735,7 @@ function bestTradeForCityDate(item) {
     .filter((candidate) => candidate.date === item.date && cityKey(candidate.expectedField) === key)
     .map(tradeScore)
     .filter(Boolean)
-    .filter((score) => (score.sample || 0) >= 6)
+    .filter((score) => (score.sample || 0) >= HISTORY_MIN_SAMPLE)
     .sort((a, b) =>
       b.bestEdge - a.bestEdge ||
       (b.sample || 0) - (a.sample || 0)
@@ -1166,16 +1167,16 @@ function holdingCurrentCheck(item, bucket) {
   const rank = rankOfBucket(item, bucket);
   const probability = probabilityByBucket(item, bucket);
   const sample = item.modelSampleSize || 0;
-  const historyOk = Boolean(history && (history.n || 0) >= 6 && sample >= 6 && (history.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD);
+  const historyOk = Boolean(history && (history.n || 0) >= HISTORY_MIN_SAMPLE && sample >= HISTORY_MIN_SAMPLE && (history.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD);
   const bestOk = Boolean(bestHistory && sameItem(bestHistory.item, item));
   const bucketOk = rank != null && rank <= 2;
   const reasons = [];
   if (!history) reasons.push("没有历史胜率");
   else {
     if ((history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) reasons.push(`历史 Top2 ${history.top2Accuracy}% < ${HISTORY_TOP2_THRESHOLD}%`);
-    if ((history.n || 0) < 6) reasons.push(`回测样本 ${history.n || 0} < 6`);
+    if ((history.n || 0) < HISTORY_MIN_SAMPLE) reasons.push(`回测样本 ${history.n || 0} < ${HISTORY_MIN_SAMPLE}`);
   }
-  if (sample < 6) reasons.push(`当前样本 ${sample} < 6`);
+  if (sample < HISTORY_MIN_SAMPLE) reasons.push(`当前样本 ${sample} < ${HISTORY_MIN_SAMPLE}`);
   if (!bestOk) reasons.push(bestHistory ? `同城同日最优是 ${bestHistory.item.timeNode}` : "同城同日没有达标推荐");
   if (!bucketOk) reasons.push(rank ? `该温度当前排名第 ${rank}` : "该温度不在当前概率列表");
   return {
@@ -1513,8 +1514,8 @@ function renderProfitPicks() {
     const score = historicalScore(item);
     if (
       !score ||
-      (score.n || 0) < 6 ||
-      (score.sample || 0) < 6 ||
+      (score.n || 0) < HISTORY_MIN_SAMPLE ||
+      (score.sample || 0) < HISTORY_MIN_SAMPLE ||
       score.tradableBestWindow === false ||
       (score.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD
     ) continue;
@@ -1554,7 +1555,7 @@ function renderProfitPicks() {
     })
     .filter((group) => group.picks.length || group.watchlist.length);
   if (!grouped.length) {
-    container.innerHTML = `<div class="profit-empty">当前两天没有历史 Top2 命中率 >= ${HISTORY_TOP2_THRESHOLD}% 且样本 >= 6 的窗口。</div>`;
+    container.innerHTML = `<div class="profit-empty">当前两天没有历史 Top2 命中率 >= ${HISTORY_TOP2_THRESHOLD}% 且样本 >= ${HISTORY_MIN_SAMPLE} 的窗口。</div>`;
     return;
   }
   container.innerHTML = grouped
@@ -1638,8 +1639,8 @@ function recommendationEligible(item) {
   return Boolean(
     item.optimizedRecommended &&
     isOptimizedBestWindowItem(item) &&
-    score.n >= 6 &&
-    score.sample >= 6 &&
+    score.n >= HISTORY_MIN_SAMPLE &&
+    score.sample >= HISTORY_MIN_SAMPLE &&
     score.top2Accuracy >= HISTORY_TOP2_THRESHOLD
   );
 }
@@ -1889,7 +1890,7 @@ function renderCardHtml(item) {
       </div>
       <div>
         <span>同城同日期最佳历史窗口</span>
-        <b>${bestHistory ? `${bestHistory.item.timeNode} · Top1 ${bestHistory.top1Accuracy}% · Top2 ${bestHistory.top2Accuracy}% · n=${bestHistory.n}` : "暂无样本>=6窗口"}</b>
+        <b>${bestHistory ? `${bestHistory.item.timeNode} · Top1 ${bestHistory.top1Accuracy}% · Top2 ${bestHistory.top2Accuracy}% · n=${bestHistory.n}` : `暂无样本>=${HISTORY_MIN_SAMPLE}窗口`}</b>
       </div>
       <em>${bestIsCurrent ? "当前就是该城市历史命中率最高窗口" : "当前不是该城市历史命中率最高窗口，可考虑等最佳窗口"}</em>
     `;
