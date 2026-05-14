@@ -948,6 +948,7 @@ function stopLossSignal(item, holding, context) {
   const dangerOver = isFahrenheit ? 1 : 0.7;
   const meaningfulRise = predictedRise >= (isFahrenheit ? 1 : 0.4);
   const top = topProbabilities(item, 2);
+  const top1 = top[0] || null;
   const topMin = top.length ? Math.min(...top.map(bucketSortValue)) : null;
   const higherTop = top.some((probability) =>
     bucketSortValue(probability) > span.max &&
@@ -961,6 +962,20 @@ function stopLossSignal(item, holding, context) {
       status: "danger",
       action: "考虑止损",
       reason: `新Top2已经整体上移到 ${top.map((probability) => probability.bucket).join("/")}，原持仓 ${holding.bucket} 已落到下方`,
+    };
+  }
+
+  if (
+    context.rank === 2 &&
+    top1 &&
+    bucketSortValue(top1) > span.max &&
+    (top1.probability || 0) >= 0.45 &&
+    predictedRise >= (isFahrenheit ? 1 : 0.5)
+  ) {
+    return {
+      status: "danger",
+      action: "考虑减仓",
+      reason: `更高温度 ${top1.bucket} 已经变成Top1，且预计从买入窗口上移 ${round(predictedRise, 2)}`,
     };
   }
 
@@ -1889,6 +1904,13 @@ function renderCardHtml(item) {
     const meanText = item.temperatureBandMeanResidual == null ? "-" : signedNumber(item.temperatureBandMeanResidual);
     const medianText = item.temperatureBandMedianResidual == null ? "-" : signedNumber(item.temperatureBandMedianResidual);
     hint.textContent = `温度段修正：${item.temperatureBand} · ${item.temperatureBandLevel} · n=${item.temperatureBandSampleSize || 0} · 平均${meanText} · 中位${medianText} · 权重${Math.round((item.temperatureBandWeight || 0) * 100)}%`;
+    template.querySelector(".signal-row").after(hint);
+  }
+  const guardInfo = (item.probabilities || []).find((probability) => probability.highTemperatureMeanGuard);
+  if (guardInfo) {
+    const hint = document.createElement("div");
+    hint.className = "high-temp-guard-hint";
+    hint.textContent = `强高温保护：均值中心 ${guardInfo.highTemperatureMeanGuardCenter}，已保护上方 ${guardInfo.highTemperatureMeanGuardBucket}，防止推荐过低`;
     template.querySelector(".signal-row").after(hint);
   }
   if (modelN < 6) {
