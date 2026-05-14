@@ -1906,13 +1906,6 @@ function renderCardHtml(item) {
     hint.textContent = `温度段修正：${item.temperatureBand} · ${item.temperatureBandLevel} · n=${item.temperatureBandSampleSize || 0} · 平均${meanText} · 中位${medianText} · 权重${Math.round((item.temperatureBandWeight || 0) * 100)}%`;
     template.querySelector(".signal-row").after(hint);
   }
-  const guardInfo = (item.probabilities || []).find((probability) => probability.highTemperatureMeanGuard);
-  if (guardInfo) {
-    const hint = document.createElement("div");
-    hint.className = "high-temp-guard-hint";
-    hint.textContent = `强高温观察：均值中心 ${guardInfo.highTemperatureMeanGuardCenter}，上方 ${guardInfo.highTemperatureMeanGuardBucket} 只作风险提醒，不改概率`;
-    template.querySelector(".signal-row").after(hint);
-  }
   if (modelN < 6) {
     const warning = document.createElement("div");
     warning.className = "sample-warning";
