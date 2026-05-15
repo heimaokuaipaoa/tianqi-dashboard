@@ -1550,6 +1550,7 @@ function renderProfitPicks() {
                     </div>
                     <div class="profit-main">
                       <b>历史 Top2 ${pick.top2Accuracy}%</b>
+                      <b>Top1 ${pick.top1Accuracy}%</b>
                       <span>回测样本 ${pick.n}</span>
                     </div>
                   </article>
