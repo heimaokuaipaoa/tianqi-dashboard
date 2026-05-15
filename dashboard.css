@@ -726,6 +726,11 @@ input {
   background: #fff4f4;
 }
 
+.winrate-card.winrate-observe {
+  border-left-color: var(--watch);
+  background: #fffaf0;
+}
+
 .winrate-card strong,
 .winrate-card b {
   display: block;
@@ -1018,6 +1023,7 @@ h3 {
 .outlier-warning,
 .temperature-band-hint,
 .high-temp-guard-hint,
+.peak-check,
 .profit-hint,
 .hold-advice-box {
   margin: -2px 0 12px;
@@ -1043,6 +1049,31 @@ h3 {
   border-left-color: #6d28d9;
   background: #f5f3ff;
   color: #4c1d95;
+}
+
+.peak-check {
+  display: grid;
+  gap: 4px;
+  border-color: #f3c78a;
+  border-left-color: #d97706;
+  background: #fff8ed;
+  color: #7c3d00;
+}
+
+.peak-check.peak-danger {
+  border-color: #ef9a9a;
+  border-left-color: #b42318;
+  background: #fff4f4;
+  color: #9b1c1c;
+}
+
+.peak-check b,
+.peak-check span {
+  display: block;
+}
+
+.peak-check span {
+  font-weight: 700;
 }
 
 .outlier-warning {
