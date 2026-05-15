@@ -253,6 +253,100 @@ input {
   font-size: 12px;
 }
 
+.recommendation-review {
+  margin-top: 12px;
+  border: 1px solid #cfd8e8;
+  border-left: 4px solid #667085;
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px;
+}
+
+.recommendation-review.good {
+  border-color: #a7d8bc;
+  border-left-color: var(--strong);
+  background: #f7fcf9;
+}
+
+.recommendation-review.miss {
+  border-color: #efb5b5;
+  border-left-color: var(--weak);
+  background: #fffafa;
+}
+
+.recommendation-review.pending {
+  border-color: #e7c982;
+  border-left-color: var(--watch);
+  background: #fffdf5;
+}
+
+.review-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.review-head strong {
+  font-size: 15px;
+}
+
+.review-head span {
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.review-misses {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.review-misses article {
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #fff;
+  padding: 8px;
+}
+
+.review-misses b,
+.review-misses span,
+.review-misses small {
+  display: block;
+}
+
+.review-misses b {
+  font-size: 13px;
+}
+
+.review-misses span {
+  margin-top: 4px;
+  color: var(--text);
+  font-size: 12px;
+}
+
+.review-misses small {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.review-conclusions {
+  display: grid;
+  gap: 4px;
+  margin-top: 10px;
+}
+
+.review-conclusions p {
+  margin: 0;
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
 .recommendation-empty {
   color: var(--muted);
   padding: 18px;
@@ -1201,6 +1295,10 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .review-misses {
+    grid-template-columns: 1fr;
+  }
+
   .watch-city-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1243,6 +1341,7 @@ h3 {
     .change-picks,
     .profit-date-picks,
     .recommendation-list,
+    .review-misses,
     .watch-city-list,
     .edge-picks,
     .holding-picks {
