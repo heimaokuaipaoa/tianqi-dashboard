@@ -488,35 +488,6 @@ function isOptimizedBestWindowItem(item) {
 }
 
 function historicalScore(item) {
-  if (item.optimizedRecommended && (item.optimizedRuleN || 0) > 0 && item.optimizedRuleTop2Accuracy != null) {
-    const history = {
-      expectedField: item.expectedField,
-      timeNode: item.timeNode,
-      n: item.optimizedRuleN || 0,
-      top1Hits: item.optimizedRuleTop1Hits || 0,
-      top2Hits: item.optimizedRuleTop2Hits || 0,
-      top1Accuracy: item.optimizedRuleTop1Accuracy || 0,
-      top2Accuracy: item.optimizedRuleTop2Accuracy || 0,
-      optimizedModelName: item.optimizedModelName || "",
-      optimizedModelLabel: item.optimizedModelLabel || "",
-      optimizedRuleLabel: item.optimizedBestRuleLabel || "全样本",
-    };
-    return {
-      item,
-      history,
-      n: history.n,
-      sample: item.modelSampleSize || 0,
-      top1Accuracy: history.top1Accuracy,
-      top2Accuracy: history.top2Accuracy,
-      top1Hits: history.top1Hits,
-      top2Hits: history.top2Hits,
-      optimizedModelLabel: history.optimizedModelLabel,
-      optimizedRuleLabel: history.optimizedRuleLabel,
-      optimizedRuleBased: true,
-      tradableBestWindow: item.optimizedWindowTradableBest !== false,
-      tradeCutoffReason: item.optimizedWindowCutoffReason || "",
-    };
-  }
   if ((item.optimizedWindowN || 0) > 0 && item.optimizedWindowTop2Accuracy != null) {
     const history = {
       expectedField: item.expectedField,
@@ -539,7 +510,7 @@ function historicalScore(item) {
       top1Hits: history.top1Hits,
       top2Hits: history.top2Hits,
       optimizedModelLabel: history.optimizedModelLabel,
-      optimizedRuleLabel: item.optimizedBestRuleLabel || "",
+      optimizedRuleLabel: "全窗口",
       optimizedRuleBased: false,
       tradableBestWindow: item.optimizedWindowTradableBest !== false,
       tradeCutoffReason: item.optimizedWindowCutoffReason || "",
@@ -572,7 +543,7 @@ function compareHistoricalWindow(a, b) {
     (b.top2Accuracy || 0) - (a.top2Accuracy || 0) ||
     (b.n || 0) - (a.n || 0) ||
     earlierTimeRank(a.item?.timeNode || a.timeNode) - earlierTimeRank(b.item?.timeNode || b.timeNode) ||
-    (b.top1Accuracy || 0) - (a.top1Accuracy || 0)
+    displayCity(a.item?.expectedField || a.expectedField).localeCompare(displayCity(b.item?.expectedField || b.expectedField))
   );
 }
 
@@ -675,7 +646,6 @@ function missingWindowWatchlist(date, availability, excludedCityKeys = new Set()
       earlierTimeRank(a.timeNode) - earlierTimeRank(b.timeNode) ||
       b.top2Accuracy - a.top2Accuracy ||
       (b.n || 0) - (a.n || 0) ||
-      b.top1Accuracy - a.top1Accuracy ||
       displayCity(a.expectedField).localeCompare(displayCity(b.expectedField))
     )
     .slice(0, 16);
@@ -693,7 +663,6 @@ function groupedWatchlist(items) {
       rows: rows.sort((a, b) =>
         b.top2Accuracy - a.top2Accuracy ||
         (b.n || 0) - (a.n || 0) ||
-        b.top1Accuracy - a.top1Accuracy ||
         displayCity(a.expectedField).localeCompare(displayCity(b.expectedField))
       ),
     }))
@@ -713,7 +682,6 @@ function groupedProfitPicks(picks) {
       rows: rows.sort((a, b) =>
         b.top2Accuracy - a.top2Accuracy ||
         (b.n || 0) - (a.n || 0) ||
-        b.top1Accuracy - a.top1Accuracy ||
         displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
       ),
     }))
@@ -1525,7 +1493,6 @@ function renderProfitPicks() {
       b.top2Accuracy - a.top2Accuracy ||
       (b.n || 0) - (a.n || 0) ||
       earlierTimeRank(a.item.timeNode) - earlierTimeRank(b.item.timeNode) ||
-      b.top1Accuracy - a.top1Accuracy ||
       displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
     );
   const grouped = dates
@@ -1537,7 +1504,6 @@ function renderProfitPicks() {
           earlierTimeRank(a.item.timeNode) - earlierTimeRank(b.item.timeNode) ||
           b.top2Accuracy - a.top2Accuracy ||
           (b.n || 0) - (a.n || 0) ||
-          b.top1Accuracy - a.top1Accuracy ||
           displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
         );
       const shownPicks = allDatePicks.slice(0, 16);
@@ -1584,7 +1550,6 @@ function renderProfitPicks() {
                     </div>
                     <div class="profit-main">
                       <b>历史 Top2 ${pick.top2Accuracy}%</b>
-                      <em>Top1 ${pick.top1Accuracy}%</em>
                       <span>回测样本 ${pick.n}</span>
                     </div>
                   </article>
@@ -1608,7 +1573,7 @@ function renderProfitPicks() {
                     ${windowGroup.rows.map((item) => `
                       <article>
                         <b>${displayCity(item.expectedField)}</b>
-                        <span>${item.optimizedRuleLabel || "全样本"} · Top2 ${item.top2Accuracy}% · Top1 ${item.top1Accuracy}% · n=${item.n}</span>
+                        <span>${item.optimizedRuleLabel || "全窗口"} · Top2 ${item.top2Accuracy}% · n=${item.n}</span>
                       </article>
                     `).join("")}
                   </div>
@@ -1624,10 +1589,10 @@ function renderProfitPicks() {
 
 function recommendationScoreFromItem(item) {
   return {
-    n: item.optimizedRuleN || item.optimizedWindowN || 0,
+    n: item.optimizedWindowN || 0,
     sample: item.modelSampleSize || 0,
-    top1Accuracy: item.optimizedRuleTop1Accuracy ?? item.optimizedWindowTop1Accuracy ?? 0,
-    top2Accuracy: item.optimizedRuleTop2Accuracy ?? item.optimizedWindowTop2Accuracy ?? 0,
+    top1Accuracy: item.optimizedWindowTop1Accuracy ?? 0,
+    top2Accuracy: item.optimizedWindowTop2Accuracy ?? 0,
   };
 }
 
@@ -1688,9 +1653,9 @@ function recommendationTrackRowFromSnapshot(snapshot) {
     actualBucket: snapshot.actualBucket || "",
     hit: snapshot.top2Hit === true,
     pending: !snapshot.settled,
-    top1Accuracy: snapshot.optimizedRuleTop1Accuracy ?? 0,
-    top2Accuracy: snapshot.optimizedRuleTop2Accuracy ?? 0,
-    n: snapshot.optimizedRuleN || 0,
+    top1Accuracy: snapshot.optimizedWindowTop1Accuracy ?? snapshot.optimizedRuleTop1Accuracy ?? 0,
+    top2Accuracy: snapshot.optimizedWindowTop2Accuracy ?? snapshot.optimizedRuleTop2Accuracy ?? 0,
+    n: snapshot.optimizedWindowN || snapshot.optimizedRuleN || 0,
     sample: snapshot.modelSampleSize || 0,
     snapshotAt: snapshot.snapshotAt || "",
   };
@@ -1702,7 +1667,9 @@ function buildRecommendationTrackGroups() {
   if (snapshots.length) {
     for (const snapshot of snapshots) {
       if (!snapshot?.date || !snapshot?.expectedField) continue;
+      if (snapshot.snapshotVersion !== "full-window-top2-v1") continue;
       const row = recommendationTrackRowFromSnapshot(snapshot);
+      if ((row.n || 0) < HISTORY_MIN_SAMPLE || (row.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) continue;
       const current = byKey.get(row.key);
       if (!current || String(row.snapshotAt || "").localeCompare(String(current.snapshotAt || "")) < 0) {
         byKey.set(row.key, row);
@@ -1882,11 +1849,11 @@ function renderCardHtml(item) {
     profitBox.innerHTML = `
       <div>
         <span>当前窗口历史命中率</span>
-        <b>Top1 ${currentHistory.top1Accuracy}% · Top2 ${currentHistory.top2Accuracy}% · n=${currentHistory.n}</b>
+        <b>Top2 ${currentHistory.top2Accuracy}% · 回测样本 ${currentHistory.n}</b>
       </div>
       <div>
         <span>同城同日期最佳历史窗口</span>
-        <b>${bestHistory ? `${bestHistory.item.timeNode} · Top1 ${bestHistory.top1Accuracy}% · Top2 ${bestHistory.top2Accuracy}% · n=${bestHistory.n}` : `暂无回测样本>=${HISTORY_MIN_SAMPLE}窗口`}</b>
+        <b>${bestHistory ? `${bestHistory.item.timeNode} · Top2 ${bestHistory.top2Accuracy}% · 回测样本 ${bestHistory.n}` : `暂无回测样本>=${HISTORY_MIN_SAMPLE}窗口`}</b>
       </div>
       <em>${bestIsCurrent ? "当前就是该城市历史命中率最高窗口" : "当前不是该城市历史命中率最高窗口，可考虑等最佳窗口"}</em>
     `;
