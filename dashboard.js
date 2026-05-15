@@ -585,7 +585,6 @@ function bestHistoricalForCityDate(item) {
     .filter(Boolean)
     .filter((score) =>
       (score.n || 0) >= HISTORY_MIN_SAMPLE &&
-      (score.sample || 0) >= HISTORY_MIN_SAMPLE &&
       score.tradableBestWindow !== false &&
       (score.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD
     )
@@ -628,7 +627,7 @@ function missingWindowWatchlist(date, availability, excludedCityKeys = new Set()
   const knownCities = new Set((state.data?.probabilityCandidates || []).map((item) => cityKey(item.expectedField)).filter(Boolean));
   const validCurrentKeys = new Set(
     (state.data?.probabilityCandidates || [])
-      .filter((item) => item.date === date && (item.modelSampleSize || 0) >= HISTORY_MIN_SAMPLE)
+      .filter((item) => item.date === date)
       .map((item) => accuracyKey(item.expectedField, item.timeNode)),
   );
   const bestByCity = new Map();
@@ -1167,7 +1166,7 @@ function holdingCurrentCheck(item, bucket) {
   const rank = rankOfBucket(item, bucket);
   const probability = probabilityByBucket(item, bucket);
   const sample = item.modelSampleSize || 0;
-  const historyOk = Boolean(history && (history.n || 0) >= HISTORY_MIN_SAMPLE && sample >= HISTORY_MIN_SAMPLE && (history.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD);
+  const historyOk = Boolean(history && (history.n || 0) >= HISTORY_MIN_SAMPLE && (history.top2Accuracy || 0) >= HISTORY_TOP2_THRESHOLD);
   const bestOk = Boolean(bestHistory && sameItem(bestHistory.item, item));
   const bucketOk = rank != null && rank <= 2;
   const reasons = [];
@@ -1176,7 +1175,6 @@ function holdingCurrentCheck(item, bucket) {
     if ((history.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD) reasons.push(`历史 Top2 ${history.top2Accuracy}% < ${HISTORY_TOP2_THRESHOLD}%`);
     if ((history.n || 0) < HISTORY_MIN_SAMPLE) reasons.push(`回测样本 ${history.n || 0} < ${HISTORY_MIN_SAMPLE}`);
   }
-  if (sample < HISTORY_MIN_SAMPLE) reasons.push(`当前样本 ${sample} < ${HISTORY_MIN_SAMPLE}`);
   if (!bestOk) reasons.push(bestHistory ? `同城同日最优是 ${bestHistory.item.timeNode}` : "同城同日没有达标推荐");
   if (!bucketOk) reasons.push(rank ? `该温度当前排名第 ${rank}` : "该温度不在当前概率列表");
   return {
@@ -1515,7 +1513,6 @@ function renderProfitPicks() {
     if (
       !score ||
       (score.n || 0) < HISTORY_MIN_SAMPLE ||
-      (score.sample || 0) < HISTORY_MIN_SAMPLE ||
       score.tradableBestWindow === false ||
       (score.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD
     ) continue;
@@ -1555,7 +1552,7 @@ function renderProfitPicks() {
     })
     .filter((group) => group.picks.length || group.watchlist.length);
   if (!grouped.length) {
-    container.innerHTML = `<div class="profit-empty">当前两天没有历史 Top2 命中率 >= ${HISTORY_TOP2_THRESHOLD}% 且样本 >= ${HISTORY_MIN_SAMPLE} 的窗口。</div>`;
+    container.innerHTML = `<div class="profit-empty">当前两天没有历史 Top2 命中率 >= ${HISTORY_TOP2_THRESHOLD}% 且回测样本 >= ${HISTORY_MIN_SAMPLE} 的窗口。</div>`;
     return;
   }
   container.innerHTML = grouped
@@ -1588,7 +1585,7 @@ function renderProfitPicks() {
                     <div class="profit-main">
                       <b>历史 Top2 ${pick.top2Accuracy}%</b>
                       <em>Top1 ${pick.top1Accuracy}%</em>
-                      <span>当前样本 ${pick.sample} · 回测样本 ${pick.n}</span>
+                      <span>回测样本 ${pick.n}</span>
                     </div>
                   </article>
                 `).join("")}
@@ -1599,7 +1596,7 @@ function renderProfitPicks() {
         ${group.watchlist.length ? `
           <div class="missing-watchlist">
             <strong>${group.label}未出窗口关注</strong>
-            <span class="watchlist-note">历史 Top2 命中率 ≥ ${HISTORY_TOP2_THRESHOLD}%，当前还没有有效样本，等数据出来后再确认概率。</span>
+            <span class="watchlist-note">历史 Top2 命中率 ≥ ${HISTORY_TOP2_THRESHOLD}%，当前还没有该窗口数据，等数据出来后再确认概率。</span>
             <div class="watch-window-groups">
               ${groupedWatchlist(group.watchlist).map((windowGroup) => `
                 <section class="watch-window-group">
@@ -1640,7 +1637,6 @@ function recommendationEligible(item) {
     item.optimizedRecommended &&
     isOptimizedBestWindowItem(item) &&
     score.n >= HISTORY_MIN_SAMPLE &&
-    score.sample >= HISTORY_MIN_SAMPLE &&
     score.top2Accuracy >= HISTORY_TOP2_THRESHOLD
   );
 }
@@ -1792,7 +1788,7 @@ function renderRecommendationPerformance() {
               <strong>${row.city} · ${row.timeNode}</strong>
               <b>${row.topText}</b>
               <span>${row.pending ? "待实际温度" : `实际 ${row.actualBucket || "-"} · ${row.hit ? "命中" : "未中"}`}</span>
-              <span>历史 Top2 ${row.top2Accuracy}% · 当前样本 ${row.sample} · 回测样本 ${row.n}</span>
+              <span>历史 Top2 ${row.top2Accuracy}% · 回测样本 ${row.n}</span>
             </article>
           `).join("")}
         </div>
@@ -1848,7 +1844,7 @@ function renderEdgePicks(items) {
           <span>${pick.source === "poly" ? "Poly" : "手动"} ${pick.price}%</span>
           <b>+${Math.round(pick.edge)}%</b>
         </div>
-        <small>样本 ${pick.item.modelSampleSize || 0} · ${pick.item.modelLevel}</small>
+        <small>${pick.item.modelLevel}</small>
       </article>
     `)
     .join("");
@@ -1870,7 +1866,7 @@ function renderCardHtml(item) {
   template.querySelector(".predicted").textContent = String(item.predicted);
   template.querySelector(".baseline").textContent = item.baselinePredicted == null ? "-" : String(item.baselinePredicted);
   template.querySelector(".trend").textContent = trendText(item);
-  template.querySelector(".samples").textContent = `${modelN} ${sampleText}${droppedText}`;
+  template.querySelector(".samples").textContent = `${sampleText}${droppedText}`;
   template.querySelector(".buckets").innerHTML = displayProbabilities(item)
     .map((probability) => renderBucket(item, probability))
     .join("");
@@ -1890,7 +1886,7 @@ function renderCardHtml(item) {
       </div>
       <div>
         <span>同城同日期最佳历史窗口</span>
-        <b>${bestHistory ? `${bestHistory.item.timeNode} · Top1 ${bestHistory.top1Accuracy}% · Top2 ${bestHistory.top2Accuracy}% · n=${bestHistory.n}` : `暂无样本>=${HISTORY_MIN_SAMPLE}窗口`}</b>
+        <b>${bestHistory ? `${bestHistory.item.timeNode} · Top1 ${bestHistory.top1Accuracy}% · Top2 ${bestHistory.top2Accuracy}% · n=${bestHistory.n}` : `暂无回测样本>=${HISTORY_MIN_SAMPLE}窗口`}</b>
       </div>
       <em>${bestIsCurrent ? "当前就是该城市历史命中率最高窗口" : "当前不是该城市历史命中率最高窗口，可考虑等最佳窗口"}</em>
     `;
@@ -2139,7 +2135,7 @@ function drawExportCard(ctx, item, x, y, w, h, bucketRowHeight) {
     ["当前预计", item.predicted],
     ["昨10预计", item.baselinePredicted ?? "-"],
     ["分档", trendText(item)],
-    ["样本", `${item.modelSampleSize || 0} ${item.modelSampleSize >= 10 ? "强参考" : item.modelSampleSize >= 5 ? "一般参考" : "弱参考"}`],
+    ["概率参考", `${item.modelSampleSize >= 10 ? "强参考" : item.modelSampleSize >= 5 ? "一般参考" : "弱参考"}`],
   ].forEach(([label, value], index) => {
     const xx = x + 34 + index * colW;
     drawText(ctx, label, xx, boxY + 10, 12, 400, "#667085", colW - 8);
