@@ -59,7 +59,7 @@ const timeOrder = [
   "22点到23点",
 ];
 
-const HISTORY_TOP2_THRESHOLD = 85;
+const HISTORY_TOP2_THRESHOLD = 90;
 const HISTORY_MIN_SAMPLE = 8;
 
 const $ = (selector) => document.querySelector(selector);
