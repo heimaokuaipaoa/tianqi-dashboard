@@ -1612,14 +1612,67 @@ function recommendationTopText(item) {
     .join(" / ");
 }
 
+function recommendationTopBucketsFromText(text) {
+  return String(text || "")
+    .split("/")
+    .map((part) => part.trim().replace(/\s+\d+%$/, "").trim())
+    .filter(Boolean);
+}
+
+function recommendationTopProbabilitySum(row) {
+  const probabilities = row.topProbabilities || [];
+  if (probabilities.length) {
+    return Math.round(
+      probabilities
+        .slice(0, 2)
+        .reduce((sum, probability) => sum + Number(probability.probability || 0), 0) * 100
+    );
+  }
+  const matches = String(row.topText || "").match(/\d+%/g) || [];
+  return matches
+    .slice(0, 2)
+    .reduce((sum, text) => sum + Number(text.replace("%", "")), 0);
+}
+
+function recommendationMissDirection(row) {
+  if (row.pending || row.hit || !row.actualBucket) return null;
+  const topBuckets = row.topBuckets?.length ? row.topBuckets : recommendationTopBucketsFromText(row.topText);
+  if (!topBuckets.length) return "unknown";
+  const actual = bucketSpan({ bucket: row.actualBucket });
+  if (!actual) return "unknown";
+  const spans = topBuckets.map((bucket) => bucketSpan({ bucket })).filter(Boolean);
+  if (!spans.length) return "unknown";
+  const topMin = Math.min(...spans.map((span) => span.min));
+  const topMax = Math.max(...spans.map((span) => span.max));
+  const actualMid = (actual.min + actual.max) / 2;
+  if (actualMid > topMax) return "high";
+  if (actualMid < topMin) return "low";
+  return "near";
+}
+
+function recommendationDirectionText(direction) {
+  if (direction === "high") return "实际高于推荐Top2";
+  if (direction === "low") return "实际低于推荐Top2";
+  if (direction === "near") return "实际贴近但不在Top2";
+  return "方向不明";
+}
+
 function recommendationTrackRow(item, pending = false) {
+  const top = topProbabilities(item, 2);
   const score = recommendationScoreFromItem(item);
   return {
     key: `${item.date}|${cityKey(item.expectedField)}`,
     date: item.date,
     city: displayCity(item.expectedField),
     timeNode: item.timeNode,
-    topText: recommendationTopText(item),
+    topText: top
+      .map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`)
+      .join(" / "),
+    topBuckets: top.map((probability) => probability.bucket),
+    topProbabilities: top.map((probability) => ({
+      bucket: probability.bucket,
+      probability: probability.probability || 0,
+    })),
     actualBucket: item.actualBucket || "",
     hit: item.top2Hit === true,
     pending,
@@ -1627,6 +1680,8 @@ function recommendationTrackRow(item, pending = false) {
     top2Accuracy: score.top2Accuracy,
     n: score.n,
     sample: score.sample,
+    predicted: item.predicted,
+    unit: item.unit || "",
   };
 }
 
@@ -1650,6 +1705,8 @@ function recommendationTrackRowFromSnapshot(snapshot) {
     city: displayCity(snapshot.expectedField),
     timeNode: snapshot.timeNode,
     topText: snapshotTopText(snapshot),
+    topBuckets: snapshot.topBuckets || recommendationTopBucketsFromText(snapshotTopText(snapshot)),
+    topProbabilities: snapshot.topProbabilities || [],
     actualBucket: snapshot.actualBucket || "",
     hit: snapshot.top2Hit === true,
     pending: !snapshot.settled,
@@ -1658,6 +1715,8 @@ function recommendationTrackRowFromSnapshot(snapshot) {
     n: snapshot.optimizedWindowN || snapshot.optimizedRuleN || 0,
     sample: snapshot.modelSampleSize || 0,
     snapshotAt: snapshot.snapshotAt || "",
+    predicted: snapshot.predicted,
+    unit: snapshot.unit || "",
   };
 }
 
@@ -1729,6 +1788,91 @@ function buildRecommendationTrackGroups() {
     .slice(0, 8);
 }
 
+function recommendationDailyReview(group) {
+  const settled = group.rows.filter((row) => !row.pending);
+  const misses = settled.filter((row) => !row.hit);
+  if (!settled.length) {
+    return {
+      status: "pending",
+      summary: "等待实际温度，暂时不能复盘。",
+      misses,
+      conclusions: ["等飞书填入实际温度后，再看推荐是否需要收紧。"],
+    };
+  }
+  if (!misses.length) {
+    return {
+      status: "good",
+      summary: "这一天已结算推荐全部命中，当前规则暂时不用收紧。",
+      misses,
+      conclusions: ["保留当天入选条件，后续重点观察是否连续稳定。"],
+    };
+  }
+
+  const directionCounts = misses.reduce((counts, row) => {
+    const direction = recommendationMissDirection(row);
+    counts[direction || "unknown"] = (counts[direction || "unknown"] || 0) + 1;
+    return counts;
+  }, {});
+  const marginal = misses.filter((row) => (row.top2Accuracy || 0) < 90).length;
+  const smallSample = misses.filter((row) => (row.n || 0) <= 10).length;
+  const lowCurrentConfidence = misses.filter((row) => recommendationTopProbabilitySum(row) < 80).length;
+  const high = directionCounts.high || 0;
+  const low = directionCounts.low || 0;
+  const conclusions = [];
+
+  if (high >= Math.max(1, Math.ceil(misses.length / 2))) {
+    conclusions.push("未中主要是实际温度高于推荐Top2，说明这类窗口低估升温，后续要给更高一档更多保护。");
+  }
+  if (low >= Math.max(1, Math.ceil(misses.length / 2))) {
+    conclusions.push("未中主要是实际温度低于推荐Top2，说明这类窗口高温修正偏强，后续要降低高温加权或保留低一档。");
+  }
+  if (marginal >= Math.max(1, Math.ceil(misses.length / 2))) {
+    conclusions.push("失败集中在85%-90%的边缘历史胜率，建议把这类从强推荐降为观察。");
+  }
+  if (smallSample >= Math.max(1, Math.ceil(misses.length / 2))) {
+    conclusions.push("失败集中在回测样本10个以内，样本虽然达标但稳定性弱，建议标记为谨慎。");
+  }
+  if (lowCurrentConfidence >= Math.max(1, Math.ceil(misses.length / 2))) {
+    conclusions.push("失败时当前Top2概率合计不够集中，建议Top2合计低于80%时降低推荐等级。");
+  }
+  if (!conclusions.length) {
+    conclusions.push("失败没有明显单一共性，先保留规则，但继续观察同城市和同窗口是否重复出错。");
+  }
+
+  return {
+    status: "miss",
+    summary: `未中 ${misses.length} 个：实际偏高 ${high} 个，实际偏低 ${low} 个，边缘胜率 ${marginal} 个，样本偏少 ${smallSample} 个。`,
+    misses,
+    conclusions,
+  };
+}
+
+function renderRecommendationReview(group) {
+  const review = recommendationDailyReview(group);
+  return `
+    <div class="recommendation-review ${review.status}">
+      <div class="review-head">
+        <strong>每日复盘</strong>
+        <span>${review.summary}</span>
+      </div>
+      ${review.misses.length ? `
+        <div class="review-misses">
+          ${review.misses.map((row) => `
+            <article>
+              <b>${row.city} · ${row.timeNode}</b>
+              <span>推荐 ${row.topText}；实际 ${row.actualBucket || "-"}；${recommendationDirectionText(recommendationMissDirection(row))}</span>
+              <small>历史Top2 ${row.top2Accuracy}% · 回测样本 ${row.n} · 当前Top2合计 ${recommendationTopProbabilitySum(row)}%</small>
+            </article>
+          `).join("")}
+        </div>
+      ` : ""}
+      <div class="review-conclusions">
+        ${review.conclusions.map((text) => `<p>${text}</p>`).join("")}
+      </div>
+    </div>
+  `;
+}
+
 function renderRecommendationPerformance() {
   const container = $("#recommendationPerformance");
   if (!container) return;
@@ -1759,6 +1903,7 @@ function renderRecommendationPerformance() {
             </article>
           `).join("")}
         </div>
+        ${renderRecommendationReview(group)}
       </section>
     `;
   }).join("");
