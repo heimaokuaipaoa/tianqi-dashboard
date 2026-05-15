@@ -905,6 +905,151 @@ function probabilityByBucket(item, bucket) {
   return match?.probability || 0;
 }
 
+function itemTradeStep(item) {
+  const step = tradeCostStep(item?.timeNode);
+  return step == null ? itemTimeIndex(item || {}) : step;
+}
+
+function bucketRiskRange(bucket, unit) {
+  const span = bucketSpan({ bucket });
+  if (!span) return null;
+  const text = String(bucket || "");
+  const hasRange = text.includes("-");
+  if (unit === "F" && hasRange) {
+    return { min: span.min, max: span.max + 0.99 };
+  }
+  if (unit !== "F" && !hasRange && Number.isFinite(span.min)) {
+    return { min: span.min, max: span.min + 0.99 };
+  }
+  return span;
+}
+
+function sameCityDateItems(item) {
+  return (state.data?.probabilityCandidates || [])
+    .filter((candidate) =>
+      candidate.date === item.date &&
+      candidate.expectedField === item.expectedField &&
+      candidate.predicted != null &&
+      Number.isFinite(Number(candidate.predicted)) &&
+      (candidate.probabilities || []).length
+    )
+    .sort((a, b) => itemTradeStep(a) - itemTradeStep(b));
+}
+
+function highPointItemAfter(item) {
+  if (!item) return null;
+  const baseStep = itemTradeStep(item);
+  const candidates = sameCityDateItems(item)
+    .filter((candidate) => itemTradeStep(candidate) >= baseStep);
+  if (!candidates.length) return null;
+  return candidates
+    .sort((a, b) =>
+      Number(b.predicted) - Number(a.predicted) ||
+      itemTradeStep(b) - itemTradeStep(a)
+    )[0] || null;
+}
+
+function topTextForItem(item) {
+  return topProbabilities(item, 2)
+    .map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`)
+    .join(" / ");
+}
+
+function topHasHigherBucket(top, range, unit) {
+  return top.some((probability) => {
+    const bucketRange = bucketRiskRange(probability.bucket, unit);
+    return bucketRange && bucketRange.min > range.max && (probability.probability || 0) >= 0.12;
+  });
+}
+
+function peakWindowCheckForItem(item) {
+  const peakItem = highPointItemAfter(item);
+  if (!peakItem || sameItem(peakItem, item)) return null;
+  const unit = item.unit || peakItem.unit || "C";
+  const isFahrenheit = unit === "F";
+  const rise = Number(peakItem.predicted) - Number(item.predicted);
+  const originalTop = topProbabilities(item, 2);
+  const peakTop = topProbabilities(peakItem, 2);
+  if (rise < (isFahrenheit ? 1 : 0.35) && !topSetChanged(item, peakItem)) return null;
+
+  const originalRanges = originalTop
+    .map((probability) => bucketRiskRange(probability.bucket, unit))
+    .filter(Boolean);
+  const originalMax = originalRanges.length ? Math.max(...originalRanges.map((range) => range.max)) : null;
+  const newHigher = originalMax != null && topHasHigherBucket(peakTop, { min: -Infinity, max: originalMax }, unit);
+  const nearUpper = originalMax != null && Number(peakItem.predicted) >= originalMax - (isFahrenheit ? 0.6 : 0.35);
+  if (!newHigher && !nearUpper && !topSetChanged(item, peakItem)) return null;
+
+  const status = newHigher || Number(peakItem.predicted) > (originalMax ?? Infinity) ? "danger" : "observe";
+  return {
+    status,
+    peakItem,
+    rise,
+    topText: topTextForItem(peakItem),
+    reason: status === "danger"
+      ? `高点窗口 ${peakItem.timeNode} 已上移到 ${peakItem.predicted}，Top2 变成 ${topTextForItem(peakItem)}`
+      : `高点窗口 ${peakItem.timeNode} 预计 ${peakItem.predicted}，已经接近原Top2上沿，注意更高一档`,
+  };
+}
+
+function peakHoldingRisk(item, holding) {
+  const purchaseItem = holding.purchaseItem || findDashboardItem(holding.date, holding.timeNode, holding.expectedField);
+  if (!purchaseItem) return null;
+  const peakItem = highPointItemAfter(purchaseItem);
+  if (!peakItem || sameItem(peakItem, purchaseItem)) return null;
+  const unit = peakItem.unit || purchaseItem.unit || "C";
+  const isFahrenheit = unit === "F";
+  const range = bucketRiskRange(holding.bucket, unit);
+  if (!range) return null;
+  const top = topProbabilities(peakItem, 2);
+  const peakRank = rankOfBucket(peakItem, holding.bucket);
+  const peakProbability = probabilityByBucket(peakItem, holding.bucket);
+  const rise = Number(peakItem.predicted) - Number(purchaseItem.predicted);
+  const topShiftedAbove = top.length && top.every((probability) => {
+    const bucketRange = bucketRiskRange(probability.bucket, unit);
+    return bucketRange && bucketRange.min > range.max;
+  });
+  const higherTop = topHasHigherBucket(top, range, unit);
+  const aboveUpper = Number(peakItem.predicted) > range.max;
+  const nearUpper = Number(peakItem.predicted) >= range.max - (isFahrenheit ? 0.6 : 0.35);
+  const meaningfulRise = rise >= (isFahrenheit ? 1 : 0.4);
+
+  if (topShiftedAbove || ((peakRank == null || peakRank > 2) && meaningfulRise && peakProbability < 0.15)) {
+    return {
+      status: "danger",
+      action: "考虑止损",
+      peakItem,
+      probability: peakProbability,
+      rank: peakRank,
+      reason: `高点窗口 ${peakItem.timeNode} 的Top2已变成 ${topTextForItem(peakItem)}，持仓 ${holding.bucket} 已不在核心区`,
+    };
+  }
+
+  if (aboveUpper && (meaningfulRise || higherTop)) {
+    return {
+      status: "danger",
+      action: "考虑减仓",
+      peakItem,
+      probability: peakProbability,
+      rank: peakRank,
+      reason: `高点窗口 ${peakItem.timeNode} 预计 ${peakItem.predicted}，已经高过持仓 ${holding.bucket} 的安全上沿`,
+    };
+  }
+
+  if (nearUpper && higherTop) {
+    return {
+      status: "observe",
+      action: "警惕上破",
+      peakItem,
+      probability: peakProbability,
+      rank: peakRank,
+      reason: `高点窗口 ${peakItem.timeNode} 预计 ${peakItem.predicted}，更高温度已进入Top2：${topTextForItem(peakItem)}`,
+    };
+  }
+
+  return null;
+}
+
 function stopLossSignal(item, holding, context) {
   const span = bucketSpan({ bucket: holding.bucket });
   if (!span || item.predicted == null || holding.purchaseItem?.predicted == null) return null;
@@ -924,6 +1069,11 @@ function stopLossSignal(item, holding, context) {
   );
   const topShiftedAbove = topMin != null && topMin > span.max;
   const probabilityDrop = (context.purchaseProbability || 0) - (context.currentProbability || 0);
+  const peakRisk = peakHoldingRisk(item, holding);
+
+  if (peakRisk?.status === "danger") {
+    return peakRisk;
+  }
 
   if (topShiftedAbove) {
     return {
@@ -969,6 +1119,10 @@ function stopLossSignal(item, holding, context) {
       action: "警惕上破",
       reason: `当前预计 ${item.predicted} 已顶到 ${holding.bucket} 上沿，且更高温度进入Top2`,
     };
+  }
+
+  if (peakRisk?.status === "observe") {
+    return peakRisk;
   }
 
   return null;
@@ -1208,22 +1362,34 @@ function renderWinrateUpdateBoard() {
         };
       }
       const check = holdingCurrentCheck(item, holding.bucket);
+      const peakRisk = peakHoldingRisk(item, { ...holding, purchaseItem: item });
       const wasRecommended = holding.snapshot?.purchaseRecommended;
       let status = check.buyable ? "hold" : "danger";
       let title = check.buyable ? "仍可继续观察" : "不再满足买入条件";
-      if (wasRecommended === true && !check.buyable) {
+      if (peakRisk?.status === "danger") {
+        status = "danger";
+        title = peakRisk.action || "高点窗口止损提醒";
+      } else if (peakRisk?.status === "observe" && check.buyable) {
+        status = "observe";
+        title = peakRisk.action || "高点窗口需要观察";
+      } else if (wasRecommended === true && !check.buyable) {
         status = "danger";
         title = "从可买变成不建议";
       } else if (wasRecommended == null && !check.buyable) {
         title = "当前不建议继续按原逻辑买";
       }
+      const baseReason = check.buyable ? "仍满足：最优窗口、历史胜率、样本、Top2 温度都达标。" : check.reasons.join("；");
+      const peakReason = peakRisk
+        ? `${peakRisk.reason}${baseReason ? `；当前买入条件：${baseReason}` : ""}`
+        : baseReason;
       return {
         holding,
         item,
         check,
+        peakRisk,
         status,
         title,
-        reason: check.buyable ? "仍满足：最优窗口、历史胜率、样本、Top2 温度都达标。" : check.reasons.join("；"),
+        reason: peakReason,
       };
     })
     .sort((a, b) =>
@@ -1548,6 +1714,15 @@ function renderProfitPicks() {
                       <span>马上看</span>
                       <b>${topProbabilities(pick.item, 2).map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`).join(" / ")}</b>
                     </div>
+                    ${(() => {
+                      const peakCheck = peakWindowCheckForItem(pick.item);
+                      return peakCheck ? `
+                        <div class="peak-check peak-${peakCheck.status}">
+                          <b>高点校验</b>
+                          <span>${peakCheck.reason}</span>
+                        </div>
+                      ` : "";
+                    })()}
                     <div class="profit-main">
                       <b>历史 Top2 ${pick.top2Accuracy}%</b>
                       <b>Top1 ${pick.top1Accuracy}%</b>
@@ -2041,6 +2216,14 @@ function renderCardHtml(item) {
     const warning = document.createElement("div");
     warning.className = "next-window-warning";
     warning.textContent = `谨慎交易：历史上到下个窗口差别较大（${item.timeNode}→${nextRisk.nextTimeNode}，Top2变化${Math.round(nextRisk.changeRate * 100)}%，n=${nextRisk.n}）`;
+    template.querySelector(".signal-row").after(warning);
+  }
+
+  const peakCheck = peakWindowCheckForItem(item);
+  if (peakCheck) {
+    const warning = document.createElement("div");
+    warning.className = `peak-check peak-${peakCheck.status}`;
+    warning.innerHTML = `<b>高点校验</b><span>${peakCheck.reason}</span>`;
     template.querySelector(".signal-row").after(warning);
   }
 
