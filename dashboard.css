@@ -706,7 +706,7 @@ input {
 
 .winrate-card {
   display: grid;
-  grid-template-columns: 1fr 1.6fr 1.4fr;
+  grid-template-columns: minmax(170px, 0.8fr) minmax(280px, 1.5fr) minmax(260px, 1fr);
   gap: 12px;
   align-items: center;
   border: 1px solid var(--line);
@@ -737,6 +737,20 @@ input {
   font-size: 16px;
 }
 
+.winrate-position {
+  display: grid;
+  gap: 6px;
+  padding: 8px 10px;
+  border: 1px solid #d8e0ea;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.winrate-position b {
+  color: #0b1f33;
+  line-height: 1.35;
+}
+
 .winrate-card span {
   display: block;
   margin-top: 3px;
@@ -750,6 +764,14 @@ input {
   font-size: 13px;
   font-weight: 700;
   line-height: 1.4;
+}
+
+.winrate-card small {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .winrate-empty {
@@ -1022,6 +1044,7 @@ h3 {
 .next-window-warning,
 .outlier-warning,
 .temperature-band-hint,
+.weather-hint,
 .high-temp-guard-hint,
 .peak-check,
 .profit-hint,
@@ -1088,6 +1111,13 @@ h3 {
   border-left-color: #0f766e;
   background: #f0fdfa;
   color: #134e4a;
+}
+
+.weather-hint {
+  border-color: #c4d7ff;
+  border-left-color: #2563eb;
+  background: #eff6ff;
+  color: #1e3a8a;
 }
 
 .high-temp-guard-hint {

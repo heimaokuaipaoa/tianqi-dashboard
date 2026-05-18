@@ -61,11 +61,85 @@ const timeOrder = [
 
 const HISTORY_TOP2_THRESHOLD = 85;
 const HISTORY_MIN_SAMPLE = 8;
+const CITY_TIME_ZONES = {
+  toyko: "Asia/Tokyo",
+  tokyo: "Asia/Tokyo",
+  shanghai: "Asia/Shanghai",
+  hk: "Asia/Hong_Kong",
+  hongkong: "Asia/Hong_Kong",
+  singa: "Asia/Singapore",
+  singapore: "Asia/Singapore",
+  jakarta: "Asia/Jakarta",
+  lucknow: "Asia/Kolkata",
+  seoul: "Asia/Seoul",
+  chengdu: "Asia/Shanghai",
+  beijing: "Asia/Shanghai",
+  warsaw: "Europe/Warsaw",
+  london: "Europe/London",
+  paris: "Europe/Paris",
+  madrid: "Europe/Madrid",
+  milan: "Europe/Rome",
+  ankara: "Europe/Istanbul",
+  ankarar: "Europe/Istanbul",
+  munich: "Europe/Berlin",
+  moscow: "Europe/Moscow",
+  telaviv: "Asia/Jerusalem",
+  helsink: "Europe/Helsinki",
+  helsinks: "Europe/Helsinki",
+  amsterdam: "Europe/Amsterdam",
+  toronto: "America/Toronto",
+  buenos: "America/Argentina/Buenos_Aires",
+  atlanta: "America/New_York",
+  dallas: "America/Chicago",
+  miami: "America/New_York",
+  miami本土: "America/New_York",
+  nyc: "America/New_York",
+  seattle: "America/Los_Angeles",
+  san: "America/Los_Angeles",
+  chicago: "America/Chicago",
+  austin: "America/Chicago",
+  la: "America/Los_Angeles",
+  denver: "America/Denver",
+  houston: "America/Chicago",
+};
+const EUROPE_CONFIRMATION_CITY_KEYS = new Set([
+  "amsterdam",
+  "ankara",
+  "ankarar",
+  "helsink",
+  "helsinks",
+  "london",
+  "madrid",
+  "milan",
+  "moscow",
+  "munich",
+  "paris",
+  "telaviv",
+  "warsaw",
+]);
+const US_CONFIRMATION_CITY_KEYS = new Set([
+  "atlanta",
+  "austin",
+  "chicago",
+  "dallas",
+  "denver",
+  "houston",
+  "la",
+  "miami",
+  "miami本土",
+  "nyc",
+  "san",
+  "seattle",
+]);
 
 const $ = (selector) => document.querySelector(selector);
 
 function cityKey(field) {
   return String(field || "").replace(/预计$|棰勮$/u, "");
+}
+
+function normalizedCityKey(field) {
+  return cityKey(field).toLowerCase().replace(/\s+/g, "");
 }
 
 function displayCity(field) {
@@ -385,7 +459,7 @@ function tradeCostStep(timeNode) {
   const hour = timeStartHour(timeNode);
   if (hour == null) return null;
   const yesterday = isYesterdayTime(timeNode);
-  if (yesterday) return ({ 10: 0, 14: 1, 17: 2, 22: 3 })[hour] ?? null;
+  if (yesterday) return ({ 6: -1, 10: 0, 14: 1, 17: 2, 22: 3 })[hour] ?? null;
   return ({ 6: 4, 10: 5, 14: 6, 17: 7, 22: 8 })[hour] ?? null;
 }
 
@@ -949,6 +1023,171 @@ function highPointItemAfter(item) {
     )[0] || null;
 }
 
+function timeZoneParts(date, timeZone) {
+  const formatter = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    hourCycle: "h23",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+  const parts = Object.fromEntries(formatter.formatToParts(date).map((part) => [part.type, part.value]));
+  return {
+    year: Number(parts.year),
+    month: Number(parts.month),
+    day: Number(parts.day),
+    hour: Number(parts.hour),
+    minute: Number(parts.minute),
+  };
+}
+
+function timeZoneOffsetMinutes(timeZone, date) {
+  const parts = timeZoneParts(date, timeZone);
+  const localAsUtc = Date.UTC(parts.year, parts.month - 1, parts.day, parts.hour, parts.minute);
+  return (localAsUtc - date.getTime()) / 60000;
+}
+
+function zonedLocalTimeToUtc(dateText, timeZone, hour = 10, minute = 30) {
+  const match = String(dateText || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match || !timeZone) return null;
+  const [, year, month, day] = match.map(Number);
+  const wallTime = Date.UTC(year, month - 1, day, hour, minute);
+  let utcTime = wallTime;
+  for (let index = 0; index < 3; index += 1) {
+    const offset = timeZoneOffsetMinutes(timeZone, new Date(utcTime));
+    utcTime = wallTime - offset * 60000;
+  }
+  return new Date(utcTime);
+}
+
+function dateUtcFromText(dateText) {
+  const match = String(dateText || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match) return null;
+  const [, year, month, day] = match.map(Number);
+  return Date.UTC(year, month - 1, day);
+}
+
+function localPeakBeijingTarget(item) {
+  const timeZone = CITY_TIME_ZONES[normalizedCityKey(item?.expectedField)];
+  const utcDate = zonedLocalTimeToUtc(item?.date, timeZone, 10, 30);
+  const baseDateUtc = dateUtcFromText(item?.date);
+  if (!utcDate || baseDateUtc == null) return null;
+  const beijing = timeZoneParts(utcDate, "Asia/Shanghai");
+  const beijingDateUtc = Date.UTC(beijing.year, beijing.month - 1, beijing.day);
+  const dayOffset = Math.round((beijingDateUtc - baseDateUtc) / 86400000);
+  return {
+    timeZone,
+    absoluteHour: dayOffset * 24 + beijing.hour + beijing.minute / 60,
+  };
+}
+
+function timeNodeMidHour(timeNode) {
+  const start = timeStartHour(timeNode);
+  if (start == null) return null;
+  return start + 0.5;
+}
+
+function timeNodeDayOffset(timeNode) {
+  return isYesterdayTime(timeNode) ? -1 : 0;
+}
+
+function confirmationDistance(candidate, target) {
+  const midHour = timeNodeMidHour(candidate.timeNode);
+  if (!target || midHour == null) return Infinity;
+  const absoluteHour = timeNodeDayOffset(candidate.timeNode) * 24 + midHour;
+  return Math.abs(absoluteHour - target.absoluteHour);
+}
+
+const confirmationSlotHours = [6, 10, 14, 17, 22];
+
+function confirmationAbsoluteHourForTimeNode(timeNode) {
+  const midHour = timeNodeMidHour(timeNode);
+  if (midHour == null) return null;
+  return timeNodeDayOffset(timeNode) * 24 + midHour;
+}
+
+function preferredConfirmationSlot(target) {
+  if (!target) return null;
+  return confirmationSlotHours
+    .map((hour) => ({
+      dayOffset: 0,
+      hour,
+      absoluteHour: hour + 0.5,
+      distance: Math.abs(hour + 0.5 - target.absoluteHour),
+    }))
+    .sort((a, b) =>
+      a.distance - b.distance ||
+      b.hour - a.hour
+    )[0] || null;
+}
+
+function forcedConfirmationSlot(item) {
+  const key = normalizedCityKey(item?.expectedField);
+  if (EUROPE_CONFIRMATION_CITY_KEYS.has(key)) {
+    return {
+      dayOffset: 0,
+      hour: 17,
+    };
+  }
+  if (US_CONFIRMATION_CITY_KEYS.has(key)) {
+    return {
+      dayOffset: 0,
+      hour: 22,
+    };
+  }
+  return null;
+}
+
+function samePrefixAsPurchase(candidate, purchaseItem) {
+  return isYesterdayTime(candidate?.timeNode) === isYesterdayTime(purchaseItem?.timeNode);
+}
+
+function trustedConfirmationItemAfter(item) {
+  if (!item) return null;
+  const baseStep = itemTradeStep(item);
+  const candidates = sameCityDateItems(item)
+    .filter((candidate) => itemTradeStep(candidate) > baseStep);
+  if (!candidates.length) return null;
+  const forcedSlot = forcedConfirmationSlot(item);
+  if (forcedSlot) {
+    return candidates
+      .filter((candidate) =>
+        timeNodeDayOffset(candidate.timeNode) === forcedSlot.dayOffset &&
+        timeStartHour(candidate.timeNode) === forcedSlot.hour
+      )
+      .sort((a, b) => itemTradeStep(a) - itemTradeStep(b))[0] || null;
+  }
+  const target = localPeakBeijingTarget(item);
+  if (!target) return highPointItemAfter(item);
+  const preferredSlot = preferredConfirmationSlot(target);
+  if (preferredSlot) {
+    const strictMatch = candidates
+      .filter((candidate) =>
+        timeNodeDayOffset(candidate.timeNode) === preferredSlot.dayOffset &&
+        timeStartHour(candidate.timeNode) === preferredSlot.hour
+      )
+      .sort((a, b) =>
+        itemTradeStep(a) - itemTradeStep(b)
+      )[0];
+    if (strictMatch) return strictMatch;
+    return null;
+  }
+  return candidates
+    .map((candidate) => ({
+      candidate,
+      distance: confirmationDistance(candidate, target),
+      samePrefix: samePrefixAsPurchase(candidate, item),
+    }))
+    .filter((entry) => entry.distance <= 4)
+    .sort((a, b) =>
+      a.distance - b.distance ||
+      Number(b.samePrefix) - Number(a.samePrefix) ||
+      itemTradeStep(a.candidate) - itemTradeStep(b.candidate)
+    )[0]?.candidate || null;
+}
+
 function topTextForItem(item) {
   return topProbabilities(item, 2)
     .map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`)
@@ -963,7 +1202,7 @@ function topHasHigherBucket(top, range, unit) {
 }
 
 function peakWindowCheckForItem(item) {
-  const peakItem = highPointItemAfter(item);
+  const peakItem = trustedConfirmationItemAfter(item);
   if (!peakItem || sameItem(peakItem, item)) return null;
   const unit = item.unit || peakItem.unit || "C";
   const isFahrenheit = unit === "F";
@@ -987,15 +1226,15 @@ function peakWindowCheckForItem(item) {
     rise,
     topText: topTextForItem(peakItem),
     reason: status === "danger"
-      ? `高点窗口 ${peakItem.timeNode} 已上移到 ${peakItem.predicted}，Top2 变成 ${topTextForItem(peakItem)}`
-      : `高点窗口 ${peakItem.timeNode} 预计 ${peakItem.predicted}，已经接近原Top2上沿，注意更高一档`,
+      ? `当地10点附近确认窗口 ${peakItem.timeNode} 已上移到 ${peakItem.predicted}，Top2 变成 ${topTextForItem(peakItem)}`
+      : `当地10点附近确认窗口 ${peakItem.timeNode} 预计 ${peakItem.predicted}，已经接近原Top2上沿，注意更高一档`,
   };
 }
 
 function peakHoldingRisk(item, holding) {
   const purchaseItem = holding.purchaseItem || findDashboardItem(holding.date, holding.timeNode, holding.expectedField);
   if (!purchaseItem) return null;
-  const peakItem = highPointItemAfter(purchaseItem);
+  const peakItem = trustedConfirmationItemAfter(purchaseItem);
   if (!peakItem || sameItem(peakItem, purchaseItem)) return null;
   const unit = peakItem.unit || purchaseItem.unit || "C";
   const isFahrenheit = unit === "F";
@@ -1021,7 +1260,7 @@ function peakHoldingRisk(item, holding) {
       peakItem,
       probability: peakProbability,
       rank: peakRank,
-      reason: `高点窗口 ${peakItem.timeNode} 的Top2已变成 ${topTextForItem(peakItem)}，持仓 ${holding.bucket} 已不在核心区`,
+      reason: `当地10点附近确认窗口 ${peakItem.timeNode} 的Top2已变成 ${topTextForItem(peakItem)}，持仓 ${holding.bucket} 已不在核心区`,
     };
   }
 
@@ -1032,7 +1271,7 @@ function peakHoldingRisk(item, holding) {
       peakItem,
       probability: peakProbability,
       rank: peakRank,
-      reason: `高点窗口 ${peakItem.timeNode} 预计 ${peakItem.predicted}，已经高过持仓 ${holding.bucket} 的安全上沿`,
+      reason: `当地10点附近确认窗口 ${peakItem.timeNode} 预计 ${peakItem.predicted}，已经高过持仓 ${holding.bucket} 的安全上沿`,
     };
   }
 
@@ -1043,7 +1282,7 @@ function peakHoldingRisk(item, holding) {
       peakItem,
       probability: peakProbability,
       rank: peakRank,
-      reason: `高点窗口 ${peakItem.timeNode} 预计 ${peakItem.predicted}，更高温度已进入Top2：${topTextForItem(peakItem)}`,
+      reason: `当地10点附近确认窗口 ${peakItem.timeNode} 预计 ${peakItem.predicted}，更高温度已进入Top2：${topTextForItem(peakItem)}`,
     };
   }
 
@@ -1327,30 +1566,113 @@ function createHoldingSnapshot(item, bucket) {
   };
 }
 
+function currentRecommendationPickScores(limitPerDate = 16) {
+  const dates = recommendationDates(state.data?.probabilityCandidates || []);
+  const bestByCityDate = new Map();
+  const dateSet = new Set(dates);
+  for (const item of state.data?.probabilityCandidates || []) {
+    if (!dateSet.has(item.date)) continue;
+    if (!isOptimizedBestWindowItem(item)) continue;
+    if (!item.optimizedRecommended) continue;
+    const score = historicalScore(item);
+    if (
+      !score ||
+      (score.n || 0) < HISTORY_MIN_SAMPLE ||
+      score.tradableBestWindow === false ||
+      (score.top2Accuracy || 0) < HISTORY_TOP2_THRESHOLD
+    ) continue;
+    const key = `${score.item.date}|${cityKey(score.item.expectedField)}`;
+    const current = bestByCityDate.get(key);
+    if (!current || compareHistoricalWindow(score, current) < 0) bestByCityDate.set(key, score);
+  }
+  const picks = [...bestByCityDate.values()];
+  return dates.flatMap((date) =>
+    picks
+      .filter((pick) => pick.item.date === date)
+      .sort((a, b) =>
+        earlierTimeRank(a.item.timeNode) - earlierTimeRank(b.item.timeNode) ||
+        b.top2Accuracy - a.top2Accuracy ||
+        (b.n || 0) - (a.n || 0) ||
+        displayCity(a.item.expectedField).localeCompare(displayCity(b.item.expectedField))
+      )
+      .slice(0, limitPerDate)
+  );
+}
+
+function defaultRecommendationHoldings() {
+  return currentRecommendationPickScores()
+    .flatMap((score) =>
+      topProbabilities(score.item, 2).map((probability) => ({
+        key: holdingKey(score.item, probability.bucket),
+        date: score.item.date,
+        timeNode: score.item.timeNode,
+        expectedField: score.item.expectedField,
+        bucket: probability.bucket,
+        snapshot: createHoldingSnapshot(score.item, probability.bucket),
+        source: "recommendation",
+        sourceLabel: "默认推荐Top2",
+      }))
+    );
+}
+
+function trackedHoldings() {
+  const manual = activeHoldings().map((holding) => ({
+    ...holding,
+    source: "manual",
+    sourceLabel: "手动持仓",
+  }));
+  const seen = new Set(manual.map((holding) => holding.key));
+  const automatic = defaultRecommendationHoldings().filter((holding) => {
+    if (seen.has(holding.key)) return false;
+    seen.add(holding.key);
+    return true;
+  });
+  return [...manual, ...automatic];
+}
+
 function ensureWinrateUpdateBoard() {
   let board = $("#winrateUpdateBoard");
-  if (board) return board;
-  const summary = $("#summaryGrid");
-  if (!summary) return null;
-  board = document.createElement("section");
-  board.id = "winrateUpdateBoard";
-  board.className = "winrate-board";
-  board.innerHTML = `
-    <div class="winrate-board-head">
-      <h2>胜率更新后持仓检查</h2>
-      <span>飞书/实际温度更新后，检查已标记持仓是否还满足买入条件</span>
-    </div>
-    <div id="winrateAlerts" class="winrate-alerts"></div>
-  `;
-  summary.after(board);
+  const profitBoard = document.querySelector(".profit-board");
+  if (!profitBoard) return null;
+  if (!board) {
+    board = document.createElement("section");
+    board.id = "winrateUpdateBoard";
+    board.className = "winrate-board";
+    board.innerHTML = `
+      <div class="winrate-board-head">
+        <h2>持仓风险提醒</h2>
+        <span>只在后续窗口明显偏离原推荐 Top2 时出现</span>
+      </div>
+      <div id="winrateAlerts" class="winrate-alerts"></div>
+    `;
+  } else {
+    board.querySelector(".winrate-board-head h2").textContent = "持仓风险提醒";
+    board.querySelector(".winrate-board-head span").textContent = "只在后续窗口明显偏离原推荐 Top2 时出现";
+  }
+  if (profitBoard.previousElementSibling !== board) profitBoard.before(board);
   return board;
+}
+
+function probabilityPercentText(value) {
+  return `${Math.round((value || 0) * 100)}%`;
+}
+
+function predictedDisplayText(item) {
+  return item?.predicted == null ? "-" : String(item.predicted);
+}
+
+function compactTop2Text(item) {
+  const top = topProbabilities(item, 2);
+  return top.length
+    ? top.map((probability) => `${probability.bucket} ${probabilityPercentText(probability.probability)}`).join(" / ")
+    : "-";
 }
 
 function renderWinrateUpdateBoard() {
   const board = ensureWinrateUpdateBoard();
   const container = $("#winrateAlerts");
   if (!board || !container) return;
-  const alerts = activeHoldings()
+  const alerts = trackedHoldings()
     .map((holding) => {
       const item = findDashboardItem(holding.date, holding.timeNode, holding.expectedField);
       if (!item) {
@@ -1363,15 +1685,16 @@ function renderWinrateUpdateBoard() {
       }
       const check = holdingCurrentCheck(item, holding.bucket);
       const peakRisk = peakHoldingRisk(item, { ...holding, purchaseItem: item });
+      if (!peakRisk && check.buyable) return null;
       const wasRecommended = holding.snapshot?.purchaseRecommended;
       let status = check.buyable ? "hold" : "danger";
       let title = check.buyable ? "仍可继续观察" : "不再满足买入条件";
       if (peakRisk?.status === "danger") {
         status = "danger";
-        title = peakRisk.action || "高点窗口止损提醒";
+        title = peakRisk.action || "当地10点附近窗口止损提醒";
       } else if (peakRisk?.status === "observe" && check.buyable) {
         status = "observe";
-        title = peakRisk.action || "高点窗口需要观察";
+        title = peakRisk.action || "当地10点附近窗口需要观察";
       } else if (wasRecommended === true && !check.buyable) {
         status = "danger";
         title = "从可买变成不建议";
@@ -1392,6 +1715,7 @@ function renderWinrateUpdateBoard() {
         reason: peakReason,
       };
     })
+    .filter(Boolean)
     .sort((a, b) =>
       (a.status === "danger" ? -1 : 1) - (b.status === "danger" ? -1 : 1) ||
       String(a.holding.date).localeCompare(String(b.holding.date)) ||
@@ -1400,31 +1724,39 @@ function renderWinrateUpdateBoard() {
     );
 
   if (!alerts.length) {
-    container.innerHTML = `<div class="winrate-empty">还没有标记持仓。买入后点温度行里的“持仓”，以后胜率刷新这里会自动检查。</div>`;
+    board.hidden = false;
+    container.innerHTML = `
+      <div class="winrate-empty">
+        暂无持仓风险提醒。当前默认持仓的 Top2 还没有被后续关键窗口明显推翻。
+      </div>
+    `;
     return;
   }
+  board.hidden = false;
 
   container.innerHTML = alerts.map((alert) => {
-    const snapshot = alert.holding.snapshot;
     const check = alert.check;
-    const nowText = check
-      ? `现在 ${Math.round((check.probability || 0) * 100)}% · 排名${check.rank || "-"} · Top2胜率${check.history?.top2Accuracy ?? "-"}% · n=${check.history?.n ?? "-"}`
-      : "";
-    const thenText = snapshot
-      ? `买入时 ${Math.round((snapshot.purchaseProbability || 0) * 100)}% · 排名${snapshot.purchaseRank || "-"} · Top2胜率${snapshot.purchaseTop2Accuracy ?? "-"}% · n=${snapshot.purchaseHistoryN ?? "-"}`
-      : "旧持仓未记录买入快照，只判断当前状态";
+    const peakItem = alert.peakRisk?.peakItem;
+    const beforeText = `之前买入：${alert.holding.bucket}，来自 ${alert.holding.timeNode} 推荐；原窗口预计 ${predictedDisplayText(alert.item)}，Top2 是 ${compactTop2Text(alert.item)}`;
+    const nowText = peakItem
+      ? `现在看：${peakItem.timeNode} 预计 ${predictedDisplayText(peakItem)}，Top2 已变成 ${compactTop2Text(peakItem)}`
+      : check
+        ? `现在看：${alert.holding.bucket} 还有 ${probabilityPercentText(check.probability)}，排名第 ${check.rank || "-"}`
+        : "现在看：没有找到这个温度的最新概率";
+    const verdictText = alert.peakRisk
+      ? `结论：${alert.holding.bucket} 已经不是后续窗口的核心温度，${alert.title}。`
+      : `结论：${alert.title}。`;
     return `
       <article class="winrate-card winrate-${alert.status}">
-        <div>
-          <strong>${displayCity(alert.holding.expectedField)} ${alert.holding.bucket}</strong>
-          <span>${alert.holding.date} · ${alert.holding.timeNode}</span>
+        <div class="winrate-main">
+          <strong>${displayCity(alert.holding.expectedField)} · 持仓 ${alert.holding.bucket}</strong>
+          <span>${alert.holding.sourceLabel || "持仓"} · ${alert.holding.date}</span>
         </div>
-        <div>
-          <b>${alert.title}</b>
-          <span>${thenText}</span>
-          <span>${nowText}</span>
+        <div class="winrate-position">
+          <span>${beforeText}</span>
+          <b>${nowText}</b>
         </div>
-        <p>${alert.reason}</p>
+        <p>${verdictText}<small>${alert.reason}</small></p>
       </article>
     `;
   }).join("");
@@ -1575,7 +1907,7 @@ function renderTopChanges(items) {
 function ensureHoldingBoard() {
   let board = $("#holdingBoard");
   if (board) return board;
-  const anchor = $("#winrateUpdateBoard") || $("#summaryGrid");
+  const anchor = $(".recommendation-board") || $(".profit-board") || $("#summaryGrid");
   if (!anchor) return null;
   board = document.createElement("section");
   board.id = "holdingBoard";
@@ -1714,15 +2046,6 @@ function renderProfitPicks() {
                       <span>马上看</span>
                       <b>${topProbabilities(pick.item, 2).map((probability) => `${probability.bucket} ${Math.round((probability.probability || 0) * 100)}%`).join(" / ")}</b>
                     </div>
-                    ${(() => {
-                      const peakCheck = peakWindowCheckForItem(pick.item);
-                      return peakCheck ? `
-                        <div class="peak-check peak-${peakCheck.status}">
-                          <b>高点校验</b>
-                          <span>${peakCheck.reason}</span>
-                        </div>
-                      ` : "";
-                    })()}
                     <div class="profit-main">
                       <b>历史 Top2 ${pick.top2Accuracy}%</b>
                       <b>Top1 ${pick.top1Accuracy}%</b>
@@ -2191,6 +2514,14 @@ function renderCardHtml(item) {
     hint.textContent = `温度段修正：${item.temperatureBand} · ${item.temperatureBandLevel} · n=${item.temperatureBandSampleSize || 0} · 平均${meanText} · 中位${medianText} · 权重${Math.round((item.temperatureBandWeight || 0) * 100)}%`;
     template.querySelector(".signal-row").after(hint);
   }
+  if (item.weatherPredictionEnabled && item.weatherCategory && ((item.weatherWeight || 0) > 0 || Math.abs(item.weatherCorrection || 0) >= 0.05)) {
+    const hint = document.createElement("div");
+    hint.className = "weather-hint";
+    const deltaText = item.weatherDelta == null ? "-" : signedNumber(item.weatherDelta);
+    const correctionText = item.weatherCorrection == null ? "-" : signedNumber(item.weatherCorrection);
+    hint.textContent = `天气修正：${item.weatherCategory} · ${item.weatherLevel} · n=${item.weatherSampleSize || 0} · 相比当前样本${deltaText} · 整体修正${correctionText}`;
+    template.querySelector(".signal-row").after(hint);
+  }
   if (modelN < 6) {
     const warning = document.createElement("div");
     warning.className = "sample-warning";
@@ -2216,14 +2547,6 @@ function renderCardHtml(item) {
     const warning = document.createElement("div");
     warning.className = "next-window-warning";
     warning.textContent = `谨慎交易：历史上到下个窗口差别较大（${item.timeNode}→${nextRisk.nextTimeNode}，Top2变化${Math.round(nextRisk.changeRate * 100)}%，n=${nextRisk.n}）`;
-    template.querySelector(".signal-row").after(warning);
-  }
-
-  const peakCheck = peakWindowCheckForItem(item);
-  if (peakCheck) {
-    const warning = document.createElement("div");
-    warning.className = `peak-check peak-${peakCheck.status}`;
-    warning.innerHTML = `<b>高点校验</b><span>${peakCheck.reason}</span>`;
     template.querySelector(".signal-row").after(warning);
   }
 
