@@ -60,7 +60,7 @@ const timeOrder = [
 ];
 
 const HISTORY_TOP2_THRESHOLD = 85;
-const HISTORY_MIN_SAMPLE = 8;
+const HISTORY_MIN_SAMPLE = 10;
 const CITY_TIME_ZONES = {
   toyko: "Asia/Tokyo",
   tokyo: "Asia/Tokyo",
@@ -2411,7 +2411,7 @@ function renderRecommendationPerformance() {
 function opportunityPicks(items) {
   const picks = [];
   for (const item of items) {
-    if ((item.modelSampleSize || 0) < 8) continue;
+    if ((item.modelSampleSize || 0) < HISTORY_MIN_SAMPLE) continue;
     for (const probability of item.probabilities || []) {
       const modelPercent = Math.round(probability.probability * 100);
       const { price, source } = marketPrice(item, probability.bucket);
