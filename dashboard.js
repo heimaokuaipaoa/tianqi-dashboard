@@ -607,14 +607,19 @@ function isOptimizedBestWindowItem(item) {
 
 function historicalScore(item) {
   if ((item.optimizedWindowN || 0) > 0 && item.optimizedWindowTop2Accuracy != null) {
+    const ruleN = item.optimizedRuleN || item.optimizedWindowN || 0;
+    const ruleTop1Hits = item.optimizedRuleTop1Hits || item.optimizedWindowTop1Hits || 0;
+    const ruleTop2Hits = item.optimizedRuleTop2Hits || item.optimizedWindowTop2Hits || 0;
+    const ruleTop1Accuracy = item.optimizedRuleTop1Accuracy ?? item.optimizedWindowTop1Accuracy ?? 0;
+    const ruleTop2Accuracy = item.optimizedRuleTop2Accuracy ?? item.optimizedWindowTop2Accuracy ?? 0;
     const history = {
       expectedField: item.expectedField,
       timeNode: item.timeNode,
-      n: item.optimizedWindowN || 0,
-      top1Hits: item.optimizedWindowTop1Hits || 0,
-      top2Hits: item.optimizedWindowTop2Hits || 0,
-      top1Accuracy: item.optimizedWindowTop1Accuracy || 0,
-      top2Accuracy: item.optimizedWindowTop2Accuracy || 0,
+      n: ruleN,
+      top1Hits: ruleTop1Hits,
+      top2Hits: ruleTop2Hits,
+      top1Accuracy: ruleTop1Accuracy,
+      top2Accuracy: ruleTop2Accuracy,
       optimizedModelName: item.optimizedModelName || "",
       optimizedModelLabel: item.optimizedModelLabel || "",
     };
@@ -628,8 +633,8 @@ function historicalScore(item) {
       top1Hits: history.top1Hits,
       top2Hits: history.top2Hits,
       optimizedModelLabel: history.optimizedModelLabel,
-      optimizedRuleLabel: "全窗口",
-      optimizedRuleBased: false,
+      optimizedRuleLabel: item.optimizedBestRuleLabel || "全窗口",
+      optimizedRuleBased: (item.optimizedBestRuleType || "all") !== "all",
       tradableBestWindow: item.optimizedWindowTradableBest !== false && isTradableEntryWindow(item.expectedField, item.timeNode),
       tradeCutoffReason: item.optimizedWindowCutoffReason || "",
     };
