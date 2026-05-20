@@ -131,6 +131,35 @@ const US_CONFIRMATION_CITY_KEYS = new Set([
   "san",
   "seattle",
 ]);
+const LATE_SETTLEMENT_CITY_KEYS = new Set([
+  "amsterdam",
+  "ankara",
+  "ankarar",
+  "helsink",
+  "helsinks",
+  "london",
+  "madrid",
+  "milan",
+  "moscow",
+  "munich",
+  "paris",
+  "telaviv",
+  "warsaw",
+]);
+const EARLY_TRADE_ONLY_CITY_KEYS = new Set(["lucknow"]);
+const PRE_10_TRADE_ONLY_CITY_KEYS = new Set([
+  "toyko",
+  "tokyo",
+  "shanghai",
+  "hk",
+  "hongkong",
+  "singa",
+  "singapore",
+  "jakarta",
+  "seoul",
+  "beijing",
+  "chengdu",
+]);
 
 const $ = (selector) => document.querySelector(selector);
 
@@ -455,6 +484,21 @@ function isYesterdayTime(timeNode) {
   return text.startsWith("昨") || text.startsWith("鏄?");
 }
 
+function tradeWindowCutoffHour(expectedField) {
+  const key = normalizedCityKey(expectedField);
+  if (PRE_10_TRADE_ONLY_CITY_KEYS.has(key)) return 10;
+  if (EARLY_TRADE_ONLY_CITY_KEYS.has(key)) return 14;
+  if (LATE_SETTLEMENT_CITY_KEYS.has(key)) return 17;
+  return 22;
+}
+
+function isTradableEntryWindow(expectedField, timeNode) {
+  const cutoffHour = tradeWindowCutoffHour(expectedField);
+  const hour = timeStartHour(timeNode);
+  if (cutoffHour == null || hour == null || isYesterdayTime(timeNode)) return true;
+  return hour < cutoffHour;
+}
+
 function tradeCostStep(timeNode) {
   const hour = timeStartHour(timeNode);
   if (hour == null) return null;
@@ -586,7 +630,7 @@ function historicalScore(item) {
       optimizedModelLabel: history.optimizedModelLabel,
       optimizedRuleLabel: "全窗口",
       optimizedRuleBased: false,
-      tradableBestWindow: item.optimizedWindowTradableBest !== false,
+      tradableBestWindow: item.optimizedWindowTradableBest !== false && isTradableEntryWindow(item.expectedField, item.timeNode),
       tradeCutoffReason: item.optimizedWindowCutoffReason || "",
     };
   }
@@ -603,7 +647,7 @@ function historicalScore(item) {
       top2Hits: history.top2Hits || 0,
       optimizedRuleLabel: "",
       optimizedRuleBased: false,
-      tradableBestWindow: true,
+      tradableBestWindow: isTradableEntryWindow(item.expectedField, item.timeNode),
       tradeCutoffReason: "",
   };
 }
@@ -689,7 +733,7 @@ function missingWindowWatchlist(date, availability, excludedCityKeys = new Set()
       top2Hits: optimization.bestTop2Hits || 0,
       optimizedModelLabel: optimization.configLabel || "",
       optimizedRuleLabel: optimization.bestRuleLabel || "全样本",
-      tradableBestWindow: true,
+      tradableBestWindow: isTradableEntryWindow(optimization.expectedField, optimization.bestTimeNode),
       tradeCutoffReason: "",
     }));
   const sourceHistoryRows = optimizedHistoryRows.length ? optimizedHistoryRows : (state.accuracy?.summary || []);
