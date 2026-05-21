@@ -23,6 +23,7 @@ const state = {
 };
 
 const cityNames = {
+  wellington: "Wellington",
   HK: "Hong Kong",
   ankara: "Ankara",
   ankarar: "Ankara",
@@ -38,8 +39,11 @@ const cityNames = {
   paris: "Paris",
   miami: "Miami",
   shanghai: "Shanghai",
+  shenzhen: "Shenzhen",
   toyko: "Tokyo",
   amsterdam: "Amsterdam",
+  busan: "Busan",
+  wuhan: "Wuhan",
   chicago: "Chicago",
   dallas: "Dallas",
   NYC: "NYC",
@@ -62,18 +66,22 @@ const timeOrder = [
 const HISTORY_TOP2_THRESHOLD = 85;
 const HISTORY_MIN_SAMPLE = 10;
 const CITY_TIME_ZONES = {
+  wellington: "Pacific/Auckland",
   toyko: "Asia/Tokyo",
   tokyo: "Asia/Tokyo",
+  seoul: "Asia/Seoul",
+  busan: "Asia/Seoul",
   shanghai: "Asia/Shanghai",
+  shenzhen: "Asia/Shanghai",
+  chengdu: "Asia/Shanghai",
+  beijing: "Asia/Shanghai",
+  wuhan: "Asia/Shanghai",
   hk: "Asia/Hong_Kong",
   hongkong: "Asia/Hong_Kong",
   singa: "Asia/Singapore",
   singapore: "Asia/Singapore",
   jakarta: "Asia/Jakarta",
   lucknow: "Asia/Kolkata",
-  seoul: "Asia/Seoul",
-  chengdu: "Asia/Shanghai",
-  beijing: "Asia/Shanghai",
   warsaw: "Europe/Warsaw",
   london: "Europe/London",
   paris: "Europe/Paris",
@@ -102,6 +110,51 @@ const CITY_TIME_ZONES = {
   denver: "America/Denver",
   houston: "America/Chicago",
 };
+const CITY_LOCAL_TIME_ORDER = [
+  "wellington",
+  "toyko",
+  "tokyo",
+  "seoul",
+  "busan",
+  "shanghai",
+  "hk",
+  "hongkong",
+  "shenzhen",
+  "chengdu",
+  "beijing",
+  "wuhan",
+  "singa",
+  "singapore",
+  "jakarta",
+  "lucknow",
+  "moscow",
+  "ankara",
+  "ankarar",
+  "telaviv",
+  "helsink",
+  "helsinks",
+  "warsaw",
+  "amsterdam",
+  "munich",
+  "milan",
+  "paris",
+  "madrid",
+  "london",
+  "buenos",
+  "toronto",
+  "nyc",
+  "atlanta",
+  "miami",
+  "chicago",
+  "dallas",
+  "austin",
+  "houston",
+  "denver",
+  "san",
+  "la",
+  "seattle",
+];
+const CITY_LOCAL_TIME_RANK = new Map(CITY_LOCAL_TIME_ORDER.map((key, index) => [key, index]));
 const EUROPE_CONFIRMATION_CITY_KEYS = new Set([
   "amsterdam",
   "ankara",
@@ -157,8 +210,12 @@ const PRE_10_TRADE_ONLY_CITY_KEYS = new Set([
   "singapore",
   "jakarta",
   "seoul",
+  "busan",
   "beijing",
   "chengdu",
+  "shenzhen",
+  "wuhan",
+  "wellington",
 ]);
 
 const $ = (selector) => document.querySelector(selector);
@@ -168,12 +225,24 @@ function cityKey(field) {
 }
 
 function normalizedCityKey(field) {
-  return cityKey(field).toLowerCase().replace(/\s+/g, "");
+  return cityKey(field)
+    .toLowerCase()
+    .replace(/(?:\u5929\u6c14|\u6e29\u5ea6|\u6570\u91cf|\u5b9e\u6e29|\u5dee\u989d|\u9884\u8ba1|\u526f\u672c|weather|condition|temp|count|actual|copy)/gi, "")
+    .replace(/\s+/g, "");
 }
 
 function displayCity(field) {
   const key = cityKey(field);
   return cityNames[key] || key;
+}
+
+function cityLocalTimeRank(field) {
+  const key = normalizedCityKey(field);
+  return CITY_LOCAL_TIME_RANK.has(key) ? CITY_LOCAL_TIME_RANK.get(key) : 999;
+}
+
+function compareCityFields(a, b) {
+  return cityLocalTimeRank(a) - cityLocalTimeRank(b) || displayCity(a).localeCompare(displayCity(b));
 }
 
 function savePrices() {
@@ -834,9 +903,9 @@ function bestTradeForCityDate(item) {
 
 function compareBySampleThenRaw(a, b) {
   return (
+    compareCityFields(a.expectedField, b.expectedField) ||
     (b.modelSampleSize || 0) - (a.modelSampleSize || 0) ||
-    topRawProbability(b) - topRawProbability(a) ||
-    displayCity(a.expectedField).localeCompare(displayCity(b.expectedField))
+    topRawProbability(b) - topRawProbability(a)
   );
 }
 
@@ -871,9 +940,9 @@ function groupByCity(items) {
       probabilityScore: Math.max(...group.items.map(topRawProbability)),
     }))
     .sort((a, b) =>
+      compareCityFields(a.items[0]?.expectedField || a.city, b.items[0]?.expectedField || b.city) ||
       b.sampleScore - a.sampleScore ||
-      b.probabilityScore - a.probabilityScore ||
-      a.city.localeCompare(b.city)
+      b.probabilityScore - a.probabilityScore
     );
 }
 
