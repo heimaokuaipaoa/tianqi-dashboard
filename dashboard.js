@@ -2337,7 +2337,7 @@ function recommendationTrackRowFromSnapshot(snapshot) {
   };
 }
 
-function buildRecommendationTrackGroups() {
+function buildRecommendationTrackGroupList() {
   const byKey = new Map();
   const snapshots = state.data?.recommendationSnapshots || [];
   if (snapshots.length) {
@@ -2401,8 +2401,12 @@ function buildRecommendationTrackGroups() {
         a.city.localeCompare(b.city)
       ),
     }))
-    .sort((a, b) => b.date.localeCompare(a.date))
-    .slice(0, 8);
+    .sort((a, b) => b.date.localeCompare(a.date));
+}
+
+function buildRecommendationTrackGroups(limit = 8) {
+  const groups = buildRecommendationTrackGroupList();
+  return limit == null ? groups : groups.slice(0, limit);
 }
 
 function recommendationDailyReview(group) {
@@ -2490,15 +2494,92 @@ function renderRecommendationReview(group) {
   `;
 }
 
+function recommendationHistoryStats(group) {
+  const settled = group.rows.filter((row) => !row.pending);
+  const pending = group.rows.length - settled.length;
+  const hits = settled.filter((row) => row.hit).length;
+  const misses = settled.length - hits;
+  return {
+    date: group.date,
+    total: group.rows.length,
+    settled: settled.length,
+    pending,
+    hits,
+    misses,
+    rate: settled.length ? Math.round((hits / settled.length) * 100) : null,
+  };
+}
+
+function recommendationRateClass(rate) {
+  if (rate == null) return "pending";
+  if (rate >= 85) return "good";
+  if (rate >= 70) return "watch";
+  return "bad";
+}
+
+function renderRecommendationHistorySummary(groups) {
+  const stats = groups.map(recommendationHistoryStats);
+  const settledStats = stats.filter((item) => item.settled);
+  const totals = settledStats.reduce((sum, item) => ({
+    settled: sum.settled + item.settled,
+    hits: sum.hits + item.hits,
+    misses: sum.misses + item.misses,
+  }), { settled: 0, hits: 0, misses: 0 });
+  const totalRate = totals.settled ? Math.round((totals.hits / totals.settled) * 100) : null;
+  const recentSettled = settledStats.slice(0, 7).reduce((sum, item) => ({
+    settled: sum.settled + item.settled,
+    hits: sum.hits + item.hits,
+  }), { settled: 0, hits: 0 });
+  const recentRate = recentSettled.settled ? Math.round((recentSettled.hits / recentSettled.settled) * 100) : null;
+  const pendingCount = stats.reduce((sum, item) => sum + item.pending, 0);
+
+  return `
+    <section class="recommendation-history">
+      <div class="recommendation-history-head">
+        <strong>历史命中总览</strong>
+        <span>最近明细只展示前 8 天，全部历史在这里看。</span>
+      </div>
+      <div class="recommendation-history-stats">
+        <article>
+          <span>全部已结算</span>
+          <b>${totals.settled ? `${totals.hits}/${totals.settled}` : "-"}</b>
+          <small>${totalRate == null ? "暂无命中率" : `命中率 ${totalRate}%`}</small>
+        </article>
+        <article>
+          <span>最近 7 个有结果日</span>
+          <b>${recentSettled.settled ? `${recentSettled.hits}/${recentSettled.settled}` : "-"}</b>
+          <small>${recentRate == null ? "暂无命中率" : `命中率 ${recentRate}%`}</small>
+        </article>
+        <article>
+          <span>待结算</span>
+          <b>${pendingCount}</b>
+          <small>等待飞书实际温度</small>
+        </article>
+      </div>
+      <div class="recommendation-history-list">
+        ${stats.map((item) => `
+          <article class="recommendation-history-row">
+            <strong>${item.date}</strong>
+            <span>${item.settled ? `命中 ${item.hits}/${item.settled}` : "待实际温度"}</span>
+            <b class="${recommendationRateClass(item.rate)}">${item.rate == null ? "-" : `${item.rate}%`}</b>
+            <small>${item.pending ? `待结算 ${item.pending}` : "已结算"}</small>
+          </article>
+        `).join("")}
+      </div>
+    </section>
+  `;
+}
+
 function renderRecommendationPerformance() {
   const container = $("#recommendationPerformance");
   if (!container) return;
-  const groups = buildRecommendationTrackGroups();
+  const allGroups = buildRecommendationTrackGroupList();
+  const groups = allGroups.slice(0, 8);
   if (!groups.length) {
     container.innerHTML = `<div class="recommendation-empty">还没有可统计的推荐。后续飞书填写实际温度后，这里会显示每天推荐几个、命中几个。</div>`;
     return;
   }
-  container.innerHTML = groups.map((group) => {
+  container.innerHTML = `${renderRecommendationHistorySummary(allGroups)}${groups.map((group) => {
     const settled = group.rows.filter((row) => !row.pending);
     const pending = group.rows.filter((row) => row.pending);
     const hits = settled.filter((row) => row.hit).length;
@@ -2523,7 +2604,7 @@ function renderRecommendationPerformance() {
         ${renderRecommendationReview(group)}
       </section>
     `;
-  }).join("");
+  }).join("")}`;
 }
 
 function opportunityPicks(items) {

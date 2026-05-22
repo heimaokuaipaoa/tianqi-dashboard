@@ -352,6 +352,110 @@ input {
   padding: 18px;
 }
 
+.recommendation-history {
+  border: 1px solid #d8e3f4;
+  border-radius: 8px;
+  background: #f8fbff;
+  padding: 12px;
+}
+
+.recommendation-history-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.recommendation-history-head strong {
+  font-size: 17px;
+}
+
+.recommendation-history-head span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.recommendation-history-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.recommendation-history-stats article {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px;
+}
+
+.recommendation-history-stats span,
+.recommendation-history-stats small,
+.recommendation-history-row span,
+.recommendation-history-row small {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.recommendation-history-stats b {
+  display: block;
+  margin-top: 4px;
+  color: var(--text);
+  font-size: 22px;
+}
+
+.recommendation-history-stats small {
+  margin-top: 3px;
+}
+
+.recommendation-history-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  max-height: 260px;
+  overflow: auto;
+  padding-right: 2px;
+}
+
+.recommendation-history-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px 8px;
+  align-items: baseline;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #fff;
+  padding: 8px;
+}
+
+.recommendation-history-row strong {
+  font-size: 13px;
+}
+
+.recommendation-history-row b {
+  justify-self: end;
+  font-size: 14px;
+}
+
+.recommendation-history-row b.good {
+  color: var(--strong);
+}
+
+.recommendation-history-row b.watch {
+  color: var(--watch);
+}
+
+.recommendation-history-row b.bad {
+  color: var(--weak);
+}
+
+.recommendation-history-row b.pending {
+  color: var(--muted);
+}
+
 .profit-picks {
   display: grid;
   gap: 14px;
@@ -1356,6 +1460,10 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .recommendation-history-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .review-misses {
     grid-template-columns: 1fr;
   }
@@ -1402,6 +1510,8 @@ h3 {
     .change-picks,
     .profit-date-picks,
     .recommendation-list,
+    .recommendation-history-stats,
+    .recommendation-history-list,
     .review-misses,
     .watch-city-list,
     .edge-picks,
