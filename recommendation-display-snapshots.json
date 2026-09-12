@@ -1,0 +1,228 @@
+[
+  {
+    "date": "2026-06-05",
+    "cityKey": "telaviv",
+    "timeNode": "\u662814\u70b9\u523015\u70b9",
+    "topText": "30 58% / 31 22%",
+    "source": "display-backfill"
+  },
+  {
+    "date": "2026-06-05",
+    "cityKey": "wellington",
+    "timeNode": "\u662817\u70b9\u523018\u70b9",
+    "topText": "17 47% / 18 38%",
+    "source": "display-backfill"
+  },
+  {
+    "date": "2026-06-05",
+    "cityKey": "wellington",
+    "timeNode": "\u662822\u70b9\u523023\u70b9",
+    "topText": "17 54% / 18 37%",
+    "source": "display-backfill"
+  },
+  {
+    "date": "2026-06-05",
+    "cityKey": "telaviv",
+    "timeNode": "17\u70b9\u523018\u70b9",
+    "topText": "30 69% / 31 29%",
+    "source": "display-backfill"
+  },
+  {
+    "date": "2026-06-06",
+    "cityKey": "madrid",
+    "timeNode": "\u66286\u70b9\u52307\u70b9",
+    "topText": "30 62% / 31 22%",
+    "source": "display-backfill"
+  },
+  {
+    "date": "2026-06-06",
+    "cityKey": "wellington",
+    "timeNode": "\u662817\u70b9\u523018\u70b9",
+    "topText": "16 47% / 17 38%",
+    "source": "display-backfill"
+  },
+  {
+    "date": "2026-06-06",
+    "cityKey": "wellington",
+    "timeNode": "\u662822\u70b9\u523023\u70b9",
+    "topText": "16 41% / 15 39%",
+    "source": "display-backfill"
+  },
+  {
+    "date": "2026-06-06",
+    "cityKey": "singa",
+    "timeNode": "14\u70b9\u523015\u70b9",
+    "topText": "34 46% / 35 35%",
+    "source": "display-backfill"
+  },
+  {
+    "date": "2026-06-06",
+    "cityKey": "telaviv",
+    "timeNode": "17\u70b9\u523018\u70b9",
+    "topText": "\u5f85\u8be5\u7a97\u53e3\u6570\u636e",
+    "fromWatchlist": true,
+    "source": "display-backfill"
+  },
+  {
+    "date": "2026-06-14",
+    "cityKey": "telaviv",
+    "timeNode": "17\u70b9\u523018\u70b9",
+    "topText": "30 73% / 29 17%",
+    "topProbabilities": [
+      { "bucket": "30", "probability": 0.73 },
+      { "bucket": "29", "probability": 0.17 }
+    ],
+    "actualBucket": "30",
+    "settled": true,
+    "top2Hit": true,
+    "top1Accuracy": 79.55,
+    "top2Accuracy": 100,
+    "n": 44,
+    "snapshotAt": "2026-06-14T14:19:00.000Z",
+    "source": "ranking-time-backfill"
+  },
+  {
+    "date": "2026-06-14",
+    "cityKey": "wellington",
+    "timeNode": "\u662822\u70b9\u523023\u70b9",
+    "topText": "17 53% / 18 29%",
+    "topProbabilities": [
+      { "bucket": "17", "probability": 0.53 },
+      { "bucket": "18", "probability": 0.29 }
+    ],
+    "actualBucket": "17",
+    "settled": true,
+    "top2Hit": true,
+    "top1Accuracy": 65,
+    "top2Accuracy": 95,
+    "n": 20,
+    "snapshotAt": "2026-06-14T14:19:00.000Z",
+    "source": "ranking-time-backfill"
+  },
+  {
+    "date": "2026-06-14",
+    "cityKey": "madrid",
+    "timeNode": "\u66286\u70b9\u52307\u70b9",
+    "topText": "33 80% / 32 10%",
+    "topProbabilities": [
+      { "bucket": "33", "probability": 0.8 },
+      { "bucket": "32", "probability": 0.1 }
+    ],
+    "actualBucket": "35",
+    "settled": true,
+    "top2Hit": false,
+    "top1Accuracy": 64.71,
+    "top2Accuracy": 91.18,
+    "n": 34,
+    "snapshotAt": "2026-06-14T14:19:00.000Z",
+    "source": "ranking-time-backfill"
+  },
+  {
+    "date": "2026-06-14",
+    "cityKey": "telaviv",
+    "timeNode": "\u662814\u70b9\u523015\u70b9",
+    "topText": "29 58% / 28 31%",
+    "topProbabilities": [
+      { "bucket": "29", "probability": 0.58 },
+      { "bucket": "28", "probability": 0.31 }
+    ],
+    "actualBucket": "30",
+    "settled": true,
+    "top2Hit": false,
+    "top1Accuracy": 58.54,
+    "top2Accuracy": 90.24,
+    "n": 41,
+    "snapshotAt": "2026-06-14T14:19:00.000Z",
+    "source": "ranking-time-backfill"
+  },
+  {
+    "date": "2026-06-14",
+    "cityKey": "telaviv",
+    "timeNode": "\u662810\u70b9\u523011\u70b9",
+    "topText": "29 54% / 28 34%",
+    "topProbabilities": [
+      { "bucket": "29", "probability": 0.54 },
+      { "bucket": "28", "probability": 0.34 }
+    ],
+    "actualBucket": "30",
+    "settled": true,
+    "top2Hit": false,
+    "top1Accuracy": 53.85,
+    "top2Accuracy": 89.74,
+    "n": 39,
+    "snapshotAt": "2026-06-14T14:19:00.000Z",
+    "source": "ranking-time-backfill"
+  },
+  {
+    "date": "2026-06-14",
+    "cityKey": "madrid",
+    "timeNode": "10\u70b9\u523011\u70b9",
+    "topText": "33 59% / 34 25%",
+    "topProbabilities": [
+      { "bucket": "33", "probability": 0.59 },
+      { "bucket": "34", "probability": 0.25 }
+    ],
+    "actualBucket": "35",
+    "settled": true,
+    "top2Hit": false,
+    "top1Accuracy": 55.81,
+    "top2Accuracy": 88.37,
+    "n": 43,
+    "snapshotAt": "2026-06-14T14:19:00.000Z",
+    "source": "ranking-time-backfill"
+  },
+  {
+    "date": "2026-06-14",
+    "cityKey": "amsterdam",
+    "timeNode": "17\u70b9\u523018\u70b9",
+    "topText": "18 57% / 17 39%",
+    "topProbabilities": [
+      { "bucket": "18", "probability": 0.57 },
+      { "bucket": "17", "probability": 0.39 }
+    ],
+    "actualBucket": "17",
+    "settled": true,
+    "top2Hit": true,
+    "top1Accuracy": 39.02,
+    "top2Accuracy": 87.8,
+    "n": 41,
+    "snapshotAt": "2026-06-14T14:19:00.000Z",
+    "source": "ranking-time-backfill"
+  },
+  {
+    "date": "2026-06-14",
+    "cityKey": "ankara",
+    "timeNode": "17\u70b9\u523018\u70b9",
+    "topText": "21 56% / 20 39%",
+    "topProbabilities": [
+      { "bucket": "21", "probability": 0.56 },
+      { "bucket": "20", "probability": 0.39 }
+    ],
+    "actualBucket": "21",
+    "settled": true,
+    "top2Hit": true,
+    "top1Accuracy": 61.36,
+    "top2Accuracy": 86.36,
+    "n": 44,
+    "snapshotAt": "2026-06-14T14:19:00.000Z",
+    "source": "ranking-time-backfill"
+  },
+  {
+    "date": "2026-06-14",
+    "cityKey": "munich",
+    "timeNode": "6\u70b9\u52307\u70b9",
+    "topText": "22 55% / 21 25%",
+    "topProbabilities": [
+      { "bucket": "22", "probability": 0.55 },
+      { "bucket": "21", "probability": 0.25 }
+    ],
+    "actualBucket": "21",
+    "settled": true,
+    "top2Hit": true,
+    "top1Accuracy": 62.79,
+    "top2Accuracy": 86.05,
+    "n": 43,
+    "snapshotAt": "2026-06-14T14:19:00.000Z",
+    "source": "ranking-time-backfill"
+  }
+]

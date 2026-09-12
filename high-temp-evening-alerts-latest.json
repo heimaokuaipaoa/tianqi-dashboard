@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-09-12T14:22:15.859Z",
+  "sourceCapturedAt": "2026-09-12T14:00:05.171Z",
+  "sourceCapturedAtShanghai": "2026/9/12 22:00:05",
+  "updatePolicy": "Refresh after every successful capture; preserve city-date entries not included in the latest run.",
+  "alerts": [
+    {
+      "city": "madrid",
+      "nameZh": "马德里",
+      "nameEn": "madrid",
+      "tempField": "madrid温度",
+      "date": "2026-09-13",
+      "unit": "C",
+      "maxTemp": 32,
+      "comparisonUnit": "F",
+      "comparisonMaxTemp": 90,
+      "celsiusMax": 32,
+      "fahrenheitMax": 90,
+      "maxHours": [
+        17,
+        18,
+        19
+      ],
+      "eveningHours": [
+        19
+      ],
+      "capturedAt": "2026-09-12T14:00:05.171Z"
+    },
+    {
+      "city": "singapore",
+      "nameZh": "新加坡",
+      "nameEn": "singapore",
+      "tempField": "singa温度",
+      "date": "2026-09-12",
+      "unit": "C",
+      "maxTemp": 29,
+      "comparisonUnit": "F",
+      "comparisonMaxTemp": 84,
+      "celsiusMax": 29,
+      "fahrenheitMax": 84,
+      "maxHours": [
+        23
+      ],
+      "eveningHours": [
+        23
+      ],
+      "capturedAt": "2026-09-12T14:00:05.171Z"
+    }
+  ]
+}
