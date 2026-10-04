@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-04T02:23:14.888Z",
+  "sourceCapturedAt": "2026-10-04T02:00:04.997Z",
+  "sourceCapturedAtShanghai": "2026/10/4 10:00:04",
+  "updatePolicy": "Refresh after every successful capture; preserve city-date entries not included in the latest run.",
+  "alerts": [
+    {
+      "city": "helsinks",
+      "nameZh": "赫尔辛基",
+      "nameEn": "helsinks",
+      "tempField": "helsink温度",
+      "date": "2026-10-05",
+      "unit": "C",
+      "maxTemp": 14,
+      "comparisonUnit": "F",
+      "comparisonMaxTemp": 57,
+      "celsiusMax": 14,
+      "fahrenheitMax": 57,
+      "maxHours": [
+        23
+      ],
+      "eveningHours": [
+        23
+      ],
+      "capturedAt": "2026-10-04T02:00:04.997Z"
+    },
+    {
+      "city": "miami",
+      "nameZh": "迈阿密",
+      "nameEn": "miami",
+      "tempField": "miami温度",
+      "date": "2026-10-03",
+      "unit": "F",
+      "maxTemp": 82,
+      "comparisonUnit": "F",
+      "comparisonMaxTemp": 82,
+      "celsiusMax": null,
+      "fahrenheitMax": 82,
+      "maxHours": [
+        23
+      ],
+      "eveningHours": [
+        23
+      ],
+      "capturedAt": "2026-10-04T02:00:04.997Z"
+    }
+  ]
+}
