@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-24T14:25:22.274Z",
+  "sourceCapturedAt": "2026-10-24T14:00:07.201Z",
+  "sourceCapturedAtShanghai": "2026/10/24 22:00:07",
+  "updatePolicy": "Refresh after every successful capture; preserve city-date entries not included in the latest run.",
+  "alerts": [
+    {
+      "city": "helsinks",
+      "nameZh": "赫尔辛基",
+      "nameEn": "helsinks",
+      "tempField": "helsink温度",
+      "date": "2026-10-25",
+      "unit": "C",
+      "maxTemp": 11,
+      "comparisonUnit": "F",
+      "comparisonMaxTemp": 52,
+      "celsiusMax": 11,
+      "fahrenheitMax": 52,
+      "maxHours": [
+        23
+      ],
+      "eveningHours": [
+        23
+      ],
+      "capturedAt": "2026-10-24T14:00:07.201Z"
+    },
+    {
+      "city": "singapore",
+      "nameZh": "新加坡",
+      "nameEn": "singapore",
+      "tempField": "singa温度",
+      "date": "2026-10-24",
+      "unit": "C",
+      "maxTemp": 27,
+      "comparisonUnit": "F",
+      "comparisonMaxTemp": 81,
+      "celsiusMax": 27,
+      "fahrenheitMax": 81,
+      "maxHours": [
+        23
+      ],
+      "eveningHours": [
+        23
+      ],
+      "capturedAt": "2026-10-24T14:00:07.201Z"
+    }
+  ]
+}
